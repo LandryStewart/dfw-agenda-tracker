@@ -1,15 +1,12 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DFW Municipal Agenda Tracker</title>
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.1/jspdf.plugin.autotable.min.js"></script>
-
     <style>
         :root {
             --primary: #1a3a5c;
@@ -17,6 +14,7 @@
             --accent: #e8a838;
             --accent-hover: #d4952e;
             --bg: #f0f2f5;
+            --card-bg: #ffffff;
             --text: #2c3e50;
             --text-light: #7f8c8d;
             --success: #27ae60;
@@ -24,158 +22,628 @@
             --border: #dfe6e9;
             --shadow: 0 2px 12px rgba(0,0,0,0.08);
         }
-
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-
-        body {
-            font-family: system-ui, -apple-system, Segoe UI, sans-serif;
-            background: var(--bg);
-            color: var(--text);
-        }
-
-        .header {
-            background: linear-gradient(135deg, var(--primary), var(--primary-light));
-            color: white;
-            padding: 20px;
-        }
-
-        .nav-tabs {
-            display: flex;
-            background: white;
-            border-bottom: 2px solid var(--border);
-        }
-
-        .nav-tab {
-            padding: 14px 20px;
-            cursor: pointer;
-            font-weight: 600;
-            border-bottom: 3px solid transparent;
-            color: var(--text-light);
-        }
-
-        .nav-tab.active {
-            color: var(--primary);
-            border-bottom-color: var(--accent);
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: auto;
-            padding: 20px;
-        }
-
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .header { background: linear-gradient(135deg, var(--primary), var(--primary-light)); color: white; padding: 20px 24px; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 20px rgba(0,0,0,0.15); }
+        .header h1 { font-size: 1.4rem; font-weight: 700; display: flex; align-items: center; gap: 10px; }
+        .header p { font-size: 0.85rem; opacity: 0.85; margin-top: 4px; }
+        .nav-tabs { display: flex; background: white; border-bottom: 2px solid var(--border); overflow-x: auto; -webkit-overflow-scrolling: touch; }
+        .nav-tab { padding: 14px 20px; cursor: pointer; font-weight: 600; font-size: 0.9rem; white-space: nowrap; border-bottom: 3px solid transparent; transition: all 0.2s; color: var(--text-light); }
+        .nav-tab:hover { color: var(--primary); }
+        .nav-tab.active { color: var(--primary); border-bottom-color: var(--accent); }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
         .tab-content { display: none; }
         .tab-content.active { display: block; }
-
-        .county-header {
-            background: var(--primary);
-            color: white;
-            padding: 12px 18px;
-            margin-top: 20px;
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
+        .search-bar { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
+        .search-bar input, .search-bar select { padding: 12px 16px; border: 2px solid var(--border); border-radius: 10px; font-size: 0.95rem; transition: border-color 0.2s; background: white; }
+        .search-bar input:focus, .search-bar select:focus { outline: none; border-color: var(--primary-light); }
+        .search-bar input { flex: 1; min-width: 200px; }
+        .search-bar select { min-width: 180px; }
+        .county-section { margin-bottom: 24px; }
+        .county-header { background: var(--primary); color: white; padding: 14px 20px; border-radius: 12px 12px 0 0; font-size: 1.1rem; font-weight: 700; display: flex; justify-content: space-between; align-items: center; cursor: pointer; user-select: none; }
+        .county-header:hover { background: var(--primary-light); }
+        .county-header .badge { background: var(--accent); color: var(--primary); padding: 2px 10px; border-radius: 20px; font-size: 0.8rem; font-weight: 700; }
+        .county-body { background: white; border-radius: 0 0 12px 12px; box-shadow: var(--shadow); overflow: hidden; }
+        .county-body.collapsed { display: none; }
+        .muni-row { display: grid; grid-template-columns: 1fr auto; align-items: center; padding: 14px 20px; border-bottom: 1px solid var(--border); gap: 12px; transition: background 0.15s; }
+        .muni-row:last-child { border-bottom: none; }
+        .muni-row:hover { background: #f8f9fa; }
+        .muni-name { font-weight: 600; font-size: 0.95rem; }
+        .muni-links { display: flex; gap: 8px; flex-wrap: wrap; }
+        .link-btn { padding: 6px 14px; border-radius: 8px; font-size: 0.8rem; font-weight: 600; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; transition: all 0.2s; cursor: pointer; border: none; font-family: inherit; }
+        .link-btn.pz { background: #e8f4fd; color: #2980b9; }
+        .link-btn.pz:hover { background: #d0e8f7; }
+        .link-btn.cc { background: #fdf2e8; color: #d4952e; }
+        .link-btn.cc:hover { background: #f7e4d0; }
+        .link-btn.track { background: #e8fdf0; color: #27ae60; }
+        .link-btn.track:hover { background: #d0f7e0; }
+        .tracker-form { background: white; padding: 24px; border-radius: 12px; box-shadow: var(--shadow); margin-bottom: 20px; }
+        .tracker-form h3 { margin-bottom: 16px; color: var(--primary); }
+        .form-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin-bottom: 16px; }
+        .form-group label { display: block; font-weight: 600; font-size: 0.85rem; margin-bottom: 4px; color: var(--text-light); }
+        .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 10px 14px; border: 2px solid var(--border); border-radius: 8px; font-size: 0.9rem; font-family: inherit; }
+        .form-group textarea { resize: vertical; min-height: 70px; }
+        .btn { padding: 12px 24px; border: none; border-radius: 10px; font-weight: 700; font-size: 0.95rem; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; transition: all 0.2s; font-family: inherit; }
+        .btn-primary { background: var(--primary); color: white; }
+        .btn-primary:hover { background: var(--primary-light); }
+        .btn-accent { background: var(--accent); color: white; }
+        .btn-accent:hover { background: var(--accent-hover); }
+        .btn-danger { background: var(--danger); color: white; padding: 6px 12px; font-size: 0.8rem; border: none; border-radius: 8px; cursor: pointer; font-family: inherit; }
+        .btn-danger:hover { opacity: 0.85; }
+        .tracked-table { width: 100%; border-collapse: collapse; background: white; border-radius: 12px; overflow: hidden; box-shadow: var(--shadow); }
+        .tracked-table th { background: var(--primary); color: white; padding: 14px 16px; text-align: left; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px; }
+        .tracked-table td { padding: 12px 16px; border-bottom: 1px solid var(--border); font-size: 0.9rem; }
+        .tracked-table tr:hover td { background: #f8f9fa; }
+        .status-badge { padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 700; }
+        .status-new { background: #e8f4fd; color: #2980b9; }
+        .status-underreview { background: #fdf2e8; color: #d4952e; }
+        .status-approved { background: #e8fdf0; color: #27ae60; }
+        .status-denied { background: #fde8e8; color: #e74c3c; }
+        .status-tabled { background: #f0e8fd; color: #8e44ad; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 24px; }
+        .stat-card { background: white; padding: 20px; border-radius: 12px; box-shadow: var(--shadow); text-align: center; }
+        .stat-card .stat-num { font-size: 2rem; font-weight: 800; color: var(--primary); }
+        .stat-card .stat-label { font-size: 0.85rem; color: var(--text-light); margin-top: 4px; }
+        .keyword-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0; }
+        .keyword-chip { background: #e8f4fd; color: var(--primary); padding: 6px 14px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; display: flex; align-items: center; gap: 6px; }
+        .keyword-chip .remove { cursor: pointer; color: var(--danger); font-weight: 800; }
+        .export-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap; gap: 10px; }
+        .empty-state { text-align: center; padding: 60px 20px; color: var(--text-light); }
+        .empty-state i { font-size: 3rem; margin-bottom: 16px; display: block; }
+        .empty-state h3 { margin-bottom: 8px; color: var(--text); }
+        .info-box { background: white; padding: 24px; border-radius: 12px; box-shadow: var(--shadow); margin-bottom: 20px; }
+        .info-box h3 { color: var(--primary); margin-bottom: 12px; }
+        @media (max-width: 768px) {
+            .header h1 { font-size: 1.1rem; }
+            .container { padding: 12px; }
+            .muni-row { grid-template-columns: 1fr; gap: 8px; }
+            .form-grid { grid-template-columns: 1fr; }
+            .tracked-table { font-size: 0.8rem; }
+            .tracked-table th, .tracked-table td { padding: 8px 10px; }
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            .nav-tab { padding: 12px 14px; font-size: 0.8rem; }
         }
-
-        .county-body {
-            background: white;
-            border: 1px solid var(--border);
-        }
-
-        .muni-row {
-            display: flex;
-            justify-content: space-between;
-            padding: 12px 18px;
-            border-top: 1px solid var(--border);
-        }
-
-        .link-btn {
-            padding: 6px 12px;
-            border-radius: 6px;
-            text-decoration: none;
-            font-size: 0.8rem;
-            font-weight: 600;
-        }
-
-        .pz { background: #e8f4fd; color: #2980b9; }
-        .cc { background: #fdf2e8; color: #d4952e; }
-        .track { background: #e8fdf0; color: #27ae60; border: none; cursor: pointer; }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-thumb { background: #ccc; border-radius: 4px; }
+        .toast { position: fixed; bottom: 20px; right: 20px; background: var(--success); color: white; padding: 14px 24px; border-radius: 10px; font-weight: 600; box-shadow: 0 4px 20px rgba(0,0,0,0.2); transform: translateY(100px); opacity: 0; transition: all 0.3s; z-index: 999; }
+        .toast.show { transform: translateY(0); opacity: 1; }
     </style>
 </head>
-
 <body>
 
 <div class="header">
-    <h2>🏙️ DFW Municipal Agenda Tracker</h2>
-    <p>Single Family Residential — P&Z & City Council</p>
+    <h1><i class="fas fa-city"></i> DFW Municipal Agenda Tracker</h1>
+    <p>Single Family Residential Development &#8212; P&amp;Z &amp; City Council Agendas</p>
 </div>
 
-<div class="nav-tabs">
-    <div class="nav-tab active" onclick="switchTab('browse', this)">Browse</div>
-    <div class="nav-tab" onclick="switchTab('autoscan', this)">Auto‑Scan</div>
-    <div class="nav-tab" onclick="switchTab('tracker', this)">Tracker</div>
+<div class="nav-tabs" id="navTabs">
+    <div class="nav-tab active" onclick="switchTab('browse', this)"><i class="fas fa-search"></i>&nbsp; Browse</div>
+    <div class="nav-tab" onclick="switchTab('autoscan', this)"><i class="fas fa-robot"></i>&nbsp; Auto-Scan</div>
+    <div class="nav-tab" onclick="switchTab('tracker', this)"><i class="fas fa-clipboard-list"></i>&nbsp; Tracker</div>
+    <div class="nav-tab" onclick="switchTab('dashboard', this)"><i class="fas fa-chart-bar"></i>&nbsp; Dashboard</div>
+    <div class="nav-tab" onclick="switchTab('keywords', this)"><i class="fas fa-key"></i>&nbsp; Keywords</div>
 </div>
 
 <div class="container">
 
     <div id="tab-browse" class="tab-content active">
+        <div class="search-bar">
+            <input type="text" id="citySearch" placeholder="Search city name..." oninput="filterCities()">
+            <select id="countyFilter" onchange="filterCities()">
+                <option value="">All Counties</option>
+            </select>
+        </div>
         <div id="cityList"></div>
     </div>
 
     <div id="tab-autoscan" class="tab-content">
-        <p>Auto-scan results will load here once agenda_data.json exists.</p>
+        <div class="info-box">
+            <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;">
+                <div>
+                    <h3><i class="fas fa-robot"></i> Auto-Scan Results</h3>
+                    <p style="color:var(--text-light);font-size:0.85rem;" id="scanMeta">Loading scan data...</p>
+                </div>
+                <div style="display:flex;gap:10px;flex-wrap:wrap;">
+                    <select id="scanCountyFilter" onchange="renderScanResults()" style="padding:8px 12px;border:2px solid var(--border);border-radius:8px;">
+                        <option value="">All Counties</option>
+                    </select>
+                    <input type="text" id="scanKeywordFilter" placeholder="Filter by keyword..." oninput="renderScanResults()" style="padding:8px 12px;border:2px solid var(--border);border-radius:8px;min-width:200px;">
+                    <button class="btn btn-accent" onclick="exportScanPDF()"><i class="fas fa-file-pdf"></i> Export PDF</button>
+                </div>
+            </div>
+        </div>
+        <div id="scanResults">
+            <div class="empty-state">
+                <i class="fas fa-satellite-dish"></i>
+                <h3>Waiting for first scan...</h3>
+                <p>Go to GitHub, Actions, Run "Scrape DFW Agendas" to generate data.</p>
+            </div>
+        </div>
     </div>
 
     <div id="tab-tracker" class="tab-content">
-        <p>Tracker tab ready.</p>
+        <div class="tracker-form">
+            <h3><i class="fas fa-plus-circle"></i> Log Agenda Item</h3>
+            <div class="form-grid">
+                <div class="form-group">
+                    <label>Municipality</label>
+                    <select id="trackCity"></select>
+                </div>
+                <div class="form-group">
+                    <label>Agenda Type</label>
+                    <select id="trackType">
+                        <option value="P&amp;Z">P&amp;Z Agenda</option>
+                        <option value="City Council">City Council Agenda</option>
+                        <option value="Zoning Board">Zoning Board</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Meeting Date</label>
+                    <input type="date" id="trackDate">
+                </div>
+                <div class="form-group">
+                    <label>Status</label>
+                    <select id="trackStatus">
+                        <option value="New">New / Pending</option>
+                        <option value="Under Review">Under Review</option>
+                        <option value="Approved">Approved</option>
+                        <option value="Denied">Denied</option>
+                        <option value="Tabled">Tabled / Continued</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Case / Item #</label>
+                    <input type="text" id="trackCase" placeholder="e.g. ZC-2026-015">
+                </div>
+                <div class="form-group">
+                    <label>Developer / Applicant</label>
+                    <input type="text" id="trackDeveloper" placeholder="e.g. D.R. Horton">
+                </div>
+            </div>
+            <div class="form-group" style="margin-bottom:16px;">
+                <label>Description / Notes</label>
+                <textarea id="trackNotes" placeholder="Zoning change, plat, SUP, lot count, density, etc."></textarea>
+            </div>
+            <div class="form-group" style="margin-bottom:16px;">
+                <label>Acreage / Lot Count</label>
+                <input type="text" id="trackLots" placeholder="e.g. 45 acres / 180 lots" style="max-width:300px;">
+            </div>
+            <button class="btn btn-primary" onclick="addTrackedItem()"><i class="fas fa-save"></i> Save Item</button>
+        </div>
+        <div class="export-bar">
+            <h3 style="color:var(--primary);"><i class="fas fa-list"></i> Tracked Items (<span id="itemCount">0</span>)</h3>
+            <div style="display:flex;gap:10px;flex-wrap:wrap;">
+                <select id="filterStatus" onchange="renderTrackedItems()" style="padding:8px 12px;border:2px solid var(--border);border-radius:8px;">
+                    <option value="">All Statuses</option>
+                    <option value="New">New / Pending</option>
+                    <option value="Under Review">Under Review</option>
+                    <option value="Approved">Approved</option>
+                    <option value="Denied">Denied</option>
+                    <option value="Tabled">Tabled</option>
+                </select>
+                <select id="filterCountyTracker" onchange="renderTrackedItems()" style="padding:8px 12px;border:2px solid var(--border);border-radius:8px;">
+                    <option value="">All Counties</option>
+                </select>
+                <button class="btn btn-accent" onclick="exportPDF()"><i class="fas fa-file-pdf"></i> Export PDF</button>
+            </div>
+        </div>
+        <div id="trackedItemsContainer"></div>
+    </div>
+
+    <div id="tab-dashboard" class="tab-content">
+        <h3 style="color:var(--primary);margin-bottom:16px;"><i class="fas fa-chart-bar"></i> Overview</h3>
+        <div class="stats-grid" id="statsGrid"></div>
+        <div class="info-box">
+            <h4 style="margin-bottom:12px;">Recent Activity</h4>
+            <div id="recentActivity"></div>
+        </div>
+    </div>
+
+    <div id="tab-keywords" class="tab-content">
+        <div class="info-box">
+            <h3><i class="fas fa-key"></i> SFR Keyword Watchlist</h3>
+            <p style="color:var(--text-light);margin-bottom:16px;">These keywords are used by the auto-scraper to find relevant agenda items.</p>
+            <div class="keyword-chips" id="keywordChips"></div>
+            <div style="display:flex;gap:10px;margin-top:16px;">
+                <input type="text" id="newKeyword" placeholder="Add a keyword..." style="flex:1;padding:10px 14px;border:2px solid var(--border);border-radius:8px;" onkeydown="if(event.key==='Enter')addKeyword()">
+                <button class="btn btn-primary" onclick="addKeyword()"><i class="fas fa-plus"></i> Add</button>
+            </div>
+        </div>
+        <div class="info-box">
+            <h3><i class="fas fa-lightbulb"></i> Tips for Agenda Review</h3>
+            <ul style="padding-left:20px;color:var(--text);line-height:2;">
+                <li>Look for <strong>Zoning Change (ZC)</strong> requests from AG/SF to higher density</li>
+                <li>Check for <strong>Preliminary Plat</strong> and <strong>Final Plat</strong> items</li>
+                <li>Look for <strong>Specific Use Permits (SUP)</strong> related to residential</li>
+                <li>Review <strong>Comprehensive Plan Amendments</strong> for land use changes</li>
+                <li>Check <strong>Development Agreements</strong> and <strong>PD ordinances</strong></li>
+                <li>Note any <strong>annexation</strong> requests for future development areas</li>
+                <li>Track <strong>impact fee</strong> discussions that affect lot costs</li>
+            </ul>
+        </div>
     </div>
 
 </div>
 
+<div class="toast" id="toast"></div>
+
 <script>
-const municipalities = [
-    {name:"Arlington",county:"Tarrant",pz:"https://www.arlingtontx.gov",cc:"https://www.arlingtontx.gov"},
-    {name:"Fort Worth",county:"Tarrant",pz:"https://fortworthtexas.legistar.com",cc:"https://fortworthtexas.legistar.com"},
-    {name:"Mansfield",county:"Tarrant",pz:"https://www.mansfieldtexas.gov",cc:"https://www.mansfieldtexas.gov"}
+var municipalities = [
+    {name:"Arlington",county:"Tarrant",pz:"https://www.arlingtontx.gov/city_hall/boards_and_commissions/planning_and_zoning_commission",cc:"https://www.arlingtontx.gov/city_hall/government/city_council/city_council_meetings"},
+    {name:"Fort Worth",county:"Tarrant",pz:"https://fortworthtexas.legistar.com/Calendar.aspx",cc:"https://fortworthtexas.legistar.com/Calendar.aspx"},
+    {name:"Mansfield",county:"Tarrant",pz:"https://www.mansfieldtexas.gov/925/Planning-Zoning-Commission",cc:"https://www.mansfieldtexas.gov/AgendaCenter"},
+    {name:"Keller",county:"Tarrant",pz:"https://www.cityofkeller.com/services/development-services/planning-zoning",cc:"https://www.cityofkeller.com/government/city-council/agendas-minutes"},
+    {name:"Southlake",county:"Tarrant",pz:"https://www.cityofsouthlake.com/AgendaCenter",cc:"https://www.cityofsouthlake.com/AgendaCenter"},
+    {name:"Colleyville",county:"Tarrant",pz:"https://www.colleyville.com/government/boards-commissions/planning-zoning-commission",cc:"https://www.colleyville.com/government/city-council/agendas-minutes"},
+    {name:"Grapevine",county:"Tarrant",pz:"https://www.grapevinetexas.gov/AgendaCenter",cc:"https://www.grapevinetexas.gov/AgendaCenter"},
+    {name:"Bedford",county:"Tarrant",pz:"https://www.bedfordtx.gov/AgendaCenter",cc:"https://www.bedfordtx.gov/AgendaCenter"},
+    {name:"Euless",county:"Tarrant",pz:"https://www.eulesstx.gov/city-government/boards-commissions/planning-zoning-commission",cc:"https://www.eulesstx.gov/city-government/city-council/agendas-minutes"},
+    {name:"Hurst",county:"Tarrant",pz:"https://www.hursttx.gov/government/boards-commissions/planning-zoning-commission",cc:"https://www.hursttx.gov/government/city-council/agendas-minutes"},
+    {name:"North Richland Hills",county:"Tarrant",pz:"https://www.nrhtx.com/AgendaCenter",cc:"https://www.nrhtx.com/AgendaCenter"},
+    {name:"Burleson",county:"Tarrant",pz:"https://www.burlesontx.com/AgendaCenter",cc:"https://www.burlesontx.com/AgendaCenter"},
+    {name:"Saginaw",county:"Tarrant",pz:"https://www.ci.saginaw.tx.us/AgendaCenter",cc:"https://www.ci.saginaw.tx.us/AgendaCenter"},
+    {name:"Benbrook",county:"Tarrant",pz:"https://www.benbrook-tx.gov/AgendaCenter",cc:"https://www.benbrook-tx.gov/AgendaCenter"},
+    {name:"Crowley",county:"Tarrant",pz:"https://www.ci.crowley.tx.us/AgendaCenter",cc:"https://www.ci.crowley.tx.us/AgendaCenter"},
+    {name:"Watauga",county:"Tarrant",pz:"https://www.cowtx.gov/AgendaCenter",cc:"https://www.cowtx.gov/AgendaCenter"},
+    {name:"Kennedale",county:"Tarrant",pz:"https://www.kennedale.com/AgendaCenter",cc:"https://www.kennedale.com/AgendaCenter"},
+    {name:"Azle",county:"Tarrant",pz:"https://www.cityofazle.com/AgendaCenter",cc:"https://www.cityofazle.com/AgendaCenter"},
+    {name:"Haslet",county:"Tarrant",pz:"https://www.haslet.org/AgendaCenter",cc:"https://www.haslet.org/AgendaCenter"},
+    {name:"Trophy Club",county:"Tarrant",pz:"https://www.trophyclub.org/AgendaCenter",cc:"https://www.trophyclub.org/AgendaCenter"},
+    {name:"Dallas",county:"Dallas",pz:"https://dallascityhall.com/government/cityplan/Pages/default.aspx",cc:"https://dallascityhall.com/government/citycouncil/Pages/city-council-agendas.aspx"},
+    {name:"Irving",county:"Dallas",pz:"https://www.cityofirving.org/AgendaCenter",cc:"https://www.cityofirving.org/AgendaCenter"},
+    {name:"Grand Prairie",county:"Dallas",pz:"https://www.gptx.org/AgendaCenter",cc:"https://www.gptx.org/AgendaCenter"},
+    {name:"Garland",county:"Dallas",pz:"https://www.garlandtx.gov/AgendaCenter",cc:"https://www.garlandtx.gov/AgendaCenter"},
+    {name:"Mesquite",county:"Dallas",pz:"https://www.cityofmesquite.com/AgendaCenter",cc:"https://www.cityofmesquite.com/AgendaCenter"},
+    {name:"Richardson",county:"Dallas",pz:"https://www.cor.net/government/boards-and-commissions/plan-commission",cc:"https://www.cor.net/government/city-council/agendas-and-minutes"},
+    {name:"Carrollton",county:"Dallas",pz:"https://www.cityofcarrollton.com/government/boards-commissions/planning-zoning-commission",cc:"https://www.cityofcarrollton.com/government/city-council/agendas-minutes"},
+    {name:"Farmers Branch",county:"Dallas",pz:"https://www.farmersbranchtx.gov/AgendaCenter",cc:"https://www.farmersbranchtx.gov/AgendaCenter"},
+    {name:"DeSoto",county:"Dallas",pz:"https://www.ci.desoto.tx.us/AgendaCenter",cc:"https://www.ci.desoto.tx.us/AgendaCenter"},
+    {name:"Cedar Hill",county:"Dallas",pz:"https://www.cedarhilltx.com/AgendaCenter",cc:"https://www.cedarhilltx.com/AgendaCenter"},
+    {name:"Lancaster",county:"Dallas",pz:"https://www.lancaster-tx.com/AgendaCenter",cc:"https://www.lancaster-tx.com/AgendaCenter"},
+    {name:"Duncanville",county:"Dallas",pz:"https://www.duncanville.com/AgendaCenter",cc:"https://www.duncanville.com/AgendaCenter"},
+    {name:"Rowlett",county:"Dallas",pz:"https://www.ci.rowlett.tx.us/AgendaCenter",cc:"https://www.ci.rowlett.tx.us/AgendaCenter"},
+    {name:"Seagoville",county:"Dallas",pz:"https://www.seagoville.us/AgendaCenter",cc:"https://www.seagoville.us/AgendaCenter"},
+    {name:"Balch Springs",county:"Dallas",pz:"https://www.cityofbalchsprings.com/AgendaCenter",cc:"https://www.cityofbalchsprings.com/AgendaCenter"},
+    {name:"Plano",county:"Collin",pz:"https://www.plano.gov/AgendaCenter",cc:"https://www.plano.gov/AgendaCenter"},
+    {name:"McKinney",county:"Collin",pz:"https://www.mckinneytexas.org/AgendaCenter",cc:"https://www.mckinneytexas.org/AgendaCenter"},
+    {name:"Frisco",county:"Collin",pz:"https://www.friscotexas.gov/AgendaCenter",cc:"https://www.friscotexas.gov/AgendaCenter"},
+    {name:"Allen",county:"Collin",pz:"https://www.cityofallen.org/AgendaCenter",cc:"https://www.cityofallen.org/AgendaCenter"},
+    {name:"Wylie",county:"Collin",pz:"https://www.wylietexas.gov/AgendaCenter",cc:"https://www.wylietexas.gov/AgendaCenter"},
+    {name:"Anna",county:"Collin",pz:"https://www.annatexas.gov/AgendaCenter",cc:"https://www.annatexas.gov/AgendaCenter"},
+    {name:"Celina",county:"Collin",pz:"https://www.celina-tx.gov/AgendaCenter",cc:"https://www.celina-tx.gov/AgendaCenter"},
+    {name:"Prosper",county:"Collin",pz:"https://www.prospertx.gov/AgendaCenter",cc:"https://www.prospertx.gov/AgendaCenter"},
+    {name:"Princeton",county:"Collin",pz:"https://www.princetontx.gov/AgendaCenter",cc:"https://www.princetontx.gov/AgendaCenter"},
+    {name:"Melissa",county:"Collin",pz:"https://www.melissatx.gov/AgendaCenter",cc:"https://www.melissatx.gov/AgendaCenter"},
+    {name:"Sachse",county:"Collin",pz:"https://www.cityofsachse.com/AgendaCenter",cc:"https://www.cityofsachse.com/AgendaCenter"},
+    {name:"Lucas",county:"Collin",pz:"https://www.lucastexas.us/AgendaCenter",cc:"https://www.lucastexas.us/AgendaCenter"},
+    {name:"Farmersville",county:"Collin",pz:"https://www.farmersvilletx.com/AgendaCenter",cc:"https://www.farmersvilletx.com/AgendaCenter"},
+    {name:"Denton",county:"Denton",pz:"https://www.cityofdenton.com/AgendaCenter",cc:"https://www.cityofdenton.com/AgendaCenter"},
+    {name:"Lewisville",county:"Denton",pz:"https://www.cityoflewisville.com/government/boards-commissions/planning-zoning-commission",cc:"https://www.cityoflewisville.com/government/city-council/agendas-minutes"},
+    {name:"Flower Mound",county:"Denton",pz:"https://www.flower-mound.com/AgendaCenter",cc:"https://www.flower-mound.com/AgendaCenter"},
+    {name:"Little Elm",county:"Denton",pz:"https://www.littleelm.org/AgendaCenter",cc:"https://www.littleelm.org/AgendaCenter"},
+    {name:"Corinth",county:"Denton",pz:"https://www.cityofcorinth.com/AgendaCenter",cc:"https://www.cityofcorinth.com/AgendaCenter"},
+    {name:"The Colony",county:"Denton",pz:"https://www.thecolonytx.gov/AgendaCenter",cc:"https://www.thecolonytx.gov/AgendaCenter"},
+    {name:"Argyle",county:"Denton",pz:"https://www.argyletx.com/AgendaCenter",cc:"https://www.argyletx.com/AgendaCenter"},
+    {name:"Aubrey",county:"Denton",pz:"https://www.aubreytx.gov/AgendaCenter",cc:"https://www.aubreytx.gov/AgendaCenter"},
+    {name:"Sanger",county:"Denton",pz:"https://www.sangertexas.org/AgendaCenter",cc:"https://www.sangertexas.org/AgendaCenter"},
+    {name:"Pilot Point",county:"Denton",pz:"https://www.cityofpilotpoint.org/AgendaCenter",cc:"https://www.cityofpilotpoint.org/AgendaCenter"},
+    {name:"Northlake",county:"Denton",pz:"https://www.northlaketx.org/AgendaCenter",cc:"https://www.northlaketx.org/AgendaCenter"},
+    {name:"Justin",county:"Denton",pz:"https://www.cityofjustin.com/AgendaCenter",cc:"https://www.cityofjustin.com/AgendaCenter"},
+    {name:"Roanoke",county:"Denton",pz:"https://www.roanoketexas.com/AgendaCenter",cc:"https://www.roanoketexas.com/AgendaCenter"},
+    {name:"Cross Roads",county:"Denton",pz:"https://www.crossroadstx.gov/AgendaCenter",cc:"https://www.crossroadstx.gov/AgendaCenter"},
+    {name:"Oak Point",county:"Denton",pz:"https://www.oakpointtexas.com/AgendaCenter",cc:"https://www.oakpointtexas.com/AgendaCenter"},
+    {name:"Waxahachie",county:"Ellis",pz:"https://www.waxahachie.com/AgendaCenter",cc:"https://www.waxahachie.com/AgendaCenter"},
+    {name:"Midlothian",county:"Ellis",pz:"https://www.midlothian.tx.us/AgendaCenter",cc:"https://www.midlothian.tx.us/AgendaCenter"},
+    {name:"Ennis",county:"Ellis",pz:"https://www.ennis-texas.com/AgendaCenter",cc:"https://www.ennis-texas.com/AgendaCenter"},
+    {name:"Red Oak",county:"Ellis",pz:"https://www.redoaktx.org/AgendaCenter",cc:"https://www.redoaktx.org/AgendaCenter"},
+    {name:"Rockwall",county:"Rockwall",pz:"https://www.rockwall.com/AgendaCenter",cc:"https://www.rockwall.com/AgendaCenter"},
+    {name:"Heath",county:"Rockwall",pz:"https://www.heathtx.com/AgendaCenter",cc:"https://www.heathtx.com/AgendaCenter"},
+    {name:"Fate",county:"Rockwall",pz:"https://www.fatetx.gov/AgendaCenter",cc:"https://www.fatetx.gov/AgendaCenter"},
+    {name:"Royse City",county:"Rockwall",pz:"https://www.roysecity.com/AgendaCenter",cc:"https://www.roysecity.com/AgendaCenter"},
+    {name:"Forney",county:"Kaufman",pz:"https://www.forneytx.gov/AgendaCenter",cc:"https://www.forneytx.gov/AgendaCenter"},
+    {name:"Terrell",county:"Kaufman",pz:"https://www.cityofterrell.com/AgendaCenter",cc:"https://www.cityofterrell.com/AgendaCenter"},
+    {name:"Crandall",county:"Kaufman",pz:"https://www.cityofcrandall.com/AgendaCenter",cc:"https://www.cityofcrandall.com/AgendaCenter"},
+    {name:"Kaufman",county:"Kaufman",pz:"https://www.kaufmantx.org/AgendaCenter",cc:"https://www.kaufmantx.org/AgendaCenter"},
+    {name:"Cleburne",county:"Johnson",pz:"https://www.cleburne.net/AgendaCenter",cc:"https://www.cleburne.net/AgendaCenter"},
+    {name:"Joshua",county:"Johnson",pz:"https://www.cityofjoshua.us/AgendaCenter",cc:"https://www.cityofjoshua.us/AgendaCenter"},
+    {name:"Alvarado",county:"Johnson",pz:"https://www.alvaradotx.gov/AgendaCenter",cc:"https://www.alvaradotx.gov/AgendaCenter"},
+    {name:"Weatherford",county:"Parker",pz:"https://www.weatherfordtx.gov/AgendaCenter",cc:"https://www.weatherfordtx.gov/AgendaCenter"},
+    {name:"Hudson Oaks",county:"Parker",pz:"https://www.hudsonoaks.com/AgendaCenter",cc:"https://www.hudsonoaks.com/AgendaCenter"},
+    {name:"Willow Park",county:"Parker",pz:"https://www.willowpark.org/AgendaCenter",cc:"https://www.willowpark.org/AgendaCenter"},
+    {name:"Aledo",county:"Parker",pz:"https://www.aledotx.gov/AgendaCenter",cc:"https://www.aledotx.gov/AgendaCenter"},
+    {name:"Decatur",county:"Wise",pz:"https://www.decaturtx.org/AgendaCenter",cc:"https://www.decaturtx.org/AgendaCenter"},
+    {name:"Bridgeport",county:"Wise",pz:"https://www.cityofbridgeport.net/AgendaCenter",cc:"https://www.cityofbridgeport.net/AgendaCenter"}
 ];
 
-function switchTab(tab, el) {
-    document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
-    document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
-    document.getElementById('tab-' + tab).classList.add('active');
-    el.classList.add('active');
+var trackedItems = JSON.parse(localStorage.getItem('dfwTrackedItems') || '[]');
+var keywords = JSON.parse(localStorage.getItem('dfwKeywords') || '[]');
+var defaultKeywords = ["single family","residential","zoning change","plat","preliminary plat","final plat","replat","subdivision","PD","planned development","specific use permit","SUP","lot","dwelling","SF","SFR","detached","annexation","comprehensive plan","land use","density","R-1","R-2","R-3","A-5","development agreement","impact fee","site plan","variance","rezoning"];
+if (keywords.length === 0) { keywords = defaultKeywords.slice(); localStorage.setItem('dfwKeywords', JSON.stringify(keywords)); }
+var scanData = null;
+
+function init() {
+    populateCountyFilters();
+    renderCities();
+    renderTrackedItems();
+    renderDashboard();
+    renderKeywords();
+    populateCityDropdown();
+    loadScanData();
 }
 
-function renderCities() {
-    const container = document.getElementById('cityList');
-    let html = '';
-    const grouped = {};
+function populateCountyFilters() {
+    var countySet = {};
+    municipalities.forEach(function(m) { countySet[m.county] = true; });
+    var counties = Object.keys(countySet).sort();
+    ['countyFilter','filterCountyTracker'].forEach(function(id) {
+        var sel = document.getElementById(id);
+        if (!sel) return;
+        counties.forEach(function(c) {
+            var o = document.createElement('option');
+            o.value = c;
+            o.textContent = c + ' County';
+            sel.appendChild(o);
+        });
+    });
+}
 
-    municipalities.forEach(m => {
+function populateCityDropdown() {
+    var sel = document.getElementById('trackCity');
+    var sorted = municipalities.slice().sort(function(a,b) { return a.name.localeCompare(b.name); });
+    sorted.forEach(function(m) {
+        var o = document.createElement('option');
+        o.value = m.name;
+        o.textContent = m.name + ' (' + m.county + ' Co.)';
+        sel.appendChild(o);
+    });
+}
+
+function switchTab(tab, el) {
+    var tabs = document.querySelectorAll('.tab-content');
+    for (var i = 0; i < tabs.length; i++) tabs[i].classList.remove('active');
+    var navs = document.querySelectorAll('.nav-tab');
+    for (var i = 0; i < navs.length; i++) navs[i].classList.remove('active');
+    document.getElementById('tab-' + tab).classList.add('active');
+    if (el) el.classList.add('active');
+    if (tab === 'dashboard') renderDashboard();
+}
+
+function renderCities(filter, county) {
+    filter = filter || '';
+    county = county || '';
+    var container = document.getElementById('cityList');
+    var grouped = {};
+    municipalities.forEach(function(m) {
+        if (filter && m.name.toLowerCase().indexOf(filter.toLowerCase()) === -1) return;
+        if (county && m.county !== county) return;
         if (!grouped[m.county]) grouped[m.county] = [];
         grouped[m.county].push(m);
     });
-
-    Object.keys(grouped).forEach(county => {
-        html += `<div class="county-header">${county} County</div><div class="county-body">`;
-        grouped[county].forEach(m => {
-            html += `
-                <div class="muni-row">
-                    <strong>${m.name}</strong>
-                    <div>
-                        <a class="link-btn pz" href="${m.pz}" target="_blank">P&Z</a>
-                        <a class="link-btn cc" href="${m.cc}" target="_blank">Council</a>
-                    </div>
-                </div>`;
+    var sortedCounties = Object.keys(grouped).sort();
+    var html = '';
+    sortedCounties.forEach(function(c) {
+        var cities = grouped[c].sort(function(a,b) { return a.name.localeCompare(b.name); });
+        html += '<div class="county-section">';
+        html += '<div class="county-header" onclick="toggleCounty(this)">';
+        html += '<span><i class="fas fa-map-marker-alt"></i>&nbsp; ' + c + ' County</span>';
+        html += '<span class="badge">' + cities.length + ' cities</span>';
+        html += '</div>';
+        html += '<div class="county-body">';
+        cities.forEach(function(m) {
+            html += '<div class="muni-row">';
+            html += '<div class="muni-name">' + m.name + '</div>';
+            html += '<div class="muni-links">';
+            html += '<a href="' + m.pz + '" target="_blank" class="link-btn pz"><i class="fas fa-gavel"></i> P&amp;Z</a>';
+            html += '<a href="' + m.cc + '" target="_blank" class="link-btn cc"><i class="fas fa-landmark"></i> Council</a>';
+            html += '<button class="link-btn track" onclick="quickTrack(\'' + m.name.replace(/'/g, "\\'") + '\')"><i class="fas fa-plus"></i> Track</button>';
+            html += '</div>';
+            html += '</div>';
         });
-        html += `</div>`;
+        html += '</div>';
+        html += '</div>';
     });
-
+    if (sortedCounties.length === 0) {
+        html = '<div class="empty-state"><i class="fas fa-search"></i><h3>No cities found</h3><p>Try a different search or county filter.</p></div>';
+    }
     container.innerHTML = html;
 }
 
-renderCities();
-</script>
+function toggleCounty(el) { el.nextElementSibling.classList.toggle('collapsed'); }
+function filterCities() { renderCities(document.getElementById('citySearch').value, document.getElementById('countyFilter').value); }
+function quickTrack(city) { document.getElementById('trackCity').value = city; switchTab('tracker', document.querySelectorAll('.nav-tab')[2]); showToast('Ready to log item for ' + city); }
 
+function addTrackedItem() {
+    var city = document.getElementById('trackCity').value;
+    var muni = null;
+    for (var i = 0; i < municipalities.length; i++) { if (municipalities[i].name === city) { muni = municipalities[i]; break; } }
+    var item = { id: Date.now(), city: city, county: muni ? muni.county : '', type: document.getElementById('trackType').value, date: document.getElementById('trackDate').value, status: document.getElementById('trackStatus').value, caseNum: document.getElementById('trackCase').value, developer: document.getElementById('trackDeveloper').value, notes: document.getElementById('trackNotes').value, lots: document.getElementById('trackLots').value, addedOn: new Date().toISOString() };
+    if (!item.city) { showToast('Please select a city'); return; }
+    trackedItems.unshift(item);
+    localStorage.setItem('dfwTrackedItems', JSON.stringify(trackedItems));
+    renderTrackedItems();
+    ['trackDate','trackCase','trackDeveloper','trackNotes','trackLots'].forEach(function(id) { document.getElementById(id).value = ''; });
+    showToast('Item saved for ' + city);
+}
+
+function renderTrackedItems() {
+    var container = document.getElementById('trackedItemsContainer');
+    var sf = document.getElementById('filterStatus').value;
+    var cf = document.getElementById('filterCountyTracker').value;
+    var items = trackedItems;
+    if (sf) items = items.filter(function(i) { return i.status === sf; });
+    if (cf) items = items.filter(function(i) { return i.county === cf; });
+    document.getElementById('itemCount').textContent = items.length;
+    if (items.length === 0) { container.innerHTML = '<div class="empty-state"><i class="fas fa-clipboard-list"></i><h3>No tracked items yet</h3><p>Browse city agendas and log relevant SFR items here.</p></div>'; return; }
+    var html = '<div style="overflow-x:auto;"><table class="tracked-table"><thead><tr>';
+    html += '<th>City</th><th>County</th><th>Type</th><th>Date</th><th>Case #</th><th>Developer</th><th>Lots</th><th>Status</th><th>Notes</th><th></th>';
+    html += '</tr></thead><tbody>';
+    items.forEach(function(i) {
+        var sc = 'status-' + i.status.toLowerCase().replace(/[\s\/]/g,'');
+        html += '<tr>';
+        html += '<td><strong>' + i.city + '</strong></td>';
+        html += '<td>' + i.county + '</td>';
+        html += '<td>' + i.type + '</td>';
+        html += '<td>' + (i.date || '\u2014') + '</td>';
+        html += '<td>' + (i.caseNum || '\u2014') + '</td>';
+        html += '<td>' + (i.developer || '\u2014') + '</td>';
+        html += '<td>' + (i.lots || '\u2014') + '</td>';
+        html += '<td><span class="status-badge ' + sc + '">' + i.status + '</span></td>';
+        html += '<td style="max-width:200px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + (i.notes || '\u2014') + '</td>';
+        html += '<td><button class="btn-danger" onclick="deleteItem(' + i.id + ')"><i class="fas fa-trash"></i></button></td>';
+        html += '</tr>';
+    });
+    html += '</tbody></table></div>';
+    container.innerHTML = html;
+}
+
+function deleteItem(id) { trackedItems = trackedItems.filter(function(i) { return i.id !== id; }); localStorage.setItem('dfwTrackedItems', JSON.stringify(trackedItems)); renderTrackedItems(); renderDashboard(); showToast('Item removed'); }
+
+function exportPDF() {
+    var doc = new window.jspdf.jsPDF('landscape','mm','letter');
+    var sf = document.getElementById('filterStatus').value;
+    var cf = document.getElementById('filterCountyTracker').value;
+    var items = trackedItems;
+    if (sf) items = items.filter(function(i) { return i.status === sf; });
+    if (cf) items = items.filter(function(i) { return i.county === cf; });
+    if (items.length === 0) { showToast('No items to export'); return; }
+    doc.setFillColor(26,58,92); doc.rect(0,0,280,24,'F'); doc.setTextColor(255,255,255); doc.setFontSize(16); doc.setFont('helvetica','bold');
+    doc.text('DFW Municipal Agenda Tracker - SFR Development',14,11); doc.setFontSize(9); doc.setFont('helvetica','normal');
+    doc.text('Generated: ' + new Date().toLocaleDateString() + ' | ' + items.length + ' items',14,19);
+    var body = items.map(function(i) { return [i.city, i.county, i.type, i.date||'', i.caseNum||'', i.developer||'', i.lots||'', i.status, (i.notes||'').substring(0,80)]; });
+    doc.autoTable({ startY:30, head:[['City','County','Type','Date','Case #','Developer','Lots','Status','Notes']], body:body, theme:'grid', headStyles:{fillColor:[26,58,92],fontSize:8.5,cellPadding:4}, bodyStyles:{fontSize:8,cellPadding:3}, alternateRowStyles:{fillColor:[240,242,245]}, margin:{left:14,right:14} });
+    doc.save('DFW_SFR_Report_' + new Date().toISOString().slice(0,10) + '.pdf'); showToast('PDF exported!');
+}
+
+function renderDashboard() {
+    var grid = document.getElementById('statsGrid');
+    var byStatus = {}; var byCounty = {};
+    trackedItems.forEach(function(i) { byStatus[i.status] = (byStatus[i.status]||0)+1; byCounty[i.county] = (byCounty[i.county]||0)+1; });
+    var html = '';
+    html += '<div class="stat-card"><div class="stat-num">' + trackedItems.length + '</div><div class="stat-label">Total Tracked</div></div>';
+    html += '<div class="stat-card"><div class="stat-num">' + Object.keys(byCounty).length + '</div><div class="stat-label">Counties</div></div>';
+    html += '<div class="stat-card"><div class="stat-num" style="color:var(--success);">' + (byStatus['Approved']||0) + '</div><div class="stat-label">Approved</div></div>';
+    html += '<div class="stat-card"><div class="stat-num" style="color:var(--accent);">' + (byStatus['Under Review']||0) + '</div><div class="stat-label">Under Review</div></div>';
+    html += '<div class="stat-card"><div class="stat-num" style="color:var(--danger);">' + (byStatus['Denied']||0) + '</div><div class="stat-label">Denied</div></div>';
+    html += '<div class="stat-card"><div class="stat-num" style="color:#8e44ad;">' + (byStatus['Tabled']||0) + '</div><div class="stat-label">Tabled</div></div>';
+    grid.innerHTML = html;
+    var recent = document.getElementById('recentActivity');
+    var last5 = trackedItems.slice(0,5);
+    if (last5.length === 0) { recent.innerHTML = '<p style="color:var(--text-light);">No items tracked yet.</p>'; } else {
+        var rhtml = '';
+        last5.forEach(function(i) {
+            var sc = 'status-' + i.status.toLowerCase().replace(/[\s\/]/g,'');
+            rhtml += '<div style="padding:10px 0;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;">';
+            rhtml += '<div><strong>' + i.city + '</strong> \u2014 ' + i.type + (i.caseNum ? ' ('+i.caseNum+')':'');
+            rhtml += '<div style="font-size:0.8rem;color:var(--text-light);">' + (i.developer||'No developer') + ' \u00b7 ' + (i.lots||'No lot info') + '</div></div>';
+            rhtml += '<span class="status-badge ' + sc + '">' + i.status + '</span></div>';
+        });
+        recent.innerHTML = rhtml;
+    }
+}
+
+function renderKeywords() {
+    var container = document.getElementById('keywordChips');
+    var html = '';
+    keywords.forEach(function(k) { html += '<span class="keyword-chip">' + k + ' <span class="remove" onclick="removeKeyword(\'' + k.replace(/'/g, "\\'") + '\')">&times;</span></span>'; });
+    container.innerHTML = html;
+}
+function addKeyword() { var input = document.getElementById('newKeyword'); var val = input.value.trim(); if(!val){input.value='';return;} var lower=val.toLowerCase(); for(var i=0;i<keywords.length;i++){if(keywords[i]===lower){input.value='';return;}} keywords.push(lower); localStorage.setItem('dfwKeywords',JSON.stringify(keywords)); renderKeywords(); input.value=''; showToast('Keyword added: '+val); }
+function removeKeyword(kw) { keywords = keywords.filter(function(k){return k!==kw;}); localStorage.setItem('dfwKeywords',JSON.stringify(keywords)); renderKeywords(); }
+
+function loadScanData() {
+    fetch('agenda_data.json?t=' + Date.now()).then(function(resp) { if(!resp.ok) throw new Error('No data'); return resp.json(); }).then(function(data) {
+        scanData = data;
+        var countySet = {}; scanData.results.forEach(function(r){countySet[r.county]=true;});
+        var counties = Object.keys(countySet).sort();
+        var sel = document.getElementById('scanCountyFilter');
+        sel.innerHTML = '<option value="">All Counties</option>';
+        counties.forEach(function(c) { var o=document.createElement('option'); o.value=c; o.textContent=c+' County'; sel.appendChild(o); });
+        renderScanResults();
+    }).catch(function(e) {
+        document.getElementById('scanResults').innerHTML = '<div class="empty-state"><i class="fas fa-satellite-dish"></i><h3>No scan data found yet</h3><p>Go to your GitHub repo, Actions tab, Scrape DFW Agendas, Run workflow. The scraper runs daily at 6 AM CT.</p></div>';
+    });
+}
+
+function renderScanResults() {
+    if (!scanData) return;
+    var cf = document.getElementById('scanCountyFilter').value;
+    var kwf = document.getElementById('scanKeywordFilter').value.toLowerCase();
+    var meta = scanData.metadata;
+    document.getElementById('scanMeta').innerHTML = 'Last scan: <strong>' + new Date(meta.last_updated).toLocaleString() + '</strong> \u00b7 ' + meta.municipalities_scanned + ' cities \u00b7 <strong style="color:var(--success);">' + meta.total_keyword_matches + ' matches</strong>' + (meta.errors ? ' \u00b7 <span style="color:var(--danger);">' + meta.errors + ' errors</span>' : '');
+    var results = scanData.results;
+    if (cf) results = results.filter(function(r){return r.county===cf;});
+    var cities = results.filter(function(r) {
+        var all = (r.pz_items||[]).concat(r.cc_items||[]);
+        var matched = all.filter(function(item){return item.keywords_matched && item.keywords_matched.length>0;});
+        if (kwf) { return matched.some(function(item){ return item.keywords_matched.some(function(k){return k.toLowerCase().indexOf(kwf)!==-1;}) || (item.title||'').toLowerCase().indexOf(kwf)!==-1; }); }
+        return matched.length > 0;
+    });
+    if (cities.length === 0) { document.getElementById('scanResults').innerHTML = '<div class="empty-state"><i class="fas fa-check-circle"></i><h3>No matches for current filters</h3><p>Try broadening your search.</p></div>'; return; }
+    var html = '';
+    cities.forEach(function(city) {
+        var all = (city.pz_items||[]).concat(city.cc_items||[]);
+        var matched = all.filter(function(item) { if(!item.keywords_matched||item.keywords_matched.length===0)return false; if(kwf){return item.keywords_matched.some(function(k){return k.toLowerCase().indexOf(kwf)!==-1;}) || (item.title||'').toLowerCase().indexOf(kwf)!==-1;} return true; });
+        if (matched.length === 0) return;
+        html += '<div class="county-section">';
+        html += '<div class="county-header" onclick="toggleCounty(this)">';
+        html += '<span><i class="fas fa-city"></i>&nbsp; ' + city.name + ' <span style="font-weight:400;opacity:0.8;">(' + city.county + ' Co.)</span></span>';
+        html += '<span class="badge">' + matched.length + ' matches</span>';
+        html += '</div>';
+        html += '<div class="county-body">';
+        matched.forEach(function(item) {
+            var tc = item.source_type==='P&Z' ? '#e8f4fd' : '#fdf2e8';
+            var ttc = item.source_type==='P&Z' ? '#2980b9' : '#d4952e';
+            html += '<div class="muni-row">';
+            html += '<div>';
+            html += '<div class="muni-name" style="margin-bottom:6px;">';
+            html += '<span style="background:'+tc+';color:'+ttc+';padding:2px 8px;border-radius:4px;font-size:0.75rem;margin-right:6px;">' + (item.source_type||'Agenda') + '</span>';
+            html += (item.title||'Untitled').substring(0,150);
+            html += '</div>';
+            html += '<div style="display:flex;flex-wrap:wrap;gap:4px;margin-bottom:4px;">';
+            (item.keywords_matched||[]).forEach(function(kw) { html += '<span style="background:#e8fdf0;color:#27ae60;padding:2px 8px;border-radius:10px;font-size:0.7rem;font-weight:600;">' + kw + '</span>'; });
+            html += '</div>';
+            if (item.snippets) { item.snippets.forEach(function(s) { html += '<div style="font-size:0.8rem;color:var(--text-light);margin-top:4px;padding:6px 10px;background:#f8f9fa;border-radius:6px;border-left:3px solid var(--accent);">' + s.substring(0,200) + '</div>'; }); }
+            html += '</div>';
+            html += '<div class="muni-links" style="flex-direction:column;">';
+            html += '<a href="' + (item.url||'#') + '" target="_blank" class="link-btn pz"><i class="fas fa-external-link-alt"></i> View</a>';
+            html += '<button class="link-btn track" onclick="quickTrackScan(\'' + city.name.replace(/'/g,"\\'") + '\',\'' + (item.title||'').replace(/'/g,"\\'").replace(/\n/g,' ').substring(0,200) + '\')"><i class="fas fa-plus"></i> Track</button>';
+            html += '</div>';
+            html += '</div>';
+        });
+        html += '</div>';
+        html += '</div>';
+    });
+    document.getElementById('scanResults').innerHTML = html;
+}
+
+function quickTrackScan(city, title) { document.getElementById('trackCity').value = city; document.getElementById('trackNotes').value = title.substring(0,500); switchTab('tracker', document.querySelectorAll('.nav-tab')[2]); showToast('Ready to log: ' + city); }
+
+function exportScanPDF() {
+    if (!scanData) { showToast('No scan data'); return; }
+    var doc = new window.jspdf.jsPDF('landscape','mm','letter');
+    var cf = document.getElementById('scanCountyFilter').value;
+    var kwf = document.getElementById('scanKeywordFilter').value.toLowerCase();
+    var matches = [];
+    scanData.results.forEach(function(city) {
+        if (cf && city.county !== cf) return;
+        (city.pz_items||[]).concat(city.cc_items||[]).forEach(function(item) {
+            if (!item.keywords_matched || item.keywords_matched.length===0) return;
+            if (kwf && !item.keywords_matched.some(function(k){return k.toLowerCase().indexOf(kwf)!==-1;})) return;
+            matches.push({ city:city.name, county:city.county, type:item.source_type||'Agenda', title:(item.title||'').substring(0,80), keywords:item.keywords_matched.join(', ') });
+        });
+    });
+    if (matches.length===0) { showToast('No matches to export'); return; }
+    doc.setFillColor(26,58,92); doc.rect(0,0,280,24,'F'); doc.setTextColor(255,255,255); doc.setFontSize(16); doc.setFont('helvetica','bold');
+    doc.text('DFW Auto-Scan: SFR Keyword Matches',14,11); doc.setFontSize(9); doc.setFont('helvetica','normal');
+    doc.text('Generated: ' + new Date().toLocaleDateString() + ' | ' + matches.length + ' matches',14,19);
+    doc.autoTable({ startY:30, head:[['City','County','Type','Description','Keywords']], body:matches.map(function(m){return [m.city,m.county,m.type,m.title,m.keywords];}), theme:'grid', headStyles:{fillColor:[26,58,92],fontSize:8.5,cellPadding:4}, bodyStyles:{fontSize:7.5,cellPadding:3}, alternateRowStyles:{fillColor:[240,242,245]}, margin:{left:14,right:14} });
+    doc.save('DFW_AutoScan_SFR_' + new Date().toISOString().slice(0,10) + '.pdf'); showToast('Auto-scan PDF exported!');
+}
+
+function showToast(msg) { var t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show'); setTimeout(function(){t.classList.remove('show');}, 2500); }
+
+init();
+</script>
 </body>
 </html>
