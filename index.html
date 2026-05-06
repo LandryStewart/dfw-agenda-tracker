@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DFW Municipal Agenda Tracker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.1/jspdf.plugin.autotable.min.js"></script>
+    <style>
+        :root {
+            --primary: #1a3a5c;
+            --primary-light: #2a5a8c;
+            --accent: #e8a838;
+            --accent-hover: #d4952e;
+            --bg: #f0f2f5;
+            --card-bg: #ffffff;
+            --text: #2c3e50;
+            --text-light: #7f8c8d;
+            --success: #27ae60;
+            --danger: #e74c3c;
+            --border: #dfe6e9;
+            --shadow: 0 2px 12px rgba(0,0,0,0.08);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        .header { background: linear-gradient(135deg, var(--primary), var(--primary-light)); color: white; padding: 20px 24px; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 20px rgba(0,0,0,0.15); }
+        .header h1 { font-size: 1.4rem; font-weight: 700; display: flex; align-items: center; gap: 10px; }
+        .header p { font-size: 0.85rem; opacity: 0.85; margin-top: 4px; }
+        .nav-tabs { display: flex; background: white; border-bottom: 2px solid var(--border); overflow-x: auto; -webkit-overflow-scrolling: touch; }
+        .nav-tab { padding: 14px 20px; cursor: pointer; font-weight: 600; font-size: 0.9rem; white-space: nowrap; border-bottom: 3px solid transparent; transition: all 0.2s; color: var(--text-light); }
+        .nav-tab:hover { color: var(--primary); }
+        .nav-tab.active { color: var(--primary); border-bottom-color: var(--accent); }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        .search-bar { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
+        .search-bar input, .search-bar select { padding: 12px 16px; border: 2px solid var(--border); border-radius: 10px; font-size: 0.95rem; transition: border-color 0.2s; background: white; }
+        .search-bar input:focus, .search-bar select:focus { outline: none; border-color: var(--primary-light); }
+        .search-bar input { flex: 1; min-width: 200px; }
+        .search-bar select { min-width: 180px; }
+        .county-section { margin-bottom: 24px; }
+        .county-header { background: var(--primary); color: white; padding: 14px 20px; border-radius: 12px 12px 0 0; font-size: 1.1rem; font-weight: 700; display: flex; justify-content: space-between; align-items: center; cursor: pointer; user-select: none; }
+        .county-header:hover { background: var(--primary-light); }
+        .county-header .badge { background: var(--accent); color: var(--primary); padding: 2px 10px; border-radius: 20px; font-size: 0.8rem; font-weight: 700; }
+        .county-body { background: white; border-radius: 0 0 12px 12px; box-shadow: var(--shadow); overflow: hidden; }
+        .county-body.collapsed { display: none; }
+        .muni-row { display: grid; grid-template-columns: 1fr auto auto; align-items: center; padding: 14px 20px; border-bottom: 1px solid var(--border); gap: 12px; transition: background 0.15s; }
+        .muni-row:last-child { border-bottom: none; }
+        .muni-row:hover { background: #f8f9fa; }
+        .muni-name { font-weight: 600; font-size: 0.95rem; }
+        .muni-links { display: flex; gap: 8px; flex-wrap: wrap; }
+        .link-btn { padding: 6px 14px; border-radius: 8px; font-size: 0.8rem; font-weight: 600; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; transition: all 0.2s; cursor: pointer; border: none; }
+        .link-btn.pz { background: #e8f4fd; color: #2980b9; }
+        .link-btn.pz:hover { background: #d0e8f7; }
+        .link-btn.cc { background: #fdf2e8; color: #d4952e; }
+        .link-btn.cc:hover { background: #f7e4d0; }
+        .link-btn.track { background: #e8fdf0; color: #27ae60; }
+        .link-btn.track:hover { background: #d0f7e0; }
+        .tracker-form { background: white; padding: 24px; border-radius: 12px; box-shadow: var(--shadow); margin-bottom: 20px; }
+        .tracker-form h3 { margin-bottom: 16px; color: var(--primary); }
+        .form-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin-bottom: 16px; }
+        .form-group label { display: block; font-weight: 600; font-size: 0.85rem; margin-bottom: 4px; color: var(--text-light); }
+        .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 10px 14px; border: 2px solid var(--border); border-radius: 8px; font-size: 0.9rem; font-family: inherit; }
+        .form-group textarea { resize: vertical; min-height: 70px; }
+        .btn { padding: 12px 24px; border: none; border-radius: 10px; font-weight: 700; font-size: 0.95rem; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; transition: all 0.2s; }
+        .btn-primary { background: var(--primary); color: white; }
+        .btn-primary:hover { background: var(--primary-light); }
+        .btn-accent { background: var(--accent); color: white; }
+        .btn-accent:hover { background: var(--accent-hover); }
+        .btn-danger { background: var(--danger); color: white; padding: 6px 12px; font-size: 0.8rem; }
+        .btn-danger:hover { opacity: 0.85; }
+        .tracked-table { width: 100%; border-collapse: collapse; background: white; border-radius: 12px; overflow: hidden; box-shadow: var(--shadow); }
+        .tracked-table th { background: var(--primary); color: white; padding: 14px 16px; text-align: left; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px; }
+        .tracked-table td { padding: 12px 16px; border-bottom: 1px solid var(--border); font-size: 0.9rem; }
+        .tracked-table tr:hover td { background: #f8f9fa; }
+        .status-badge { padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 700; }
+        .status-new { background: #e8f4fd; color: #2980b9; }
+        .status-underreview, .status-under { background: #fdf2e8; color: #d4952e; }
+        .status-approved { background: #e8fdf0; color: #27ae60; }
+        .status-denied { background: #fde8e8; color: #e74c3c; }
+        .status-tabled, .status-tabledcontinued { background: #f0e8fd; color: #8e44ad; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 24px; }
+        .stat-card { background: white; padding: 20px; border-radius: 12px; box-shadow: var(--shadow); text-align: center; }
+        .stat-card .stat-num { font-size: 2rem; font-weight: 800; color: var(--primary); }
+        .stat-card .stat-label { font-size: 0.85rem; color: var(--text-light); margin-top: 4px; }
+        .keyword-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0; }
+        .keyword-chip { background: #e8f4fd; color: var(--primary); padding: 6px 14px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; display: flex; align-items: center; gap: 6px; }
+        .keyword-chip .remove { cursor: pointer; color: var(--danger); font-weight: 800; }
+        .export-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap; gap: 10px; }
+        .empty-state { text-align: center; padding: 60px 20px; color: var(--text-light); }
+        .empty-state i { font-size: 3rem; margin-bottom: 16px; }
+        .empty-state h3 { margin-bottom: 8px; color: var(--text); }
+        @media (max-width: 768px) {
+            .header h1 { font-size: 1.1rem; }
+            .container { padding: 12px; }
+            .muni-row { grid-template-columns: 1fr; gap: 8px; }
+            .form-grid { grid-template-columns: 1fr; }
+            .tracked-table { font-size: 0.8rem; }
+            .tracked-table th, .tracked-table td { padding: 8px 10px; }
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            .nav-tab { padding: 12px 14px; font-size: 0.8rem; }
+        }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-thumb { background: #ccc; border-radius: 4px; }
+        .toast { position: fixed; bottom: 20px; right: 20px; background: var(--success); color: white; padding: 14px 24px; border-radius: 10px; font-weight: 600; box-shadow: 0 4px 20px rgba(0,0,0,0.2); transform: translateY(100px); opacity: 0; transition: all 0.3s; z-index: 999; }
+        .toast.show { transform: translateY(0); opacity: 1; }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1><i class="fas fa-city"></i> DFW Municipal Agenda Tracker</h1>
+    <p>Single Family Residential Development — P&Z & City Council Agendas</p>
+</div>
+
+<div class="nav-tabs" id="navTabs">
+    <div class="nav-tab active" onclick="switchTab('browse', this)"><i class="fas fa-search"></i>&nbsp; Browse</div>
+    <div class="nav-tab" onclick="switchTab('autoscan', this)"><i class="fas fa-robot"></i>&nbsp; Auto-Scan</div>
+    <div class="nav-tab" onclick="switchTab('tracker', this)"><i class="fas fa-clipboard-list"></i>&nbsp; Tracker</div>
+    <div class="nav-tab" onclick="switchTab('dashboard', this)"><i class="fas fa-chart-bar"></i>&nbsp; Dashboard</div>
+    <div class="nav-tab" onclick="switchTab('keywords', this)"><i class="fas fa-key"></i>&nbsp; Keywords</div>
+</div>
+
+<div class="container">
+
+    <!-- BROWSE TAB -->
+    <div id="tab-browse" class="tab-content active">
+        <div class="search-bar">
+            <input type="text" id="citySearch" placeholder="Search city name..." oninput="filterCities()">
+            <select id="countyFilter" onchange="filterCities()"><option value="">All Counties</option></select>
+        </div>
+        <div id="cityList"></div>
+    </div>
+
+    <!-- AUTO-SCAN TAB -->
+    <div id="tab-autoscan" class="tab-content">
+        <div style="background:white;padding:20px;border-radius:12px;box-shadow:var(--shadow);margin-bottom:20px;">
+            <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;">
+                <div>
+                    <h3 style="color:var(--primary);"><i class="fas fa-robot"></i> Auto-Scan Results</h3>
+                    <p style="color:var(--text-light);font-size:0.85rem;" id="scanMeta">Loading scan data...</p>
+                </div>
+                <div style="display:flex;gap:10px;flex-wrap:wrap;">
+                    <select id="scanCountyFilter" onchange="renderScanResults()" style="padding:8px 12px;border:2px solid var(--border);border-radius:8px;">
+                        <option value="">All Counties</option>
+                    </select>
+                    <input type="text" id="scanKeywordFilter" placeholder="Filter by keyword..." oninput="renderScanResults()" style="padding:8px 12px;border:2px solid var(--border);border-radius:8px;min-width:200px;">
+                    <button class="btn btn-accent" onclick="exportScanPDF()"><i class="fas fa-file-pdf"></i> Export PDF</button>
+                </div>
+            </div>
+        </div>
+        <div id="scanResults">
+            <div class="empty-state">
+                <i class="fas fa-satellite-dish"></i>
+                <h3>Waiting for first scan...</h3>
+                <p>Go to GitHub → Actions → Run "Scrape DFW Agendas" to generate data.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- TRACKER TAB -->
+    <div id="tab-tracker" class="tab-content">
+        <div class="tracker-form">
+            <h3><i class="fas fa-plus-circle"></i> Log Agenda Item</h3>
+            <div class="form-grid">
+                <div class="form-group"><label>Municipality</label><select id="trackCity"></select></div>
+                <div class="form-group"><label>Agenda Type</label>
+                    <select id="trackType">
+                        <option value="P&Z">P&Z Agenda</option>
+                        <option value="City Council">City Council Agenda</option>
+                        <option value="Zoning Board">Zoning Board</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group"><label>Meeting Date</label><input type="date" id="trackDate"></div>
+                <div class="form-group"><label>Status</label>
+                    <select id="trackStatus">
+                        <option value="New">New / Pending</option>
+                        <option value="Under Review">Under Review</option>
+                        <option value="Approved">Approved</option>
+                        <option value="Denied">Denied</option>
+                        <option value="Tabled">Tabled / Continued</option>
+                    </select>
+                </div>
+                <div class="form-group"><label>Case / Item #</label><input type="text" id="trackCase" placeholder="e.g. ZC-2026-015"></div>
+                <div class="form-group"><label>Developer / Applicant</label><input type="text" id="trackDeveloper" placeholder="e.g. D.R. Horton"></div>
+            </div>
+            <div class="form-group" style="margin-bottom:16px;"><label>Description / Notes</label><textarea id="trackNotes" placeholder="Zoning change, plat, SUP, lot count, density, etc."></textarea></div>
+            <div class="form-group" style="margin-bottom:16px;"><label>Acreage / Lot Count</label><input type="text" id="trackLots" placeholder="e.g. 45 acres / 180 lots" style="max-width:300px;"></div>
+            <button class="btn btn-primary" onclick="addTrackedItem()"><i class="fas fa-save"></i> Save Item</button>
+        </div>
+        <div class="export-bar">
+            <h3 style="color:var(--primary);"><i class="fas fa-list"></i> Tracked Items (<span id="itemCount">0</span>)</h3>
+            <div style="display:flex;gap:10px;flex-wrap:wrap;">
+                <select id="filterStatus" onchange="renderTrackedItems()" style="padding:8px 12px;border:2px solid var(--border);border-radius:8px;">
+                    <option value="">All Statuses</option>
+                    <option value="New">New / Pending</option>
+                    <option value="Under Review">Under Review</option>
+                    <option value="Approved">Approved</option>
+                    <option value="Denied">Denied</option>
+                    <option value="Tabled">Tabled</option>
+                </select>
+                <select id="filterCountyTracker" onchange="renderTrackedItems()" style="padding:8px 12px;border:2px solid var(--border);border-radius:8px;">
+                    <option value="">All Counties</option>
+                </select>
+                <button class="btn btn-accent" onclick="exportPDF()"><i class="fas fa-file-pdf"></i> Export PDF</button>
+            </div>
+        </div>
+        <div id="trackedItemsContainer"></div>
+    </div>
+
+    <!-- DASHBOARD TAB -->
+    <div id="tab-dashboard" class="tab-content">
+        <h3 style="color:var(--primary);margin-bottom:16px;"><i class="fas fa-chart-bar"></i> Overview</h3>
+        <div class="stats-grid" id="statsGrid"></div>
+        <div style="background:white;padding:24px;border-radius:12px;box-shadow:var(--shadow);">
+            <h4 style="margin-bottom:12px;">Recent Activity</h4>
+            <div id="recentActivity"></div>
+        </div>
+    </div>
+
+    <!-- KEYWORDS TAB -->
+    <div id="tab-keywords" class="tab-content">
+        <div style="background:white;padding:24px;border-radius:12px;box-shadow:var(--shadow);margin-bottom:20px;">
+            <h3 style="color:var(--primary);margin-bottom:8px;"><i class="fas fa-key"></i> SFR Keyword Watchlist</h3>
+            <p style="color:var(--text-light);margin-bottom:16px;">These keywords are used by the auto-scraper to find relevant agenda items.</p>
+            <div class="keyword-chips" id="keywordChips"></div>
+            <div style="display:flex;gap:10px;margin-top:16px;">
+                <input type="text" id="newKeyword" placeholder="Add a keyword..." style="flex:1;padding:10px 14px;border:2px solid var(--border);border-radius:8px;" onkeydown="if(event.key==='Enter')addKeyword()">
+                <button class="btn btn-primary" onclick="addKeyword()"><i class="fas fa-plus"></i> Add</button>
+            </div>
+        </div>
+        <div style="background:white;padding:24px;border-radius:12px;box-shadow:var(--shadow);">
+            <h3 style="color:var(--primary);margin-bottom:12px;"><i class="fas fa-lightbulb"></i> Tips for Agenda Review</h3>
+            <ul style="padding-left:20px;color:var(--text);line-height:2;">
+                <li>Look for <strong>Zoning Change (ZC)</strong> requests from AG/SF to higher density</li>
+                <li>Check for <strong>Preliminary Plat</strong> and <strong>Final Plat</strong> items</li>
+                <li>Look for <strong>Specific Use Permits (SUP)</strong> related to residential</li>
+                <li>Review <strong>Comprehensive Plan Amendments</strong> for land use changes</li>
+                <li>Check <strong>Development Agreements</strong> and <strong>PD ordinances</strong></li>
+                <li>Note any <strong>annexation</strong> requests for future development areas</li>
+                <li>Track <strong>impact fee</strong> discussions that affect lot costs</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ============================================================
+// MUNICIPALITIES DATABASE
+// ============================================================
+const municipalities = [
+    {name:"Arlington",county:"Tarrant",pz:"https://www.arlingtontx.gov/city_hall/boards_and_commissions/planning_and_zoning_commission",cc:"https://www.arlingtontx.gov/city_hall/government/city_council/city_council_meetings"},
+    {name:"Fort Worth",county:"Tarrant",pz:"https://fortworthtexas.legistar.com/Calendar.aspx",cc:"https://fortworthtexas.legistar.com/Calendar.aspx"},
+    {name:"Mansfield",county:"Tarrant",pz:"https://www.mansfieldtexas.gov/925/Planning-Zoning-Commission",cc:"https://www.mansfieldtexas.gov/AgendaCenter"},
+    {name:"Keller",county:"Tarrant",pz:"https://www.cityofkeller.com/services/development-services/planning-zoning",cc:"https://www.cityofkeller.com/government/city-council/agendas-minutes"},
+    {name:"Southlake",county:"Tarrant",pz:"https://www.cityofsouthlake.com/AgendaCenter",cc:"https://www.cityofsouthlake.com/AgendaCenter"},
+    {name:"Colleyville",county:"Tarrant",pz:"https://www.colleyville.com/government/boards-commissions/planning-zoning-commission",cc:"https://www.colleyville.com/government/city-council/agendas-minutes"},
+    {name:"Grapevine",county:"Tarrant",pz:"https://www.grapevinetexas.gov/AgendaCenter",cc:"https://www.grapevinetexas.gov/AgendaCenter"},
+    {name:"Bedford",county:"Tarrant",pz:"https://www.bedfordtx.gov/AgendaCenter",cc:"https://www.bedfordtx.gov/AgendaCenter"},
+    {name:"Euless",county:"Tarrant",pz:"https://www.eulesstx.gov/city-government/boards-commissions/planning-zoning-commission",cc:"https://www.eulesstx.gov/city-government/city-council/agendas-minutes"},
+    {name:"Hurst",county:"Tarrant",pz:"https://www.hursttx.gov/government/boards-commissions/planning-zoning-commission",cc:"https://www.hursttx.gov/government/city-council/agendas-minutes"},
+    {name:"North Richland Hills",county:"Tarrant",pz:"https://www.nrhtx.com/AgendaCenter",cc:"https://www.nrhtx.com/AgendaCenter"},
+    {name:"Burleson",county:"Tarrant",pz:"https://www.burlesontx.com/AgendaCenter",cc:"https://www.burlesontx.com/AgendaCenter"},
+    {name:"Saginaw",county:"Tarrant",pz:"https://www.ci.saginaw.tx.us/AgendaCenter",cc:"https://www.ci.saginaw.tx.us/AgendaCenter"},
+    {name:"Benbrook",county:"Tarrant",pz:"https://www.benbrook-tx.gov/AgendaCenter",cc:"https://www.benbrook-tx.gov/AgendaCenter"},
+    {name:"Crowley",county:"Tarrant",pz:"https://www.ci.crowley.tx.us/AgendaCenter",cc:"https://www.ci.crowley.tx.us/AgendaCenter"},
+    {name:"Watauga",county:"Tarrant",pz:"https://www.cowtx.gov/AgendaCenter",cc:"https://www.cowtx.gov/AgendaCenter"},
+    {name:"Kennedale",county:"Tarrant",pz:"https://www.kennedale.com/AgendaCenter",cc:"https://www.kennedale.com/AgendaCenter"},
+    {name:"Azle",county:"Tarrant",pz:"https://www.cityofazle.com/AgendaCenter",cc:"https://www.cityofazle.com/AgendaCenter"},
+    {name:"Haslet",county:"Tarrant",pz:"https://www.haslet.org/AgendaCenter",cc:"https://www.haslet.org/AgendaCenter"},
+    {name:"Trophy Club",county:"Tarrant",pz:"https://www.trophyclub.org/AgendaCenter",cc:"https://www.trophyclub.org/AgendaCenter"},
+    {name:"Dallas",county:"Dallas",pz:"https://dallascityhall.com/government/cityplan/Pages/default.aspx",cc:"https://dallascityhall.com/government/citycouncil/Pages/city-council-agendas.aspx"},
+    {name:"Irving",county:"Dallas",pz:"https://www.cityofirving.org/AgendaCenter",cc:"https://www.cityofirving.org/AgendaCenter"},
+    {name:"Grand Prairie",county:"Dallas",pz:"https://www.gptx.org/AgendaCenter",cc:"https://www.gptx.org/AgendaCenter"},
+    {name:"Garland",county:"Dallas",pz:"https://www.garlandtx.gov/AgendaCenter",cc:"https://www.garlandtx.gov/AgendaCenter"},
+    {name:"Mesquite",county:"Dallas",pz:"https://www.cityofmesquite.com/AgendaCenter",cc:"https://www.cityofmesquite.com/AgendaCenter"},
+    {name:"Richardson",county:"Dallas",pz:"https://www.cor.net/government/boards-and-commissions/plan-commission",cc:"https://www.cor.net/government/city-council/agendas-and-minutes"},
+    {name:"Carrollton",county:"Dallas",pz:"https://www.cityofcarrollton.com/government/boards-commissions/planning-zoning-commission",cc:"https://www.cityofcarrollton.com/government/city-council/agendas-minutes"},
+    {name:"Farmers Branch",county:"Dallas",pz:"https://www.farmersbranchtx.gov/AgendaCenter",cc:"https://www.farmersbranchtx.gov/AgendaCenter"},
+    {name:"DeSoto",county:"Dallas",pz:"https://www.ci.desoto.tx.us/AgendaCenter",cc:"https://www.ci.desoto.tx.us/AgendaCenter"},
+    {name:"Cedar Hill",county:"Dallas",pz:"https://www.cedarhilltx.com/AgendaCenter",cc:"https://www.cedarhilltx.com/AgendaCenter"},
+    {name:"Lancaster",county:"Dallas",pz:"https://www.lancaster-tx.com/AgendaCenter",cc:"https://www.lancaster-tx.com/AgendaCenter"},
+    {name:"Duncanville",county:"Dallas",pz:"https://www.duncanville.com/AgendaCenter",cc:"https://www.duncanville.com/AgendaCenter"},
+    {name:"Rowlett",county:"Dallas",pz:"https://www.ci.rowlett.tx.us/AgendaCenter",cc:"https://www.ci.rowlett.tx.us/AgendaCenter"},
+    {name:"Seagoville",county:"Dallas",pz:"https://www.seagoville.us/AgendaCenter",cc:"https://www.seagoville.us/AgendaCenter"},
+    {name:"Balch Springs",county:"Dallas",pz:"https://www.cityofbalchsprings.com/AgendaCenter",cc:"https://www.cityofbalchsprings.com/AgendaCenter"},
+    {name:"Plano",county:"Collin",pz:"https://www.plano.gov/AgendaCenter",cc:"https://www.plano.gov/AgendaCenter"},
+    {name:"McKinney",county:"Collin",pz:"https://www.mckinneytexas.org/AgendaCenter",cc:"https://www.mckinneytexas.org/AgendaCenter"},
+    {name:"Frisco",county:"Collin",pz:"https://www.friscotexas.gov/AgendaCenter",cc:"https://www.friscotexas.gov/AgendaCenter"},
+    {name:"Allen",county:"Collin",pz:"https://www.cityofallen.org/AgendaCenter",cc:"https://www.cityofallen.org/AgendaCenter"},
+    {name:"Wylie",county:"Collin",pz:"https://www.wylietexas.gov/AgendaCenter",cc:"https://www.wylietexas.gov/AgendaCenter"},
+    {name:"Anna",county:"Collin",pz:"https://www.annatexas.gov/AgendaCenter",cc:"https://www.annatexas.gov/AgendaCenter"},
+    {name:"Celina",county:"Collin",pz:"https://www.celina-tx.gov/AgendaCenter",cc:"https://www.celina-tx.gov/AgendaCenter"},
+    {name:"Prosper",county:"Collin",pz:"https://www.prospertx.gov/AgendaCenter",cc:"https://www.prospertx.gov/AgendaCenter"},
+    {name:"Princeton",county:"Collin",pz:"https://www.princetontx.gov/AgendaCenter",cc:"https://www.princetontx.gov/AgendaCenter"},
+    {name:"Melissa",county:"Collin",pz:"https://www.melissatx.gov/AgendaCenter",cc:"https://www.melissatx.gov/AgendaCenter"},
+    {name:"Sachse",county:"Collin",pz:"https://www.cityofsachse.com/AgendaCenter",cc:"https://www.cityofsachse.com/AgendaCenter"},
+    {name:"Lucas",county:"Collin",pz:"https://www.lucastexas.us/AgendaCenter",cc:"https://www.lucastexas.us/AgendaCenter"},
+    {name:"Farmersville",county:"Collin",pz:"https://www.farmersvilletx.com/AgendaCenter",cc:"https://www.farmersvilletx.com/AgendaCenter"},
+    {name:"Denton",county:"Denton",pz:"https://www.cityofdenton.com/AgendaCenter",cc:"https://www.cityofdenton.com/AgendaCenter"},
+    {name:"Lewisville",county:"Denton",pz:"https://www.cityoflewisville.com/government/boards-commissions/planning-zoning-commission",cc:"https://www.cityoflewisville.com/government/city-council/agendas-minutes"},
+    {name:"Flower Mound",county:"Denton",pz:"https://www.flower-mound.com/AgendaCenter",cc:"https://www.flower-mound.com/AgendaCenter"},
+    {name:"Little Elm",county:"Denton",pz:"https://www.littleelm.org/AgendaCenter",cc:"https://www.littleelm.org/AgendaCenter"},
+    {name:"Corinth",county:"Denton",pz:"https://www.cityofcorinth.com/AgendaCenter",cc:"https://www.cityofcorinth.com/AgendaCenter"},
+    {name:"The Colony",county:"Denton",pz:"https://www.thecolonytx.gov/AgendaCenter",cc:"https://www.thecolonytx.gov/AgendaCenter"},
+    {name:"Argyle",county:"Denton",pz:"https://www.argyletx.com/AgendaCenter",cc:"https://www.argyletx.com/AgendaCenter"},
+    {name:"Aubrey",county:"Denton",pz:"https://www.aubreytx.gov/AgendaCenter",cc:"https://www.aubreytx.gov/AgendaCenter"},
+    {name:"Sanger",county:"Denton",pz:"https://www.sangertexas.org/AgendaCenter",cc:"https://www.sangertexas.org/AgendaCenter"},
+    {name:"Pilot Point",county:"Denton",pz:"https://www.cityofpilotpoint.org/AgendaCenter",cc:"https://www.cityofpilotpoint.org/AgendaCenter"},
+    {name:"Northlake",county:"Denton",pz:"https://www.northlaketx.org/AgendaCenter",cc:"https://www.northlaketx.org/AgendaCenter"},
+    {name:"Justin",county:"Denton",pz:"https://www.cityofjustin.com/AgendaCenter",cc:"https://www.cityofjustin.com/AgendaCenter"},
+    {name:"Roanoke",county:"Denton",pz:"https://www.roanoketexas.com/AgendaCenter",cc:"https://www.roanoketexas.com/AgendaCenter"},
+    {name:"Cross Roads",county:"Denton",pz:"https://www.crossroadstx.gov/AgendaCenter",cc:"https://www.crossroadstx.gov/AgendaCenter"},
+    {name:"Oak Point",county:"Denton",pz:"https://www.oakpointtexas.com/AgendaCenter",cc:"https://www.oakpointtexas.com/AgendaCenter"},
