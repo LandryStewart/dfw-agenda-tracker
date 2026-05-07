@@ -19,7 +19,6 @@ ACTION_SIGNALS = [
     "rezone","rezoning","zone change","zoning change","zoning case","ZC-",
     "final plat","FP-",
     "preliminary plat","PP-",
-    "comprehensive plan amendment","comp plan amendment",
     "comprehensive plan","comp plan","future land use","land use plan"
 ]
 
@@ -43,7 +42,11 @@ NOISE_PHRASES = [
     "future agenda","items for future","agenda review","announcement",
     "correspondence","informational item","discussion only","no action",
     "sign-in","attendance","welcome","copyright","privacy policy",
-    "all rights reserved","work session","workshop"
+    "all rights reserved","work session","workshop",
+    "planning department community profile",
+    "development process development review",
+    "building inspection health division",
+    "planning & development services"
 ]
 
 DATE_PATS = [
@@ -62,6 +65,9 @@ VOTE_PATS = [
     re.compile(r'vote:\s*(\d+\s*[-to]+\s*\d+)', re.IGNORECASE),
 ]
 
+PZ_TERMS = ['planning','zoning','p&z','p & z','plan commission']
+CC_TERMS = ['city council','town council','council meeting','regular meeting']
+
 def parse_date(raw):
     for fmt in ['%B %d, %Y','%B %d %Y','%b %d, %Y','%b %d %Y',
                 '%m/%d/%Y','%m-%d-%Y','%Y-%m-%d','%Y/%m/%d']:
@@ -78,24 +84,47 @@ def find_date_in_text(text):
             return parse_date(m.group(1))
     return ''
 
-def extract_meeting_date(soup, url):
-    for tag in soup.select('title, h1, h2, h3, [class*="date"], [class*="Date"]'):
-        d = find_date_in_text(tag.get_text(strip=True))
-        if d and d > '2024-01-01':
-            return d
-    d = find_date_in_text(url)
-    if d and d > '2024-01-01':
-        return d
-    body = soup.get_text()[:3000]
-    dates_found = []
+def find_all_dates(text):
+    dates = []
     for pat in DATE_PATS:
-        for m in pat.finditer(body):
-            pd = parse_date(m.group(1))
-            if pd > '2024-01-01':
-                dates_found.append(pd)
-    if dates_found:
-        return max(dates_found)
-    return ''
+        for m in pat.finditer(text):
+            d = parse_date(m.group(1))
+            if d > '2025-01-01':
+                dates.append(d)
+    return sorted(set(dates), reverse=True)
+
+def fetch(url, timeout=25):
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=timeout, allow_redirects=True)
+        r.raise_for_status()
+        return r
+    except:
+        return None
+
+def get_pdf_text(pdf_url):
+    try:
+        import pdfplumber
+        import io
+        r = requests.get(pdf_url, headers=HEADERS, timeout=45)
+        r.raise_for_status()
+        ct = r.headers.get('content-type','').lower()
+        if 'pdf' not in ct and not pdf_url.lower().endswith('.pdf'):
+            if 'ViewFile' not in pdf_url:
+                return '', []
+        full_text = ''
+        lines = []
+        with pdfplumber.open(io.BytesIO(r.content)) as pdf:
+            for page in pdf.pages[:20]:
+                text = page.extract_text()
+                if text:
+                    full_text += text + '\n'
+                    for line in text.split('\n'):
+                        line = line.strip()
+                        if 20 < len(line) < 800:
+                            lines.append(line)
+        return full_text, lines
+    except Exception as e:
+        return '', []
 
 def is_noise(text):
     if len(text) < 20 or len(text) > 1000:
@@ -114,7 +143,8 @@ def is_board_name_only(text):
     t = text.lower()
     board_words = ['committee','board','commission','subcommittee','task force']
     action_words = ['amend','change','update','request','case','hearing',
-                    'rezone','plat','approve','consider','recommend','deny']
+                    'rezone','plat','approve','consider','recommend','deny',
+                    'acres','lots','district','from','to']
     if any(bw in t for bw in board_words) and not any(aw in t for aw in action_words):
         return True
     return False
@@ -138,89 +168,241 @@ def clean(text):
     text = re.sub(r'^[a-zA-Z]\.\s*', '', text)
     return text.strip()
 
-def filter_items(raw):
+def filter_items(lines):
     out = []
     seen = set()
-    for item in raw:
-        item = clean(item)
-        if is_noise(item):
+    for line in lines:
+        line = clean(line)
+        if is_noise(line):
             continue
-        if not is_action_item(item):
+        if not is_action_item(line):
             continue
-        key = item[:80].lower()
+        key = line[:80].lower()
         if key in seen:
             continue
         seen.add(key)
-        out.append(item)
+        out.append(line)
     return out
 
-def fetch(url, timeout=20):
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=timeout)
-        r.raise_for_status()
-        return r
-    except:
-        return None
+def merge_short_lines(lines):
+    merged = []
+    buf = ''
+    for line in lines:
+        if len(line) < 60 and not any(s in line.lower() for s in ACTION_SIGNALS):
+            buf += ' ' + line
+        else:
+            if buf:
+                merged.append(buf.strip())
+            buf = line
+    if buf:
+        merged.append(buf.strip())
+    return merged
 
-def get_html_items(soup):
-    items = []
-    for el in soup.select('li, .AgendaItemTitle, .agenda-item, [class*="agenda"], [class*="item"]'):
-        t = el.get_text(separator=' ', strip=True)
-        if 20 < len(t) < 1000:
-            items.append(t)
-    if len(items) < 3:
-        for el in soup.select('p, td'):
-            t = el.get_text(separator=' ', strip=True)
-            if 25 < len(t) < 800:
-                items.append(t)
-    if len(items) < 3:
-        for el in soup.select('h2, h3, h4, h5, strong, b'):
-            t = el.get_text(separator=' ', strip=True)
-            if 15 < len(t) < 500:
-                items.append(t)
-    return items
+# ============================================================
+# LEVEL 1-3: CivicPlus AgendaCenter deep crawl
+# ============================================================
 
-def get_pdf_items(pdf_url):
-    try:
-        import pdfplumber, io
-        r = requests.get(pdf_url, headers=HEADERS, timeout=30)
-        r.raise_for_status()
-        items = []
-        with pdfplumber.open(io.BytesIO(r.content)) as pdf:
-            for page in pdf.pages[:15]:
-                text = page.extract_text()
-                if text:
-                    for line in text.split('\n'):
-                        line = line.strip()
-                        if 20 < len(line) < 800:
-                            items.append(line)
-        return items
-    except:
-        return []
-
-def find_links(soup, base_url, kind='agenda'):
-    links = []
-    terms = ['agenda','packet'] if kind == 'agenda' else ['minutes','action','result']
+def find_civicplus_pdfs(soup, base_url):
+    pdfs = []
     for a in soup.find_all('a', href=True):
-        text = a.get_text(strip=True)
         href = a['href']
         if not href.startswith('http'):
             href = requests.compat.urljoin(base_url, href)
-        full = (text + ' ' + href).lower()
-        if any(w in full for w in terms):
-            ds = find_date_in_text(text + ' ' + href)
-            links.append({'text':text, 'url':href, 'date':ds, 'pdf':href.lower().endswith('.pdf')})
-    links.sort(key=lambda x: x['date'] if x['date'] else '', reverse=True)
-    return links[:5]
+        text = a.get_text(strip=True)
+        parent_text = ''
+        for parent in a.parents:
+            if parent.name in ['tr','div','li','section','td']:
+                parent_text = parent.get_text(separator=' ', strip=True)[:300]
+                break
+        is_agenda_pdf = ('ViewFile/Agenda' in href or
+                        'ViewFile/Item' in href or
+                        (href.lower().endswith('.pdf') and 'agenda' in (text + parent_text).lower()))
+        is_minutes_pdf = ('ViewFile/Minutes' in href or
+                         (href.lower().endswith('.pdf') and 'minute' in (text + parent_text).lower()))
+        if is_agenda_pdf or is_minutes_pdf:
+            date = find_date_in_text(text + ' ' + href + ' ' + parent_text)
+            context = (text + ' ' + parent_text).lower()
+            board = 'unknown'
+            if any(t in context for t in PZ_TERMS):
+                board = 'pz'
+            elif any(t in context for t in CC_TERMS):
+                board = 'cc'
+            pdfs.append({
+                'url': href,
+                'text': text,
+                'date': date,
+                'board': board,
+                'context': context[:200],
+                'type': 'minutes' if is_minutes_pdf else 'agenda'
+            })
+    return pdfs
 
-def get_votes(minutes_items, action_items):
+def find_civicplus_categories(soup, base_url):
+    cats = []
+    for a in soup.find_all('a', href=True):
+        href = a['href']
+        text = a.get_text(strip=True).lower()
+        if not href.startswith('http'):
+            href = requests.compat.urljoin(base_url, href)
+        if '/AgendaCenter/' in href and href != base_url:
+            if any(t in text for t in PZ_TERMS):
+                cats.append({'url': href, 'board': 'pz', 'text': text})
+            elif any(t in text for t in CC_TERMS):
+                cats.append({'url': href, 'board': 'cc', 'text': text})
+    return cats
+
+def scrape_civicplus(base_url, board_type):
+    result = {'agenda_url':'','meeting_date':'','items':[],'raw_count':0}
+    resp = fetch(base_url)
+    if not resp:
+        return result
+    soup = BeautifulSoup(resp.text, 'lxml')
+    all_pdfs = find_civicplus_pdfs(soup, base_url)
+    cats = find_civicplus_categories(soup, base_url)
+    for cat in cats:
+        if cat['board'] == board_type:
+            cat_resp = fetch(cat['url'])
+            if cat_resp:
+                cat_soup = BeautifulSoup(cat_resp.text, 'lxml')
+                all_pdfs.extend(find_civicplus_pdfs(cat_soup, cat['url']))
+                time.sleep(0.5)
+    target = board_type
+    agenda_pdfs = [p for p in all_pdfs if p['type'] == 'agenda' and
+                   (p['board'] == target or p['board'] == 'unknown') and
+                   p['date'] > '2025-01-01']
+    if not agenda_pdfs:
+        agenda_pdfs = [p for p in all_pdfs if p['type'] == 'agenda' and p['date'] > '2025-01-01']
+    if not agenda_pdfs:
+        agenda_pdfs = [p for p in all_pdfs if p['type'] == 'agenda']
+    agenda_pdfs.sort(key=lambda x: x['date'] if x['date'] else '', reverse=True)
+    for pdf_info in agenda_pdfs[:3]:
+        full_text, lines = get_pdf_text(pdf_info['url'])
+        if lines:
+            merged = merge_short_lines(lines)
+            actions = filter_items(merged)
+            if not actions:
+                actions = filter_items(lines)
+            if actions:
+                result['items'] = actions
+                result['meeting_date'] = pdf_info['date']
+                result['agenda_url'] = pdf_info['url']
+                result['raw_count'] = len(lines)
+                break
+        time.sleep(0.5)
+    if not result['items'] and agenda_pdfs:
+        best = agenda_pdfs[0]
+        result['meeting_date'] = best['date']
+        result['agenda_url'] = best['url']
+    minutes_pdfs = [p for p in all_pdfs if p['type'] == 'minutes' and
+                    p['date'] == result['meeting_date']]
+    if not minutes_pdfs:
+        minutes_pdfs = [p for p in all_pdfs if p['type'] == 'minutes']
+        minutes_pdfs.sort(key=lambda x: x['date'] if x['date'] else '', reverse=True)
+    for mp in minutes_pdfs[:1]:
+        full_text, mlines = get_pdf_text(mp['url'])
+        if mlines and result['items']:
+            decisions = get_votes(mlines, result['items'])
+            if decisions:
+                new_items = []
+                for item in result['items']:
+                    if item in decisions:
+                        new_items.append(item + ' [' + decisions[item] + ']')
+                    else:
+                        new_items.append(item)
+                result['items'] = new_items
+        time.sleep(0.5)
+    return result
+
+# ============================================================
+# Generic / non-CivicPlus scraper
+# ============================================================
+
+def scrape_generic(url, board_type):
+    result = {'agenda_url': url,'meeting_date':'','items':[],'raw_count':0}
+    resp = fetch(url)
+    if not resp:
+        return result
+    soup = BeautifulSoup(resp.text, 'lxml')
+    pdf_links = []
+    for a in soup.find_all('a', href=True):
+        href = a['href']
+        text = a.get_text(strip=True)
+        if not href.startswith('http'):
+            href = requests.compat.urljoin(url, href)
+        full = (text + ' ' + href).lower()
+        if href.lower().endswith('.pdf') or 'ViewFile' in href:
+            if 'agenda' in full or 'packet' in full or 'meeting' in full:
+                date = find_date_in_text(text + ' ' + href)
+                pdf_links.append({'url': href, 'date': date, 'text': text})
+    pdf_links.sort(key=lambda x: x['date'] if x['date'] else '', reverse=True)
+    recent = [p for p in pdf_links if p['date'] > '2025-01-01']
+    if not recent:
+        recent = pdf_links[:3]
+    for pl in recent[:3]:
+        full_text, lines = get_pdf_text(pl['url'])
+        if lines:
+            merged = merge_short_lines(lines)
+            actions = filter_items(merged)
+            if not actions:
+                actions = filter_items(lines)
+            if actions:
+                result['items'] = actions
+                result['meeting_date'] = pl['date']
+                result['agenda_url'] = pl['url']
+                result['raw_count'] = len(lines)
+                break
+        time.sleep(0.5)
+    if not result['items']:
+        html_links = []
+        for a in soup.find_all('a', href=True):
+            href = a['href']
+            text = a.get_text(strip=True)
+            if not href.startswith('http'):
+                href = requests.compat.urljoin(url, href)
+            full = (text + ' ' + href).lower()
+            if ('agenda' in full or 'meeting' in full) and not href.lower().endswith('.pdf'):
+                date = find_date_in_text(text + ' ' + href)
+                if date > '2025-01-01':
+                    html_links.append({'url': href, 'date': date})
+        html_links.sort(key=lambda x: x['date'], reverse=True)
+        for hl in html_links[:2]:
+            sub = fetch(hl['url'])
+            if sub:
+                sub_soup = BeautifulSoup(sub.text, 'lxml')
+                sub_pdfs = []
+                for a2 in sub_soup.find_all('a', href=True):
+                    h2 = a2['href']
+                    if not h2.startswith('http'):
+                        h2 = requests.compat.urljoin(hl['url'], h2)
+                    if h2.lower().endswith('.pdf') or 'ViewFile' in h2:
+                        sub_pdfs.append(h2)
+                for sp in sub_pdfs[:2]:
+                    ft, lines = get_pdf_text(sp)
+                    if lines:
+                        merged = merge_short_lines(lines)
+                        actions = filter_items(merged)
+                        if not actions:
+                            actions = filter_items(lines)
+                        if actions:
+                            result['items'] = actions
+                            result['meeting_date'] = hl['date']
+                            result['agenda_url'] = sp
+                            result['raw_count'] = len(lines)
+                            break
+                    time.sleep(0.3)
+                if result['items']:
+                    break
+            time.sleep(0.5)
+    return result
+
+def get_votes(minutes_lines, action_items):
     decisions = {}
     for item in action_items:
         words = [w for w in item.lower().split() if len(w) > 4][:5]
         near = ''
-        for mi in minutes_items:
-            if any(w in mi.lower() for w in words[:3]):
-                near += ' ' + mi
+        for ml in minutes_lines:
+            if any(w in ml.lower() for w in words[:3]):
+                near += ' ' + ml
         for vp in VOTE_PATS:
             vm = vp.search(near)
             if vm:
@@ -230,73 +412,30 @@ def get_votes(minutes_items, action_items):
                     break
     return decisions
 
-def scrape_board(url, city, board):
-    result = {'board':board,'agenda_url':url,'meeting_date':'','items':[],'sfr_items':[],'status':'success'}
-    resp = fetch(url)
-    if not resp:
-        result['status'] = 'error: could not reach site'
-        return result
-    soup = BeautifulSoup(resp.text, 'lxml')
-    cands = find_links(soup, url, 'agenda')
-    raw = []
-    best_date = ''
-    best_url = url
-    for c in cands[:3]:
-        if c['pdf']:
-            pi = get_pdf_items(c['url'])
-            if pi:
-                raw = pi
-                best_date = c['date']
-                best_url = c['url']
-                break
+# ============================================================
+# Main scrape function per board
+# ============================================================
+
+def scrape_board(url, city_name, board_name):
+    board_type = 'pz' if 'Zoning' in board_name else 'cc'
+    result = {'board': board_name, 'agenda_url': url, 'meeting_date': '',
+              'items': [], 'sfr_items': [], 'status': 'success'}
+    try:
+        if '/AgendaCenter' in url:
+            data = scrape_civicplus(url, board_type)
         else:
-            sub = fetch(c['url'])
-            if sub:
-                ss = BeautifulSoup(sub.text, 'lxml')
-                hi = get_html_items(ss)
-                if len(hi) > len(raw):
-                    raw = hi
-                    best_date = c['date']
-                    best_url = c['url']
-                    if not best_date:
-                        best_date = extract_meeting_date(ss, c['url'])
-        time.sleep(0.5)
-    if not raw:
-        raw = get_html_items(soup)
-    if not best_date:
-        best_date = extract_meeting_date(soup, url)
-    if best_date and best_date < '2024-01-01':
-        best_date = ''
-    actions = filter_items(raw)
-    mlinks = find_links(soup, url, 'minutes')
-    decisions = {}
-    for ml in mlinks[:2]:
-        try:
-            if ml['pdf']:
-                mi = get_pdf_items(ml['url'])
-            else:
-                mr = fetch(ml['url'])
-                mi = get_html_items(BeautifulSoup(mr.text, 'lxml')) if mr else []
-            if mi:
-                decisions = get_votes(mi, actions)
-                if decisions:
-                    break
-            time.sleep(0.5)
-        except:
-            pass
-    final = []
-    for item in actions:
-        if item in decisions:
-            final.append(item + ' [' + decisions[item] + ']')
-        else:
-            final.append(item)
-    result['items'] = final
-    result['meeting_date'] = best_date
-    result['agenda_url'] = best_url
-    for item in final:
-        kw = find_sfr(item)
-        if kw:
-            result['sfr_items'].append(item + ' [Keywords: ' + ', '.join(kw[:5]) + ']')
+            data = scrape_generic(url, board_type)
+        result['items'] = data['items']
+        result['meeting_date'] = data.get('meeting_date', '')
+        result['agenda_url'] = data.get('agenda_url', url)
+        for item in result['items']:
+            kw = find_sfr(item)
+            if kw:
+                result['sfr_items'].append(item + ' [Keywords: ' + ', '.join(kw[:5]) + ']')
+        if not result['items']:
+            result['status'] = 'no matching items found (PDF parsed: ' + str(data.get('raw_count',0)) + ' lines)'
+    except Exception as e:
+        result['status'] = 'error: ' + str(e)[:120]
     return result
 
 MUNICIPALITIES = [
@@ -391,18 +530,14 @@ def scrape_city(muni):
     for key, bname in [('pz','Planning & Zoning'),('cc','City Council')]:
         url = muni[key]
         print(f"    {bname}...", end=' ', flush=True)
-        try:
-            r = scrape_board(url, muni['name'], bname)
-            print(f"{len(r['items'])} items, {len(r['sfr_items'])} SFR")
-        except Exception as e:
-            r = {'board':bname,'agenda_url':url,'meeting_date':'','items':[],'sfr_items':[],'status':'error: '+str(e)[:100]}
-            print(f"ERROR: {str(e)[:60]}")
+        r = scrape_board(url, muni['name'], bname)
+        print(f"{len(r['items'])} items | {r['status']}")
         data['boards'].append(r)
         time.sleep(1)
     return data
 
 def main():
-    print(f"DFW Agenda Scraper v5 (Rezone | Plats | Comp Plans + Votes)")
+    print(f"DFW Agenda Scraper v6 (3-Level Deep PDF Crawl)")
     print(f"Started: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
     print(f"Scanning {len(MUNICIPALITIES)} cities...\n")
     summaries = []
@@ -414,11 +549,26 @@ def main():
         for b in cd['boards']:
             ti += len(b['items'])
             ts += len(b['sfr_items'])
-            summaries.append({'county':cd['county'],'city':cd['name'],'board':b['board'],'meeting_date':b.get('meeting_date',''),'agenda_url':b.get('agenda_url',''),'items':b['items'],'sfr_items':b['sfr_items'],'status':b.get('status','success')})
-    out = {'metadata':{'last_updated':datetime.utcnow().isoformat()+'Z','cities_scanned':len(MUNICIPALITIES),'total_action_items':ti,'total_sfr_items':ts},'summaries':summaries}
+            summaries.append({
+                'county':cd['county'],'city':cd['name'],'board':b['board'],
+                'meeting_date':b.get('meeting_date',''),
+                'agenda_url':b.get('agenda_url',''),
+                'items':b['items'],'sfr_items':b['sfr_items'],
+                'status':b.get('status','success')
+            })
+    out = {
+        'metadata':{
+            'last_updated':datetime.utcnow().isoformat()+'Z',
+            'cities_scanned':len(MUNICIPALITIES),
+            'total_action_items':ti,
+            'total_sfr_items':ts
+        },
+        'summaries':summaries
+    }
     with open('agenda_data.json','w',encoding='utf-8') as f:
         json.dump(out, f, indent=2, ensure_ascii=False)
     print(f"\nDone! Actions: {ti} | SFR: {ts}")
+    print(f"Saved to agenda_data.json")
 
 if __name__ == '__main__':
     main()
