@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "last_updated": "2026-05-07T14:02:50.289505Z",
+    "last_updated": "2026-05-07T16:19:10.925281Z",
     "cities_scanned": 84,
-    "total_action_items": 523,
-    "total_sfr_items": 134
+    "total_action_items": 0,
+    "total_sfr_items": 0
   },
   "summaries": [
     {
@@ -62,11 +62,7 @@
       "board": "City Council",
       "meeting_date": "",
       "agenda_url": "https://www.mansfieldtexas.gov/rss.aspx#agendaCenter",
-      "items": [
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader.",
-        "NOTIFY ME® Sign up for email and text notifications",
-        "MAPS View interactive and PDF maps"
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -96,18 +92,8 @@
       "board": "Planning & Zoning",
       "meeting_date": "",
       "agenda_url": "https://www.cityofsouthlake.com/rss.aspx#agendaCenter",
-      "items": [
-        "Agenda Center All Advisory Commission on Persons with Disabilities Audit Committee Building Board of Appeals Capital Improvement Advisory Committee City Council Community Enhancement and Development Corporation Corridor Planning Committee Crime Control and Prevention District Board of Directors Library Board Metroport Teen Court Advisory Board Parks and Recreation Board Planning and Zoning Commission Recreation and Athletics Task Force S.K.I.L. (Southlake Kids Interested in Leadership) S.P.A.R.K. (Students and Parents Against Risks to our Kids) S.P.I.N. (Southlake Program for the Involvement of Neighborhoods) Senior Advisory Commission Southlake 2030 Committee Southlake Arts Council Southlake Parks Development Corporation Southlake Youth Action Commission Target Industry Recruitment Task Force Tax Increment Reinvestment Zone (T.I.R.Z.) Number One Board of Directors Veterans Memorial Focus Group Meeting Zoning Board of Adjustment",
-        "Building Board of Appeals",
-        "Tax Increment Reinvestment Zone (T.I.R.Z.) Number One Board of Directors",
-        "Zoning Board of Adjustment",
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader.",
-        "Southlake Comprehensive Planning"
-      ],
-      "sfr_items": [
-        "Agenda Center All Advisory Commission on Persons with Disabilities Audit Committee Building Board of Appeals Capital Improvement Advisory Committee City Council Community Enhancement and Development Corporation Corridor Planning Committee Crime Control and Prevention District Board of Directors Library Board Metroport Teen Court Advisory Board Parks and Recreation Board Planning and Zoning Commission Recreation and Athletics Task Force S.K.I.L. (Southlake Kids Interested in Leadership) S.P.A.R.K. (Students and Parents Against Risks to our Kids) S.P.I.N. (Southlake Program for the Involvement of Neighborhoods) Senior Advisory Commission Southlake 2030 Committee Southlake Arts Council Southlake Parks Development Corporation Southlake Youth Action Commission Target Industry Recruitment Task Force Tax Increment Reinvestment Zone (T.I.R.Z.) Number One Board of Directors Veterans Memorial Focus Group Meeting Zoning Board of Adjustment [Keywords: unit]",
-        "Southlake Comprehensive Planning [Keywords: comprehensive plan]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
@@ -116,18 +102,8 @@
       "board": "City Council",
       "meeting_date": "",
       "agenda_url": "https://www.cityofsouthlake.com/rss.aspx#agendaCenter",
-      "items": [
-        "Agenda Center All Advisory Commission on Persons with Disabilities Audit Committee Building Board of Appeals Capital Improvement Advisory Committee City Council Community Enhancement and Development Corporation Corridor Planning Committee Crime Control and Prevention District Board of Directors Library Board Metroport Teen Court Advisory Board Parks and Recreation Board Planning and Zoning Commission Recreation and Athletics Task Force S.K.I.L. (Southlake Kids Interested in Leadership) S.P.A.R.K. (Students and Parents Against Risks to our Kids) S.P.I.N. (Southlake Program for the Involvement of Neighborhoods) Senior Advisory Commission Southlake 2030 Committee Southlake Arts Council Southlake Parks Development Corporation Southlake Youth Action Commission Target Industry Recruitment Task Force Tax Increment Reinvestment Zone (T.I.R.Z.) Number One Board of Directors Veterans Memorial Focus Group Meeting Zoning Board of Adjustment",
-        "Building Board of Appeals",
-        "Tax Increment Reinvestment Zone (T.I.R.Z.) Number One Board of Directors",
-        "Zoning Board of Adjustment",
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader.",
-        "Southlake Comprehensive Planning"
-      ],
-      "sfr_items": [
-        "Agenda Center All Advisory Commission on Persons with Disabilities Audit Committee Building Board of Appeals Capital Improvement Advisory Committee City Council Community Enhancement and Development Corporation Corridor Planning Committee Crime Control and Prevention District Board of Directors Library Board Metroport Teen Court Advisory Board Parks and Recreation Board Planning and Zoning Commission Recreation and Athletics Task Force S.K.I.L. (Southlake Kids Interested in Leadership) S.P.A.R.K. (Students and Parents Against Risks to our Kids) S.P.I.N. (Southlake Program for the Involvement of Neighborhoods) Senior Advisory Commission Southlake 2030 Committee Southlake Arts Council Southlake Parks Development Corporation Southlake Youth Action Commission Target Industry Recruitment Task Force Tax Increment Reinvestment Zone (T.I.R.Z.) Number One Board of Directors Veterans Memorial Focus Group Meeting Zoning Board of Adjustment [Keywords: unit]",
-        "Southlake Comprehensive Planning [Keywords: comprehensive plan]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
@@ -154,14 +130,9 @@
       "county": "Tarrant",
       "city": "Grapevine",
       "board": "Planning & Zoning",
-      "meeting_date": "",
-      "agenda_url": "http://www.grapevinetexas.gov/index.aspx?NID=1059",
-      "items": [
-        "Birth / Death Certificates Hours & Fees Other Resources",
-        "Public Records Code of Ordinances Open Records Requests",
-        "Solicitors Permits Handbills How to Obtain a Permit Do-Not Solicit List Solicitor List",
-        "How to Obtain a Permit"
-      ],
+      "meeting_date": "2024-09-25",
+      "agenda_url": "https://www.grapevinetexas.gov/AgendaCenter#contentarea",
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -169,14 +140,9 @@
       "county": "Tarrant",
       "city": "Grapevine",
       "board": "City Council",
-      "meeting_date": "",
-      "agenda_url": "http://www.grapevinetexas.gov/index.aspx?NID=1059",
-      "items": [
-        "Birth / Death Certificates Hours & Fees Other Resources",
-        "Public Records Code of Ordinances Open Records Requests",
-        "Solicitors Permits Handbills How to Obtain a Permit Do-Not Solicit List Solicitor List",
-        "How to Obtain a Permit"
-      ],
+      "meeting_date": "2024-09-25",
+      "agenda_url": "https://www.grapevinetexas.gov/AgendaCenter#contentarea",
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -186,14 +152,7 @@
       "board": "Planning & Zoning",
       "meeting_date": "",
       "agenda_url": "https://www.bedfordtx.gov/rss.aspx#agendaCenter",
-      "items": [
-        "Agenda Center All 4B Board (Street Improvement Economic Development Corporation) Animal Shelter Advisory Board Audit Committee Beautification Advisory Board Building & Standards Commission City Council Cultural Arts Advisory Board Ethics Commission Library Advisory Board Parks & Recreation Advisory Board Parks and Trails Master Plan Committee Planning & Zoning Commission Senior Advisory Board Tax Increment Reinvestment Zone #1 Board of Directors Zoning Board of Adjustment",
-        "Beautification Advisory Board",
-        "Tax Increment Reinvestment Zone #1 Board of Directors",
-        "Zoning Board of Adjustment",
-        "Boys Ranch Park Phase I Updates",
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader."
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -203,14 +162,7 @@
       "board": "City Council",
       "meeting_date": "",
       "agenda_url": "https://www.bedfordtx.gov/rss.aspx#agendaCenter",
-      "items": [
-        "Agenda Center All 4B Board (Street Improvement Economic Development Corporation) Animal Shelter Advisory Board Audit Committee Beautification Advisory Board Building & Standards Commission City Council Cultural Arts Advisory Board Ethics Commission Library Advisory Board Parks & Recreation Advisory Board Parks and Trails Master Plan Committee Planning & Zoning Commission Senior Advisory Board Tax Increment Reinvestment Zone #1 Board of Directors Zoning Board of Adjustment",
-        "Beautification Advisory Board",
-        "Tax Increment Reinvestment Zone #1 Board of Directors",
-        "Zoning Board of Adjustment",
-        "Boys Ranch Park Phase I Updates",
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader."
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -280,12 +232,7 @@
       "board": "Planning & Zoning",
       "meeting_date": "",
       "agenda_url": "https://www.burlesontx.com/AgendaCenter#contentarea",
-      "items": [
-        "Emergency Notifications",
-        "Online Payments Health Permit Online Payments Utility Bill Pay Options Traffic Citation",
-        "Health Permit Online Payments",
-        "Agendas and Minutes For the convenience of our citizens, the City of Burleson posts past agendas and minutes for all boards, commissions and committees listed below. Tools RSS Notify Me Search Agendas by: Time Period Time Period Time Period Last Week Last Month Last 6 Months Last Year Start Date End Date Enter Search Terms Select a Category All Categories Search For questions or assistance please Email or call 817-426-9660. ▲ Back to top"
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -295,12 +242,7 @@
       "board": "City Council",
       "meeting_date": "",
       "agenda_url": "https://www.burlesontx.com/AgendaCenter#contentarea",
-      "items": [
-        "Emergency Notifications",
-        "Online Payments Health Permit Online Payments Utility Bill Pay Options Traffic Citation",
-        "Health Permit Online Payments",
-        "Agendas and Minutes For the convenience of our citizens, the City of Burleson posts past agendas and minutes for all boards, commissions and committees listed below. Tools RSS Notify Me Search Agendas by: Time Period Time Period Time Period Last Week Last Month Last 6 Months Last Year Start Date End Date Enter Search Terms Select a Category All Categories Search For questions or assistance please Email or call 817-426-9660. ▲ Back to top"
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -328,70 +270,20 @@
       "county": "Tarrant",
       "city": "Benbrook",
       "board": "Planning & Zoning",
-      "meeting_date": "May 7, 2026",
+      "meeting_date": "2026-05-07",
       "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_05072026-823?html=true",
-      "items": [
-        "Minutes 04-16-2026.pdf",
-        "G-2744 Finance Report for period ending March 31, 2026 Documents: G-2744 Finance Report - Mar 26.pdf G-2744 Revenue Chart - Mar 26.pdf G-2744 Expenditure Chart - Mar 26.pdf G-2744 Sales Tax Comparison - Mar 26.pdf",
-        "G-2744 Finance Report - Mar 26.pdf",
-        "G-2744 Revenue Chart - Mar 26.pdf",
-        "G-2744 Expenditure Chart - Mar 26.pdf",
-        "G-2744 Sales Tax Comparison - Mar 26.pdf",
-        "G-2745 Quarterly Investment Report for period ending March 31, 2026 Documents: G-2745 Approve Investment Report - Mar 26.pdf G-2745 Investment Report Mar 26.pdf",
-        "G-2745 Approve Investment Report - Mar 26.pdf",
-        "G-2745 Investment Report Mar 26.pdf",
-        "G-2746 Agreement with American Medical Response Ambulance Service, Inc. to provide Emergency Medical Services (EMS) at designated properties and for citywide backup support Documents: G-2746 AMR Council Report.pdf G-2746 Emergency Medical Services Agreement (Benbrook)v4.pdf",
-        "G-2746 AMR Council Report.pdf",
-        "G-2746 Emergency Medical Services Agreement (Benbrook)v4.pdf",
-        "G-2747 Resolution to participate in Tarrant County 2026 HOME Program Documents: G-2747 Tarrant County 2026 HOME program CCC.pdf G-2747 2026 HOME Resolution.docx",
-        "G-2747 Tarrant County 2026 HOME program CCC.pdf",
-        "G-2747 2026 HOME Resolution.docx",
-        "VI. INFORMAL CITIZEN COMMENTS State Law prohibits any deliberation of or decisions regarding items presented in informal citizen comments. City Council may only make a statement of specific information given in response to the inquiry; recite an existing policy; or request staff place the item on an agenda for a subsequent meeting. The exception to informal comments is that once an election date has been set by City Council comments relative to elections will not be broadcast on the City’s cable channel. However, a copy of the tape containing citizens’ comments will be available at city hall for review or purchase by interested citizens. (Citizen comments are limited to 3 minutes)",
-        "VIII. RECESS INTO EXECUTIVE SESSION",
-        "DISCUSS PROPERTY LOCATED AT 9353 BENBROOK BLVD. Pursuant to Texas Government Code, Section 551.072 – Deliberations Regarding Real Property. Deliberate the purchase, exchange, lease, or value of real property, as deliberation in an open session would have a detrimental effect on the position of governmental body negotiations with a third person",
-        "NECESSARY ACTION FROM EXECUTIVE SESSION"
-      ],
-      "sfr_items": [
-        "G-2746 Agreement with American Medical Response Ambulance Service, Inc. to provide Emergency Medical Services (EMS) at designated properties and for citywide backup support Documents: G-2746 AMR Council Report.pdf G-2746 Emergency Medical Services Agreement (Benbrook)v4.pdf [Keywords: SUP]",
-        "G-2747 Resolution to participate in Tarrant County 2026 HOME Program Documents: G-2747 Tarrant County 2026 HOME program CCC.pdf G-2747 2026 HOME Resolution.docx [Keywords: home]",
-        "G-2747 Tarrant County 2026 HOME program CCC.pdf [Keywords: home]",
-        "G-2747 2026 HOME Resolution.docx [Keywords: home]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Tarrant",
       "city": "Benbrook",
       "board": "City Council",
-      "meeting_date": "May 7, 2026",
+      "meeting_date": "2026-05-07",
       "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_05072026-823?html=true",
-      "items": [
-        "Minutes 04-16-2026.pdf",
-        "G-2744 Finance Report for period ending March 31, 2026 Documents: G-2744 Finance Report - Mar 26.pdf G-2744 Revenue Chart - Mar 26.pdf G-2744 Expenditure Chart - Mar 26.pdf G-2744 Sales Tax Comparison - Mar 26.pdf",
-        "G-2744 Finance Report - Mar 26.pdf",
-        "G-2744 Revenue Chart - Mar 26.pdf",
-        "G-2744 Expenditure Chart - Mar 26.pdf",
-        "G-2744 Sales Tax Comparison - Mar 26.pdf",
-        "G-2745 Quarterly Investment Report for period ending March 31, 2026 Documents: G-2745 Approve Investment Report - Mar 26.pdf G-2745 Investment Report Mar 26.pdf",
-        "G-2745 Approve Investment Report - Mar 26.pdf",
-        "G-2745 Investment Report Mar 26.pdf",
-        "G-2746 Agreement with American Medical Response Ambulance Service, Inc. to provide Emergency Medical Services (EMS) at designated properties and for citywide backup support Documents: G-2746 AMR Council Report.pdf G-2746 Emergency Medical Services Agreement (Benbrook)v4.pdf",
-        "G-2746 AMR Council Report.pdf",
-        "G-2746 Emergency Medical Services Agreement (Benbrook)v4.pdf",
-        "G-2747 Resolution to participate in Tarrant County 2026 HOME Program Documents: G-2747 Tarrant County 2026 HOME program CCC.pdf G-2747 2026 HOME Resolution.docx",
-        "G-2747 Tarrant County 2026 HOME program CCC.pdf",
-        "G-2747 2026 HOME Resolution.docx",
-        "VI. INFORMAL CITIZEN COMMENTS State Law prohibits any deliberation of or decisions regarding items presented in informal citizen comments. City Council may only make a statement of specific information given in response to the inquiry; recite an existing policy; or request staff place the item on an agenda for a subsequent meeting. The exception to informal comments is that once an election date has been set by City Council comments relative to elections will not be broadcast on the City’s cable channel. However, a copy of the tape containing citizens’ comments will be available at city hall for review or purchase by interested citizens. (Citizen comments are limited to 3 minutes)",
-        "VIII. RECESS INTO EXECUTIVE SESSION",
-        "DISCUSS PROPERTY LOCATED AT 9353 BENBROOK BLVD. Pursuant to Texas Government Code, Section 551.072 – Deliberations Regarding Real Property. Deliberate the purchase, exchange, lease, or value of real property, as deliberation in an open session would have a detrimental effect on the position of governmental body negotiations with a third person",
-        "NECESSARY ACTION FROM EXECUTIVE SESSION"
-      ],
-      "sfr_items": [
-        "G-2746 Agreement with American Medical Response Ambulance Service, Inc. to provide Emergency Medical Services (EMS) at designated properties and for citywide backup support Documents: G-2746 AMR Council Report.pdf G-2746 Emergency Medical Services Agreement (Benbrook)v4.pdf [Keywords: SUP]",
-        "G-2747 Resolution to participate in Tarrant County 2026 HOME Program Documents: G-2747 Tarrant County 2026 HOME program CCC.pdf G-2747 2026 HOME Resolution.docx [Keywords: home]",
-        "G-2747 Tarrant County 2026 HOME program CCC.pdf [Keywords: home]",
-        "G-2747 2026 HOME Resolution.docx [Keywords: home]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
@@ -480,17 +372,8 @@
       "board": "Planning & Zoning",
       "meeting_date": "",
       "agenda_url": "https://www.haslet.org/AgendaCenter#contentarea",
-      "items": [
-        "Comprehensive Plan Advisory Committee",
-        "Planning and Zoning Commission Agendas & Minutes",
-        "Zoning Board of Adjustment Agendas and Minutes",
-        "Planning & Development Permits/Inspections/Zoning",
-        "Ordinances & Codes Look Up Regulations",
-        "Notify Me® Sign Up for Notifications"
-      ],
-      "sfr_items": [
-        "Comprehensive Plan Advisory Committee [Keywords: comprehensive plan]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
@@ -499,29 +382,17 @@
       "board": "City Council",
       "meeting_date": "",
       "agenda_url": "https://www.haslet.org/AgendaCenter#contentarea",
-      "items": [
-        "Comprehensive Plan Advisory Committee",
-        "Planning and Zoning Commission Agendas & Minutes",
-        "Zoning Board of Adjustment Agendas and Minutes",
-        "Planning & Development Permits/Inspections/Zoning",
-        "Ordinances & Codes Look Up Regulations",
-        "Notify Me® Sign Up for Notifications"
-      ],
-      "sfr_items": [
-        "Comprehensive Plan Advisory Committee [Keywords: comprehensive plan]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Tarrant",
       "city": "Trophy Club",
       "board": "Planning & Zoning",
-      "meeting_date": "",
+      "meeting_date": "2023-10-01",
       "agenda_url": "https://www.trophyclub.org/AgendaCenter#contentarea",
-      "items": [
-        "Agenda THIS WEBPAGE IS CURRENTLY UNDER CONSTRUCTION. All Town Council and Board and Commission meeting materials, effective October 1, 2023, are being posted on this page. Meeting agendas, minutes, and videos prior to October 2023 can be found at the following locations: Meeting agendas and minutes can be found at trophyclub.org/meetingandagendaarchive Meeting videos can be found on our YouTube page at trophyclub.org/meetingvideoarchive Thank you for your patience and understanding as we make improvements to your experience while we work to serve you better. Tools RSS Notify Me® Search Agendas by: Time Period Time Period Time Period Last Week Last Month Last 6 Months Last Year Start Date End Date Enter Search Terms Select a Category All Categories Search",
-        "Inspections & Permits"
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -529,12 +400,9 @@
       "county": "Tarrant",
       "city": "Trophy Club",
       "board": "City Council",
-      "meeting_date": "",
+      "meeting_date": "2023-10-01",
       "agenda_url": "https://www.trophyclub.org/AgendaCenter#contentarea",
-      "items": [
-        "Agenda THIS WEBPAGE IS CURRENTLY UNDER CONSTRUCTION. All Town Council and Board and Commission meeting materials, effective October 1, 2023, are being posted on this page. Meeting agendas, minutes, and videos prior to October 2023 can be found at the following locations: Meeting agendas and minutes can be found at trophyclub.org/meetingandagendaarchive Meeting videos can be found on our YouTube page at trophyclub.org/meetingvideoarchive Thank you for your patience and understanding as we make improvements to your experience while we work to serve you better. Tools RSS Notify Me® Search Agendas by: Time Period Time Period Time Period Last Week Last Month Last 6 Months Last Year Start Date End Date Enter Search Terms Select a Category All Categories Search",
-        "Inspections & Permits"
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -604,11 +472,7 @@
       "board": "Planning & Zoning",
       "meeting_date": "",
       "agenda_url": "https://www.garlandtx.gov/rss.aspx#agendaCenter",
-      "items": [
-        "Emergency Notifications",
-        "Downtown Redesign Updates",
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader."
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -618,11 +482,7 @@
       "board": "City Council",
       "meeting_date": "",
       "agenda_url": "https://www.garlandtx.gov/rss.aspx#agendaCenter",
-      "items": [
-        "Emergency Notifications",
-        "Downtown Redesign Updates",
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader."
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -632,58 +492,8 @@
       "board": "Planning & Zoning",
       "meeting_date": "",
       "agenda_url": "https://www.cityofmesquite.com/AgendaCenter",
-      "items": [
-        "Alcott Tax Increment Finance Reinvestment Zone No. 14",
-        "Gus Thomasson TIF Reinvestment Zone No. 8",
-        "Heartland Town Center Tax Increment Reinvestment Zone No. 11",
-        "IH-20 Business Park Tax Increment Finance Reinvestment Zone No. 12",
-        "Keep Mesquite Beautiful, Inc.",
-        "Misc. Notifications / Public Notices",
-        "Polo Ridge Tax Increment Reinvestment Zone No. 10",
-        "Rodeo City TIF Reinvestment Zone No. 1",
-        "Skyline Tax Increment Finance Reinvestment Zone No. 7",
-        "Solterra Tax Increment Finance Reinvestment Zone No. 15",
-        "Spradley Farms Tax Increment Reinvestment Zone No. 13",
-        "Town East/Skyline Tax Increment Reinvestment Zone No. 9",
-        "Towne Centre TIF Reinvestment Zone No. 2",
-        "City Council City Councilmembers Mayor District 1 District 2 District 3 District 4 District 5 District 6 Council District Map City Council Meetings Agendas & Minutes Pledge Watch City Council Meetings City Council Appointed Positions City Council Strategic Goals (PDF) City Elections Gallery of Mayors",
-        "City Council Strategic Goals (PDF)",
-        "City Manager's Office Cliff Keheley, City Manager Raymond Rivas, Deputy City Manager Chris Sanchez, Assistant City Manager Suzy Cluse, Assistant City Manager Awards City Directory Organizational Chart Project LEAD Real.Texas.Giving. Real. Texas. Service. Champions Town Hall Tuesdays",
-        "City Secretary Agendas & Minutes City Ordinances City Resolutions Municipal Code Public Notices Boards, Commission & Committees Elections County, State and Federal Representatives First Amendment Policy Public Information Act Records Request Center FAQs",
-        "Keep Mesquite Beautiful About KMB Events Millie the Monarch Beautification and Community Improvement Litter Prevention Recycling Initiatives Resources Service Opportunities",
-        "Beautification and Community Improvement",
-        "Neighborhood Services Animal Services Code Enforcement Keep Mesquite Beautiful Property Maintenance and Rental Inspections",
-        "Keep Mesquite Beautiful",
-        "Planning & Development Services Planning & Zoning Building Inspection Health Division Historic Preservation Neighborhood Development Comprehensive Plan",
-        "Police Alarm Permits Convenience Store & Late Hrs Business Registration Crime Map File a Police Report Online Call Archive Community Policing Current Jail Information FAQs General Orders Accident Reporting FAQ Police Commendations Programs & Services 2021 Meritorious Conduct Awards Recruiting Registered Sex Offenders The Station Santa Cop Toy Program Celebrate Safely-No Fireworks, No Firearms Auto Theft Prevention Noise Ordinance Police Officer Richard Houston MPD Impaired Driving Unit",
-        "2021 Meritorious Conduct Awards",
-        "MPD Impaired Driving Unit",
-        "Procurement Sale of Tax Foreclosures BidNet Direct Bid Openings (Beginning October 2024) Bid Tabulations City Auction Code of Ethics Conducting Business with the City Vendor Payment Options Conflict of Interest Questionnaire General Provisions Insurance Requirements Protest Procedure Procurement Department Contacts Standard Terms and Conditions Secretary of State",
-        "BidNet Direct Bid Openings (Beginning October 2024)",
-        "Revenue Collections Tax Rate Information Hotel Occupancy Tax Truth In Taxation Worksheet",
-        "Legal Americans with Disabilities Act Compliance Privacy Statement Accessibility Notice Specific To Documents Available On This Web Disclaimer EEOC Statement Public Notice of Title VI Program Rights (PDF)",
-        "Public Notice of Title VI Program Rights (PDF)",
-        "Residents Animal Services Animals In The Shelter Lost & Found Pets Database Report Concerns to Animal Control Officer Citizen Self Service (CSS) Online Permitting City Maps Code Enforcement Report A Code Violation Connect with Us Library Services Mesquite Alerts Mosquito Control myMesquite Newcomers Guide Parks and Recreation Payments Pay Property Taxes Pay Traffic Citations Pay Water Bill Public Improvement Districts (PID) Public Transportation Public Works Resource Directory Solid Waste and Recycling Look Up Your Collection Schedule Sustainability Initiatives Transportation and Electric Vehicles Electric Vehicle Charging in Mesquite Utilities (Water and Sewer) Report Water and Sewer Issues Utility Billing Office Volunteer Services",
-        "Citizen Self Service (CSS) Online Permitting",
-        "Business Economic Development Airport (Mesquite Metro Airport) Pilot Information FBO Services and Amenities Fuel Prices and Fees Hangar and Fuel Billing Airport Facts Airport Improvements Customer Forms Applications & Packets Building Inspection Adopted Codes Permit Fee Schedule Business Assistance Business Services Commercial Solid Waste Economic Development How to Develop in Mesquite Licenses & Permits Municipal Code Planning & Zoning Procurement Register as a Vendor Rental Certificate of Occupancy Program Citizen Self Service (CSS) Online Permitting City Directory City Plans Codes & Ordinances Commercial Solid Waste Demographics Historic Preservation Division Online Interactive Maps Online Project Tracking Other Development Resources Building Inspection Engineering Planning & Zoning Permits & Fees Sale of City Owned Property Special Event Permit",
-        "Building Inspection Adopted Codes Permit Fee Schedule",
-        "Business Services Commercial Solid Waste Economic Development How to Develop in Mesquite Licenses & Permits Municipal Code Planning & Zoning Procurement Register as a Vendor Rental Certificate of Occupancy Program",
-        "Rental Certificate of Occupancy Program",
-        "Other Development Resources Building Inspection Engineering Planning & Zoning",
-        "Events & Culture Downtown Mesquite Historic Mesquite, Inc. Keep Mesquite Beautiful Mesquite Arts Center Mesquite Convention and Visitors Bureau Mesquite Parks and Recreation Real. Texas. Holidays.",
-        "How Do I... Apply Boards and Commissions Employment Health Permit Permits Form Center Frequently Asked Questions Payments What Am I Paying? Frequently Asked Questions Convenience Fees Payment Types Donations Register Bicycle Registration Recreation Online Vehicle Registration Voter Registration Report ADA Compliance Complaint Code Violation Concern Graffiti Lost & Found Animal Request 50/50 Sidewalk Estimate Building Inspection Public Records Recycle Bin Special / Large Item Pickup Water and Utilities Services Sign Up For Bid Notifications City News Job Openings Mesquite Alerts View Agendas & Minutes Animal Shelter Database City Publications Comprehensive Annual Financial Report Food Establishment Scores Garbage & Recycling Days Is My Field Playable? Maps Municipal Code Serial Number Central Warrant Search Watch City Government TV My Portal Volunteer",
-        "Apply Boards and Commissions Employment Health Permit Permits",
-        "Sign Up For Bid Notifications City News Job Openings Mesquite Alerts",
-        "City Facility Policy (PDF)"
-      ],
-      "sfr_items": [
-        "Keep Mesquite Beautiful About KMB Events Millie the Monarch Beautification and Community Improvement Litter Prevention Recycling Initiatives Resources Service Opportunities [Keywords: unit]",
-        "Beautification and Community Improvement [Keywords: unit]",
-        "Planning & Development Services Planning & Zoning Building Inspection Health Division Historic Preservation Neighborhood Development Comprehensive Plan [Keywords: comprehensive plan]",
-        "Police Alarm Permits Convenience Store & Late Hrs Business Registration Crime Map File a Police Report Online Call Archive Community Policing Current Jail Information FAQs General Orders Accident Reporting FAQ Police Commendations Programs & Services 2021 Meritorious Conduct Awards Recruiting Registered Sex Offenders The Station Santa Cop Toy Program Celebrate Safely-No Fireworks, No Firearms Auto Theft Prevention Noise Ordinance Police Officer Richard Houston MPD Impaired Driving Unit [Keywords: unit]",
-        "MPD Impaired Driving Unit [Keywords: unit]",
-        "Business Economic Development Airport (Mesquite Metro Airport) Pilot Information FBO Services and Amenities Fuel Prices and Fees Hangar and Fuel Billing Airport Facts Airport Improvements Customer Forms Applications & Packets Building Inspection Adopted Codes Permit Fee Schedule Business Assistance Business Services Commercial Solid Waste Economic Development How to Develop in Mesquite Licenses & Permits Municipal Code Planning & Zoning Procurement Register as a Vendor Rental Certificate of Occupancy Program Citizen Self Service (CSS) Online Permitting City Directory City Plans Codes & Ordinances Commercial Solid Waste Demographics Historic Preservation Division Online Interactive Maps Online Project Tracking Other Development Resources Building Inspection Engineering Planning & Zoning Permits & Fees Sale of City Owned Property Special Event Permit [Keywords: lot]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
@@ -692,58 +502,8 @@
       "board": "City Council",
       "meeting_date": "",
       "agenda_url": "https://www.cityofmesquite.com/AgendaCenter",
-      "items": [
-        "Alcott Tax Increment Finance Reinvestment Zone No. 14",
-        "Gus Thomasson TIF Reinvestment Zone No. 8",
-        "Heartland Town Center Tax Increment Reinvestment Zone No. 11",
-        "IH-20 Business Park Tax Increment Finance Reinvestment Zone No. 12",
-        "Keep Mesquite Beautiful, Inc.",
-        "Misc. Notifications / Public Notices",
-        "Polo Ridge Tax Increment Reinvestment Zone No. 10",
-        "Rodeo City TIF Reinvestment Zone No. 1",
-        "Skyline Tax Increment Finance Reinvestment Zone No. 7",
-        "Solterra Tax Increment Finance Reinvestment Zone No. 15",
-        "Spradley Farms Tax Increment Reinvestment Zone No. 13",
-        "Town East/Skyline Tax Increment Reinvestment Zone No. 9",
-        "Towne Centre TIF Reinvestment Zone No. 2",
-        "City Council City Councilmembers Mayor District 1 District 2 District 3 District 4 District 5 District 6 Council District Map City Council Meetings Agendas & Minutes Pledge Watch City Council Meetings City Council Appointed Positions City Council Strategic Goals (PDF) City Elections Gallery of Mayors",
-        "City Council Strategic Goals (PDF)",
-        "City Manager's Office Cliff Keheley, City Manager Raymond Rivas, Deputy City Manager Chris Sanchez, Assistant City Manager Suzy Cluse, Assistant City Manager Awards City Directory Organizational Chart Project LEAD Real.Texas.Giving. Real. Texas. Service. Champions Town Hall Tuesdays",
-        "City Secretary Agendas & Minutes City Ordinances City Resolutions Municipal Code Public Notices Boards, Commission & Committees Elections County, State and Federal Representatives First Amendment Policy Public Information Act Records Request Center FAQs",
-        "Keep Mesquite Beautiful About KMB Events Millie the Monarch Beautification and Community Improvement Litter Prevention Recycling Initiatives Resources Service Opportunities",
-        "Beautification and Community Improvement",
-        "Neighborhood Services Animal Services Code Enforcement Keep Mesquite Beautiful Property Maintenance and Rental Inspections",
-        "Keep Mesquite Beautiful",
-        "Planning & Development Services Planning & Zoning Building Inspection Health Division Historic Preservation Neighborhood Development Comprehensive Plan",
-        "Police Alarm Permits Convenience Store & Late Hrs Business Registration Crime Map File a Police Report Online Call Archive Community Policing Current Jail Information FAQs General Orders Accident Reporting FAQ Police Commendations Programs & Services 2021 Meritorious Conduct Awards Recruiting Registered Sex Offenders The Station Santa Cop Toy Program Celebrate Safely-No Fireworks, No Firearms Auto Theft Prevention Noise Ordinance Police Officer Richard Houston MPD Impaired Driving Unit",
-        "2021 Meritorious Conduct Awards",
-        "MPD Impaired Driving Unit",
-        "Procurement Sale of Tax Foreclosures BidNet Direct Bid Openings (Beginning October 2024) Bid Tabulations City Auction Code of Ethics Conducting Business with the City Vendor Payment Options Conflict of Interest Questionnaire General Provisions Insurance Requirements Protest Procedure Procurement Department Contacts Standard Terms and Conditions Secretary of State",
-        "BidNet Direct Bid Openings (Beginning October 2024)",
-        "Revenue Collections Tax Rate Information Hotel Occupancy Tax Truth In Taxation Worksheet",
-        "Legal Americans with Disabilities Act Compliance Privacy Statement Accessibility Notice Specific To Documents Available On This Web Disclaimer EEOC Statement Public Notice of Title VI Program Rights (PDF)",
-        "Public Notice of Title VI Program Rights (PDF)",
-        "Residents Animal Services Animals In The Shelter Lost & Found Pets Database Report Concerns to Animal Control Officer Citizen Self Service (CSS) Online Permitting City Maps Code Enforcement Report A Code Violation Connect with Us Library Services Mesquite Alerts Mosquito Control myMesquite Newcomers Guide Parks and Recreation Payments Pay Property Taxes Pay Traffic Citations Pay Water Bill Public Improvement Districts (PID) Public Transportation Public Works Resource Directory Solid Waste and Recycling Look Up Your Collection Schedule Sustainability Initiatives Transportation and Electric Vehicles Electric Vehicle Charging in Mesquite Utilities (Water and Sewer) Report Water and Sewer Issues Utility Billing Office Volunteer Services",
-        "Citizen Self Service (CSS) Online Permitting",
-        "Business Economic Development Airport (Mesquite Metro Airport) Pilot Information FBO Services and Amenities Fuel Prices and Fees Hangar and Fuel Billing Airport Facts Airport Improvements Customer Forms Applications & Packets Building Inspection Adopted Codes Permit Fee Schedule Business Assistance Business Services Commercial Solid Waste Economic Development How to Develop in Mesquite Licenses & Permits Municipal Code Planning & Zoning Procurement Register as a Vendor Rental Certificate of Occupancy Program Citizen Self Service (CSS) Online Permitting City Directory City Plans Codes & Ordinances Commercial Solid Waste Demographics Historic Preservation Division Online Interactive Maps Online Project Tracking Other Development Resources Building Inspection Engineering Planning & Zoning Permits & Fees Sale of City Owned Property Special Event Permit",
-        "Building Inspection Adopted Codes Permit Fee Schedule",
-        "Business Services Commercial Solid Waste Economic Development How to Develop in Mesquite Licenses & Permits Municipal Code Planning & Zoning Procurement Register as a Vendor Rental Certificate of Occupancy Program",
-        "Rental Certificate of Occupancy Program",
-        "Other Development Resources Building Inspection Engineering Planning & Zoning",
-        "Events & Culture Downtown Mesquite Historic Mesquite, Inc. Keep Mesquite Beautiful Mesquite Arts Center Mesquite Convention and Visitors Bureau Mesquite Parks and Recreation Real. Texas. Holidays.",
-        "How Do I... Apply Boards and Commissions Employment Health Permit Permits Form Center Frequently Asked Questions Payments What Am I Paying? Frequently Asked Questions Convenience Fees Payment Types Donations Register Bicycle Registration Recreation Online Vehicle Registration Voter Registration Report ADA Compliance Complaint Code Violation Concern Graffiti Lost & Found Animal Request 50/50 Sidewalk Estimate Building Inspection Public Records Recycle Bin Special / Large Item Pickup Water and Utilities Services Sign Up For Bid Notifications City News Job Openings Mesquite Alerts View Agendas & Minutes Animal Shelter Database City Publications Comprehensive Annual Financial Report Food Establishment Scores Garbage & Recycling Days Is My Field Playable? Maps Municipal Code Serial Number Central Warrant Search Watch City Government TV My Portal Volunteer",
-        "Apply Boards and Commissions Employment Health Permit Permits",
-        "Sign Up For Bid Notifications City News Job Openings Mesquite Alerts",
-        "City Facility Policy (PDF)"
-      ],
-      "sfr_items": [
-        "Keep Mesquite Beautiful About KMB Events Millie the Monarch Beautification and Community Improvement Litter Prevention Recycling Initiatives Resources Service Opportunities [Keywords: unit]",
-        "Beautification and Community Improvement [Keywords: unit]",
-        "Planning & Development Services Planning & Zoning Building Inspection Health Division Historic Preservation Neighborhood Development Comprehensive Plan [Keywords: comprehensive plan]",
-        "Police Alarm Permits Convenience Store & Late Hrs Business Registration Crime Map File a Police Report Online Call Archive Community Policing Current Jail Information FAQs General Orders Accident Reporting FAQ Police Commendations Programs & Services 2021 Meritorious Conduct Awards Recruiting Registered Sex Offenders The Station Santa Cop Toy Program Celebrate Safely-No Fireworks, No Firearms Auto Theft Prevention Noise Ordinance Police Officer Richard Houston MPD Impaired Driving Unit [Keywords: unit]",
-        "MPD Impaired Driving Unit [Keywords: unit]",
-        "Business Economic Development Airport (Mesquite Metro Airport) Pilot Information FBO Services and Amenities Fuel Prices and Fees Hangar and Fuel Billing Airport Facts Airport Improvements Customer Forms Applications & Packets Building Inspection Adopted Codes Permit Fee Schedule Business Assistance Business Services Commercial Solid Waste Economic Development How to Develop in Mesquite Licenses & Permits Municipal Code Planning & Zoning Procurement Register as a Vendor Rental Certificate of Occupancy Program Citizen Self Service (CSS) Online Permitting City Directory City Plans Codes & Ordinances Commercial Solid Waste Demographics Historic Preservation Division Online Interactive Maps Online Project Tracking Other Development Resources Building Inspection Engineering Planning & Zoning Permits & Fees Sale of City Owned Property Special Event Permit [Keywords: lot]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
@@ -792,15 +552,8 @@
       "board": "Planning & Zoning",
       "meeting_date": "2026-05-29",
       "agenda_url": "https://www.farmersbranchtx.gov/AgendaCenter#2026-05-29",
-      "items": [
-        "Comprehensive Plan Stakeholder Advisory Committee (SAC)",
-        "Tax Increment Finance Reinvestment Zone",
-        "Zoning Board of Adjustment",
-        "Export Export to Excel Export to PDF Export to Word"
-      ],
-      "sfr_items": [
-        "Comprehensive Plan Stakeholder Advisory Committee (SAC) [Keywords: comprehensive plan]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
@@ -809,15 +562,8 @@
       "board": "City Council",
       "meeting_date": "2026-05-29",
       "agenda_url": "https://www.farmersbranchtx.gov/AgendaCenter#2026-05-29",
-      "items": [
-        "Comprehensive Plan Stakeholder Advisory Committee (SAC)",
-        "Tax Increment Finance Reinvestment Zone",
-        "Zoning Board of Adjustment",
-        "Export Export to Excel Export to PDF Export to Word"
-      ],
-      "sfr_items": [
-        "Comprehensive Plan Stakeholder Advisory Committee (SAC) [Keywords: comprehensive plan]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
@@ -846,10 +592,7 @@
       "board": "Planning & Zoning",
       "meeting_date": "",
       "agenda_url": "https://www.cedarhilltx.com/AgendaCenter#contentarea",
-      "items": [
-        "Agenda Center Tools RSS Notify Me Search Agendas by: Time Period Time Period Time Period Last Week Last Month Last 6 Months Last Year Start Date End Date Enter Search Terms Select a Category All Categories Search",
-        "Public Hearing Notices"
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -859,10 +602,7 @@
       "board": "City Council",
       "meeting_date": "",
       "agenda_url": "https://www.cedarhilltx.com/AgendaCenter#contentarea",
-      "items": [
-        "Agenda Center Tools RSS Notify Me Search Agendas by: Time Period Time Period Time Period Last Week Last Month Last 6 Months Last Year Start Date End Date Enter Search Terms Select a Category All Categories Search",
-        "Public Hearing Notices"
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -872,10 +612,7 @@
       "board": "Planning & Zoning",
       "meeting_date": "",
       "agenda_url": "https://www.lancaster-tx.com/rss.aspx#agendaCenter",
-      "items": [
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader.",
-        "Online Permit and Inspection Portal"
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -885,10 +622,7 @@
       "board": "City Council",
       "meeting_date": "",
       "agenda_url": "https://www.lancaster-tx.com/rss.aspx#agendaCenter",
-      "items": [
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader.",
-        "Online Permit and Inspection Portal"
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -938,10 +672,7 @@
       "board": "Planning & Zoning",
       "meeting_date": "",
       "agenda_url": "https://www.seagoville.us/AgendaCenter#contentarea",
-      "items": [
-        "Agendas & Minutes Tools RSS Notify Me Search Agendas by: Time Period Time Period Time Period Last Week Last Month Last 6 Months Last Year Start Date End Date Enter Search Terms Select a Category All Categories City Council Search",
-        "Permits & Inspections"
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -951,10 +682,7 @@
       "board": "City Council",
       "meeting_date": "",
       "agenda_url": "https://www.seagoville.us/AgendaCenter#contentarea",
-      "items": [
-        "Agendas & Minutes Tools RSS Notify Me Search Agendas by: Time Period Time Period Time Period Last Week Last Month Last 6 Months Last Year Start Date End Date Enter Search Terms Select a Category All Categories City Council Search",
-        "Permits & Inspections"
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -964,16 +692,8 @@
       "board": "Planning & Zoning",
       "meeting_date": "",
       "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter#contentarea",
-      "items": [
-        "Balch Springs Tax Increment Reinvestment Zone #1",
-        "Balch Springs Tax Increment Reinvestment Zone #3",
-        "Balch Springs Tax Increment Reinvestment Zone (TIRZ) #2",
-        "Comprehensive Plan Advisory Committee",
-        "Keep Balch Springs Beautiful Board"
-      ],
-      "sfr_items": [
-        "Comprehensive Plan Advisory Committee [Keywords: comprehensive plan]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
@@ -982,16 +702,8 @@
       "board": "City Council",
       "meeting_date": "",
       "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter#contentarea",
-      "items": [
-        "Balch Springs Tax Increment Reinvestment Zone #1",
-        "Balch Springs Tax Increment Reinvestment Zone #3",
-        "Balch Springs Tax Increment Reinvestment Zone (TIRZ) #2",
-        "Comprehensive Plan Advisory Committee",
-        "Keep Balch Springs Beautiful Board"
-      ],
-      "sfr_items": [
-        "Comprehensive Plan Advisory Committee [Keywords: comprehensive plan]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
@@ -1040,18 +752,8 @@
       "board": "Planning & Zoning",
       "meeting_date": "",
       "agenda_url": "https://www.friscotexas.gov/AgendaCenter#contentarea",
-      "items": [
-        "Agenda Center View current agendas and minutes for all boards and commissions. Previous years' agendas and minutes can be found in the Archive Center . Tools RSS Notify Me® Search Agendas by: Time Period Time Period Time Period Last Week Last Month Last 6 Months Last Year Start Date End Date Enter Search Terms Select a Category All Categories Search",
-        "Fiscal Year 26 Tax Rate Notice (PDF)",
-        "How Do I... Apply For Alarm Permits Alcohol Permits Block Parties Building Permits City Employment Down Payment Assistance Program Housing Rehabilitation Program Nominate Customer Service Recognition Form Pay Citations Utility Bills Register Emergency Alerts Frisco's E-News Service Pet Registration Recreation Programs, Classes & Events Voting Report Animal Services Complaints & Concerns Code Violations Health & Food Safety Complaints Police Personnel Misconduct Service Requests Request Crash Reports Line Locates Local Records Check Park Pavilion Rentals Public Information Recycling & Trash Services Utility Service View Agendas, Meetings & Ordinances Arrest & Incident Reports Campaign Reports City Financial Information Development Services Reports Engineering Monthly Reports GIS Data Interactive Maps Recreation Classes, Activities & Events",
-        "Apply For Alarm Permits Alcohol Permits Block Parties Building Permits City Employment Down Payment Assistance Program Housing Rehabilitation Program",
-        "View Agendas, Meetings & Ordinances Arrest & Incident Reports Campaign Reports City Financial Information Development Services Reports Engineering Monthly Reports GIS Data Interactive Maps Recreation Classes, Activities & Events",
-        "Agendas, Meetings & Ordinances"
-      ],
-      "sfr_items": [
-        "How Do I... Apply For Alarm Permits Alcohol Permits Block Parties Building Permits City Employment Down Payment Assistance Program Housing Rehabilitation Program Nominate Customer Service Recognition Form Pay Citations Utility Bills Register Emergency Alerts Frisco's E-News Service Pet Registration Recreation Programs, Classes & Events Voting Report Animal Services Complaints & Concerns Code Violations Health & Food Safety Complaints Police Personnel Misconduct Service Requests Request Crash Reports Line Locates Local Records Check Park Pavilion Rentals Public Information Recycling & Trash Services Utility Service View Agendas, Meetings & Ordinances Arrest & Incident Reports Campaign Reports City Financial Information Development Services Reports Engineering Monthly Reports GIS Data Interactive Maps Recreation Classes, Activities & Events [Keywords: housing]",
-        "Apply For Alarm Permits Alcohol Permits Block Parties Building Permits City Employment Down Payment Assistance Program Housing Rehabilitation Program [Keywords: housing]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
@@ -1060,18 +762,8 @@
       "board": "City Council",
       "meeting_date": "",
       "agenda_url": "https://www.friscotexas.gov/AgendaCenter#contentarea",
-      "items": [
-        "Agenda Center View current agendas and minutes for all boards and commissions. Previous years' agendas and minutes can be found in the Archive Center . Tools RSS Notify Me® Search Agendas by: Time Period Time Period Time Period Last Week Last Month Last 6 Months Last Year Start Date End Date Enter Search Terms Select a Category All Categories Search",
-        "Fiscal Year 26 Tax Rate Notice (PDF)",
-        "How Do I... Apply For Alarm Permits Alcohol Permits Block Parties Building Permits City Employment Down Payment Assistance Program Housing Rehabilitation Program Nominate Customer Service Recognition Form Pay Citations Utility Bills Register Emergency Alerts Frisco's E-News Service Pet Registration Recreation Programs, Classes & Events Voting Report Animal Services Complaints & Concerns Code Violations Health & Food Safety Complaints Police Personnel Misconduct Service Requests Request Crash Reports Line Locates Local Records Check Park Pavilion Rentals Public Information Recycling & Trash Services Utility Service View Agendas, Meetings & Ordinances Arrest & Incident Reports Campaign Reports City Financial Information Development Services Reports Engineering Monthly Reports GIS Data Interactive Maps Recreation Classes, Activities & Events",
-        "Apply For Alarm Permits Alcohol Permits Block Parties Building Permits City Employment Down Payment Assistance Program Housing Rehabilitation Program",
-        "View Agendas, Meetings & Ordinances Arrest & Incident Reports Campaign Reports City Financial Information Development Services Reports Engineering Monthly Reports GIS Data Interactive Maps Recreation Classes, Activities & Events",
-        "Agendas, Meetings & Ordinances"
-      ],
-      "sfr_items": [
-        "How Do I... Apply For Alarm Permits Alcohol Permits Block Parties Building Permits City Employment Down Payment Assistance Program Housing Rehabilitation Program Nominate Customer Service Recognition Form Pay Citations Utility Bills Register Emergency Alerts Frisco's E-News Service Pet Registration Recreation Programs, Classes & Events Voting Report Animal Services Complaints & Concerns Code Violations Health & Food Safety Complaints Police Personnel Misconduct Service Requests Request Crash Reports Line Locates Local Records Check Park Pavilion Rentals Public Information Recycling & Trash Services Utility Service View Agendas, Meetings & Ordinances Arrest & Incident Reports Campaign Reports City Financial Information Development Services Reports Engineering Monthly Reports GIS Data Interactive Maps Recreation Classes, Activities & Events [Keywords: housing]",
-        "Apply For Alarm Permits Alcohol Permits Block Parties Building Permits City Employment Down Payment Assistance Program Housing Rehabilitation Program [Keywords: housing]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
@@ -1138,7 +830,7 @@
       "county": "Collin",
       "city": "Celina",
       "board": "Planning & Zoning",
-      "meeting_date": "",
+      "meeting_date": "2017-11-28",
       "agenda_url": "https://www.celina-tx.gov/AgendaCenter",
       "items": [],
       "sfr_items": [],
@@ -1148,7 +840,7 @@
       "county": "Collin",
       "city": "Celina",
       "board": "City Council",
-      "meeting_date": "",
+      "meeting_date": "2017-11-28",
       "agenda_url": "https://www.celina-tx.gov/AgendaCenter",
       "items": [],
       "sfr_items": [],
@@ -1160,10 +852,7 @@
       "board": "Planning & Zoning",
       "meeting_date": "",
       "agenda_url": "https://www.prospertx.gov/rss.aspx#agendaCenter",
-      "items": [
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader.",
-        "Project Updates Learn More"
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -1173,10 +862,7 @@
       "board": "City Council",
       "meeting_date": "",
       "agenda_url": "https://www.prospertx.gov/rss.aspx#agendaCenter",
-      "items": [
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader.",
-        "Project Updates Learn More"
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -1184,12 +870,9 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "Planning & Zoning",
-      "meeting_date": "",
+      "meeting_date": "2025-11-01",
       "agenda_url": "https://www.princetontx.gov/AgendaCenter",
-      "items": [
-        "Zoning Board of Adjustments",
-        "Alerts & Notifications"
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -1197,12 +880,9 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "",
+      "meeting_date": "2025-11-01",
       "agenda_url": "https://www.princetontx.gov/AgendaCenter",
-      "items": [
-        "Zoning Board of Adjustments",
-        "Alerts & Notifications"
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -1230,11 +910,9 @@
       "county": "Collin",
       "city": "Sachse",
       "board": "Planning & Zoning",
-      "meeting_date": "",
+      "meeting_date": "2024-03-18",
       "agenda_url": "https://www.cityofsachse.com/328/Agendas-Minutes-Videos",
-      "items": [
-        "Click the subscriptions button in the top right corner and select the groups for which you would like to receive notification."
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -1242,11 +920,9 @@
       "county": "Collin",
       "city": "Sachse",
       "board": "City Council",
-      "meeting_date": "",
+      "meeting_date": "2024-03-18",
       "agenda_url": "https://www.cityofsachse.com/328/Agendas-Minutes-Videos",
-      "items": [
-        "Click the subscriptions button in the top right corner and select the groups for which you would like to receive notification."
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -1256,9 +932,7 @@
       "board": "Planning & Zoning",
       "meeting_date": "",
       "agenda_url": "https://www.lucastexas.us/rss.aspx#agendaCenter",
-      "items": [
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader."
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -1268,9 +942,7 @@
       "board": "City Council",
       "meeting_date": "",
       "agenda_url": "https://www.lucastexas.us/rss.aspx#agendaCenter",
-      "items": [
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader."
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -1300,10 +972,7 @@
       "board": "Planning & Zoning",
       "meeting_date": "",
       "agenda_url": "https://www.cityofdenton.com/rss.aspx#agendaCenter",
-      "items": [
-        "Keep Denton Beautiful",
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader."
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -1313,10 +982,7 @@
       "board": "City Council",
       "meeting_date": "",
       "agenda_url": "https://www.cityofdenton.com/rss.aspx#agendaCenter",
-      "items": [
-        "Keep Denton Beautiful",
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader."
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -1346,12 +1012,7 @@
       "board": "Planning & Zoning",
       "meeting_date": "",
       "agenda_url": "https://www.flower-mound.com/AgendaCenter",
-      "items": [
-        "Sign Up For Agenda Notifications",
-        "Oil and Gas Board of Appeals",
-        "Tax Increment Reinvestment Zone Board",
-        "Stay Connected Be Notified"
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -1361,12 +1022,7 @@
       "board": "City Council",
       "meeting_date": "",
       "agenda_url": "https://www.flower-mound.com/AgendaCenter",
-      "items": [
-        "Sign Up For Agenda Notifications",
-        "Oil and Gas Board of Appeals",
-        "Tax Increment Reinvestment Zone Board",
-        "Stay Connected Be Notified"
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -1376,64 +1032,8 @@
       "board": "Planning & Zoning",
       "meeting_date": "",
       "agenda_url": "https://www.littleelm.org/rss.aspx#agendaCenter",
-      "items": [
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader.",
-        "Building Permits & Safety Building Permits Commercial Permits Food Permits Garage Sales In-Home Child Care Centers Rental Registration Rental Property Registration Short Term Rental Registration Residential Permits Sign Permits Solicitor Permit",
-        "Development Services Building Permits & Safety Neighborhood Engagement Food Establishment Scores Good Neighbor Guide Mosquitos Development Portal Engineering Construction Permit Impact Fee Information Ordinances Planning & Zoning Community Connections Home Improvement Tax Incentive Program Maps Planning & Zoning Commission Platting & Subdivisions Signs Variances Zoning Land Development Code (LDC) Project Small Area Plans GIS MyGov Permits",
-        "Building Permits & Safety",
-        "Engineering Construction Permit Impact Fee Information",
-        "Planning & Zoning Community Connections Home Improvement Tax Incentive Program Maps Planning & Zoning Commission Platting & Subdivisions Signs Variances Zoning Land Development Code (LDC) Project Small Area Plans",
-        "Platting & Subdivisions",
-        "Finance Budget Adopted 2024-2025 Budget Adopted 2025-2026 Budget Annual Budget Archives Property Tax Rates Financial Reporting Annual Financial Report Municipal Energy Usage Section 380/381 Agreements Treasury Reports Unclaimed Property Debt Obligation Credit Report Hotel Occupancy Taxes Public Improvement Districts Town Investment Policy",
-        "Hotel Occupancy Taxes",
-        "Fire Fire Department Community Programs Fire Explorers Citizen's Fire Academy Santa Around Town EMS Billing Community Risk Reduction Emergency Management Contractor Guide Contractor Information Fire Code Inspection Process Burn Permits ISO Class One Public Protection Classification Operations Division Stations and Equipment Recruitment Info",
-        "Community Risk Reduction Emergency Management Contractor Guide Contractor Information Fire Code Inspection Process Burn Permits",
-        "Contractor Information",
-        "Parks & Recreation Camping Community Development Corporation Fishing Guidelines Parks & Trails Beard Park Boat Ramp Cottonwood Park Harts Branch Trail Johnny Broyles Nature Trail Lakefront Trail Little Elm Park McCord Park Public Safety Honor Park Splash Pad The Lawn at The Lakefront™ Union Park Union Park Bark Park Wood Family Dog Park Rentals & Reservations Senior Center Special Events The Cove at The Lakefront™ The Rec at The Lakefront™ Weather Updates What’s Happening at Little Elm Park This Fall & Winter",
-        "Police About Administration Media Releases Community Services Citizens Police Academy DEA Drug Takeback Day Neighborhood Watch Support Program National Night Out Request an Off-Duty Officer Video Crime Watch Divisions File an Online Police Report Join our Team Police Training Calendar Services Alarm Permits Fingerprints Registered Sex Offenders Resources & Forms E-Commerce Safe Zones Motor Vehicle Crash Report Open Records Request Resident Ride Along Application The Way Home Program Vacation House Watch",
-        "Community Services Citizens Police Academy DEA Drug Takeback Day Neighborhood Watch Support Program National Night Out Request an Off-Duty Officer Video Crime Watch",
-        "Neighborhood Watch Support Program",
-        "Services Alarm Permits Fingerprints Registered Sex Offenders",
-        "Public Works Adopt-A-Street Clean & Green Specialty Recycling Courtesy Drop Site Consumer Confidence Report Consumer Confidence Report - Spanish Lead and Copper Revised Rule Stormwater Utilities Trash, Recycle, & Bulk Utility Billing Keep Little Elm Beautiful",
-        "Keep Little Elm Beautiful",
-        "Purchasing Purchasing Home Doing Business Conflict of Interest Code of Ethics Certificate of Interested Parties-Form 1295 eProcurement eProcurement Rules PO Terms & Conditions Bidder Registration Vendor Payment Processing Purchasing Policy",
-        "Certificate of Interested Parties-Form 1295",
-        "Town Secretary Code of Ordinances Agendas and Minutes Boards, Commissions, and Corporations EDC Planning & Zoning Commission Board of Adjustment Community Development Corporation Tax Increment Reinvestment Zone No. 3 Tax Increment Reinvestment Zone No. 4 Tax Increment Reinvestment Zone No. 5",
-        "Boards, Commissions, and Corporations EDC Planning & Zoning Commission Board of Adjustment Community Development Corporation Tax Increment Reinvestment Zone No. 3 Tax Increment Reinvestment Zone No. 4 Tax Increment Reinvestment Zone No. 5",
-        "Tax Increment Reinvestment Zone No. 3",
-        "Tax Increment Reinvestment Zone No. 4",
-        "Tax Increment Reinvestment Zone No. 5",
-        "Apply For Alarm Permit Bid Opportunities Boards and Commissions Commercial Permit Employment Opportunities Food Permits Garage Sales Library Card New Trash Bins Rental Registration Residential Permit Sign Permit Solicitor Permit Special Event Permit",
-        "Find 380 Info & Updates Adopted Budget Adoptable Pets Agenda and Minutes Code of Ordinances Community Engagement E-Commerce Safe Zones Education Election Information In-Home Childcare Keep Little Elm Beautiful Library Programs Maps Military Programs Municipal Court Dockets News Reports Police Resources Public Notices Restaurant Scores Social Media Social Services Town Parks and Trails Trash Schedule Volunteer Opportunities Zoning Ordinance Ironman 70.3 Dallas-Little Elm Traffic Impact",
-        "Sign Up For Adopt-A-Street Contractor Registration E-Newsletters Little Elm Alerts The Way Home Program Utility Service - Water",
-        "Contractor Registration",
-        "Business Bid Opportunities Chamber of Commerce Economic Development Corporation Agendas & Minutes Permits & Inspections Planning & Development In-Home Child Care In Home Child Care",
-        "Permits & Inspections",
-        "Government Type of Government Mayor's Welcome and Town Council Council Meeting Procedures Mayor Curtis J. Cornelious At Large Place 1 Council Member Jamell T. Johnson Mayor Pro Tem & District 2 Council Member Tony Singh District 3 Council Member Ken Eaken District 4 Council Member Idalia Maria Amaya Deputy Mayor Pro Tem & District 5 Council Member Andrew Evans At Large Place 6 Council Member Michel Hambrick Council Districts Town Manager Denton County Agendas & Minutes, Videos Boards, Commissions & Corporations Animal Shelter Advisory Committee Board Of Adjustment Community Development Corporation (CDC) Economic Development Corporation Little Elm Local Development Corporation Little Elm Veterans Committee Little Elm Youth Council Planning & Zoning Commission Tax Increment Reinvestment Zone No. 3 Tax Increment Reinvestment Zone No. 4 Tax Increment Reinvestment Zone No. 5 Code of Ordinances Plan & Progress Elections",
-        "Boards, Commissions & Corporations Animal Shelter Advisory Committee Board Of Adjustment Community Development Corporation (CDC) Economic Development Corporation Little Elm Local Development Corporation Little Elm Veterans Committee Little Elm Youth Council Planning & Zoning Commission Tax Increment Reinvestment Zone No. 3 Tax Increment Reinvestment Zone No. 4 Tax Increment Reinvestment Zone No. 5"
-      ],
-      "sfr_items": [
-        "Building Permits & Safety Building Permits Commercial Permits Food Permits Garage Sales In-Home Child Care Centers Rental Registration Rental Property Registration Short Term Rental Registration Residential Permits Sign Permits Solicitor Permit [Keywords: residential, home]",
-        "Development Services Building Permits & Safety Neighborhood Engagement Food Establishment Scores Good Neighbor Guide Mosquitos Development Portal Engineering Construction Permit Impact Fee Information Ordinances Planning & Zoning Community Connections Home Improvement Tax Incentive Program Maps Planning & Zoning Commission Platting & Subdivisions Signs Variances Zoning Land Development Code (LDC) Project Small Area Plans GIS MyGov Permits [Keywords: plat, subdivision, impact fee, variance, home]",
-        "Engineering Construction Permit Impact Fee Information [Keywords: impact fee]",
-        "Planning & Zoning Community Connections Home Improvement Tax Incentive Program Maps Planning & Zoning Commission Platting & Subdivisions Signs Variances Zoning Land Development Code (LDC) Project Small Area Plans [Keywords: plat, subdivision, variance, home, unit]",
-        "Platting & Subdivisions [Keywords: plat, subdivision]",
-        "Fire Fire Department Community Programs Fire Explorers Citizen's Fire Academy Santa Around Town EMS Billing Community Risk Reduction Emergency Management Contractor Guide Contractor Information Fire Code Inspection Process Burn Permits ISO Class One Public Protection Classification Operations Division Stations and Equipment Recruitment Info [Keywords: unit]",
-        "Community Risk Reduction Emergency Management Contractor Guide Contractor Information Fire Code Inspection Process Burn Permits [Keywords: unit]",
-        "Parks & Recreation Camping Community Development Corporation Fishing Guidelines Parks & Trails Beard Park Boat Ramp Cottonwood Park Harts Branch Trail Johnny Broyles Nature Trail Lakefront Trail Little Elm Park McCord Park Public Safety Honor Park Splash Pad The Lawn at The Lakefront™ Union Park Union Park Bark Park Wood Family Dog Park Rentals & Reservations Senior Center Special Events The Cove at The Lakefront™ The Rec at The Lakefront™ Weather Updates What’s Happening at Little Elm Park This Fall & Winter [Keywords: unit]",
-        "Police About Administration Media Releases Community Services Citizens Police Academy DEA Drug Takeback Day Neighborhood Watch Support Program National Night Out Request an Off-Duty Officer Video Crime Watch Divisions File an Online Police Report Join our Team Police Training Calendar Services Alarm Permits Fingerprints Registered Sex Offenders Resources & Forms E-Commerce Safe Zones Motor Vehicle Crash Report Open Records Request Resident Ride Along Application The Way Home Program Vacation House Watch [Keywords: SUP, home, unit]",
-        "Community Services Citizens Police Academy DEA Drug Takeback Day Neighborhood Watch Support Program National Night Out Request an Off-Duty Officer Video Crime Watch [Keywords: SUP, unit]",
-        "Neighborhood Watch Support Program [Keywords: SUP]",
-        "Purchasing Purchasing Home Doing Business Conflict of Interest Code of Ethics Certificate of Interested Parties-Form 1295 eProcurement eProcurement Rules PO Terms & Conditions Bidder Registration Vendor Payment Processing Purchasing Policy [Keywords: home]",
-        "Town Secretary Code of Ordinances Agendas and Minutes Boards, Commissions, and Corporations EDC Planning & Zoning Commission Board of Adjustment Community Development Corporation Tax Increment Reinvestment Zone No. 3 Tax Increment Reinvestment Zone No. 4 Tax Increment Reinvestment Zone No. 5 [Keywords: unit]",
-        "Boards, Commissions, and Corporations EDC Planning & Zoning Commission Board of Adjustment Community Development Corporation Tax Increment Reinvestment Zone No. 3 Tax Increment Reinvestment Zone No. 4 Tax Increment Reinvestment Zone No. 5 [Keywords: unit]",
-        "Apply For Alarm Permit Bid Opportunities Boards and Commissions Commercial Permit Employment Opportunities Food Permits Garage Sales Library Card New Trash Bins Rental Registration Residential Permit Sign Permit Solicitor Permit Special Event Permit [Keywords: residential, unit]",
-        "Find 380 Info & Updates Adopted Budget Adoptable Pets Agenda and Minutes Code of Ordinances Community Engagement E-Commerce Safe Zones Education Election Information In-Home Childcare Keep Little Elm Beautiful Library Programs Maps Military Programs Municipal Court Dockets News Reports Police Resources Public Notices Restaurant Scores Social Media Social Services Town Parks and Trails Trash Schedule Volunteer Opportunities Zoning Ordinance Ironman 70.3 Dallas-Little Elm Traffic Impact [Keywords: home, unit]",
-        "Sign Up For Adopt-A-Street Contractor Registration E-Newsletters Little Elm Alerts The Way Home Program Utility Service - Water [Keywords: home]",
-        "Business Bid Opportunities Chamber of Commerce Economic Development Corporation Agendas & Minutes Permits & Inspections Planning & Development In-Home Child Care In Home Child Care [Keywords: home, unit]",
-        "Government Type of Government Mayor's Welcome and Town Council Council Meeting Procedures Mayor Curtis J. Cornelious At Large Place 1 Council Member Jamell T. Johnson Mayor Pro Tem & District 2 Council Member Tony Singh District 3 Council Member Ken Eaken District 4 Council Member Idalia Maria Amaya Deputy Mayor Pro Tem & District 5 Council Member Andrew Evans At Large Place 6 Council Member Michel Hambrick Council Districts Town Manager Denton County Agendas & Minutes, Videos Boards, Commissions & Corporations Animal Shelter Advisory Committee Board Of Adjustment Community Development Corporation (CDC) Economic Development Corporation Little Elm Local Development Corporation Little Elm Veterans Committee Little Elm Youth Council Planning & Zoning Commission Tax Increment Reinvestment Zone No. 3 Tax Increment Reinvestment Zone No. 4 Tax Increment Reinvestment Zone No. 5 Code of Ordinances Plan & Progress Elections [Keywords: unit]",
-        "Boards, Commissions & Corporations Animal Shelter Advisory Committee Board Of Adjustment Community Development Corporation (CDC) Economic Development Corporation Little Elm Local Development Corporation Little Elm Veterans Committee Little Elm Youth Council Planning & Zoning Commission Tax Increment Reinvestment Zone No. 3 Tax Increment Reinvestment Zone No. 4 Tax Increment Reinvestment Zone No. 5 [Keywords: unit]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
@@ -1442,135 +1042,37 @@
       "board": "City Council",
       "meeting_date": "",
       "agenda_url": "https://www.littleelm.org/rss.aspx#agendaCenter",
-      "items": [
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader.",
-        "Building Permits & Safety Building Permits Commercial Permits Food Permits Garage Sales In-Home Child Care Centers Rental Registration Rental Property Registration Short Term Rental Registration Residential Permits Sign Permits Solicitor Permit",
-        "Development Services Building Permits & Safety Neighborhood Engagement Food Establishment Scores Good Neighbor Guide Mosquitos Development Portal Engineering Construction Permit Impact Fee Information Ordinances Planning & Zoning Community Connections Home Improvement Tax Incentive Program Maps Planning & Zoning Commission Platting & Subdivisions Signs Variances Zoning Land Development Code (LDC) Project Small Area Plans GIS MyGov Permits",
-        "Building Permits & Safety",
-        "Engineering Construction Permit Impact Fee Information",
-        "Planning & Zoning Community Connections Home Improvement Tax Incentive Program Maps Planning & Zoning Commission Platting & Subdivisions Signs Variances Zoning Land Development Code (LDC) Project Small Area Plans",
-        "Platting & Subdivisions",
-        "Finance Budget Adopted 2024-2025 Budget Adopted 2025-2026 Budget Annual Budget Archives Property Tax Rates Financial Reporting Annual Financial Report Municipal Energy Usage Section 380/381 Agreements Treasury Reports Unclaimed Property Debt Obligation Credit Report Hotel Occupancy Taxes Public Improvement Districts Town Investment Policy",
-        "Hotel Occupancy Taxes",
-        "Fire Fire Department Community Programs Fire Explorers Citizen's Fire Academy Santa Around Town EMS Billing Community Risk Reduction Emergency Management Contractor Guide Contractor Information Fire Code Inspection Process Burn Permits ISO Class One Public Protection Classification Operations Division Stations and Equipment Recruitment Info",
-        "Community Risk Reduction Emergency Management Contractor Guide Contractor Information Fire Code Inspection Process Burn Permits",
-        "Contractor Information",
-        "Parks & Recreation Camping Community Development Corporation Fishing Guidelines Parks & Trails Beard Park Boat Ramp Cottonwood Park Harts Branch Trail Johnny Broyles Nature Trail Lakefront Trail Little Elm Park McCord Park Public Safety Honor Park Splash Pad The Lawn at The Lakefront™ Union Park Union Park Bark Park Wood Family Dog Park Rentals & Reservations Senior Center Special Events The Cove at The Lakefront™ The Rec at The Lakefront™ Weather Updates What’s Happening at Little Elm Park This Fall & Winter",
-        "Police About Administration Media Releases Community Services Citizens Police Academy DEA Drug Takeback Day Neighborhood Watch Support Program National Night Out Request an Off-Duty Officer Video Crime Watch Divisions File an Online Police Report Join our Team Police Training Calendar Services Alarm Permits Fingerprints Registered Sex Offenders Resources & Forms E-Commerce Safe Zones Motor Vehicle Crash Report Open Records Request Resident Ride Along Application The Way Home Program Vacation House Watch",
-        "Community Services Citizens Police Academy DEA Drug Takeback Day Neighborhood Watch Support Program National Night Out Request an Off-Duty Officer Video Crime Watch",
-        "Neighborhood Watch Support Program",
-        "Services Alarm Permits Fingerprints Registered Sex Offenders",
-        "Public Works Adopt-A-Street Clean & Green Specialty Recycling Courtesy Drop Site Consumer Confidence Report Consumer Confidence Report - Spanish Lead and Copper Revised Rule Stormwater Utilities Trash, Recycle, & Bulk Utility Billing Keep Little Elm Beautiful",
-        "Keep Little Elm Beautiful",
-        "Purchasing Purchasing Home Doing Business Conflict of Interest Code of Ethics Certificate of Interested Parties-Form 1295 eProcurement eProcurement Rules PO Terms & Conditions Bidder Registration Vendor Payment Processing Purchasing Policy",
-        "Certificate of Interested Parties-Form 1295",
-        "Town Secretary Code of Ordinances Agendas and Minutes Boards, Commissions, and Corporations EDC Planning & Zoning Commission Board of Adjustment Community Development Corporation Tax Increment Reinvestment Zone No. 3 Tax Increment Reinvestment Zone No. 4 Tax Increment Reinvestment Zone No. 5",
-        "Boards, Commissions, and Corporations EDC Planning & Zoning Commission Board of Adjustment Community Development Corporation Tax Increment Reinvestment Zone No. 3 Tax Increment Reinvestment Zone No. 4 Tax Increment Reinvestment Zone No. 5",
-        "Tax Increment Reinvestment Zone No. 3",
-        "Tax Increment Reinvestment Zone No. 4",
-        "Tax Increment Reinvestment Zone No. 5",
-        "Apply For Alarm Permit Bid Opportunities Boards and Commissions Commercial Permit Employment Opportunities Food Permits Garage Sales Library Card New Trash Bins Rental Registration Residential Permit Sign Permit Solicitor Permit Special Event Permit",
-        "Find 380 Info & Updates Adopted Budget Adoptable Pets Agenda and Minutes Code of Ordinances Community Engagement E-Commerce Safe Zones Education Election Information In-Home Childcare Keep Little Elm Beautiful Library Programs Maps Military Programs Municipal Court Dockets News Reports Police Resources Public Notices Restaurant Scores Social Media Social Services Town Parks and Trails Trash Schedule Volunteer Opportunities Zoning Ordinance Ironman 70.3 Dallas-Little Elm Traffic Impact",
-        "Sign Up For Adopt-A-Street Contractor Registration E-Newsletters Little Elm Alerts The Way Home Program Utility Service - Water",
-        "Contractor Registration",
-        "Business Bid Opportunities Chamber of Commerce Economic Development Corporation Agendas & Minutes Permits & Inspections Planning & Development In-Home Child Care In Home Child Care",
-        "Permits & Inspections",
-        "Government Type of Government Mayor's Welcome and Town Council Council Meeting Procedures Mayor Curtis J. Cornelious At Large Place 1 Council Member Jamell T. Johnson Mayor Pro Tem & District 2 Council Member Tony Singh District 3 Council Member Ken Eaken District 4 Council Member Idalia Maria Amaya Deputy Mayor Pro Tem & District 5 Council Member Andrew Evans At Large Place 6 Council Member Michel Hambrick Council Districts Town Manager Denton County Agendas & Minutes, Videos Boards, Commissions & Corporations Animal Shelter Advisory Committee Board Of Adjustment Community Development Corporation (CDC) Economic Development Corporation Little Elm Local Development Corporation Little Elm Veterans Committee Little Elm Youth Council Planning & Zoning Commission Tax Increment Reinvestment Zone No. 3 Tax Increment Reinvestment Zone No. 4 Tax Increment Reinvestment Zone No. 5 Code of Ordinances Plan & Progress Elections",
-        "Boards, Commissions & Corporations Animal Shelter Advisory Committee Board Of Adjustment Community Development Corporation (CDC) Economic Development Corporation Little Elm Local Development Corporation Little Elm Veterans Committee Little Elm Youth Council Planning & Zoning Commission Tax Increment Reinvestment Zone No. 3 Tax Increment Reinvestment Zone No. 4 Tax Increment Reinvestment Zone No. 5"
-      ],
-      "sfr_items": [
-        "Building Permits & Safety Building Permits Commercial Permits Food Permits Garage Sales In-Home Child Care Centers Rental Registration Rental Property Registration Short Term Rental Registration Residential Permits Sign Permits Solicitor Permit [Keywords: residential, home]",
-        "Development Services Building Permits & Safety Neighborhood Engagement Food Establishment Scores Good Neighbor Guide Mosquitos Development Portal Engineering Construction Permit Impact Fee Information Ordinances Planning & Zoning Community Connections Home Improvement Tax Incentive Program Maps Planning & Zoning Commission Platting & Subdivisions Signs Variances Zoning Land Development Code (LDC) Project Small Area Plans GIS MyGov Permits [Keywords: plat, subdivision, impact fee, variance, home]",
-        "Engineering Construction Permit Impact Fee Information [Keywords: impact fee]",
-        "Planning & Zoning Community Connections Home Improvement Tax Incentive Program Maps Planning & Zoning Commission Platting & Subdivisions Signs Variances Zoning Land Development Code (LDC) Project Small Area Plans [Keywords: plat, subdivision, variance, home, unit]",
-        "Platting & Subdivisions [Keywords: plat, subdivision]",
-        "Fire Fire Department Community Programs Fire Explorers Citizen's Fire Academy Santa Around Town EMS Billing Community Risk Reduction Emergency Management Contractor Guide Contractor Information Fire Code Inspection Process Burn Permits ISO Class One Public Protection Classification Operations Division Stations and Equipment Recruitment Info [Keywords: unit]",
-        "Community Risk Reduction Emergency Management Contractor Guide Contractor Information Fire Code Inspection Process Burn Permits [Keywords: unit]",
-        "Parks & Recreation Camping Community Development Corporation Fishing Guidelines Parks & Trails Beard Park Boat Ramp Cottonwood Park Harts Branch Trail Johnny Broyles Nature Trail Lakefront Trail Little Elm Park McCord Park Public Safety Honor Park Splash Pad The Lawn at The Lakefront™ Union Park Union Park Bark Park Wood Family Dog Park Rentals & Reservations Senior Center Special Events The Cove at The Lakefront™ The Rec at The Lakefront™ Weather Updates What’s Happening at Little Elm Park This Fall & Winter [Keywords: unit]",
-        "Police About Administration Media Releases Community Services Citizens Police Academy DEA Drug Takeback Day Neighborhood Watch Support Program National Night Out Request an Off-Duty Officer Video Crime Watch Divisions File an Online Police Report Join our Team Police Training Calendar Services Alarm Permits Fingerprints Registered Sex Offenders Resources & Forms E-Commerce Safe Zones Motor Vehicle Crash Report Open Records Request Resident Ride Along Application The Way Home Program Vacation House Watch [Keywords: SUP, home, unit]",
-        "Community Services Citizens Police Academy DEA Drug Takeback Day Neighborhood Watch Support Program National Night Out Request an Off-Duty Officer Video Crime Watch [Keywords: SUP, unit]",
-        "Neighborhood Watch Support Program [Keywords: SUP]",
-        "Purchasing Purchasing Home Doing Business Conflict of Interest Code of Ethics Certificate of Interested Parties-Form 1295 eProcurement eProcurement Rules PO Terms & Conditions Bidder Registration Vendor Payment Processing Purchasing Policy [Keywords: home]",
-        "Town Secretary Code of Ordinances Agendas and Minutes Boards, Commissions, and Corporations EDC Planning & Zoning Commission Board of Adjustment Community Development Corporation Tax Increment Reinvestment Zone No. 3 Tax Increment Reinvestment Zone No. 4 Tax Increment Reinvestment Zone No. 5 [Keywords: unit]",
-        "Boards, Commissions, and Corporations EDC Planning & Zoning Commission Board of Adjustment Community Development Corporation Tax Increment Reinvestment Zone No. 3 Tax Increment Reinvestment Zone No. 4 Tax Increment Reinvestment Zone No. 5 [Keywords: unit]",
-        "Apply For Alarm Permit Bid Opportunities Boards and Commissions Commercial Permit Employment Opportunities Food Permits Garage Sales Library Card New Trash Bins Rental Registration Residential Permit Sign Permit Solicitor Permit Special Event Permit [Keywords: residential, unit]",
-        "Find 380 Info & Updates Adopted Budget Adoptable Pets Agenda and Minutes Code of Ordinances Community Engagement E-Commerce Safe Zones Education Election Information In-Home Childcare Keep Little Elm Beautiful Library Programs Maps Military Programs Municipal Court Dockets News Reports Police Resources Public Notices Restaurant Scores Social Media Social Services Town Parks and Trails Trash Schedule Volunteer Opportunities Zoning Ordinance Ironman 70.3 Dallas-Little Elm Traffic Impact [Keywords: home, unit]",
-        "Sign Up For Adopt-A-Street Contractor Registration E-Newsletters Little Elm Alerts The Way Home Program Utility Service - Water [Keywords: home]",
-        "Business Bid Opportunities Chamber of Commerce Economic Development Corporation Agendas & Minutes Permits & Inspections Planning & Development In-Home Child Care In Home Child Care [Keywords: home, unit]",
-        "Government Type of Government Mayor's Welcome and Town Council Council Meeting Procedures Mayor Curtis J. Cornelious At Large Place 1 Council Member Jamell T. Johnson Mayor Pro Tem & District 2 Council Member Tony Singh District 3 Council Member Ken Eaken District 4 Council Member Idalia Maria Amaya Deputy Mayor Pro Tem & District 5 Council Member Andrew Evans At Large Place 6 Council Member Michel Hambrick Council Districts Town Manager Denton County Agendas & Minutes, Videos Boards, Commissions & Corporations Animal Shelter Advisory Committee Board Of Adjustment Community Development Corporation (CDC) Economic Development Corporation Little Elm Local Development Corporation Little Elm Veterans Committee Little Elm Youth Council Planning & Zoning Commission Tax Increment Reinvestment Zone No. 3 Tax Increment Reinvestment Zone No. 4 Tax Increment Reinvestment Zone No. 5 Code of Ordinances Plan & Progress Elections [Keywords: unit]",
-        "Boards, Commissions & Corporations Animal Shelter Advisory Committee Board Of Adjustment Community Development Corporation (CDC) Economic Development Corporation Little Elm Local Development Corporation Little Elm Veterans Committee Little Elm Youth Council Planning & Zoning Commission Tax Increment Reinvestment Zone No. 3 Tax Increment Reinvestment Zone No. 4 Tax Increment Reinvestment Zone No. 5 [Keywords: unit]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Denton",
       "city": "Corinth",
       "board": "Planning & Zoning",
-      "meeting_date": "",
+      "meeting_date": "2026-06-04",
       "agenda_url": "https://www.cityofcorinth.com/AgendaCenter#main-content",
-      "items": [
-        "My Community Column 1 About Corinth History of Corinth New Resident Guide Community Calendar City Hall On-Demand Job Opportunities Apply for a Job Police Recruit Column 2 Fire Services ISO Rating Fire Houses Outdoor Burning Police Services Ride Along Program Vacation Watch Submit an Anonymous Tip Column 3 Special Events Event Sponsorship Opportunities Event Vendor Opportunities Citizen Public Safety Academy Upcoming City Events Keep Corinth Beautiful Column 4 Volunteer Boards, Commissions, and Committees Youth Advisory Council Things to Do Commons at Agora Parks Facility Rentals Register for Classes and Camps Library Services Yard Sale Map",
-        "Keep Corinth Beautiful",
-        "My Government Column 1 Vision & Mission City Council Agendas and Minutes City Management City Manager City Secretary Executive Management Staff Column 2 Boards & Commissions Board of Adjustments Board of Construction Appeals Economic Development Corporation Planning & Zoning Commission TIRZ No. 2 TIRZ No. 3 District Boards Crime Control & Prevention Fire Control, Prevention & Emergency Medical Services Column 3 Committees Community Engagement Committee Ethics Committee Finance Audit Committee Keep Corinth Beautiful Open Government Code of Ordinances Public Records Request Red Flag Reporting Home Rule Charter Column 4 Transparency Center Open Government Portal Capital Projects Current Utility Rates Strategic Plan Hotel Occupancy Tax Program Short Term Vehicle Rental Tax",
-        "Board of Construction Appeals",
-        "Hotel Occupancy Tax Program",
-        "Doing Business Column 1 Utility Billing Pay Online Sign up for Ebills New Account Business Account Application Utility Bank Draft Move Out Request Name Change Fire Hydrant Meter Letter of Credit Property Residential Enhancement Program Column 2 Planning & Development Planning Permits Upcoming Public Hearings Municipal Court Pay Online Driver Safety Request Deferred Disposition Request Short Term Motor Vehicle Rental Tax Column 3 Police Services Alarm Permit Fire Services Burn Permit Pyrotechnic and Sparkler Permit Construction Permits and Plan Review Purchasing Services Bids & Proposals Information for Vendors Column 4 Building Services Permit Applications Application Guide Guia de Solicitud de Permisos Yard Sale Permit Economic Development Demographics Incentives Site Selection",
-        "Upcoming Public Hearings",
-        "Pyrotechnic and Sparkler Permit",
-        "Construction Permits and Plan Review",
-        "Connect With Us Column 1 City Hall On-Demand Alerts and Notifications Email Subscriptions Community Alerts Events and Meetings Agendas and Minutes Calendar Documents and Forms Documents and Reports Forms and Applications Column 2 Contact the City Submit a Request or Concern Staff Directory After Hours Numbers Business Directory Register Your Business City News Column 3 Social Media Facebook Instagram LinkedIn YouTube Podcasts Let's Talk Corinth Hours of Operation",
-        "Alerts and Notifications",
-        "Any - -Administration -Animal Control -Building Services -City Council -City Manager -City Secretary -Communications -Economic Development -Engineering -Finance -Fire Services -GIS Division -Human Resources -Keep Corinth Beautiful -Lake Cities Focus -Municipal Court -Neighborhood Services -Parks and Recreation -Planning and Development -Police -Public Works -Purchasing -Stormwater -Special Events -Streets -Technology Services -Transparency Center -Utility Billing -Water & Wastewater New Resident Guide",
-        "Any - -City Council -Board of Adjustments -Board of Construction Appeals -Corinth Economic Development Corporation -Crime Control & Prevention District -Ethics Commission -Finance Audit Committee -Fire Control, Prevention & Emergency Medical Services District -Keep Corinth Beautiful -Parks and Recreation Board -Planning & Zoning Commission"
-      ],
-      "sfr_items": [
-        "My Community Column 1 About Corinth History of Corinth New Resident Guide Community Calendar City Hall On-Demand Job Opportunities Apply for a Job Police Recruit Column 2 Fire Services ISO Rating Fire Houses Outdoor Burning Police Services Ride Along Program Vacation Watch Submit an Anonymous Tip Column 3 Special Events Event Sponsorship Opportunities Event Vendor Opportunities Citizen Public Safety Academy Upcoming City Events Keep Corinth Beautiful Column 4 Volunteer Boards, Commissions, and Committees Youth Advisory Council Things to Do Commons at Agora Parks Facility Rentals Register for Classes and Camps Library Services Yard Sale Map [Keywords: unit]",
-        "My Government Column 1 Vision & Mission City Council Agendas and Minutes City Management City Manager City Secretary Executive Management Staff Column 2 Boards & Commissions Board of Adjustments Board of Construction Appeals Economic Development Corporation Planning & Zoning Commission TIRZ No. 2 TIRZ No. 3 District Boards Crime Control & Prevention Fire Control, Prevention & Emergency Medical Services Column 3 Committees Community Engagement Committee Ethics Committee Finance Audit Committee Keep Corinth Beautiful Open Government Code of Ordinances Public Records Request Red Flag Reporting Home Rule Charter Column 4 Transparency Center Open Government Portal Capital Projects Current Utility Rates Strategic Plan Hotel Occupancy Tax Program Short Term Vehicle Rental Tax [Keywords: home, unit]",
-        "Doing Business Column 1 Utility Billing Pay Online Sign up for Ebills New Account Business Account Application Utility Bank Draft Move Out Request Name Change Fire Hydrant Meter Letter of Credit Property Residential Enhancement Program Column 2 Planning & Development Planning Permits Upcoming Public Hearings Municipal Court Pay Online Driver Safety Request Deferred Disposition Request Short Term Motor Vehicle Rental Tax Column 3 Police Services Alarm Permit Fire Services Burn Permit Pyrotechnic and Sparkler Permit Construction Permits and Plan Review Purchasing Services Bids & Proposals Information for Vendors Column 4 Building Services Permit Applications Application Guide Guia de Solicitud de Permisos Yard Sale Permit Economic Development Demographics Incentives Site Selection [Keywords: residential]",
-        "Connect With Us Column 1 City Hall On-Demand Alerts and Notifications Email Subscriptions Community Alerts Events and Meetings Agendas and Minutes Calendar Documents and Forms Documents and Reports Forms and Applications Column 2 Contact the City Submit a Request or Concern Staff Directory After Hours Numbers Business Directory Register Your Business City News Column 3 Social Media Facebook Instagram LinkedIn YouTube Podcasts Let's Talk Corinth Hours of Operation [Keywords: unit]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Denton",
       "city": "Corinth",
       "board": "City Council",
-      "meeting_date": "",
+      "meeting_date": "2026-06-04",
       "agenda_url": "https://www.cityofcorinth.com/AgendaCenter#main-content",
-      "items": [
-        "My Community Column 1 About Corinth History of Corinth New Resident Guide Community Calendar City Hall On-Demand Job Opportunities Apply for a Job Police Recruit Column 2 Fire Services ISO Rating Fire Houses Outdoor Burning Police Services Ride Along Program Vacation Watch Submit an Anonymous Tip Column 3 Special Events Event Sponsorship Opportunities Event Vendor Opportunities Citizen Public Safety Academy Upcoming City Events Keep Corinth Beautiful Column 4 Volunteer Boards, Commissions, and Committees Youth Advisory Council Things to Do Commons at Agora Parks Facility Rentals Register for Classes and Camps Library Services Yard Sale Map",
-        "Keep Corinth Beautiful",
-        "My Government Column 1 Vision & Mission City Council Agendas and Minutes City Management City Manager City Secretary Executive Management Staff Column 2 Boards & Commissions Board of Adjustments Board of Construction Appeals Economic Development Corporation Planning & Zoning Commission TIRZ No. 2 TIRZ No. 3 District Boards Crime Control & Prevention Fire Control, Prevention & Emergency Medical Services Column 3 Committees Community Engagement Committee Ethics Committee Finance Audit Committee Keep Corinth Beautiful Open Government Code of Ordinances Public Records Request Red Flag Reporting Home Rule Charter Column 4 Transparency Center Open Government Portal Capital Projects Current Utility Rates Strategic Plan Hotel Occupancy Tax Program Short Term Vehicle Rental Tax",
-        "Board of Construction Appeals",
-        "Hotel Occupancy Tax Program",
-        "Doing Business Column 1 Utility Billing Pay Online Sign up for Ebills New Account Business Account Application Utility Bank Draft Move Out Request Name Change Fire Hydrant Meter Letter of Credit Property Residential Enhancement Program Column 2 Planning & Development Planning Permits Upcoming Public Hearings Municipal Court Pay Online Driver Safety Request Deferred Disposition Request Short Term Motor Vehicle Rental Tax Column 3 Police Services Alarm Permit Fire Services Burn Permit Pyrotechnic and Sparkler Permit Construction Permits and Plan Review Purchasing Services Bids & Proposals Information for Vendors Column 4 Building Services Permit Applications Application Guide Guia de Solicitud de Permisos Yard Sale Permit Economic Development Demographics Incentives Site Selection",
-        "Upcoming Public Hearings",
-        "Pyrotechnic and Sparkler Permit",
-        "Construction Permits and Plan Review",
-        "Connect With Us Column 1 City Hall On-Demand Alerts and Notifications Email Subscriptions Community Alerts Events and Meetings Agendas and Minutes Calendar Documents and Forms Documents and Reports Forms and Applications Column 2 Contact the City Submit a Request or Concern Staff Directory After Hours Numbers Business Directory Register Your Business City News Column 3 Social Media Facebook Instagram LinkedIn YouTube Podcasts Let's Talk Corinth Hours of Operation",
-        "Alerts and Notifications",
-        "Any - -Administration -Animal Control -Building Services -City Council -City Manager -City Secretary -Communications -Economic Development -Engineering -Finance -Fire Services -GIS Division -Human Resources -Keep Corinth Beautiful -Lake Cities Focus -Municipal Court -Neighborhood Services -Parks and Recreation -Planning and Development -Police -Public Works -Purchasing -Stormwater -Special Events -Streets -Technology Services -Transparency Center -Utility Billing -Water & Wastewater New Resident Guide",
-        "Any - -City Council -Board of Adjustments -Board of Construction Appeals -Corinth Economic Development Corporation -Crime Control & Prevention District -Ethics Commission -Finance Audit Committee -Fire Control, Prevention & Emergency Medical Services District -Keep Corinth Beautiful -Parks and Recreation Board -Planning & Zoning Commission"
-      ],
-      "sfr_items": [
-        "My Community Column 1 About Corinth History of Corinth New Resident Guide Community Calendar City Hall On-Demand Job Opportunities Apply for a Job Police Recruit Column 2 Fire Services ISO Rating Fire Houses Outdoor Burning Police Services Ride Along Program Vacation Watch Submit an Anonymous Tip Column 3 Special Events Event Sponsorship Opportunities Event Vendor Opportunities Citizen Public Safety Academy Upcoming City Events Keep Corinth Beautiful Column 4 Volunteer Boards, Commissions, and Committees Youth Advisory Council Things to Do Commons at Agora Parks Facility Rentals Register for Classes and Camps Library Services Yard Sale Map [Keywords: unit]",
-        "My Government Column 1 Vision & Mission City Council Agendas and Minutes City Management City Manager City Secretary Executive Management Staff Column 2 Boards & Commissions Board of Adjustments Board of Construction Appeals Economic Development Corporation Planning & Zoning Commission TIRZ No. 2 TIRZ No. 3 District Boards Crime Control & Prevention Fire Control, Prevention & Emergency Medical Services Column 3 Committees Community Engagement Committee Ethics Committee Finance Audit Committee Keep Corinth Beautiful Open Government Code of Ordinances Public Records Request Red Flag Reporting Home Rule Charter Column 4 Transparency Center Open Government Portal Capital Projects Current Utility Rates Strategic Plan Hotel Occupancy Tax Program Short Term Vehicle Rental Tax [Keywords: home, unit]",
-        "Doing Business Column 1 Utility Billing Pay Online Sign up for Ebills New Account Business Account Application Utility Bank Draft Move Out Request Name Change Fire Hydrant Meter Letter of Credit Property Residential Enhancement Program Column 2 Planning & Development Planning Permits Upcoming Public Hearings Municipal Court Pay Online Driver Safety Request Deferred Disposition Request Short Term Motor Vehicle Rental Tax Column 3 Police Services Alarm Permit Fire Services Burn Permit Pyrotechnic and Sparkler Permit Construction Permits and Plan Review Purchasing Services Bids & Proposals Information for Vendors Column 4 Building Services Permit Applications Application Guide Guia de Solicitud de Permisos Yard Sale Permit Economic Development Demographics Incentives Site Selection [Keywords: residential]",
-        "Connect With Us Column 1 City Hall On-Demand Alerts and Notifications Email Subscriptions Community Alerts Events and Meetings Agendas and Minutes Calendar Documents and Forms Documents and Reports Forms and Applications Column 2 Contact the City Submit a Request or Concern Staff Directory After Hours Numbers Business Directory Register Your Business City News Column 3 Social Media Facebook Instagram LinkedIn YouTube Podcasts Let's Talk Corinth Hours of Operation [Keywords: unit]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Denton",
       "city": "The Colony",
       "board": "Planning & Zoning",
-      "meeting_date": "",
+      "meeting_date": "2013-04-06",
       "agenda_url": "https://www.thecolonytx.gov/rss.aspx#agendaCenter",
-      "items": [
-        "Keep The Colony Beautiful",
-        "Kids Colony Demolition Day",
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader."
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -1578,13 +1080,9 @@
       "county": "Denton",
       "city": "The Colony",
       "board": "City Council",
-      "meeting_date": "",
+      "meeting_date": "2013-04-06",
       "agenda_url": "https://www.thecolonytx.gov/rss.aspx#agendaCenter",
-      "items": [
-        "Keep The Colony Beautiful",
-        "Kids Colony Demolition Day",
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader."
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -1592,125 +1090,49 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "Planning & Zoning",
-      "meeting_date": "",
+      "meeting_date": "2026-05-11",
       "agenda_url": "https://www.argyletx.com/rss.aspx#agendaCenter",
-      "items": [
-        "Agenda Center All Capital Improvement Advisory Committee Comprehensive Plan Advisory Committee Crime Control & Prevention District Municipal Development District Parks Committee Planning & Zoning Commission Town Council Zoning Board of Adjustment",
-        "Comprehensive Plan Advisory Committee",
-        "Zoning Board of Adjustment",
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader.",
-        "Notify Me Connect with the town.",
-        "Motion to Dismiss (PDF)"
-      ],
-      "sfr_items": [
-        "Agenda Center All Capital Improvement Advisory Committee Comprehensive Plan Advisory Committee Crime Control & Prevention District Municipal Development District Parks Committee Planning & Zoning Commission Town Council Zoning Board of Adjustment [Keywords: comprehensive plan]",
-        "Comprehensive Plan Advisory Committee [Keywords: comprehensive plan]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Denton",
       "city": "Argyle",
       "board": "City Council",
-      "meeting_date": "",
+      "meeting_date": "2026-05-11",
       "agenda_url": "https://www.argyletx.com/rss.aspx#agendaCenter",
-      "items": [
-        "Agenda Center All Capital Improvement Advisory Committee Comprehensive Plan Advisory Committee Crime Control & Prevention District Municipal Development District Parks Committee Planning & Zoning Commission Town Council Zoning Board of Adjustment",
-        "Comprehensive Plan Advisory Committee",
-        "Zoning Board of Adjustment",
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader.",
-        "Notify Me Connect with the town.",
-        "Motion to Dismiss (PDF)"
-      ],
-      "sfr_items": [
-        "Agenda Center All Capital Improvement Advisory Committee Comprehensive Plan Advisory Committee Crime Control & Prevention District Municipal Development District Parks Committee Planning & Zoning Commission Town Council Zoning Board of Adjustment [Keywords: comprehensive plan]",
-        "Comprehensive Plan Advisory Committee [Keywords: comprehensive plan]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Denton",
       "city": "Aubrey",
       "board": "Planning & Zoning",
-      "meeting_date": "",
+      "meeting_date": "2026-03-28",
       "agenda_url": "https://www.aubreytx.gov/AgendaCenter",
-      "items": [
-        "Business Bid Invitations Business Directory Chamber of Commerce Code of Ordinances Commercial Properties Listing & Economic Development",
-        "Government Agendas & Minutes Home Rule Charter Elections Boards & Commissions Board of Adjustment Capital Improvements Advisory & Impact Fee Committee Library Board Mayor & City Council Municipal Development District Parks and Recreation Board Planning & Zoning Commission Comprehensive Plan Documents Mapping Resources Mayor & City Council Ordinances Capital Improvement Program Annual Report 2025",
-        "Boards & Commissions Board of Adjustment Capital Improvements Advisory & Impact Fee Committee Library Board Mayor & City Council Municipal Development District Parks and Recreation Board Planning & Zoning Commission Comprehensive Plan Documents",
-        "Planning & Zoning Commission Comprehensive Plan Documents",
-        "Comprehensive Plan Documents",
-        "Development Services List of Permits Issued Extra-Territorial Jurisdiction (ETJ) Building Permits Solicitation License Mapping",
-        "List of Permits Issued",
-        "Economic Development Municipal Development District Economic Development Agreements",
-        "Economic Development Agreements",
-        "Finance Financial Transparency Annual Energy Use Budget Annual Comprehensive Financial Report (ACFR) Debt Summary Monthly Financial Statements Quarterly Investment Reports Tax Rate Hotel Occupancy Tax",
-        "Financial Transparency Annual Energy Use Budget Annual Comprehensive Financial Report (ACFR) Debt Summary Monthly Financial Statements Quarterly Investment Reports Tax Rate Hotel Occupancy Tax",
-        "Police Department About Us Our Communities Department Staff Message From The Chief Career Opportunities Online Forms Take Me Home Crime Tips Code Compliance Residential & Commercial Grounds Code Violation List Sex Offender Information Current Sex Offenders Aubrey PD Map Portal DIY Search",
-        "Sex Offender Information Current Sex Offenders Aubrey PD Map Portal DIY Search",
-        "How Do I... Apply For Employment Opportunities Contact Animal Control Code Enforcement City Staff Mayor & City Council Municipal Court Police Department Find Code of Ordinances Election Information Pay A Ticket Water Bill Sign Up For Alerts Email Subscriptions Notifications Utilities Submit Open Records Request Payment for a Ticket Submit a Request or Concern Service Request Water Bill Payment",
-        "Find Code of Ordinances Election Information",
-        "Sign Up For Alerts Email Subscriptions Notifications Utilities"
-      ],
-      "sfr_items": [
-        "Government Agendas & Minutes Home Rule Charter Elections Boards & Commissions Board of Adjustment Capital Improvements Advisory & Impact Fee Committee Library Board Mayor & City Council Municipal Development District Parks and Recreation Board Planning & Zoning Commission Comprehensive Plan Documents Mapping Resources Mayor & City Council Ordinances Capital Improvement Program Annual Report 2025 [Keywords: comprehensive plan, impact fee, home]",
-        "Boards & Commissions Board of Adjustment Capital Improvements Advisory & Impact Fee Committee Library Board Mayor & City Council Municipal Development District Parks and Recreation Board Planning & Zoning Commission Comprehensive Plan Documents [Keywords: comprehensive plan, impact fee]",
-        "Planning & Zoning Commission Comprehensive Plan Documents [Keywords: comprehensive plan]",
-        "Comprehensive Plan Documents [Keywords: comprehensive plan]",
-        "Economic Development Municipal Development District Economic Development Agreements [Keywords: development agreement]",
-        "Economic Development Agreements [Keywords: development agreement]",
-        "Police Department About Us Our Communities Department Staff Message From The Chief Career Opportunities Online Forms Take Me Home Crime Tips Code Compliance Residential & Commercial Grounds Code Violation List Sex Offender Information Current Sex Offenders Aubrey PD Map Portal DIY Search [Keywords: residential, home, unit]",
-        "How Do I... Apply For Employment Opportunities Contact Animal Control Code Enforcement City Staff Mayor & City Council Municipal Court Police Department Find Code of Ordinances Election Information Pay A Ticket Water Bill Sign Up For Alerts Email Subscriptions Notifications Utilities Submit Open Records Request Payment for a Ticket Submit a Request or Concern Service Request Water Bill Payment [Keywords: unit]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Denton",
       "city": "Aubrey",
       "board": "City Council",
-      "meeting_date": "",
+      "meeting_date": "2026-03-28",
       "agenda_url": "https://www.aubreytx.gov/AgendaCenter",
-      "items": [
-        "Business Bid Invitations Business Directory Chamber of Commerce Code of Ordinances Commercial Properties Listing & Economic Development",
-        "Government Agendas & Minutes Home Rule Charter Elections Boards & Commissions Board of Adjustment Capital Improvements Advisory & Impact Fee Committee Library Board Mayor & City Council Municipal Development District Parks and Recreation Board Planning & Zoning Commission Comprehensive Plan Documents Mapping Resources Mayor & City Council Ordinances Capital Improvement Program Annual Report 2025",
-        "Boards & Commissions Board of Adjustment Capital Improvements Advisory & Impact Fee Committee Library Board Mayor & City Council Municipal Development District Parks and Recreation Board Planning & Zoning Commission Comprehensive Plan Documents",
-        "Planning & Zoning Commission Comprehensive Plan Documents",
-        "Comprehensive Plan Documents",
-        "Development Services List of Permits Issued Extra-Territorial Jurisdiction (ETJ) Building Permits Solicitation License Mapping",
-        "List of Permits Issued",
-        "Economic Development Municipal Development District Economic Development Agreements",
-        "Economic Development Agreements",
-        "Finance Financial Transparency Annual Energy Use Budget Annual Comprehensive Financial Report (ACFR) Debt Summary Monthly Financial Statements Quarterly Investment Reports Tax Rate Hotel Occupancy Tax",
-        "Financial Transparency Annual Energy Use Budget Annual Comprehensive Financial Report (ACFR) Debt Summary Monthly Financial Statements Quarterly Investment Reports Tax Rate Hotel Occupancy Tax",
-        "Police Department About Us Our Communities Department Staff Message From The Chief Career Opportunities Online Forms Take Me Home Crime Tips Code Compliance Residential & Commercial Grounds Code Violation List Sex Offender Information Current Sex Offenders Aubrey PD Map Portal DIY Search",
-        "Sex Offender Information Current Sex Offenders Aubrey PD Map Portal DIY Search",
-        "How Do I... Apply For Employment Opportunities Contact Animal Control Code Enforcement City Staff Mayor & City Council Municipal Court Police Department Find Code of Ordinances Election Information Pay A Ticket Water Bill Sign Up For Alerts Email Subscriptions Notifications Utilities Submit Open Records Request Payment for a Ticket Submit a Request or Concern Service Request Water Bill Payment",
-        "Find Code of Ordinances Election Information",
-        "Sign Up For Alerts Email Subscriptions Notifications Utilities"
-      ],
-      "sfr_items": [
-        "Government Agendas & Minutes Home Rule Charter Elections Boards & Commissions Board of Adjustment Capital Improvements Advisory & Impact Fee Committee Library Board Mayor & City Council Municipal Development District Parks and Recreation Board Planning & Zoning Commission Comprehensive Plan Documents Mapping Resources Mayor & City Council Ordinances Capital Improvement Program Annual Report 2025 [Keywords: comprehensive plan, impact fee, home]",
-        "Boards & Commissions Board of Adjustment Capital Improvements Advisory & Impact Fee Committee Library Board Mayor & City Council Municipal Development District Parks and Recreation Board Planning & Zoning Commission Comprehensive Plan Documents [Keywords: comprehensive plan, impact fee]",
-        "Planning & Zoning Commission Comprehensive Plan Documents [Keywords: comprehensive plan]",
-        "Comprehensive Plan Documents [Keywords: comprehensive plan]",
-        "Economic Development Municipal Development District Economic Development Agreements [Keywords: development agreement]",
-        "Economic Development Agreements [Keywords: development agreement]",
-        "Police Department About Us Our Communities Department Staff Message From The Chief Career Opportunities Online Forms Take Me Home Crime Tips Code Compliance Residential & Commercial Grounds Code Violation List Sex Offender Information Current Sex Offenders Aubrey PD Map Portal DIY Search [Keywords: residential, home, unit]",
-        "How Do I... Apply For Employment Opportunities Contact Animal Control Code Enforcement City Staff Mayor & City Council Municipal Court Police Department Find Code of Ordinances Election Information Pay A Ticket Water Bill Sign Up For Alerts Email Subscriptions Notifications Utilities Submit Open Records Request Payment for a Ticket Submit a Request or Concern Service Request Water Bill Payment [Keywords: unit]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Denton",
       "city": "Sanger",
       "board": "Planning & Zoning",
-      "meeting_date": "",
+      "meeting_date": "2022-06-06",
       "agenda_url": "https://www.sangertexas.org/rss.aspx#agendaCenter",
-      "items": [
-        "Agenda Center All City Council Planning & Zoning Commission",
-        "2025 Employee Service Awards",
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader."
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -1718,13 +1140,9 @@
       "county": "Denton",
       "city": "Sanger",
       "board": "City Council",
-      "meeting_date": "",
+      "meeting_date": "2022-06-06",
       "agenda_url": "https://www.sangertexas.org/rss.aspx#agendaCenter",
-      "items": [
-        "Agenda Center All City Council Planning & Zoning Commission",
-        "2025 Employee Service Awards",
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader."
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -1732,11 +1150,9 @@
       "county": "Denton",
       "city": "Pilot Point",
       "board": "Planning & Zoning",
-      "meeting_date": "",
+      "meeting_date": "2025-09-29",
       "agenda_url": "https://www.cityofpilotpoint.org/AgendaCenter#contentarea",
-      "items": [
-        "Permits & Inspections"
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -1744,11 +1160,9 @@
       "county": "Denton",
       "city": "Pilot Point",
       "board": "City Council",
-      "meeting_date": "",
+      "meeting_date": "2025-09-29",
       "agenda_url": "https://www.cityofpilotpoint.org/AgendaCenter#contentarea",
-      "items": [
-        "Permits & Inspections"
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -1776,76 +1190,49 @@
       "county": "Denton",
       "city": "Justin",
       "board": "Planning & Zoning",
-      "meeting_date": "",
+      "meeting_date": "2023-04-11",
       "agenda_url": "https://www.cityofjustin.com/AgendaCenter#contentarea",
-      "items": [
-        "Comprehensive Plan Advisory Committee"
-      ],
-      "sfr_items": [
-        "Comprehensive Plan Advisory Committee [Keywords: comprehensive plan]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Denton",
       "city": "Justin",
       "board": "City Council",
-      "meeting_date": "",
+      "meeting_date": "2023-04-11",
       "agenda_url": "https://www.cityofjustin.com/AgendaCenter#contentarea",
-      "items": [
-        "Comprehensive Plan Advisory Committee"
-      ],
-      "sfr_items": [
-        "Comprehensive Plan Advisory Committee [Keywords: comprehensive plan]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Denton",
       "city": "Roanoke",
       "board": "Planning & Zoning",
-      "meeting_date": "",
+      "meeting_date": "2016-01-11",
       "agenda_url": "https://www.roanoketexas.com/rss.aspx#agendaCenter",
-      "items": [
-        "Active Solicitation Permits",
-        "Agenda Center All Al & Lula Mae Slaughter Park Foundation Charter Review Commission City Council Crime Control and Prevention District Keep Roanoke Beautiful Board Park Board Planning & Zoning Commission Roanoke Historical Society Board Type A Economic & Industrial Development Corporation Type B Community & Economic Development Corporation Zoning Board of Adjustment",
-        "Keep Roanoke Beautiful Board",
-        "Zoning Board of Adjustment",
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader."
-      ],
-      "sfr_items": [
-        "Agenda Center All Al & Lula Mae Slaughter Park Foundation Charter Review Commission City Council Crime Control and Prevention District Keep Roanoke Beautiful Board Park Board Planning & Zoning Commission Roanoke Historical Society Board Type A Economic & Industrial Development Corporation Type B Community & Economic Development Corporation Zoning Board of Adjustment [Keywords: unit]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Denton",
       "city": "Roanoke",
       "board": "City Council",
-      "meeting_date": "",
+      "meeting_date": "2016-01-11",
       "agenda_url": "https://www.roanoketexas.com/rss.aspx#agendaCenter",
-      "items": [
-        "Active Solicitation Permits",
-        "Agenda Center All Al & Lula Mae Slaughter Park Foundation Charter Review Commission City Council Crime Control and Prevention District Keep Roanoke Beautiful Board Park Board Planning & Zoning Commission Roanoke Historical Society Board Type A Economic & Industrial Development Corporation Type B Community & Economic Development Corporation Zoning Board of Adjustment",
-        "Keep Roanoke Beautiful Board",
-        "Zoning Board of Adjustment",
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader."
-      ],
-      "sfr_items": [
-        "Agenda Center All Al & Lula Mae Slaughter Park Foundation Charter Review Commission City Council Crime Control and Prevention District Keep Roanoke Beautiful Board Park Board Planning & Zoning Commission Roanoke Historical Society Board Type A Economic & Industrial Development Corporation Type B Community & Economic Development Corporation Zoning Board of Adjustment [Keywords: unit]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Denton",
       "city": "Cross Roads",
       "board": "Planning & Zoning",
-      "meeting_date": "",
+      "meeting_date": "2026-05-14",
       "agenda_url": "https://www.crossroadstx.gov/list.aspx#agendaCenter",
-      "items": [
-        "Agenda Center Method List Name Description Municipal Development District Planning and Zoning Commission Town Council",
-        "Method List Name Description Municipal Development District Planning and Zoning Commission Town Council"
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -1853,12 +1240,9 @@
       "county": "Denton",
       "city": "Cross Roads",
       "board": "City Council",
-      "meeting_date": "",
+      "meeting_date": "2026-05-14",
       "agenda_url": "https://www.crossroadstx.gov/list.aspx#agendaCenter",
-      "items": [
-        "Agenda Center Method List Name Description Municipal Development District Planning and Zoning Commission Town Council",
-        "Method List Name Description Municipal Development District Planning and Zoning Commission Town Council"
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -1866,36 +1250,20 @@
       "county": "Denton",
       "city": "Oak Point",
       "board": "Planning & Zoning",
-      "meeting_date": "",
+      "meeting_date": "2026-05-11",
       "agenda_url": "https://www.oakpointtexas.com/rss.aspx#agendaCenter",
-      "items": [
-        "Agenda Center All 50th Anniversary Planning Committee Board of Adjustment Capital Improvements Plan City Council Code Enforcement Committee Comprehensive Plan Update Committee Economic Development Corporation Board of Directors Municipal Development District Board of Directors Parks & Recreation Commission Planning & Zoning Commission",
-        "Comprehensive Plan Update Committee",
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader.",
-        "Permitting & Inspections"
-      ],
-      "sfr_items": [
-        "Agenda Center All 50th Anniversary Planning Committee Board of Adjustment Capital Improvements Plan City Council Code Enforcement Committee Comprehensive Plan Update Committee Economic Development Corporation Board of Directors Municipal Development District Board of Directors Parks & Recreation Commission Planning & Zoning Commission [Keywords: comprehensive plan]",
-        "Comprehensive Plan Update Committee [Keywords: comprehensive plan]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Denton",
       "city": "Oak Point",
       "board": "City Council",
-      "meeting_date": "",
+      "meeting_date": "2026-05-11",
       "agenda_url": "https://www.oakpointtexas.com/rss.aspx#agendaCenter",
-      "items": [
-        "Agenda Center All 50th Anniversary Planning Committee Board of Adjustment Capital Improvements Plan City Council Code Enforcement Committee Comprehensive Plan Update Committee Economic Development Corporation Board of Directors Municipal Development District Board of Directors Parks & Recreation Commission Planning & Zoning Commission",
-        "Comprehensive Plan Update Committee",
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader.",
-        "Permitting & Inspections"
-      ],
-      "sfr_items": [
-        "Agenda Center All 50th Anniversary Planning Committee Board of Adjustment Capital Improvements Plan City Council Code Enforcement Committee Comprehensive Plan Update Committee Economic Development Corporation Board of Directors Municipal Development District Board of Directors Parks & Recreation Commission Planning & Zoning Commission [Keywords: comprehensive plan]",
-        "Comprehensive Plan Update Committee [Keywords: comprehensive plan]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
@@ -1903,25 +1271,9 @@
       "city": "Waxahachie",
       "board": "Planning & Zoning",
       "meeting_date": "",
-      "agenda_url": "https://www.waxahachie.com/departments/city_secretary/citizen_participation.php",
-      "items": [
-        "Building and Community Services Building Inspection Plan Review Permitting/Applications Code Enforcement Health Inspection Waste Disposal Codes and Ordinances",
-        "Permitting/Applications",
-        "City Secretary Beer and Wine Sales Boards & Commissions Chapter 380 and 381 Database Codes and Ordinances Elections/Elección Open Records Request Public Meeting Participation",
-        "Human Resources Employment Opportunities Job Interest Notifications Job Descriptions",
-        "Job Interest Notifications",
-        "Parks & Recreation Parks Master Plan Senior Center Waxahachie Sports Complex Keep Waxahachie Beautiful Park Pavilion Rental Citizens Convenience Station City Cemetery Lee Penn Park Pool Special Event Application",
-        "Keep Waxahachie Beautiful",
-        "Planning Department Community Profile Comprehensive Plan Current Cases Development Process Development Review Committee GIS and Mapping Services",
-        "City Projects Lower Mustang Creek Lift Station Expansion University Avenue Graham Street Wilmington Avenue Grove Creek Road Parallel Trunk Sewer Water Street Water and Sewer Improvements Grand Avenue Pavement Improvements and Striping Wastewater Treatment Plant Clarifier Sagebrush Lane Road Improvements Waxahachie Police Department Parking Expansion IH 35 E Water Line Improvements 2022 Water and Wastewater Bond City Hall Renovation Project Charlotte Avenue US 77 Water Main Extension Phase 1 FM 664 Water & Sanitary Sewer Highland & Grand Ave Water Tank Rehabilitation DR MLK JR BLVD Water & Sidewalk Project 2024 Asphalt Road Rehab",
-        "2022 Water and Wastewater Bond"
-      ],
-      "sfr_items": [
-        "Building and Community Services Building Inspection Plan Review Permitting/Applications Code Enforcement Health Inspection Waste Disposal Codes and Ordinances [Keywords: unit]",
-        "Human Resources Employment Opportunities Job Interest Notifications Job Descriptions [Keywords: unit]",
-        "Planning Department Community Profile Comprehensive Plan Current Cases Development Process Development Review Committee GIS and Mapping Services [Keywords: comprehensive plan, unit]",
-        "City Projects Lower Mustang Creek Lift Station Expansion University Avenue Graham Street Wilmington Avenue Grove Creek Road Parallel Trunk Sewer Water Street Water and Sewer Improvements Grand Avenue Pavement Improvements and Striping Wastewater Treatment Plant Clarifier Sagebrush Lane Road Improvements Waxahachie Police Department Parking Expansion IH 35 E Water Line Improvements 2022 Water and Wastewater Bond City Hall Renovation Project Charlotte Avenue US 77 Water Main Extension Phase 1 FM 664 Water & Sanitary Sewer Highland & Grand Ave Water Tank Rehabilitation DR MLK JR BLVD Water & Sidewalk Project 2024 Asphalt Road Rehab [Keywords: lot]"
-      ],
+      "agenda_url": "https://www.waxahachie.com/AgendaCenter#main",
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
@@ -1929,36 +1281,18 @@
       "city": "Waxahachie",
       "board": "City Council",
       "meeting_date": "",
-      "agenda_url": "https://www.waxahachie.com/departments/city_secretary/citizen_participation.php",
-      "items": [
-        "Building and Community Services Building Inspection Plan Review Permitting/Applications Code Enforcement Health Inspection Waste Disposal Codes and Ordinances",
-        "Permitting/Applications",
-        "City Secretary Beer and Wine Sales Boards & Commissions Chapter 380 and 381 Database Codes and Ordinances Elections/Elección Open Records Request Public Meeting Participation",
-        "Human Resources Employment Opportunities Job Interest Notifications Job Descriptions",
-        "Job Interest Notifications",
-        "Parks & Recreation Parks Master Plan Senior Center Waxahachie Sports Complex Keep Waxahachie Beautiful Park Pavilion Rental Citizens Convenience Station City Cemetery Lee Penn Park Pool Special Event Application",
-        "Keep Waxahachie Beautiful",
-        "Planning Department Community Profile Comprehensive Plan Current Cases Development Process Development Review Committee GIS and Mapping Services",
-        "City Projects Lower Mustang Creek Lift Station Expansion University Avenue Graham Street Wilmington Avenue Grove Creek Road Parallel Trunk Sewer Water Street Water and Sewer Improvements Grand Avenue Pavement Improvements and Striping Wastewater Treatment Plant Clarifier Sagebrush Lane Road Improvements Waxahachie Police Department Parking Expansion IH 35 E Water Line Improvements 2022 Water and Wastewater Bond City Hall Renovation Project Charlotte Avenue US 77 Water Main Extension Phase 1 FM 664 Water & Sanitary Sewer Highland & Grand Ave Water Tank Rehabilitation DR MLK JR BLVD Water & Sidewalk Project 2024 Asphalt Road Rehab",
-        "2022 Water and Wastewater Bond"
-      ],
-      "sfr_items": [
-        "Building and Community Services Building Inspection Plan Review Permitting/Applications Code Enforcement Health Inspection Waste Disposal Codes and Ordinances [Keywords: unit]",
-        "Human Resources Employment Opportunities Job Interest Notifications Job Descriptions [Keywords: unit]",
-        "Planning Department Community Profile Comprehensive Plan Current Cases Development Process Development Review Committee GIS and Mapping Services [Keywords: comprehensive plan, unit]",
-        "City Projects Lower Mustang Creek Lift Station Expansion University Avenue Graham Street Wilmington Avenue Grove Creek Road Parallel Trunk Sewer Water Street Water and Sewer Improvements Grand Avenue Pavement Improvements and Striping Wastewater Treatment Plant Clarifier Sagebrush Lane Road Improvements Waxahachie Police Department Parking Expansion IH 35 E Water Line Improvements 2022 Water and Wastewater Bond City Hall Renovation Project Charlotte Avenue US 77 Water Main Extension Phase 1 FM 664 Water & Sanitary Sewer Highland & Grand Ave Water Tank Rehabilitation DR MLK JR BLVD Water & Sidewalk Project 2024 Asphalt Road Rehab [Keywords: lot]"
-      ],
+      "agenda_url": "https://www.waxahachie.com/AgendaCenter#main",
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Ellis",
       "city": "Midlothian",
       "board": "Planning & Zoning",
-      "meeting_date": "",
+      "meeting_date": "2026-04-09",
       "agenda_url": "https://www.midlothian.tx.us/AgendaCenter#contentarea",
-      "items": [
-        "Agenda Center Tools RSS Notify Me Search Agendas by: Time Period Time Period Time Period Last Week Last Month Last 6 Months Last Year Start Date End Date Enter Search Terms Select a Category All Categories Search"
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -1966,11 +1300,9 @@
       "county": "Ellis",
       "city": "Midlothian",
       "board": "City Council",
-      "meeting_date": "",
+      "meeting_date": "2026-04-09",
       "agenda_url": "https://www.midlothian.tx.us/AgendaCenter#contentarea",
-      "items": [
-        "Agenda Center Tools RSS Notify Me Search Agendas by: Time Period Time Period Time Period Last Week Last Month Last 6 Months Last Year Start Date End Date Enter Search Terms Select a Category All Categories Search"
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -1999,11 +1331,8 @@
       "city": "Red Oak",
       "board": "Planning & Zoning",
       "meeting_date": "",
-      "agenda_url": "https://www.redoaktx.org/AgendaCenter#contentarea",
-      "items": [
-        "Agenda Center Tools RSS Notify Me Search Agendas by: Time Period Time Period Time Period Last Week Last Month Last 6 Months Last Year Start Date End Date Enter Search Terms Select a Category All Categories Search",
-        "Emergency Notifications"
-      ],
+      "agenda_url": "https://www.redoaktx.org/rss.aspx#agendaCenter",
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -2012,11 +1341,8 @@
       "city": "Red Oak",
       "board": "City Council",
       "meeting_date": "",
-      "agenda_url": "https://www.redoaktx.org/AgendaCenter#contentarea",
-      "items": [
-        "Agenda Center Tools RSS Notify Me Search Agendas by: Time Period Time Period Time Period Last Week Last Month Last 6 Months Last Year Start Date End Date Enter Search Terms Select a Category All Categories Search",
-        "Emergency Notifications"
-      ],
+      "agenda_url": "https://www.redoaktx.org/rss.aspx#agendaCenter",
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -2064,44 +1390,29 @@
       "county": "Rockwall",
       "city": "Fate",
       "board": "Planning & Zoning",
-      "meeting_date": "",
+      "meeting_date": "2026-04-25",
       "agenda_url": "https://www.fatetx.gov/AgendaCenter#contentarea",
-      "items": [
-        "Comprehensive Plan Advisory Committee",
-        "Zoning Board of Adjustment"
-      ],
-      "sfr_items": [
-        "Comprehensive Plan Advisory Committee [Keywords: comprehensive plan]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Rockwall",
       "city": "Fate",
       "board": "City Council",
-      "meeting_date": "",
+      "meeting_date": "2026-04-25",
       "agenda_url": "https://www.fatetx.gov/AgendaCenter#contentarea",
-      "items": [
-        "Comprehensive Plan Advisory Committee",
-        "Zoning Board of Adjustment"
-      ],
-      "sfr_items": [
-        "Comprehensive Plan Advisory Committee [Keywords: comprehensive plan]"
-      ],
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Rockwall",
       "city": "Royse City",
       "board": "Planning & Zoning",
-      "meeting_date": "",
+      "meeting_date": "2026-05-12",
       "agenda_url": "https://www.roysecity.com/rss.aspx#agendaCenter",
-      "items": [
-        "Agenda Center All City Council Heritage Preservation Committee Main Street Advisory Board Miscellaneous Parks, Recreation & Arts Board Planning & Zoning Commission Zoning Board of Adjustment",
-        "Zoning Board of Adjustment",
-        "Weather-Related Service Schedule Update",
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader."
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -2109,14 +1420,9 @@
       "county": "Rockwall",
       "city": "Royse City",
       "board": "City Council",
-      "meeting_date": "",
+      "meeting_date": "2026-05-12",
       "agenda_url": "https://www.roysecity.com/rss.aspx#agendaCenter",
-      "items": [
-        "Agenda Center All City Council Heritage Preservation Committee Main Street Advisory Board Miscellaneous Parks, Recreation & Arts Board Planning & Zoning Commission Zoning Board of Adjustment",
-        "Zoning Board of Adjustment",
-        "Weather-Related Service Schedule Update",
-        "Decide what type of content you want the RSS reader to monitor. Many websites provide RSS, which can usually be found on those sites as a link. An orange button is often used to display the service’s availability. Sometimes the RSS feed is automatically added to the RSS reader and updates are sent every time new content is available. Alternatively, you may have to click the RSS link and copy it into your RSS reader."
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -2124,30 +1430,20 @@
       "county": "Kaufman",
       "city": "Forney",
       "board": "Planning & Zoning",
-      "meeting_date": "October 29, 2019",
-      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_10292019-606?html=true",
-      "items": [
-        "Discuss and consider any necessary action on recommendations to the City Council for the Forney Home Rule Charter.",
-        "I, Jon Thatcher, City Attorney, certify that the above NOTICE OF MEETING was filed and posted on the Bulletin Board at City Hall, 101 East Main Street, Forney, Texas on the 25 th day of October 2019, at 12:00 P.M. and remained so posted until removed as indicated below. This notice was posted on the City website at www.forneytx.gov ."
-      ],
-      "sfr_items": [
-        "Discuss and consider any necessary action on recommendations to the City Council for the Forney Home Rule Charter. [Keywords: home]"
-      ],
+      "meeting_date": "2026-04-30",
+      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_04282026-1269?html=true",
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Kaufman",
       "city": "Forney",
       "board": "City Council",
-      "meeting_date": "October 29, 2019",
-      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_10292019-606?html=true",
-      "items": [
-        "Discuss and consider any necessary action on recommendations to the City Council for the Forney Home Rule Charter.",
-        "I, Jon Thatcher, City Attorney, certify that the above NOTICE OF MEETING was filed and posted on the Bulletin Board at City Hall, 101 East Main Street, Forney, Texas on the 25 th day of October 2019, at 12:00 P.M. and remained so posted until removed as indicated below. This notice was posted on the City website at www.forneytx.gov ."
-      ],
-      "sfr_items": [
-        "Discuss and consider any necessary action on recommendations to the City Council for the Forney Home Rule Charter. [Keywords: home]"
-      ],
+      "meeting_date": "2026-04-30",
+      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_04282026-1269?html=true",
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
@@ -2215,13 +1511,8 @@
       "city": "Cleburne",
       "board": "Planning & Zoning",
       "meeting_date": "",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter#contentarea",
-      "items": [
-        "Tax Increment Financing District No. 1 - Industrial",
-        "Tax Increment Financing District No. 3 - Chisholm",
-        "Tax Increment Financing District No. 4 - Downtown",
-        "Zoning Board of Adjustment"
-      ],
+      "agenda_url": "https://www.cleburne.net/rss.aspx#agendaCenter",
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -2230,13 +1521,8 @@
       "city": "Cleburne",
       "board": "City Council",
       "meeting_date": "",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter#contentarea",
-      "items": [
-        "Tax Increment Financing District No. 1 - Industrial",
-        "Tax Increment Financing District No. 3 - Chisholm",
-        "Tax Increment Financing District No. 4 - Downtown",
-        "Zoning Board of Adjustment"
-      ],
+      "agenda_url": "https://www.cleburne.net/rss.aspx#agendaCenter",
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -2286,9 +1572,7 @@
       "board": "Planning & Zoning",
       "meeting_date": "",
       "agenda_url": "https://www.weatherfordtx.gov/AgendaCenter#contentarea",
-      "items": [
-        "Agenda Center Tools RSS Notify Me Search Agendas by: Time Period Time Period Time Period Last Week Last Month Last 6 Months Last Year Start Date End Date Enter Search Terms Select a Category All Categories Search"
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -2298,9 +1582,7 @@
       "board": "City Council",
       "meeting_date": "",
       "agenda_url": "https://www.weatherfordtx.gov/AgendaCenter#contentarea",
-      "items": [
-        "Agenda Center Tools RSS Notify Me Search Agendas by: Time Period Time Period Time Period Last Week Last Month Last 6 Months Last Year Start Date End Date Enter Search Terms Select a Category All Categories Search"
-      ],
+      "items": [],
       "sfr_items": [],
       "status": "success"
     },
@@ -2368,7 +1650,7 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "Planning & Zoning",
-      "meeting_date": "May 5, 2026",
+      "meeting_date": "2026-05-05",
       "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_05052026-1508",
       "items": [],
       "sfr_items": [],
@@ -2378,7 +1660,7 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "City Council",
-      "meeting_date": "May 5, 2026",
+      "meeting_date": "2026-05-05",
       "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_05052026-1508",
       "items": [],
       "sfr_items": [],
@@ -2389,38 +1671,9 @@
       "city": "Bridgeport",
       "board": "Planning & Zoning",
       "meeting_date": "",
-      "agenda_url": "https://www.cityofbridgeport.net/607/Meeting-Live-Stream",
-      "items": [
-        "How Do I... Apply For Certificate of Occupancy Employment Plumbing Permit Utility Service Volunteer Fire Department Sign Permit Contact City Council City Staff Find Animal Control/Animal Shelter Bridgeport Public Library Community Resources Local Organizations Northwest OHV Park Parks Programs Special Events Water Restrictions Register For CivicReady Contractor & Master License Report Problems in Bridgeport Request Access to Open Records Access to Public Police Information View Agendas & Minutes Applications & Permits Budget & Financial Reports Code of Ordinances Community Plan Election Information Home Rule Public Notices Water & Wastewater Information",
-        "Apply For Certificate of Occupancy Employment Plumbing Permit Utility Service Volunteer Fire Department Sign Permit",
-        "Certificate of Occupancy",
-        "Register For CivicReady Contractor & Master License",
-        "Contractor & Master License",
-        "View Agendas & Minutes Applications & Permits Budget & Financial Reports Code of Ordinances Community Plan Election Information Home Rule Public Notices Water & Wastewater Information",
-        "Applications & Permits",
-        "Code of Ordinances Bridgeport Code of Ordinances",
-        "Bridgeport Code of Ordinances",
-        "Development Services Building Inspection Code of Ordinances Community Plan Engineering Design Manual GIS Landowner Bill of Rights Planning & Zoning Planning & Zoning Commission Contact Us",
-        "Economic Development About Bridgeport EDC EDC Board Endeavor Bridgeport Sites & Buildings Available Tax Increment Reinvestment Zone (TIRZ) Bridgeport Marketing Guide Contact Us",
-        "Tax Increment Reinvestment Zone (TIRZ)",
-        "Financial Services Budget & Financial Reports FAQs Hotel Occupancy Tax (HOT$) Vendors Contact Us Independent Registered Municipal Advisor City utility usage and expense Current Year Budget Amendments Section 26.18 Tax Code Information",
-        "Hotel Occupancy Tax (HOT$)",
-        "Current Year Budget Amendments",
-        "Main Street Texas Main Street Program Main Street Board Facade Improvement Incentive Program Services Contact Us DBD Annual Open Container Permit",
-        "DBD Annual Open Container Permit",
-        "Parks & Recreation Northwest OHV Park Aquatics Facebook Facility Rentals Parks Programs Special Events Sponsorship Opportunities (PDF) Contact Us City-Wide Garage Sale Parks Master Plan 2021 Special Event Photos",
-        "Sponsorship Opportunities (PDF)",
-        "Police Services Career Opportunities Annual Statistics & Information BPD CrossFit Coffee With A Cop Command Staff Code Compliance Communications Documents and Forms Facebook Fallen Officers Public Information Request Racial Profiling Data Special Programs Contact Us Sex Offenders List State Accreditation Social Media Policy for Police Department",
-        "Services Applications & Permits CivicReady Facility Rentals Animal Services FixIt Form Garage Sales Garbage Collection Online Payments Utilities Application for Utility Service Conservation & Energy Efficiency Tips Online Payments Setting Up An Account Utility Assistance Contact Us"
-      ],
-      "sfr_items": [
-        "How Do I... Apply For Certificate of Occupancy Employment Plumbing Permit Utility Service Volunteer Fire Department Sign Permit Contact City Council City Staff Find Animal Control/Animal Shelter Bridgeport Public Library Community Resources Local Organizations Northwest OHV Park Parks Programs Special Events Water Restrictions Register For CivicReady Contractor & Master License Report Problems in Bridgeport Request Access to Open Records Access to Public Police Information View Agendas & Minutes Applications & Permits Budget & Financial Reports Code of Ordinances Community Plan Election Information Home Rule Public Notices Water & Wastewater Information [Keywords: home, unit]",
-        "View Agendas & Minutes Applications & Permits Budget & Financial Reports Code of Ordinances Community Plan Election Information Home Rule Public Notices Water & Wastewater Information [Keywords: home, unit]",
-        "Development Services Building Inspection Code of Ordinances Community Plan Engineering Design Manual GIS Landowner Bill of Rights Planning & Zoning Planning & Zoning Commission Contact Us [Keywords: unit]",
-        "Parks & Recreation Northwest OHV Park Aquatics Facebook Facility Rentals Parks Programs Special Events Sponsorship Opportunities (PDF) Contact Us City-Wide Garage Sale Parks Master Plan 2021 Special Event Photos [Keywords: unit]",
-        "Sponsorship Opportunities (PDF) [Keywords: unit]",
-        "Police Services Career Opportunities Annual Statistics & Information BPD CrossFit Coffee With A Cop Command Staff Code Compliance Communications Documents and Forms Facebook Fallen Officers Public Information Request Racial Profiling Data Special Programs Contact Us Sex Offenders List State Accreditation Social Media Policy for Police Department [Keywords: unit]"
-      ],
+      "agenda_url": "https://www.cityofbridgeport.net/AgendaCenter#contentarea",
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     },
     {
@@ -2428,38 +1681,9 @@
       "city": "Bridgeport",
       "board": "City Council",
       "meeting_date": "",
-      "agenda_url": "https://www.cityofbridgeport.net/607/Meeting-Live-Stream",
-      "items": [
-        "How Do I... Apply For Certificate of Occupancy Employment Plumbing Permit Utility Service Volunteer Fire Department Sign Permit Contact City Council City Staff Find Animal Control/Animal Shelter Bridgeport Public Library Community Resources Local Organizations Northwest OHV Park Parks Programs Special Events Water Restrictions Register For CivicReady Contractor & Master License Report Problems in Bridgeport Request Access to Open Records Access to Public Police Information View Agendas & Minutes Applications & Permits Budget & Financial Reports Code of Ordinances Community Plan Election Information Home Rule Public Notices Water & Wastewater Information",
-        "Apply For Certificate of Occupancy Employment Plumbing Permit Utility Service Volunteer Fire Department Sign Permit",
-        "Certificate of Occupancy",
-        "Register For CivicReady Contractor & Master License",
-        "Contractor & Master License",
-        "View Agendas & Minutes Applications & Permits Budget & Financial Reports Code of Ordinances Community Plan Election Information Home Rule Public Notices Water & Wastewater Information",
-        "Applications & Permits",
-        "Code of Ordinances Bridgeport Code of Ordinances",
-        "Bridgeport Code of Ordinances",
-        "Development Services Building Inspection Code of Ordinances Community Plan Engineering Design Manual GIS Landowner Bill of Rights Planning & Zoning Planning & Zoning Commission Contact Us",
-        "Economic Development About Bridgeport EDC EDC Board Endeavor Bridgeport Sites & Buildings Available Tax Increment Reinvestment Zone (TIRZ) Bridgeport Marketing Guide Contact Us",
-        "Tax Increment Reinvestment Zone (TIRZ)",
-        "Financial Services Budget & Financial Reports FAQs Hotel Occupancy Tax (HOT$) Vendors Contact Us Independent Registered Municipal Advisor City utility usage and expense Current Year Budget Amendments Section 26.18 Tax Code Information",
-        "Hotel Occupancy Tax (HOT$)",
-        "Current Year Budget Amendments",
-        "Main Street Texas Main Street Program Main Street Board Facade Improvement Incentive Program Services Contact Us DBD Annual Open Container Permit",
-        "DBD Annual Open Container Permit",
-        "Parks & Recreation Northwest OHV Park Aquatics Facebook Facility Rentals Parks Programs Special Events Sponsorship Opportunities (PDF) Contact Us City-Wide Garage Sale Parks Master Plan 2021 Special Event Photos",
-        "Sponsorship Opportunities (PDF)",
-        "Police Services Career Opportunities Annual Statistics & Information BPD CrossFit Coffee With A Cop Command Staff Code Compliance Communications Documents and Forms Facebook Fallen Officers Public Information Request Racial Profiling Data Special Programs Contact Us Sex Offenders List State Accreditation Social Media Policy for Police Department",
-        "Services Applications & Permits CivicReady Facility Rentals Animal Services FixIt Form Garage Sales Garbage Collection Online Payments Utilities Application for Utility Service Conservation & Energy Efficiency Tips Online Payments Setting Up An Account Utility Assistance Contact Us"
-      ],
-      "sfr_items": [
-        "How Do I... Apply For Certificate of Occupancy Employment Plumbing Permit Utility Service Volunteer Fire Department Sign Permit Contact City Council City Staff Find Animal Control/Animal Shelter Bridgeport Public Library Community Resources Local Organizations Northwest OHV Park Parks Programs Special Events Water Restrictions Register For CivicReady Contractor & Master License Report Problems in Bridgeport Request Access to Open Records Access to Public Police Information View Agendas & Minutes Applications & Permits Budget & Financial Reports Code of Ordinances Community Plan Election Information Home Rule Public Notices Water & Wastewater Information [Keywords: home, unit]",
-        "View Agendas & Minutes Applications & Permits Budget & Financial Reports Code of Ordinances Community Plan Election Information Home Rule Public Notices Water & Wastewater Information [Keywords: home, unit]",
-        "Development Services Building Inspection Code of Ordinances Community Plan Engineering Design Manual GIS Landowner Bill of Rights Planning & Zoning Planning & Zoning Commission Contact Us [Keywords: unit]",
-        "Parks & Recreation Northwest OHV Park Aquatics Facebook Facility Rentals Parks Programs Special Events Sponsorship Opportunities (PDF) Contact Us City-Wide Garage Sale Parks Master Plan 2021 Special Event Photos [Keywords: unit]",
-        "Sponsorship Opportunities (PDF) [Keywords: unit]",
-        "Police Services Career Opportunities Annual Statistics & Information BPD CrossFit Coffee With A Cop Command Staff Code Compliance Communications Documents and Forms Facebook Fallen Officers Public Information Request Racial Profiling Data Special Programs Contact Us Sex Offenders List State Accreditation Social Media Policy for Police Department [Keywords: unit]"
-      ],
+      "agenda_url": "https://www.cityofbridgeport.net/AgendaCenter#contentarea",
+      "items": [],
+      "sfr_items": [],
       "status": "success"
     }
   ]
