@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "last_updated": "2026-05-07T19:26:50.109573Z",
-    "cities_scanned": 84,
+    "last_updated": "2026-05-07T21:03:53.628750Z",
+    "cities_scanned": 98,
     "cutoff_date": "2026-02-06",
-    "total_action_items": 46,
+    "total_action_items": 47,
     "total_sfr_items": 18
   },
   "summaries": [
@@ -35,7 +35,7 @@
       "agenda_url": "https://fortworthtexas.legistar.com/Calendar.aspx",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found"
+      "status": "no recent matching meetings found"
     },
     {
       "county": "Tarrant",
@@ -418,6 +418,88 @@
       "status": "same agenda center - items shown under P&Z"
     },
     {
+      "county": "Tarrant",
+      "city": "Haltom City",
+      "board": "Planning & Zoning",
+      "meeting_date": "2026-05-12",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_05122026-605",
+      "items": [
+        "Application of Stanely Redding requesting a rezone from “M-1” Industrial to “M-2” Heavy"
+      ],
+      "sfr_items": [],
+      "status": "success"
+    },
+    {
+      "county": "Tarrant",
+      "city": "Haltom City",
+      "board": "City Council",
+      "meeting_date": "2026-05-05",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_05052026-602",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
+    },
+    {
+      "county": "Tarrant",
+      "city": "White Settlement",
+      "board": "Planning & Zoning",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "no recent agenda PDFs found"
+    },
+    {
+      "county": "Tarrant",
+      "city": "White Settlement",
+      "board": "City Council",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
+    },
+    {
+      "county": "Tarrant",
+      "city": "Forest Hill",
+      "board": "Planning & Zoning",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "no recent agenda PDFs found"
+    },
+    {
+      "county": "Tarrant",
+      "city": "Forest Hill",
+      "board": "City Council",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
+    },
+    {
+      "county": "Tarrant",
+      "city": "Coppell",
+      "board": "Planning & Zoning",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "no recent agenda PDFs found"
+    },
+    {
+      "county": "Tarrant",
+      "city": "Coppell",
+      "board": "City Council",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
+    },
+    {
       "county": "Dallas",
       "city": "Dallas",
       "board": "Planning & Zoning",
@@ -720,6 +802,46 @@
       "status": "same agenda center - items shown under P&Z"
     },
     {
+      "county": "Dallas",
+      "city": "Addison",
+      "board": "Planning & Zoning",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "could not reach site"
+    },
+    {
+      "county": "Dallas",
+      "city": "Addison",
+      "board": "City Council",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
+    },
+    {
+      "county": "Dallas",
+      "city": "Glenn Heights",
+      "board": "Planning & Zoning",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "could not reach site"
+    },
+    {
+      "county": "Dallas",
+      "city": "Glenn Heights",
+      "board": "City Council",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
+    },
+    {
       "county": "Collin",
       "city": "Plano",
       "board": "Planning & Zoning",
@@ -983,6 +1105,106 @@
     {
       "county": "Collin",
       "city": "Farmersville",
+      "board": "City Council",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
+    },
+    {
+      "county": "Collin",
+      "city": "Fairview",
+      "board": "Planning & Zoning",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "no recent agenda PDFs found"
+    },
+    {
+      "county": "Collin",
+      "city": "Fairview",
+      "board": "City Council",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
+    },
+    {
+      "county": "Collin",
+      "city": "Murphy",
+      "board": "Planning & Zoning",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "no recent agenda PDFs found"
+    },
+    {
+      "county": "Collin",
+      "city": "Murphy",
+      "board": "City Council",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
+    },
+    {
+      "county": "Collin",
+      "city": "Lavon",
+      "board": "Planning & Zoning",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "could not reach site"
+    },
+    {
+      "county": "Collin",
+      "city": "Lavon",
+      "board": "City Council",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
+    },
+    {
+      "county": "Collin",
+      "city": "Van Alstyne",
+      "board": "Planning & Zoning",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "could not reach site"
+    },
+    {
+      "county": "Collin",
+      "city": "Van Alstyne",
+      "board": "City Council",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
+    },
+    {
+      "county": "Collin",
+      "city": "Parker",
+      "board": "Planning & Zoning",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "no recent agenda PDFs found"
+    },
+    {
+      "county": "Collin",
+      "city": "Parker",
       "board": "City Council",
       "meeting_date": "",
       "agenda_url": "",
@@ -1303,8 +1525,48 @@
       "county": "Denton",
       "city": "Oak Point",
       "board": "City Council",
-      "meeting_date": "2026-05-07",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_05072026-586",
+      "meeting_date": "2026-05-11",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_05112026-588",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
+    },
+    {
+      "county": "Denton",
+      "city": "Ponder",
+      "board": "Planning & Zoning",
+      "meeting_date": "",
+      "agenda_url": "https://www.pondertx.com/bc-pz",
+      "items": [],
+      "sfr_items": [],
+      "status": "no recent agenda items found"
+    },
+    {
+      "county": "Denton",
+      "city": "Ponder",
+      "board": "City Council",
+      "meeting_date": "",
+      "agenda_url": "https://www.pondertx.com/town-council",
+      "items": [],
+      "sfr_items": [],
+      "status": "could not reach site"
+    },
+    {
+      "county": "Denton",
+      "city": "Highland Village",
+      "board": "Planning & Zoning",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "no recent agenda PDFs found"
+    },
+    {
+      "county": "Denton",
+      "city": "Highland Village",
+      "board": "City Council",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1553,6 +1815,26 @@
     {
       "county": "Kaufman",
       "city": "Kaufman",
+      "board": "City Council",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
+    },
+    {
+      "county": "Kaufman",
+      "city": "Heartland",
+      "board": "Planning & Zoning",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "could not reach site"
+    },
+    {
+      "county": "Kaufman",
+      "city": "Heartland",
       "board": "City Council",
       "meeting_date": "",
       "agenda_url": "",
