@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "last_updated": "2026-05-07T16:19:10.925281Z",
+    "last_updated": "2026-05-07T16:44:59.737871Z",
     "cities_scanned": 84,
-    "total_action_items": 0,
-    "total_sfr_items": 0
+    "total_action_items": 10,
+    "total_sfr_items": 4
   },
   "summaries": [
     {
@@ -92,7 +92,9 @@
       "board": "Planning & Zoning",
       "meeting_date": "",
       "agenda_url": "https://www.cityofsouthlake.com/rss.aspx#agendaCenter",
-      "items": [],
+      "items": [
+        "Southlake Comprehensive Planning"
+      ],
       "sfr_items": [],
       "status": "success"
     },
@@ -102,7 +104,9 @@
       "board": "City Council",
       "meeting_date": "",
       "agenda_url": "https://www.cityofsouthlake.com/rss.aspx#agendaCenter",
-      "items": [],
+      "items": [
+        "Southlake Comprehensive Planning"
+      ],
       "sfr_items": [],
       "status": "success"
     },
@@ -150,7 +154,7 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "Planning & Zoning",
-      "meeting_date": "",
+      "meeting_date": "2026-05-12",
       "agenda_url": "https://www.bedfordtx.gov/rss.aspx#agendaCenter",
       "items": [],
       "sfr_items": [],
@@ -160,7 +164,7 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "City Council",
-      "meeting_date": "",
+      "meeting_date": "2026-05-12",
       "agenda_url": "https://www.bedfordtx.gov/rss.aspx#agendaCenter",
       "items": [],
       "sfr_items": [],
@@ -390,7 +394,7 @@
       "county": "Tarrant",
       "city": "Trophy Club",
       "board": "Planning & Zoning",
-      "meeting_date": "2023-10-01",
+      "meeting_date": "",
       "agenda_url": "https://www.trophyclub.org/AgendaCenter#contentarea",
       "items": [],
       "sfr_items": [],
@@ -400,7 +404,7 @@
       "county": "Tarrant",
       "city": "Trophy Club",
       "board": "City Council",
-      "meeting_date": "2023-10-01",
+      "meeting_date": "",
       "agenda_url": "https://www.trophyclub.org/AgendaCenter#contentarea",
       "items": [],
       "sfr_items": [],
@@ -492,7 +496,9 @@
       "board": "Planning & Zoning",
       "meeting_date": "",
       "agenda_url": "https://www.cityofmesquite.com/AgendaCenter",
-      "items": [],
+      "items": [
+        "Planning & Development Services Planning & Zoning Building Inspection Health Division Historic Preservation Neighborhood Development Comprehensive Plan"
+      ],
       "sfr_items": [],
       "status": "success"
     },
@@ -502,7 +508,9 @@
       "board": "City Council",
       "meeting_date": "",
       "agenda_url": "https://www.cityofmesquite.com/AgendaCenter",
-      "items": [],
+      "items": [
+        "Planning & Development Services Planning & Zoning Building Inspection Health Division Historic Preservation Neighborhood Development Comprehensive Plan"
+      ],
       "sfr_items": [],
       "status": "success"
     },
@@ -830,7 +838,7 @@
       "county": "Collin",
       "city": "Celina",
       "board": "Planning & Zoning",
-      "meeting_date": "2017-11-28",
+      "meeting_date": "",
       "agenda_url": "https://www.celina-tx.gov/AgendaCenter",
       "items": [],
       "sfr_items": [],
@@ -840,7 +848,7 @@
       "county": "Collin",
       "city": "Celina",
       "board": "City Council",
-      "meeting_date": "2017-11-28",
+      "meeting_date": "",
       "agenda_url": "https://www.celina-tx.gov/AgendaCenter",
       "items": [],
       "sfr_items": [],
@@ -1070,7 +1078,7 @@
       "county": "Denton",
       "city": "The Colony",
       "board": "Planning & Zoning",
-      "meeting_date": "2013-04-06",
+      "meeting_date": "",
       "agenda_url": "https://www.thecolonytx.gov/rss.aspx#agendaCenter",
       "items": [],
       "sfr_items": [],
@@ -1080,7 +1088,7 @@
       "county": "Denton",
       "city": "The Colony",
       "board": "City Council",
-      "meeting_date": "2013-04-06",
+      "meeting_date": "",
       "agenda_url": "https://www.thecolonytx.gov/rss.aspx#agendaCenter",
       "items": [],
       "sfr_items": [],
@@ -1110,9 +1118,11 @@
       "county": "Denton",
       "city": "Aubrey",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-03-28",
+      "meeting_date": "2026-12-05",
       "agenda_url": "https://www.aubreytx.gov/AgendaCenter",
-      "items": [],
+      "items": [
+        "Comprehensive Plan Documents"
+      ],
       "sfr_items": [],
       "status": "success"
     },
@@ -1120,9 +1130,11 @@
       "county": "Denton",
       "city": "Aubrey",
       "board": "City Council",
-      "meeting_date": "2026-03-28",
+      "meeting_date": "2026-12-05",
       "agenda_url": "https://www.aubreytx.gov/AgendaCenter",
-      "items": [],
+      "items": [
+        "Comprehensive Plan Documents"
+      ],
       "sfr_items": [],
       "status": "success"
     },
@@ -1130,7 +1142,7 @@
       "county": "Denton",
       "city": "Sanger",
       "board": "Planning & Zoning",
-      "meeting_date": "2022-06-06",
+      "meeting_date": "",
       "agenda_url": "https://www.sangertexas.org/rss.aspx#agendaCenter",
       "items": [],
       "sfr_items": [],
@@ -1140,7 +1152,7 @@
       "county": "Denton",
       "city": "Sanger",
       "board": "City Council",
-      "meeting_date": "2022-06-06",
+      "meeting_date": "",
       "agenda_url": "https://www.sangertexas.org/rss.aspx#agendaCenter",
       "items": [],
       "sfr_items": [],
@@ -1190,7 +1202,7 @@
       "county": "Denton",
       "city": "Justin",
       "board": "Planning & Zoning",
-      "meeting_date": "2023-04-11",
+      "meeting_date": "2024-04-11",
       "agenda_url": "https://www.cityofjustin.com/AgendaCenter#contentarea",
       "items": [],
       "sfr_items": [],
@@ -1200,7 +1212,7 @@
       "county": "Denton",
       "city": "Justin",
       "board": "City Council",
-      "meeting_date": "2023-04-11",
+      "meeting_date": "2024-04-11",
       "agenda_url": "https://www.cityofjustin.com/AgendaCenter#contentarea",
       "items": [],
       "sfr_items": [],
@@ -1210,7 +1222,7 @@
       "county": "Denton",
       "city": "Roanoke",
       "board": "Planning & Zoning",
-      "meeting_date": "2016-01-11",
+      "meeting_date": "",
       "agenda_url": "https://www.roanoketexas.com/rss.aspx#agendaCenter",
       "items": [],
       "sfr_items": [],
@@ -1220,7 +1232,7 @@
       "county": "Denton",
       "city": "Roanoke",
       "board": "City Council",
-      "meeting_date": "2016-01-11",
+      "meeting_date": "",
       "agenda_url": "https://www.roanoketexas.com/rss.aspx#agendaCenter",
       "items": [],
       "sfr_items": [],
@@ -1252,8 +1264,12 @@
       "board": "Planning & Zoning",
       "meeting_date": "2026-05-11",
       "agenda_url": "https://www.oakpointtexas.com/rss.aspx#agendaCenter",
-      "items": [],
-      "sfr_items": [],
+      "items": [
+        "Comprehensive Plan Update Committee"
+      ],
+      "sfr_items": [
+        "Comprehensive Plan Update Committee [Keywords: PD]"
+      ],
       "status": "success"
     },
     {
@@ -1262,8 +1278,12 @@
       "board": "City Council",
       "meeting_date": "2026-05-11",
       "agenda_url": "https://www.oakpointtexas.com/rss.aspx#agendaCenter",
-      "items": [],
-      "sfr_items": [],
+      "items": [
+        "Comprehensive Plan Update Committee"
+      ],
+      "sfr_items": [
+        "Comprehensive Plan Update Committee [Keywords: PD]"
+      ],
       "status": "success"
     },
     {
@@ -1272,8 +1292,12 @@
       "board": "Planning & Zoning",
       "meeting_date": "",
       "agenda_url": "https://www.waxahachie.com/AgendaCenter#main",
-      "items": [],
-      "sfr_items": [],
+      "items": [
+        "Planning Department Community Profile Comprehensive Plan Current Cases Development Process Development Review Committee GIS and Mapping Services"
+      ],
+      "sfr_items": [
+        "Planning Department Community Profile Comprehensive Plan Current Cases Development Process Development Review Committee GIS and Mapping Services [Keywords: unit]"
+      ],
       "status": "success"
     },
     {
@@ -1282,8 +1306,12 @@
       "board": "City Council",
       "meeting_date": "",
       "agenda_url": "https://www.waxahachie.com/AgendaCenter#main",
-      "items": [],
-      "sfr_items": [],
+      "items": [
+        "Planning Department Community Profile Comprehensive Plan Current Cases Development Process Development Review Committee GIS and Mapping Services"
+      ],
+      "sfr_items": [
+        "Planning Department Community Profile Comprehensive Plan Current Cases Development Process Development Review Committee GIS and Mapping Services [Keywords: unit]"
+      ],
       "status": "success"
     },
     {
@@ -1390,7 +1418,7 @@
       "county": "Rockwall",
       "city": "Fate",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-04-25",
+      "meeting_date": "2026-05-15",
       "agenda_url": "https://www.fatetx.gov/AgendaCenter#contentarea",
       "items": [],
       "sfr_items": [],
@@ -1400,7 +1428,7 @@
       "county": "Rockwall",
       "city": "Fate",
       "board": "City Council",
-      "meeting_date": "2026-04-25",
+      "meeting_date": "2026-05-15",
       "agenda_url": "https://www.fatetx.gov/AgendaCenter#contentarea",
       "items": [],
       "sfr_items": [],
@@ -1510,7 +1538,7 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "Planning & Zoning",
-      "meeting_date": "",
+      "meeting_date": "2025-05-27",
       "agenda_url": "https://www.cleburne.net/rss.aspx#agendaCenter",
       "items": [],
       "sfr_items": [],
@@ -1520,7 +1548,7 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "City Council",
-      "meeting_date": "",
+      "meeting_date": "2025-05-27",
       "agenda_url": "https://www.cleburne.net/rss.aspx#agendaCenter",
       "items": [],
       "sfr_items": [],
