@@ -1,9 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-05-07T18:24:03.203313Z",
+    "last_updated": "2026-05-07T19:26:50.109573Z",
     "cities_scanned": 84,
-    "total_action_items": 159,
-    "total_sfr_items": 64
+    "cutoff_date": "2026-02-06",
+    "total_action_items": 46,
+    "total_sfr_items": 18
   },
   "summaries": [
     {
@@ -14,7 +15,7 @@
       "agenda_url": "https://www.arlingtontx.gov/city_hall/boards_and_commissions/planning_and_zoning_commission",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -24,7 +25,7 @@
       "agenda_url": "https://www.arlingtontx.gov/city_hall/government/city_council/city_council_meetings",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -34,7 +35,7 @@
       "agenda_url": "https://fortworthtexas.legistar.com/Calendar.aspx",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "no matching items found"
     },
     {
       "county": "Tarrant",
@@ -44,7 +45,7 @@
       "agenda_url": "https://fortworthtexas.legistar.com/Calendar.aspx",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
@@ -54,7 +55,7 @@
       "agenda_url": "https://www.mansfieldtexas.gov/925/Planning-Zoning-Commission",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -64,7 +65,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Tarrant",
@@ -74,7 +75,7 @@
       "agenda_url": "https://www.cityofkeller.com/services/development-services/planning-zoning",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -84,27 +85,27 @@
       "agenda_url": "https://www.cityofkeller.com/government/city-council/agendas-minutes",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
       "city": "Southlake",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-14",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_05142026-2248",
+      "meeting_date": "2026-05-12",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_05122026-2246",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "PDF parsed (23 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
-      "meeting_date": "2026-05-14",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_05142026-2248",
+      "meeting_date": "2026-05-12",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_05122026-2246",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
@@ -114,7 +115,7 @@
       "agenda_url": "https://www.colleyville.com/government/boards-commissions/planning-zoning-commission",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -124,27 +125,27 @@
       "agenda_url": "https://www.colleyville.com/government/city-council/agendas-minutes",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
       "city": "Grapevine",
       "board": "Planning & Zoning",
-      "meeting_date": "2024-09-25",
-      "agenda_url": "https://www.grapevinetexas.gov/AgendaCenter/ViewFile/Agenda/_09252024-5",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Tarrant",
       "city": "Grapevine",
       "board": "City Council",
-      "meeting_date": "2024-09-25",
-      "agenda_url": "https://www.grapevinetexas.gov/AgendaCenter/ViewFile/Agenda/_09252024-5",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
@@ -154,14 +155,13 @@
       "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_05142026-1588",
       "items": [
         "Carter Blood Care Expansion Rezoning of an existing facility Council approved the rezoning. to accommodate an expansion.",
-        "Rezoning from Heavy and Service Commercial to PUD.",
-        "HEB Grocery Final Plat for grocery store. Plat was approved by City of Euless and executed copies have been provided to the",
-        "Schumac Estates Final Plat Plat of 2 lots at Schumac and Final plat approved with Shannon Lane. conditions. Applicant’s next steps would be to obtain permits to construct required",
-        "Brown Trail Estates 3300 Brown Trail final plat for 2 Final plat was approved. residential lots. Applicant’s next step would be to obtain permits to construct required infrastructure."
+        "HEB Grocery Final Plat for grocery store. Plat was approved by City of",
+        "Schumac Estates Final Plat Plat of 2 lots at Schumac and Final plat approved with",
+        "Brown Trail Estates 3300 Brown Trail final plat for 2 Final plat was approved. residential lots. Applicant’s next step would be to obtain permits to construct"
       ],
       "sfr_items": [
-        "Schumac Estates Final Plat Plat of 2 lots at Schumac and Final plat approved with Shannon Lane. conditions. Applicant’s next steps would be to obtain permits to construct required [Keywords: lot]",
-        "Brown Trail Estates 3300 Brown Trail final plat for 2 Final plat was approved. residential lots. Applicant’s next step would be to obtain permits to construct required infrastructure. [Keywords: residential, lot]"
+        "Schumac Estates Final Plat Plat of 2 lots at Schumac and Final plat approved with [Keywords: lot]",
+        "Brown Trail Estates 3300 Brown Trail final plat for 2 Final plat was approved. residential lots. Applicant’s next step would be to obtain permits to construct [Keywords: residential, lot]"
       ],
       "status": "success"
     },
@@ -169,11 +169,11 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "City Council",
-      "meeting_date": "2026-05-12",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_05122026-1589",
+      "meeting_date": "2026-04-28",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_04282026-1586",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
@@ -183,7 +183,7 @@
       "agenda_url": "https://www.eulesstx.gov/city-government/boards-commissions/planning-zoning-commission",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -193,7 +193,7 @@
       "agenda_url": "https://www.eulesstx.gov/city-government/city-council/agendas-minutes",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -203,7 +203,7 @@
       "agenda_url": "https://www.hursttx.gov/government/boards-commissions/planning-zoning-commission",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -213,7 +213,7 @@
       "agenda_url": "https://www.hursttx.gov/government/city-council/agendas-minutes",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -223,7 +223,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -233,7 +233,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
@@ -243,7 +243,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Tarrant",
@@ -253,7 +253,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
@@ -263,7 +263,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -273,7 +273,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
@@ -291,11 +291,11 @@
       "county": "Tarrant",
       "city": "Benbrook",
       "board": "City Council",
-      "meeting_date": "2026-05-07",
-      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_05072026-823?html=true",
+      "meeting_date": "2026-04-20",
+      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_04202026-820",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
@@ -305,7 +305,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -315,7 +315,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
@@ -325,7 +325,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -335,7 +335,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
@@ -345,7 +345,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -355,7 +355,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
@@ -365,7 +365,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Tarrant",
@@ -375,35 +375,27 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
       "city": "Haslet",
       "board": "Planning & Zoning",
-      "meeting_date": "2018-12-17",
-      "agenda_url": "https://www.haslet.org/AgendaCenter/ViewFile/Agenda/_12172018-600",
-      "items": [
-        "the extension of the approval of the preliminary plat of the NorthGlen Subdivision."
-      ],
-      "sfr_items": [
-        "the extension of the approval of the preliminary plat of the NorthGlen Subdivision. [Keywords: subdivision]"
-      ],
-      "status": "success"
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Tarrant",
       "city": "Haslet",
       "board": "City Council",
-      "meeting_date": "2018-12-17",
-      "agenda_url": "https://www.haslet.org/AgendaCenter/ViewFile/Agenda/_12172018-600",
-      "items": [
-        "the extension of the approval of the preliminary plat of the NorthGlen Subdivision."
-      ],
-      "sfr_items": [
-        "the extension of the approval of the preliminary plat of the NorthGlen Subdivision. [Keywords: subdivision]"
-      ],
-      "status": "success"
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
@@ -413,7 +405,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Tarrant",
@@ -423,7 +415,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Dallas",
@@ -433,7 +425,7 @@
       "agenda_url": "https://dallascityhall.com/government/cityplan/Pages/default.aspx",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Dallas",
@@ -443,7 +435,7 @@
       "agenda_url": "https://dallascityhall.com/government/citycouncil/Pages/city-council-agendas.aspx",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Dallas",
@@ -453,7 +445,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Dallas",
@@ -463,7 +455,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Dallas",
@@ -473,7 +465,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Dallas",
@@ -483,7 +475,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Dallas",
@@ -493,7 +485,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Dallas",
@@ -503,7 +495,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Dallas",
@@ -512,7 +504,7 @@
       "meeting_date": "2026-05-11",
       "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_05112026-2188",
       "items": [
-        "0445 submitted by Elite Emerald Construction for a zoning change from Commercial to Commercial"
+        "0445 submitted by Elite Emerald Construction for a zoning change from Commercial to Commercial with a Conditional Use Permit for a primary outdoor storage yard located at 4501 IH 30."
       ],
       "sfr_items": [],
       "status": "success"
@@ -521,11 +513,11 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-05-12",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_05122026-2190",
+      "meeting_date": "2026-05-08",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_05082026-2187",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Dallas",
@@ -535,7 +527,7 @@
       "agenda_url": "https://www.cor.net/government/boards-and-commissions/plan-commission",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Dallas",
@@ -545,7 +537,7 @@
       "agenda_url": "https://www.cor.net/government/city-council/agendas-and-minutes",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Dallas",
@@ -555,7 +547,7 @@
       "agenda_url": "https://www.cityofcarrollton.com/government/boards-commissions/planning-zoning-commission",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Dallas",
@@ -565,7 +557,7 @@
       "agenda_url": "https://www.cityofcarrollton.com/government/city-council/agendas-minutes",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Dallas",
@@ -575,7 +567,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Dallas",
@@ -585,7 +577,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Dallas",
@@ -595,7 +587,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Dallas",
@@ -605,7 +597,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Dallas",
@@ -615,7 +607,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Dallas",
@@ -625,7 +617,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Dallas",
@@ -635,7 +627,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Dallas",
@@ -645,7 +637,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Dallas",
@@ -655,7 +647,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Dallas",
@@ -665,7 +657,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Dallas",
@@ -675,7 +667,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Dallas",
@@ -685,7 +677,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Dallas",
@@ -695,7 +687,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Dallas",
@@ -705,27 +697,27 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-07",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_05072026-1793",
+      "meeting_date": "2026-04-02",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_04022026-1785",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "PDF parsed (38 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "City Council",
-      "meeting_date": "2026-05-13",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_05132026-1794",
+      "meeting_date": "2026-04-28",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_04282026-1792",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Collin",
@@ -735,7 +727,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Collin",
@@ -745,7 +737,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Collin",
@@ -755,7 +747,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Collin",
@@ -765,7 +757,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Collin",
@@ -775,7 +767,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Collin",
@@ -785,7 +777,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Collin",
@@ -795,7 +787,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Collin",
@@ -805,7 +797,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Collin",
@@ -815,7 +807,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Collin",
@@ -825,7 +817,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Collin",
@@ -835,7 +827,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Collin",
@@ -845,85 +837,27 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Collin",
       "city": "Celina",
       "board": "Planning & Zoning",
-      "meeting_date": "2017-11-28",
-      "agenda_url": "https://www.celina-tx.gov/AgendaCenter/ViewFile/Agenda/_11282017-174",
-      "items": [
-        "upon a rezoning request for a Planned Development with a base zoning district of C-1, Retail",
-        "Consider and act upon a Final Plat for The Homestead at Ownsby Farms Phase 1, being an",
-        "federal planning projects. Professional areas of expertise include; comprehensive planning,",
-        "- Approved a Final Plat for Mustang Lakes Phase 2B, located north of Frontier Parkway, south of Choate Parkway, and east of Roseland Parkway.",
-        "- Approved a Final Plat for Light Farms Grange 4, located north of Frontier Parkway, south of CR 51, west of the BNSF Railroad, and east of Dallas Parkway.",
-        "Consider and act upon a Final Plat for Mustang Lakes Phase 2B, being an ±45.753 acre tract of land situated",
-        "residential lots and 9 HOA lots. (Mustang Lakes Phase 2B Final Plat)",
-        "Commissioner Hangartner moved to approve the Final Plat. Seconded by Commissioner Terry. Motion carried 7-yes; 0-no.",
-        "Consider and act upon a Final Plat for Light Farms Grange 4, being an ±15.73 acre tract of land situated in the",
-        "open space lots. (Light Farms Grange 4 Final Plat)",
-        "Commissioner Terry moved to approve the Final Plat. Seconded by Commissioner Freeman. Motion carried 7-yes; 0-no.",
-        "rezoning request for an ±18.604 acre tract of land situated in the Collin County School Land Survey, Sheet 1,",
-        "Staff provided an overview of the zoning case and explained that the main purpose of the Planned",
-        "Commissioenr Haley moved to approve the zoning case. Seconded by Commissioner Barley. Motion passed 7-yes; 0-no.",
-        "rezoning request for a Planned Development with a base zoning district of C-1, Retail being a .17 acre",
-        "Conformance with the Comprehensive Plan:",
-        "The proposed rezoning is in conformance with the Comprehensive Plan. The property is designated as Urban",
-        "Center/Mixed use on the City's Comprehensive Plan. The Urban Center/Mixed Use district encourages a similar",
-        "DETERMINED AT TIME OF FINAL PLAT. Vicinity Plan 1 Scale: NTS SITE DATA:"
-      ],
-      "sfr_items": [
-        "upon a rezoning request for a Planned Development with a base zoning district of C-1, Retail [Keywords: planned development]",
-        "Consider and act upon a Final Plat for The Homestead at Ownsby Farms Phase 1, being an [Keywords: home]",
-        "Consider and act upon a Final Plat for Mustang Lakes Phase 2B, being an ±45.753 acre tract of land situated [Keywords: acre]",
-        "residential lots and 9 HOA lots. (Mustang Lakes Phase 2B Final Plat) [Keywords: residential, lot]",
-        "Consider and act upon a Final Plat for Light Farms Grange 4, being an ±15.73 acre tract of land situated in the [Keywords: acre]",
-        "open space lots. (Light Farms Grange 4 Final Plat) [Keywords: lot]",
-        "rezoning request for an ±18.604 acre tract of land situated in the Collin County School Land Survey, Sheet 1, [Keywords: acre]",
-        "rezoning request for a Planned Development with a base zoning district of C-1, Retail being a .17 acre [Keywords: acre, planned development]"
-      ],
-      "status": "success"
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Collin",
       "city": "Celina",
       "board": "City Council",
-      "meeting_date": "2017-11-28",
-      "agenda_url": "https://www.celina-tx.gov/AgendaCenter/ViewFile/Agenda/_11282017-174",
-      "items": [
-        "upon a rezoning request for a Planned Development with a base zoning district of C-1, Retail",
-        "Consider and act upon a Final Plat for The Homestead at Ownsby Farms Phase 1, being an",
-        "federal planning projects. Professional areas of expertise include; comprehensive planning,",
-        "- Approved a Final Plat for Mustang Lakes Phase 2B, located north of Frontier Parkway, south of Choate Parkway, and east of Roseland Parkway.",
-        "- Approved a Final Plat for Light Farms Grange 4, located north of Frontier Parkway, south of CR 51, west of the BNSF Railroad, and east of Dallas Parkway.",
-        "Consider and act upon a Final Plat for Mustang Lakes Phase 2B, being an ±45.753 acre tract of land situated",
-        "residential lots and 9 HOA lots. (Mustang Lakes Phase 2B Final Plat)",
-        "Commissioner Hangartner moved to approve the Final Plat. Seconded by Commissioner Terry. Motion carried 7-yes; 0-no.",
-        "Consider and act upon a Final Plat for Light Farms Grange 4, being an ±15.73 acre tract of land situated in the",
-        "open space lots. (Light Farms Grange 4 Final Plat)",
-        "Commissioner Terry moved to approve the Final Plat. Seconded by Commissioner Freeman. Motion carried 7-yes; 0-no.",
-        "rezoning request for an ±18.604 acre tract of land situated in the Collin County School Land Survey, Sheet 1,",
-        "Staff provided an overview of the zoning case and explained that the main purpose of the Planned",
-        "Commissioenr Haley moved to approve the zoning case. Seconded by Commissioner Barley. Motion passed 7-yes; 0-no.",
-        "rezoning request for a Planned Development with a base zoning district of C-1, Retail being a .17 acre",
-        "Conformance with the Comprehensive Plan:",
-        "The proposed rezoning is in conformance with the Comprehensive Plan. The property is designated as Urban",
-        "Center/Mixed use on the City's Comprehensive Plan. The Urban Center/Mixed Use district encourages a similar",
-        "DETERMINED AT TIME OF FINAL PLAT. Vicinity Plan 1 Scale: NTS SITE DATA:"
-      ],
-      "sfr_items": [
-        "upon a rezoning request for a Planned Development with a base zoning district of C-1, Retail [Keywords: planned development]",
-        "Consider and act upon a Final Plat for The Homestead at Ownsby Farms Phase 1, being an [Keywords: home]",
-        "Consider and act upon a Final Plat for Mustang Lakes Phase 2B, being an ±45.753 acre tract of land situated [Keywords: acre]",
-        "residential lots and 9 HOA lots. (Mustang Lakes Phase 2B Final Plat) [Keywords: residential, lot]",
-        "Consider and act upon a Final Plat for Light Farms Grange 4, being an ±15.73 acre tract of land situated in the [Keywords: acre]",
-        "open space lots. (Light Farms Grange 4 Final Plat) [Keywords: lot]",
-        "rezoning request for an ±18.604 acre tract of land situated in the Collin County School Land Survey, Sheet 1, [Keywords: acre]",
-        "rezoning request for a Planned Development with a base zoning district of C-1, Retail being a .17 acre [Keywords: acre, planned development]"
-      ],
-      "status": "success"
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Collin",
@@ -933,7 +867,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Collin",
@@ -943,7 +877,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Collin",
@@ -952,8 +886,8 @@
       "meeting_date": "2026-05-04",
       "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_05042026-1688",
       "items": [
-        "2 Final Plat Consider a final plat for McDonald’s just north of the intersection of FM 75 and Monte Carlo.",
-        "Exhibit A - Proposed Final Plat Exhibit B - Plat Application"
+        "D.2 Final Plat Consider a final plat for McDonald’s just north of the intersection of FM 75 and Monte Carlo.",
+        "Exhibit A - Proposed Final Plat"
       ],
       "sfr_items": [],
       "status": "success"
@@ -967,14 +901,12 @@
       "items": [
         "L8. 2026-111 Consider a request to table discussion on the final plat for",
         "Exhibit A - Proposed Final Plat.pdf",
-        "Exhibit B - Approved Preliminary Plat.pdf Exhibit C - Plat Application.pdf",
-        "L9. 2026-109 Consider a final plat for McDonald’s just north of the intersection of FM 75 and Monte Carlo; and take appropriate action.",
-        "Exhibit A - Proposed Final Plat Exhibit B - Plat Application L10. 2026-112 Update on Circle K Drainage Conditions Exhibit A - PowerPoint Presentation.pptx"
+        "Exhibit B - Approved Preliminary Plat.pdf",
+        "L9. 2026-109 Consider a final plat for McDonald’s just north of the intersection of FM 75 and Monte Carlo; and take appropriate action."
       ],
       "sfr_items": [
         "Exhibit A - Proposed Final Plat.pdf [Keywords: PD]",
-        "Exhibit B - Approved Preliminary Plat.pdf Exhibit C - Plat Application.pdf [Keywords: PD]",
-        "Exhibit A - Proposed Final Plat Exhibit B - Plat Application L10. 2026-112 Update on Circle K Drainage Conditions Exhibit A - PowerPoint Presentation.pptx [Keywords: PD]"
+        "Exhibit B - Approved Preliminary Plat.pdf [Keywords: PD]"
       ],
       "status": "success"
     },
@@ -986,7 +918,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Collin",
@@ -996,7 +928,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Collin",
@@ -1006,7 +938,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Collin",
@@ -1016,7 +948,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Collin",
@@ -1026,7 +958,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Collin",
@@ -1036,7 +968,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Collin",
@@ -1046,7 +978,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Collin",
@@ -1056,7 +988,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Denton",
@@ -1066,7 +998,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Denton",
@@ -1076,7 +1008,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Denton",
@@ -1086,7 +1018,7 @@
       "agenda_url": "https://www.cityoflewisville.com/government/boards-commissions/planning-zoning-commission",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Denton",
@@ -1096,41 +1028,27 @@
       "agenda_url": "https://www.cityoflewisville.com/government/city-council/agendas-minutes",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Denton",
       "city": "Flower Mound",
       "board": "Planning & Zoning",
-      "meeting_date": "2022-12-13",
-      "agenda_url": "https://www.flower-mound.com/AgendaCenter/ViewFile/Agenda/_12132022-4551",
-      "items": [
-        "Ranch development area. The mixed use zoning case (MU21-0002) was approved by Town Council on",
-        "Additionally, a zoning case (Z21-0009) for approximately 544 acres to the north and east of Flower Mound",
-        "Ranch (Furst Ranch) was rezoned to single family estate on March 7, 2022. As part of those discretionary"
-      ],
-      "sfr_items": [
-        "Additionally, a zoning case (Z21-0009) for approximately 544 acres to the north and east of Flower Mound [Keywords: acre]",
-        "Ranch (Furst Ranch) was rezoned to single family estate on March 7, 2022. As part of those discretionary [Keywords: single family]"
-      ],
-      "status": "success"
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Denton",
       "city": "Flower Mound",
       "board": "City Council",
-      "meeting_date": "2022-12-13",
-      "agenda_url": "https://www.flower-mound.com/AgendaCenter/ViewFile/Agenda/_12132022-4551",
-      "items": [
-        "Ranch development area. The mixed use zoning case (MU21-0002) was approved by Town Council on",
-        "Additionally, a zoning case (Z21-0009) for approximately 544 acres to the north and east of Flower Mound",
-        "Ranch (Furst Ranch) was rezoned to single family estate on March 7, 2022. As part of those discretionary"
-      ],
-      "sfr_items": [
-        "Additionally, a zoning case (Z21-0009) for approximately 544 acres to the north and east of Flower Mound [Keywords: acre]",
-        "Ranch (Furst Ranch) was rezoned to single family estate on March 7, 2022. As part of those discretionary [Keywords: single family]"
-      ],
-      "status": "success"
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Denton",
@@ -1140,7 +1058,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Denton",
@@ -1150,7 +1068,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Denton",
@@ -1160,7 +1078,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Denton",
@@ -1170,7 +1088,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Denton",
@@ -1180,7 +1098,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Denton",
@@ -1190,7 +1108,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Denton",
@@ -1208,149 +1126,71 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "City Council",
-      "meeting_date": "2026-05-11",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_05112026-1288",
+      "meeting_date": "2026-05-07",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_05072026-1285",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Denton",
       "city": "Aubrey",
       "board": "Planning & Zoning",
-      "meeting_date": "2024-03-28",
-      "agenda_url": "https://www.aubreytx.gov/AgendaCenter/ViewFile/Agenda/_03282024-549",
-      "items": [
-        "Consideration and action, or consideration of applicant’s request for extension, on a Final Plat of Aubrey 377",
-        "Consideration and action on a Preliminary Plat for the Loyd Property (Project 53), for 300 Residential Lots,",
-        "Consideration and action on a Preliminary Plat for High Country Phase 10, for 2 Lots, being 30.312 acres",
-        "Consideration and action on a Preliminary Plat for Sandbrock Ranch Phase 14, being 26.210 acres of land",
-        "Consideration and action on a Preliminary Plat for Sandbrock Ranch Phases 15 and 16, being 75.771 acres"
-      ],
-      "sfr_items": [
-        "Consideration and action on a Preliminary Plat for the Loyd Property (Project 53), for 300 Residential Lots, [Keywords: residential, lot]",
-        "Consideration and action on a Preliminary Plat for High Country Phase 10, for 2 Lots, being 30.312 acres [Keywords: lot, acre]",
-        "Consideration and action on a Preliminary Plat for Sandbrock Ranch Phase 14, being 26.210 acres of land [Keywords: acre]",
-        "Consideration and action on a Preliminary Plat for Sandbrock Ranch Phases 15 and 16, being 75.771 acres [Keywords: acre]"
-      ],
-      "status": "success"
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Denton",
       "city": "Aubrey",
       "board": "City Council",
-      "meeting_date": "2024-03-28",
-      "agenda_url": "https://www.aubreytx.gov/AgendaCenter/ViewFile/Agenda/_03282024-549",
-      "items": [
-        "Consideration and action, or consideration of applicant’s request for extension, on a Final Plat of Aubrey 377",
-        "Consideration and action on a Preliminary Plat for the Loyd Property (Project 53), for 300 Residential Lots,",
-        "Consideration and action on a Preliminary Plat for High Country Phase 10, for 2 Lots, being 30.312 acres",
-        "Consideration and action on a Preliminary Plat for Sandbrock Ranch Phase 14, being 26.210 acres of land",
-        "Consideration and action on a Preliminary Plat for Sandbrock Ranch Phases 15 and 16, being 75.771 acres"
-      ],
-      "sfr_items": [
-        "Consideration and action on a Preliminary Plat for the Loyd Property (Project 53), for 300 Residential Lots, [Keywords: residential, lot]",
-        "Consideration and action on a Preliminary Plat for High Country Phase 10, for 2 Lots, being 30.312 acres [Keywords: lot, acre]",
-        "Consideration and action on a Preliminary Plat for Sandbrock Ranch Phase 14, being 26.210 acres of land [Keywords: acre]",
-        "Consideration and action on a Preliminary Plat for Sandbrock Ranch Phases 15 and 16, being 75.771 acres [Keywords: acre]"
-      ],
-      "status": "success"
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Denton",
       "city": "Sanger",
       "board": "Planning & Zoning",
-      "meeting_date": "2022-06-13",
-      "agenda_url": "https://www.sangertexas.org/AgendaCenter/ViewFile/Agenda/_06132022-16",
-      "items": [
-        "NEIBERT ADDITION ­ FINAL PLAT",
-        "Consider a Final Plat of Lot 1, of Neibert Addition, being 4.581 acres, in the City of Sanger’s ETJ,",
-        "QUINTANAR/BELLE FARM ADDITION ­ FINAL PLAT",
-        "Consider a Final Plat of Lot 1, Block A of Quintanar/Belle Farm Addition, being 9.618 acres, in the",
-        "SANGER PRESERVE ­ ZONING CHANGE ­ PH",
-        "Conduct a Public Hearing regarding a zoning change from A (Agricultural District) to PD (Planned",
-        "SANGER PRESERVE ­ ZONING CHANGE",
-        "Consider a zoning change from A (Agricultural District) to PD (Planned Development) for",
-        "STEPHENS TOWNE CROSSING ­ ZONING CHANGE ­ PH",
-        "Conduct a Public Hearing for a zoning change from A (Agricultural) to PD (Planned Development)",
-        "STEPHENS TOWNE CROSSING ­ ZONING CHANGE",
-        "Consider a request for a zoning change from A (Agricultural) to PD (Planned Development) for",
-        "LANE RANCH ­ ZONING CHANGE ­ PH",
-        "Conduct a Public Hearing on a zoning change from A (Agricultural District) to PD (Planned",
-        "LANE RANCH ­ ZONING CHANGE",
-        "Consider a request for a zoning change from A (Agricultural District) to PD (Planned Development)",
-        "Final Plat 6/9/2022 Cover Memo 0 100 200 400Feet 122813 / Project Name: Niebert Addition This map was generated by GIS data provided Minor Plat by the Sanger GIS Department. The City of Sanger does not guarantee the correctness or accuracy of any features on this map. These map",
-        "Final Plat 6/9/2022 Cover Memo 6576 BELZ RD 6500 BELZ RD 6486 BELZ RD 0 125 97 2 3 5 0 0 SAM 701533 500Feet / Project Name: 6438 Belz Rd This map was generated by GIS data provided"
-      ],
-      "sfr_items": [
-        "Consider a Final Plat of Lot 1, of Neibert Addition, being 4.581 acres, in the City of Sanger’s ETJ, [Keywords: lot, acre]",
-        "Consider a Final Plat of Lot 1, Block A of Quintanar/Belle Farm Addition, being 9.618 acres, in the [Keywords: lot, acre]",
-        "Conduct a Public Hearing regarding a zoning change from A (Agricultural District) to PD (Planned [Keywords: PD]",
-        "Consider a zoning change from A (Agricultural District) to PD (Planned Development) for [Keywords: PD, planned development]",
-        "Conduct a Public Hearing for a zoning change from A (Agricultural) to PD (Planned Development) [Keywords: PD, planned development]",
-        "Consider a request for a zoning change from A (Agricultural) to PD (Planned Development) for [Keywords: PD, planned development]",
-        "Conduct a Public Hearing on a zoning change from A (Agricultural District) to PD (Planned [Keywords: PD]",
-        "Consider a request for a zoning change from A (Agricultural District) to PD (Planned Development) [Keywords: PD, planned development]"
-      ],
-      "status": "success"
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Denton",
       "city": "Sanger",
       "board": "City Council",
-      "meeting_date": "2022-06-13",
-      "agenda_url": "https://www.sangertexas.org/AgendaCenter/ViewFile/Agenda/_06132022-16",
-      "items": [
-        "NEIBERT ADDITION ­ FINAL PLAT",
-        "Consider a Final Plat of Lot 1, of Neibert Addition, being 4.581 acres, in the City of Sanger’s ETJ,",
-        "QUINTANAR/BELLE FARM ADDITION ­ FINAL PLAT",
-        "Consider a Final Plat of Lot 1, Block A of Quintanar/Belle Farm Addition, being 9.618 acres, in the",
-        "SANGER PRESERVE ­ ZONING CHANGE ­ PH",
-        "Conduct a Public Hearing regarding a zoning change from A (Agricultural District) to PD (Planned",
-        "SANGER PRESERVE ­ ZONING CHANGE",
-        "Consider a zoning change from A (Agricultural District) to PD (Planned Development) for",
-        "STEPHENS TOWNE CROSSING ­ ZONING CHANGE ­ PH",
-        "Conduct a Public Hearing for a zoning change from A (Agricultural) to PD (Planned Development)",
-        "STEPHENS TOWNE CROSSING ­ ZONING CHANGE",
-        "Consider a request for a zoning change from A (Agricultural) to PD (Planned Development) for",
-        "LANE RANCH ­ ZONING CHANGE ­ PH",
-        "Conduct a Public Hearing on a zoning change from A (Agricultural District) to PD (Planned",
-        "LANE RANCH ­ ZONING CHANGE",
-        "Consider a request for a zoning change from A (Agricultural District) to PD (Planned Development)",
-        "Final Plat 6/9/2022 Cover Memo 0 100 200 400Feet 122813 / Project Name: Niebert Addition This map was generated by GIS data provided Minor Plat by the Sanger GIS Department. The City of Sanger does not guarantee the correctness or accuracy of any features on this map. These map",
-        "Final Plat 6/9/2022 Cover Memo 6576 BELZ RD 6500 BELZ RD 6486 BELZ RD 0 125 97 2 3 5 0 0 SAM 701533 500Feet / Project Name: 6438 Belz Rd This map was generated by GIS data provided"
-      ],
-      "sfr_items": [
-        "Consider a Final Plat of Lot 1, of Neibert Addition, being 4.581 acres, in the City of Sanger’s ETJ, [Keywords: lot, acre]",
-        "Consider a Final Plat of Lot 1, Block A of Quintanar/Belle Farm Addition, being 9.618 acres, in the [Keywords: lot, acre]",
-        "Conduct a Public Hearing regarding a zoning change from A (Agricultural District) to PD (Planned [Keywords: PD]",
-        "Consider a zoning change from A (Agricultural District) to PD (Planned Development) for [Keywords: PD, planned development]",
-        "Conduct a Public Hearing for a zoning change from A (Agricultural) to PD (Planned Development) [Keywords: PD, planned development]",
-        "Consider a request for a zoning change from A (Agricultural) to PD (Planned Development) for [Keywords: PD, planned development]",
-        "Conduct a Public Hearing on a zoning change from A (Agricultural District) to PD (Planned [Keywords: PD]",
-        "Consider a request for a zoning change from A (Agricultural District) to PD (Planned Development) [Keywords: PD, planned development]"
-      ],
-      "status": "success"
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Denton",
       "city": "Pilot Point",
       "board": "Planning & Zoning",
-      "meeting_date": "2025-11-05",
-      "agenda_url": "https://www.cityofpilotpoint.org/AgendaCenter/ViewFile/Agenda/_11052025-1333",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Denton",
       "city": "Pilot Point",
       "board": "City Council",
-      "meeting_date": "2025-11-05",
-      "agenda_url": "https://www.cityofpilotpoint.org/AgendaCenter/ViewFile/Agenda/_11052025-1333",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Denton",
@@ -1360,7 +1200,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Denton",
@@ -1370,67 +1210,47 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Denton",
       "city": "Justin",
       "board": "Planning & Zoning",
-      "meeting_date": "2024-04-16",
-      "agenda_url": "https://www.cityofjustin.com/AgendaCenter/ViewFile/Agenda/_04162024-545",
-      "items": [
-        "for a zoning change from Single-Family Large Lot (SF-LL) to Planned Development",
-        "Consider and act upon a recommendation to City Council for a zoning change from Single-",
-        "Consider and act upon a recommendation to City Council for a Preliminary Plat for Trafford",
-        "Title: Consider and act upon a recommendation to City Council for a zoning change from Single-",
-        "request is to rezone the property for approximately 74.174 acres from Single-Family Large Lot (SF-LL) to Planned Development Single-Family 2 (PD-SF2).",
-        "percentage is 30.8% and will be dedicated at final plat per the ordinance. City Attorney Review: No 1. Trafford Terrace Buffer Map 3. Executed Developers Agreement 4. Trafford Terrace Site Plan Package 5. Trafford Terrace Proposed Ordinance 776981 676981 731005 7 9 9 9 9 9 0 3 0 3 731010 731012 7 7"
-      ],
-      "sfr_items": [
-        "for a zoning change from Single-Family Large Lot (SF-LL) to Planned Development [Keywords: single-family, lot, SF-, planned development]",
-        "request is to rezone the property for approximately 74.174 acres from Single-Family Large Lot (SF-LL) to Planned Development Single-Family 2 (PD-SF2). [Keywords: single-family, lot, SF-, acre, PD]"
-      ],
-      "status": "success"
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Denton",
       "city": "Justin",
       "board": "City Council",
-      "meeting_date": "2024-04-16",
-      "agenda_url": "https://www.cityofjustin.com/AgendaCenter/ViewFile/Agenda/_04162024-545",
-      "items": [
-        "for a zoning change from Single-Family Large Lot (SF-LL) to Planned Development",
-        "Consider and act upon a recommendation to City Council for a zoning change from Single-",
-        "Consider and act upon a recommendation to City Council for a Preliminary Plat for Trafford",
-        "Title: Consider and act upon a recommendation to City Council for a zoning change from Single-",
-        "request is to rezone the property for approximately 74.174 acres from Single-Family Large Lot (SF-LL) to Planned Development Single-Family 2 (PD-SF2).",
-        "percentage is 30.8% and will be dedicated at final plat per the ordinance. City Attorney Review: No 1. Trafford Terrace Buffer Map 3. Executed Developers Agreement 4. Trafford Terrace Site Plan Package 5. Trafford Terrace Proposed Ordinance 776981 676981 731005 7 9 9 9 9 9 0 3 0 3 731010 731012 7 7"
-      ],
-      "sfr_items": [
-        "for a zoning change from Single-Family Large Lot (SF-LL) to Planned Development [Keywords: single-family, lot, SF-, planned development]",
-        "request is to rezone the property for approximately 74.174 acres from Single-Family Large Lot (SF-LL) to Planned Development Single-Family 2 (PD-SF2). [Keywords: single-family, lot, SF-, acre, PD]"
-      ],
-      "status": "success"
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Denton",
       "city": "Roanoke",
       "board": "Planning & Zoning",
-      "meeting_date": "2020-11-16",
-      "agenda_url": "https://www.roanoketexas.com/AgendaCenter/ViewFile/Agenda/_11162020-767",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Denton",
       "city": "Roanoke",
       "board": "City Council",
-      "meeting_date": "2020-11-16",
-      "agenda_url": "https://www.roanoketexas.com/AgendaCenter/ViewFile/Agenda/_11162020-767",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Denton",
@@ -1439,15 +1259,13 @@
       "meeting_date": "2026-04-07",
       "agenda_url": "https://www.crossroadstx.gov/AgendaCenter/ViewFile/Agenda/_04072026-49",
       "items": [
-        "Discuss and consider a recommendation to the Town Council on an preliminary plat",
-        "comply with the Town’s Comprehensive Plan and allow for the site to be developed for",
-        "commercial uses. This rezoning is the first step in the development process which will",
-        "include a preliminary plat and final plat approvals prior to any new structures being",
-        "the Town’s Comprehensive Plan and allow for the site to be developed for a single",
-        "residential building lot. This rezoning is the first step in the development process which"
+        "Discuss and consider a recommendation to the Town Council on an preliminary plat application for a 82.99 acre parcel generally located west of Naylor Road, across from",
+        "Potter Shop Road to Naylor Road excepting the Prairie House and the old landscape business. The property is currently vacant and zoned Agricultural. The request would comply with the Town’s Comprehensive Plan and allow for the site to be developed for commercial uses. This rezoning is the first step in the development process which will include a preliminary plat and final plat approvals prior to any new structures being",
+        "The property is currently vacant and zoned Agricultural. The request would comply with the Town’s Comprehensive Plan and allow for the site to be developed for a single residential building lot. This rezoning is the first step in the development process which will include platting the site prior to any new structures being constructed."
       ],
       "sfr_items": [
-        "residential building lot. This rezoning is the first step in the development process which [Keywords: residential, lot]"
+        "Discuss and consider a recommendation to the Town Council on an preliminary plat application for a 82.99 acre parcel generally located west of Naylor Road, across from [Keywords: acre]",
+        "The property is currently vacant and zoned Agricultural. The request would comply with the Town’s Comprehensive Plan and allow for the site to be developed for a single residential building lot. This rezoning is the first step in the development process which will include platting the site prior to any new structures being constructed. [Keywords: residential, lot]"
       ],
       "status": "success"
     },
@@ -1458,9 +1276,11 @@
       "meeting_date": "2026-05-14",
       "agenda_url": "https://www.crossroadstx.gov/AgendaCenter/ViewFile/Agenda/_05142026-52",
       "items": [
-        "preliminary plat for Bridlewood, and advised there is a developer interested in"
+        "Town Administrator Jason Laumer gave the development update on Walmart, the preliminary plat for Bridlewood, and advised there is a developer interested in building sit down restaurants in the area of US 380 at FM 424."
       ],
-      "sfr_items": [],
+      "sfr_items": [
+        "Town Administrator Jason Laumer gave the development update on Walmart, the preliminary plat for Bridlewood, and advised there is a developer interested in building sit down restaurants in the area of US 380 at FM 424. [Keywords: PD]"
+      ],
       "status": "success"
     },
     {
@@ -1470,16 +1290,12 @@
       "meeting_date": "2026-05-05",
       "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_05052026-585",
       "items": [
-        "Consider an application for a final plat on 12.577 acres of land situated in the G.W. Daniel",
-        "Consider an act to approve a Preliminary Plat for Oak Point Retail.",
-        "Agenda Items: Consider an application for a final plat on 12.577 acres of land situated",
-        "REVIEW COMMENTS FOR FINAL PLAT",
-        "P:\\Projects\\OPT04GS - General Services\\Commercial Projects\\Oak Point Plaza\\Final Plat\\1st Review\\2025-07-12 FP Page 1 of 2 7. Darken the lot lines between the lots. 8. Add YCIRP to the legend. Not sure what the Y is for."
+        "G.W. Daniel Survey, Abstract No. 331; City of Oak Point, Texas. c. Consider an act to approve a Preliminary Plat for Oak Point Retail.",
+        "Agenda Items: Consider an application for a final plat on 12.577 acres of land situated in the G.W. Daniel Survey, Abstract No. 331; City of Oak Point, Texas.",
+        "REVIEW COMMENTS FOR FINAL PLAT"
       ],
       "sfr_items": [
-        "Consider an application for a final plat on 12.577 acres of land situated in the G.W. Daniel [Keywords: acre]",
-        "Agenda Items: Consider an application for a final plat on 12.577 acres of land situated [Keywords: acre]",
-        "P:\\Projects\\OPT04GS - General Services\\Commercial Projects\\Oak Point Plaza\\Final Plat\\1st Review\\2025-07-12 FP Page 1 of 2 7. Darken the lot lines between the lots. 8. Add YCIRP to the legend. Not sure what the Y is for. [Keywords: lot]"
+        "Agenda Items: Consider an application for a final plat on 12.577 acres of land situated in the G.W. Daniel Survey, Abstract No. 331; City of Oak Point, Texas. [Keywords: acre]"
       ],
       "status": "success"
     },
@@ -1487,11 +1303,11 @@
       "county": "Denton",
       "city": "Oak Point",
       "board": "City Council",
-      "meeting_date": "2026-05-12",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_05122026-589",
+      "meeting_date": "2026-05-07",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_05072026-586",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Ellis",
@@ -1501,7 +1317,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Ellis",
@@ -1511,27 +1327,27 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Ellis",
       "city": "Midlothian",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-04-09",
-      "agenda_url": "https://www.midlothian.tx.us/AgendaCenter/ViewFile/Agenda/_04092026-11",
+      "meeting_date": "2026-02-12",
+      "agenda_url": "https://www.midlothian.tx.us/AgendaCenter/ViewFile/Agenda/_02122026-13",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "PDF parsed (39 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Ellis",
       "city": "Midlothian",
       "board": "City Council",
-      "meeting_date": "2026-04-09",
-      "agenda_url": "https://www.midlothian.tx.us/AgendaCenter/ViewFile/Agenda/_04092026-11",
+      "meeting_date": "2026-02-12",
+      "agenda_url": "https://www.midlothian.tx.us/AgendaCenter/ViewFile/Agenda/_02122026-13",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Ellis",
@@ -1541,7 +1357,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Ellis",
@@ -1551,7 +1367,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Ellis",
@@ -1561,7 +1377,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Ellis",
@@ -1571,7 +1387,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Rockwall",
@@ -1581,7 +1397,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Rockwall",
@@ -1591,7 +1407,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Rockwall",
@@ -1601,7 +1417,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Rockwall",
@@ -1611,27 +1427,27 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Rockwall",
       "city": "Fate",
       "board": "Planning & Zoning",
       "meeting_date": "2026-05-15",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_05152026-1449",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_05152026-1450",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "PDF parsed (26 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Rockwall",
       "city": "Fate",
       "board": "City Council",
-      "meeting_date": "2026-06-01",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Item/13209?fileID=43394",
+      "meeting_date": "2026-05-15",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_05152026-1450",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Rockwall",
@@ -1642,123 +1458,127 @@
       "items": [
         "Consider and act on a 30-Day Extension Request of a Final Plat for Clearview Ranch",
         "Consider and act on a 30-Day Extension Request of a Final Plat for Verandah Phase",
-        "Consider and act on a Final Plat for Tesla Inc. Royse City BESS, consisting of +/- 11.9",
+        "Consider and act on a Final Plat for Tesla Inc. Royse City BESS, consisting of +/- 11.9 acres, incorporating both the J. Stephenson Tract No. 27, Abstract No.188 & the E.",
         "Consider and act on a Final Plat of the Marketplace West Addition, consisting of +/-",
-        "Consider and act on a Final Plat for Waterscape Phase 4A, consisting of +/- 44.87",
-        "Consider and act on a Final Plat for Waterscape Phase 4B, consisting of +/- 64.54"
+        "Consider and act on a Final Plat for Waterscape Phase 4A, consisting of +/- 44.87 acres, situated in the Nancy McCasland Survey, Lot 8, Abstract No.149, City of",
+        "Consider and act on a Final Plat for Waterscape Phase 4B, consisting of +/- 64.54 acres, situated in the Nancy McCasland Survey, Lot 8, Abstract No.149, City of"
       ],
-      "sfr_items": [],
+      "sfr_items": [
+        "Consider and act on a Final Plat for Tesla Inc. Royse City BESS, consisting of +/- 11.9 acres, incorporating both the J. Stephenson Tract No. 27, Abstract No.188 & the E. [Keywords: acre]",
+        "Consider and act on a Final Plat for Waterscape Phase 4A, consisting of +/- 44.87 acres, situated in the Nancy McCasland Survey, Lot 8, Abstract No.149, City of [Keywords: lot, acre]",
+        "Consider and act on a Final Plat for Waterscape Phase 4B, consisting of +/- 64.54 acres, situated in the Nancy McCasland Survey, Lot 8, Abstract No.149, City of [Keywords: lot, acre]"
+      ],
       "status": "success"
     },
     {
       "county": "Rockwall",
       "city": "Royse City",
       "board": "City Council",
-      "meeting_date": "2026-05-12",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_05122026-615",
+      "meeting_date": "2026-05-06",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_05062026-612",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Kaufman",
       "city": "Forney",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-12",
-      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_05122026-1267",
+      "meeting_date": "2026-05-07",
+      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_05072026-1272",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "PDF parsed (32 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Kaufman",
       "city": "Forney",
-      "board": "City Council",
-      "meeting_date": "2026-06-13",
-      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12815?fileID=23992",
-      "items": [],
-      "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
-    },
-    {
-      "county": "Kaufman",
-      "city": "Terrell",
-      "board": "Planning & Zoning",
-      "meeting_date": "",
-      "agenda_url": "",
-      "items": [],
-      "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
-    },
-    {
-      "county": "Kaufman",
-      "city": "Terrell",
-      "board": "City Council",
-      "meeting_date": "",
-      "agenda_url": "",
-      "items": [],
-      "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
-    },
-    {
-      "county": "Kaufman",
-      "city": "Crandall",
-      "board": "Planning & Zoning",
-      "meeting_date": "",
-      "agenda_url": "",
-      "items": [],
-      "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
-    },
-    {
-      "county": "Kaufman",
-      "city": "Crandall",
-      "board": "City Council",
-      "meeting_date": "",
-      "agenda_url": "",
-      "items": [],
-      "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
-    },
-    {
-      "county": "Kaufman",
-      "city": "Kaufman",
-      "board": "Planning & Zoning",
-      "meeting_date": "",
-      "agenda_url": "",
-      "items": [],
-      "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
-    },
-    {
-      "county": "Kaufman",
-      "city": "Kaufman",
-      "board": "City Council",
-      "meeting_date": "",
-      "agenda_url": "",
-      "items": [],
-      "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
-    },
-    {
-      "county": "Johnson",
-      "city": "Cleburne",
-      "board": "Planning & Zoning",
-      "meeting_date": "2026-05-11",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_05112026-2195?html=true",
-      "items": [],
-      "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
-    },
-    {
-      "county": "Johnson",
-      "city": "Cleburne",
       "board": "City Council",
       "meeting_date": "2026-05-07",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_05072026-2194",
+      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_05072026-1272",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
+    },
+    {
+      "county": "Kaufman",
+      "city": "Terrell",
+      "board": "Planning & Zoning",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "no recent agenda PDFs found"
+    },
+    {
+      "county": "Kaufman",
+      "city": "Terrell",
+      "board": "City Council",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
+    },
+    {
+      "county": "Kaufman",
+      "city": "Crandall",
+      "board": "Planning & Zoning",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "could not reach site"
+    },
+    {
+      "county": "Kaufman",
+      "city": "Crandall",
+      "board": "City Council",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
+    },
+    {
+      "county": "Kaufman",
+      "city": "Kaufman",
+      "board": "Planning & Zoning",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "could not reach site"
+    },
+    {
+      "county": "Kaufman",
+      "city": "Kaufman",
+      "board": "City Council",
+      "meeting_date": "",
+      "agenda_url": "",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
+    },
+    {
+      "county": "Johnson",
+      "city": "Cleburne",
+      "board": "Planning & Zoning",
+      "meeting_date": "2026-05-04",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_05042026-2193",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (32 lines) but no rezone/plat/comp plan items"
+    },
+    {
+      "county": "Johnson",
+      "city": "Cleburne",
+      "board": "City Council",
+      "meeting_date": "2026-05-04",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_05042026-2192",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Johnson",
@@ -1768,7 +1588,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Johnson",
@@ -1778,7 +1598,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Johnson",
@@ -1788,7 +1608,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Johnson",
@@ -1798,7 +1618,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Parker",
@@ -1808,7 +1628,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Parker",
@@ -1818,7 +1638,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Parker",
@@ -1828,7 +1648,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Parker",
@@ -1838,7 +1658,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Parker",
@@ -1848,7 +1668,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Parker",
@@ -1858,7 +1678,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Parker",
@@ -1868,7 +1688,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "could not reach site"
     },
     {
       "county": "Parker",
@@ -1878,7 +1698,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Wise",
@@ -1887,28 +1707,28 @@
       "meeting_date": "2026-05-05",
       "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_05052026-1508",
       "items": [
-        "ITEM 2: ZC-26-0001 Public hearing, discussion, and make a recommendation to the City Council",
-        "regarding an ordinance rezoning approximately 1.067-acre tract of land in the Proctor Addition,",
+        "ITEM 2: ZC-26-0001 Public hearing, discussion, and make a recommendation to the City Council regarding an ordinance rezoning approximately 1.067-acre tract of land in the Proctor Addition, in the J. Proctor Survey, Abstract Number 683, in the City of Decatur, Wise County, Texas, from",
         "Chairman LeMond opened the public hearing on ZC-26-0001 at 5:31 p.m.",
-        "of or neutral to the request. Planning Director Hannon stated the opposition was calculated at seventeen Staff recommend approval of ZC-26-0001.",
-        "change request because he thinks the requested zoning change will negatively impact his two lots to the",
-        "Chairman LeMond asked if there are any other questions or comments. There were none, Chairman LeMond asked for a motion for ZC-26-0001.",
+        "Staff recommend approval of ZC-26-0001.",
+        "Concerned Citizen Kevin Haney 203 W. Walnut St., Decatur, Texas stated he is opposed to the zoning change request because he thinks the requested zoning change will negatively impact his two lots to the west and may eventually impact the value of the property on the corner because of the change to single family value or single family zoning. He said he thinks ultimately this property along this thoroughfare is more appropriate for light industrial zoning. Mr. Haney said there is a lack of light industrial zone property on major thoroughfares in the City of Decatur. He said he has been approached by a commercial/ retail user trying to purchase their property hinging on purchasing Mr. Brannon’s property.",
+        "LeMond asked for a motion for ZC-26-0001.",
         "Vice-Chairman Woodruff made a motion to recommend approval of Zoning Change",
-        "ITEM 6: FP-25-0013 Consider and make a recommendation to the City Council regarding a Final Plat",
+        "ITEM 6: FP-25-0013 Consider and make a recommendation to the City Council regarding a Final Plat application for Block A, Lots 1-22, 1X, 2X; Block B, Lots 1-8, 1X; Block C, Lots 1-20, 1X;",
         "ITEM 7: PP-25-0009 Consider and make a recommendation to the City Council regarding a Preliminary",
-        "ITEM 8: FP-25-0011 Consider and make a recommendation to the City Council regarding a Final Plat",
-        "ITEM 1: ZC-26-0002 Public hearing, discussion, and make a recommendation to the City Council",
-        "regarding an ordinance rezoning approximately 0.409-acre tract of land being described as Lot",
+        "ITEM 8: FP-25-0011 Consider and make a recommendation to the City Council regarding a Final Plat application of Lot 1 and Lot 2, Block 1, Cashen-Lusk Addition, being 1.37 acres in the J. B.",
+        "ITEM 1: ZC-26-0002 Public hearing, discussion, and make a recommendation to the City Council regarding an ordinance rezoning approximately 0.409-acre tract of land being described as Lot",
         "Chairman LeMond opened the public hearing on ZC-26-0002 at 5:31 p.m.",
-        "property owners were notified. Staff received no (0) responses in favor of, opposed to or neutral to the Staff recommend approval of ZC-26-0002.",
+        "Staff recommend approval of ZC-26-0002.",
+        "LeMond asked for a motion for ZC-26-0002.",
         "Commissioner Hicks made a motion to recommend approval of Zoning Change",
-        "Commissioner Mohamed made a motion to recommend approval of Comprehensive Plan",
-        "approved with one motion. These items are generally preliminary plats, final plats and replats. She"
+        "Commissioner Mohamed made a motion to recommend approval of Comprehensive Plan"
       ],
       "sfr_items": [
-        "regarding an ordinance rezoning approximately 1.067-acre tract of land in the Proctor Addition, [Keywords: acre]",
-        "change request because he thinks the requested zoning change will negatively impact his two lots to the [Keywords: lot]",
-        "regarding an ordinance rezoning approximately 0.409-acre tract of land being described as Lot [Keywords: lot, acre]"
+        "ITEM 2: ZC-26-0001 Public hearing, discussion, and make a recommendation to the City Council regarding an ordinance rezoning approximately 1.067-acre tract of land in the Proctor Addition, in the J. Proctor Survey, Abstract Number 683, in the City of Decatur, Wise County, Texas, from [Keywords: acre]",
+        "Concerned Citizen Kevin Haney 203 W. Walnut St., Decatur, Texas stated he is opposed to the zoning change request because he thinks the requested zoning change will negatively impact his two lots to the west and may eventually impact the value of the property on the corner because of the change to single family value or single family zoning. He said he thinks ultimately this property along this thoroughfare is more appropriate for light industrial zoning. Mr. Haney said there is a lack of light industrial zone property on major thoroughfares in the City of Decatur. He said he has been approached by a commercial/ retail user trying to purchase their property hinging on purchasing Mr. Brannon’s property. [Keywords: single family, lot]",
+        "ITEM 6: FP-25-0013 Consider and make a recommendation to the City Council regarding a Final Plat application for Block A, Lots 1-22, 1X, 2X; Block B, Lots 1-8, 1X; Block C, Lots 1-20, 1X; [Keywords: lot]",
+        "ITEM 8: FP-25-0011 Consider and make a recommendation to the City Council regarding a Final Plat application of Lot 1 and Lot 2, Block 1, Cashen-Lusk Addition, being 1.37 acres in the J. B. [Keywords: lot, acre]",
+        "ITEM 1: ZC-26-0002 Public hearing, discussion, and make a recommendation to the City Council regarding an ordinance rezoning approximately 0.409-acre tract of land being described as Lot [Keywords: lot, acre]"
       ],
       "status": "success"
     },
@@ -1920,10 +1740,10 @@
       "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_04272026-1505",
       "items": [
         "REZONING APPROXIMATELY 1.067-ACRE TRACT OF LAND IN THE PROCTOR ADDITION, IN",
-        "DISTRICT, ALSO KNOWN AS 600 E US HWY 380 BUSINESS. (CLIFFORD BRANNON, PROPERTY OWNER) ZC-26-0001.",
+        "PROPERTY OWNER) ZC-26-0001.",
         "REZONING APPROXIMATELY 0.409-ACRE TRACT OF LAND BEING DESCRIBED AS LOT 3R-2,",
-        "PP-25-0009. CONSIDER AND TAKE ACTION TO APPROVE A PRELIMINARY PLAT",
-        "FP-25-0011. CONSIDER AND TAKE ACTION TO APPROVE A FINAL PLAT"
+        "A. PP-25-0009. CONSIDER AND TAKE ACTION TO APPROVE A PRELIMINARY PLAT",
+        "B. FP-25-0011. CONSIDER AND TAKE ACTION TO APPROVE A FINAL PLAT"
       ],
       "sfr_items": [
         "REZONING APPROXIMATELY 1.067-ACRE TRACT OF LAND IN THE PROCTOR ADDITION, IN [Keywords: acre]",
@@ -1939,7 +1759,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Wise",
@@ -1949,7 +1769,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found (PDF parsed: 0 lines)"
+      "status": "same agenda center - items shown under P&Z"
     }
   ]
 }
