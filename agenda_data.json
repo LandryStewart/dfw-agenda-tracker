@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-05-08T16:32:43.258957Z",
+    "last_updated": "2026-05-09T15:05:31.985167Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-02-07",
+    "cutoff_date": "2026-02-08",
     "total_action_items": 45,
     "total_sfr_items": 12
   },
@@ -583,18 +583,18 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "",
-      "agenda_url": "",
+      "meeting_date": "2026-05-14",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_05142026-2192",
       "items": [],
       "sfr_items": [],
-      "status": "PDFs found but could not extract text"
+      "status": "PDF parsed (37 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "",
-      "agenda_url": "",
+      "meeting_date": "2026-05-14",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_05142026-2192",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1768,7 +1768,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Kaufman",
@@ -1844,11 +1844,11 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-04",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_05042026-2193",
+      "meeting_date": "2026-05-07",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_05072026-2194",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (32 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (26 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Johnson",
