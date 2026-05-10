@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-05-09T15:05:31.985167Z",
+    "last_updated": "2026-05-10T15:09:27.785729Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-02-08",
+    "cutoff_date": "2026-02-09",
     "total_action_items": 45,
     "total_sfr_items": 12
   },
@@ -365,7 +365,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -1768,7 +1768,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Kaufman",
