@@ -41,7 +41,7 @@
         .board-title .pz-tag{background:#e8f4fd;color:#2980b9;}
         .board-title .cc-tag{background:#fdf2e8;color:#d4952e;}
         .item-list{list-style:none;padding:0;}
-        .item-list li{padding:6px 0;font-size:0.88rem;color:var(--text);border-bottom:1px solid #f4f5f6;display:flex;align-items:flex-start;gap:8px;}
+        .item-list li{padding:8px 0;font-size:0.88rem;color:var(--text);border-bottom:1px solid #f4f5f6;display:block;}
         .item-list li:last-child{border-bottom:none;}
         .item-list li::before{content:"\2022";color:var(--text-light);font-weight:bold;margin-top:1px;}
         .item-list li.sfr{background:#f0faf4;border-radius:6px;padding:8px 10px;border-left:3px solid var(--success);margin:4px 0;}
@@ -50,13 +50,443 @@
         .no-items{color:var(--text-light);font-style:italic;font-size:0.85rem;padding:8px 0;}
         .error-msg{color:#e74c3c;font-style:italic;font-size:0.85rem;padding:8px 0;}
         .view-toggle{display:flex;gap:8px;margin-left:auto;}
-        .summary-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:24px;}
+        .summary-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin-bottom:24px;}
         .stat-card{background:white;padding:16px;border-radius:10px;box-shadow:var(--shadow);text-align:center;}
         .stat-card .num{font-size:1.8rem;font-weight:800;color:var(--primary);}
         .stat-card .label{font-size:0.8rem;color:var(--text-light);}
         .empty-state{text-align:center;padding:60px 20px;color:var(--text-light);}
         .empty-state i{font-size:3rem;margin-bottom:16px;display:block;}
         @media(max-width:768px){.container{padding:12px;}.city-block{padding:14px;}.board-section{margin-left:4px;padding-left:12px;}.toolbar{padding:10px;}}
+
+        .item-text{display:block;padding-left:18px;position:relative;line-height:1.55;}
+        .item-text::before{content:"\2022";color:var(--text-light);font-weight:bold;position:absolute;left:0;top:0;}
+        .item-list li.sfr .item-text::before{content:"\2605";color:var(--success);}
+        .item-attachments{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px;padding-left:18px;}
+        .attach-link{display:inline-flex;align-items:center;gap:4px;background:#e8f4fd;color:#2980b9;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:600;text-decoration:none;white-space:nowrap;transition:all 0.2s;border:1px solid #d0eafc;}
+        .attach-link:hover{background:#d0eafc;text-decoration:underline;}
+        .attach-link i{font-size:0.7rem;}
+        .page-link{background:#fef3e2;color:#d4952e;border-color:#fce8c8;}
+        .page-link:hover{background:#fce8c8;}
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1><i class="fas fa-city"></i> DFW Municipal Agenda Summary</h1>
+    <div class="meta" id="headerMeta">Loading agenda data...</div>
+</div>
+
+<div class="toolbar">
+    <select id="countyFilter" onchange="render()">
+        <option value="">All Counties</option>
+    </select>
+    <input type="text" id="searchBox" placeholder="Search city, keyword, or agenda item..." oninput="render()">
+    <div class="view-toggle">
+        <button class="btn btn-outline" onclick="toggleView('sfr')" id="btnSfr"><i class="fas fa-star"></i> SFR Only</button>
+        <button class="btn btn-accent" onclick="exportPDF()"><i class="fas fa-file-pdf"></i> Export PDF</button>
+    </div>
+</div>
+
+<div class="container">
+    <div class="summary-stats" id="statsBar"></div>
+    <div id="content">
+        <div class="empty-state">
+            <i class="fas fa-satellite-dish"></i>
+            <h3>Loading agenda data...</h3>
+            <p>If this persists, run the scraper from GitHub Actions first.</p>
+        </div>
+    </div>
+</div>
+
+<script>
+var data = null;
+var sfrOnly = false;
+
+/* ── Helpers: handle both string items (old) and object items (new) ── */
+function getItemText(item) {
+    if (typeof item === 'string') return item;
+    return (item && item.text) ? item.text : '';
+}
+function getItemAttachments(item) {
+    if (typeof item === 'object' && item && item.attachments) return item.attachments;
+    return [];
+}
+function getItemKeywords(item) {
+    if (typeof item === 'object' && item && item.keywords) return item.keywords;
+    var t = getItemText(item);
+    var m = t.match(/\[Keywords:\s*(.*?)\]/);
+    return m ? m[1].split(',').map(function(k){return k.trim();}) : [];
+}
+function isSfrItem(item, sfrList) {
+    var kw = getItemKeywords(item);
+    if (kw.length > 0) return true;
+    var t = getItemText(item);
+    if (t.indexOf('[Keywords:') !== -1) return true;
+    for (var si = 0; si < sfrList.length; si++) {
+        var sfrText = getItemText(sfrList[si]);
+        if (t.length > 40 && sfrText.indexOf(t.substring(0, 40)) !== -1) return true;
+    }
+    return false;
+}
+
+/* ── Linkify page references: "Pages 11-15" → clickable link ── */
+function linkifyPages(text, agendaUrl) {
+    if (!agendaUrl) return text;
+    var isPdf = agendaUrl.toLowerCase().indexOf('.pdf') !== -1 || agendaUrl.indexOf('ViewFile') !== -1;
+    if (!isPdf) return text;
+    text = text.replace(/Pages?\s+(\d+)\s*[-\u2013to]+\s*(\d+)/gi, function(match, p1) {
+        return '<a class="attach-link page-link" href="' + agendaUrl + '#page=' + p1 + '" target="_blank"><i class="fas fa-file-alt"></i> ' + match + '</a>';
+    });
+    text = text.replace(/(?<!\d)Page\s+(\d+)(?!\s*[-\u2013to]+\s*\d)/gi, function(match, p1) {
+        return '<a class="attach-link page-link" href="' + agendaUrl + '#page=' + p1 + '" target="_blank"><i class="fas fa-file-alt"></i> ' + match + '</a>';
+    });
+    return text;
+}
+
+/* ── Linkify exhibit refs: "Exhibit A" → link if matching attachment ── */
+function linkifyExhibits(text, attachments) {
+    if (!attachments || attachments.length === 0) return text;
+    text = text.replace(/(Exhibit\s+[A-Z]\d?|Appendix\s+[A-Z]\d?)/gi, function(match) {
+        var ml = match.toLowerCase();
+        for (var i = 0; i < attachments.length; i++) {
+            if (attachments[i].name.toLowerCase().indexOf(ml) !== -1) {
+                return '<a class="attach-link" href="' + attachments[i].url + '" target="_blank"><i class="fas fa-paperclip"></i> ' + match + '</a>';
+            }
+        }
+        return match;
+    });
+    return text;
+}
+
+function loadData() {
+    fetch('agenda_data.json?t=' + Date.now())
+    .then(function(r) { if(!r.ok) throw new Error('No data'); return r.json(); })
+    .then(function(d) {
+        data = d;
+        var counties = {};
+        data.summaries.forEach(function(s) { counties[s.county] = true; });
+        var sel = document.getElementById('countyFilter');
+        Object.keys(counties).sort().forEach(function(c) {
+            var o = document.createElement('option');
+            o.value = c; o.textContent = c + ' County';
+            sel.appendChild(o);
+        });
+        render();
+    })
+    .catch(function(e) {
+        document.getElementById('content').innerHTML = '<div class="empty-state"><i class="fas fa-satellite-dish"></i><h3>No agenda data found</h3><p>Go to your GitHub repo &rarr; Actions &rarr; Scrape DFW Agendas &rarr; Run workflow.<br>The scraper runs daily at 6 AM CT and generates this data automatically.</p></div>';
+    });
+}
+
+function toggleView(mode) {
+    sfrOnly = !sfrOnly;
+    var btn = document.getElementById('btnSfr');
+    if (sfrOnly) { btn.style.background = '#27ae60'; btn.style.color = 'white'; btn.style.border = 'none'; }
+    else { btn.style.background = 'white'; btn.style.color = 'var(--primary)'; btn.style.border = '2px solid #1a3a5c'; }
+    render();
+}
+
+function render() {
+    if (!data) return;
+    var cf = document.getElementById('countyFilter').value;
+    var search = document.getElementById('searchBox').value.toLowerCase();
+    var meta = data.metadata;
+    var totalItems = meta.total_agenda_items || meta.total_action_items || 0;
+    var totalSfr = meta.total_sfr_items || 0;
+    var totalAttach = meta.total_attachments || 0;
+
+    document.getElementById('headerMeta').innerHTML = 'Last updated: ' + new Date(meta.last_updated).toLocaleString() + ' &middot; ' + meta.cities_scanned + ' cities scanned &middot; ' + totalItems + ' agenda items &middot; ' + totalSfr + ' SFR-relevant';
+
+    var statsHtml = '';
+    statsHtml += '<div class="stat-card"><div class="num">' + meta.cities_scanned + '</div><div class="label">Cities Scanned</div></div>';
+    statsHtml += '<div class="stat-card"><div class="num">' + totalItems + '</div><div class="label">Agenda Items</div></div>';
+    statsHtml += '<div class="stat-card"><div class="num" style="color:#27ae60;">' + totalSfr + '</div><div class="label">SFR-Relevant</div></div>';
+    if (totalAttach > 0) {
+        statsHtml += '<div class="stat-card"><div class="num" style="color:#2980b9;">' + totalAttach + '</div><div class="label">Attachments</div></div>';
+    }
+    var countySet = {};
+    data.summaries.forEach(function(s) { countySet[s.county] = true; });
+    statsHtml += '<div class="stat-card"><div class="num">' + Object.keys(countySet).length + '</div><div class="label">Counties</div></div>';
+    document.getElementById('statsBar').innerHTML = statsHtml;
+
+    var grouped = {};
+    data.summaries.forEach(function(s) {
+        if (cf && s.county !== cf) return;
+        var items = sfrOnly ? s.sfr_items : s.items;
+        if (search) {
+            var matchCity = s.city.toLowerCase().indexOf(search) !== -1;
+            var matchCounty = s.county.toLowerCase().indexOf(search) !== -1;
+            var matchItems = items.some(function(item) { return getItemText(item).toLowerCase().indexOf(search) !== -1; });
+            if (!matchCity && !matchCounty && !matchItems) return;
+            if (!matchCity && !matchCounty) {
+                items = items.filter(function(item) { return getItemText(item).toLowerCase().indexOf(search) !== -1; });
+            }
+        }
+        if (!grouped[s.county]) grouped[s.county] = {};
+        if (!grouped[s.county][s.city]) grouped[s.county][s.city] = [];
+        grouped[s.county][s.city].push({
+            board: s.board,
+            meeting_date: s.meeting_date,
+            agenda_url: s.agenda_url,
+            items: items,
+            sfr_items: s.sfr_items,
+            all_items: s.items,
+            status: s.status
+        });
+    });
+
+    var sortedCounties = Object.keys(grouped).sort();
+    if (sortedCounties.length === 0) {
+        document.getElementById('content').innerHTML = '<div class="empty-state"><i class="fas fa-check-circle"></i><h3>No results match your filters</h3><p>Try broadening your search or changing the county filter.</p></div>';
+        return;
+    }
+
+    var html = '';
+    sortedCounties.forEach(function(county) {
+        var cities = grouped[county];
+        var cityNames = Object.keys(cities).sort();
+        var countyItemCount = 0;
+        var countySfrCount = 0;
+        cityNames.forEach(function(cn) {
+            cities[cn].forEach(function(b) { countyItemCount += b.all_items.length; countySfrCount += b.sfr_items.length; });
+        });
+        html += '<div class="county-section">';
+        html += '<div class="county-title" onclick="this.nextElementSibling.classList.toggle(\'collapsed\')">';
+        html += '<span><i class="fas fa-map-marker-alt"></i> ' + county + ' County</span>';
+        html += '<span class="stats">' + cityNames.length + ' cities &middot; ' + countyItemCount + ' items &middot; ' + countySfrCount + ' SFR</span>';
+        html += '</div>';
+        html += '<div class="county-content">';
+
+        cityNames.forEach(function(cityName) {
+            var boards = cities[cityName];
+            html += '<div class="city-block">';
+            html += '<div class="city-name"><span>' + cityName + '</span></div>';
+
+            boards.forEach(function(b) {
+                var tagClass = b.board.indexOf('Zoning') !== -1 ? 'pz-tag' : 'cc-tag';
+                html += '<div class="board-section">';
+                html += '<div class="board-title">';
+                html += '<span class="date-tag ' + tagClass + '">' + b.board + '</span>';
+                if (b.meeting_date) html += '<span style="font-weight:400;font-size:0.8rem;color:var(--text-light);">' + b.meeting_date + '</span>';
+                if (b.agenda_url && b.agenda_url !== '#') html += '<a href="' + b.agenda_url + '" target="_blank" style="font-size:0.75rem;color:var(--primary-light);margin-left:auto;text-decoration:none;"><i class="fas fa-external-link-alt"></i> View Source</a>';
+                html += '</div>';
+
+                if (b.status && b.status.indexOf('error') !== -1) {
+                    html += '<div class="error-msg"><i class="fas fa-exclamation-triangle"></i> ' + b.status + '</div>';
+                } else if (b.items.length === 0) {
+                    html += '<div class="no-items">No ' + (sfrOnly ? 'SFR-relevant ' : '') + 'agenda items found</div>';
+                } else {
+                    html += '<ul class="item-list">';
+                    b.items.forEach(function(item) {
+                        var itemText = getItemText(item);
+                        var attachments = getItemAttachments(item);
+                        var sfr = isSfrItem(item, b.sfr_items);
+                        var kw = getItemKeywords(item);
+
+                        /* Clean display text: strip [Keywords:...] suffix */
+                        var displayText = itemText.replace(/\s*\[Keywords:.*?\]\s*$/, '');
+
+                        /* Linkify page references and exhibit references */
+                        displayText = linkifyPages(displayText, b.agenda_url);
+                        displayText = linkifyExhibits(displayText, attachments);
+
+                        html += '<li' + (sfr ? ' class="sfr"' : '') + '>';
+                        html += '<span class="item-text">' + displayText;
+                        if (kw.length > 0) html += ' <span class="sfr-tag">' + kw.join(', ') + '</span>';
+                        html += '</span>';
+
+                        /* Render attachment links */
+                        if (attachments.length > 0) {
+                            html += '<div class="item-attachments">';
+                            attachments.forEach(function(att) {
+                                html += '<a class="attach-link" href="' + att.url + '" target="_blank"><i class="fas fa-paperclip"></i> ' + att.name + '</a>';
+                            });
+                            html += '</div>';
+                        }
+
+                        html += '</li>';
+                    });
+                    html += '</ul>';
+                }
+                html += '</div>';
+            });
+            html += '</div>';
+        });
+        html += '</div>';
+        html += '</div>';
+    });
+    document.getElementById('content').innerHTML = html;
+}
+
+function exportPDF() {
+    if (!data) return;
+    var doc = new window.jspdf.jsPDF('portrait', 'mm', 'letter');
+    var cf = document.getElementById('countyFilter').value;
+    var search = document.getElementById('searchBox').value.toLowerCase();
+    var meta = data.metadata;
+    var totalItems = meta.total_agenda_items || meta.total_action_items || 0;
+
+    /* Title bar */
+    doc.setFillColor(26, 58, 92);
+    doc.rect(0, 0, 220, 28, 'F');
+    doc.setTextColor(255, 255, 255);
+    doc.setFontSize(18);
+    doc.setFont('helvetica', 'bold');
+    doc.text('DFW Municipal Agenda Summary', 14, 12);
+    doc.setFontSize(9);
+    doc.setFont('helvetica', 'normal');
+    doc.text('Generated: ' + new Date().toLocaleString() + '  |  ' + meta.cities_scanned + ' cities  |  ' + (meta.total_sfr_items || 0) + ' SFR items', 14, 22);
+
+    var y = 36;
+    var pageH = 270;
+    var maxW = 168;
+
+    var grouped = {};
+    data.summaries.forEach(function(s) {
+        if (cf && s.county !== cf) return;
+        var items = sfrOnly ? s.sfr_items : s.items;
+        if (search) {
+            var match = s.city.toLowerCase().indexOf(search) !== -1 ||
+            s.county.toLowerCase().indexOf(search) !== -1 ||
+            items.some(function(i) { return getItemText(i).toLowerCase().indexOf(search) !== -1; });
+            if (!match) return;
+        }
+        if (items.length === 0) return;
+        if (!grouped[s.county]) grouped[s.county] = {};
+        if (!grouped[s.county][s.city]) grouped[s.county][s.city] = [];
+        grouped[s.county][s.city].push({ board: s.board, date: s.meeting_date, items: items, agenda_url: s.agenda_url });
+    });
+
+    Object.keys(grouped).sort().forEach(function(county) {
+        if (y > pageH - 20) { doc.addPage(); y = 20; }
+        doc.setFillColor(26, 58, 92);
+        doc.rect(14, y - 5, 188, 8, 'F');
+        doc.setTextColor(255, 255, 255);
+        doc.setFontSize(11);
+        doc.setFont('helvetica', 'bold');
+        doc.text(county + ' County', 16, y + 1);
+        y += 10;
+        doc.setTextColor(0, 0, 0);
+
+        Object.keys(grouped[county]).sort().forEach(function(city) {
+            if (y > pageH - 15) { doc.addPage(); y = 20; }
+            doc.setFontSize(10);
+            doc.setFont('helvetica', 'bold');
+            doc.text(city, 16, y);
+            y += 6;
+
+            grouped[county][city].forEach(function(b) {
+                if (y > pageH - 10) { doc.addPage(); y = 20; }
+                doc.setFontSize(8.5);
+                doc.setFont('helvetica', 'italic');
+                doc.setTextColor(100, 100, 100);
+                doc.text(b.board + (b.date ? ' (' + b.date + ')' : ''), 20, y);
+                y += 5;
+                doc.setFont('helvetica', 'normal');
+                doc.setTextColor(0, 0, 0);
+
+                b.items.forEach(function(item) {
+                    var itemText = getItemText(item);
+                    var attachments = getItemAttachments(item);
+                    var clean = itemText.replace(/\s*\[Keywords:.*?\]\s*$/, '');
+
+                    /* Word-wrap full text */
+                    doc.setFontSize(7.5);
+                    var lines = doc.splitTextToSize('\u2022 ' + clean, maxW);
+                    var needed = lines.length * 3.8 + (attachments.length > 0 ? attachments.length * 3.5 + 1 : 0);
+                    if (y + needed > pageH) { doc.addPage(); y = 20; }
+
+                    lines.forEach(function(line) {
+                        doc.text(line, 22, y);
+                        y += 3.8;
+                    });
+
+                    /* Print attachment names */
+                    if (attachments.length > 0) {
+                        doc.setFontSize(6.5);
+                        doc.setTextColor(41, 128, 185);
+                        attachments.forEach(function(att) {
+                            if (y > pageH - 6) { doc.addPage(); y = 20; }
+                            var attLine = '    \uD83D\uDCCE ' + att.name;
+                            doc.text(attLine, 26, y);
+                            y += 3.5;
+                        });
+                        doc.setTextColor(0, 0, 0);
+                    }
+                    y += 1;
+                });
+                y += 3;
+            });
+            y += 2;
+        });
+        y += 4;
+    });
+    doc.save('DFW_Agenda_Summary_' + new Date().toISOString().slice(0, 10) + '.pdf');
+}
+
+loadData();
+</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.1/jspdf.plugin.autotable.min.js"></script>
+    <style>
+        :root { --primary:#1a3a5c; --primary-light:#2a5a8c; --accent:#e8a838; --bg:#f0f2f5; --text:#2c3e50; --text-light:#7f8c8d; --success:#27ae60; --border:#dfe6e9; --shadow:0 2px 12px rgba(0,0,0,0.08); }
+        *{margin:0;padding:0;box-sizing:border-box;}
+        body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;}
+        .header{background:linear-gradient(135deg,var(--primary),var(--primary-light));color:white;padding:24px;position:sticky;top:0;z-index:100;box-shadow:0 2px 20px rgba(0,0,0,0.15);}
+        .header h1{font-size:1.5rem;font-weight:700;}
+        .header .meta{font-size:0.85rem;opacity:0.85;margin-top:4px;}
+        .toolbar{background:white;padding:14px 24px;border-bottom:2px solid var(--border);display:flex;gap:10px;flex-wrap:wrap;align-items:center;}
+        .toolbar select,.toolbar input{padding:10px 14px;border:2px solid var(--border);border-radius:8px;font-size:0.9rem;}
+        .toolbar input{flex:1;min-width:200px;}
+        .toolbar select{min-width:180px;}
+        .btn{padding:10px 20px;border:none;border-radius:8px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-family:inherit;font-size:0.85rem;}
+        .btn-accent{background:var(--accent);color:white;}
+        .btn-accent:hover{background:#d4952e;}
+        .btn-outline{background:white;color:var(--primary);border:2px solid var(--primary);}
+        .btn-outline:hover{background:var(--primary);color:white;}
+        .container{max-width:1200px;margin:0 auto;padding:20px;}
+        .county-section{margin-bottom:32px;}
+        .county-title{background:var(--primary);color:white;padding:16px 24px;border-radius:12px 12px 0 0;font-size:1.2rem;font-weight:700;display:flex;justify-content:space-between;align-items:center;cursor:pointer;}
+        .county-title:hover{background:var(--primary-light);}
+        .county-title .stats{font-size:0.8rem;font-weight:400;opacity:0.85;}
+        .county-content{background:white;border-radius:0 0 12px 12px;box-shadow:var(--shadow);}
+        .county-content.collapsed{display:none;}
+        .city-block{padding:20px 24px;border-bottom:1px solid var(--border);}
+        .city-block:last-child{border-bottom:none;}
+        .city-name{font-size:1.1rem;font-weight:700;color:var(--primary);margin-bottom:12px;display:flex;justify-content:space-between;align-items:center;}
+        .city-name a{font-size:0.8rem;color:var(--primary-light);text-decoration:none;font-weight:600;}
+        .city-name a:hover{text-decoration:underline;}
+        .board-section{margin-bottom:16px;margin-left:12px;padding-left:16px;border-left:3px solid var(--border);}
+        .board-title{font-weight:700;font-size:0.9rem;color:var(--primary-light);margin-bottom:6px;display:flex;align-items:center;gap:8px;}
+        .board-title .date-tag{background:#e8f4fd;color:#2980b9;padding:2px 10px;border-radius:12px;font-size:0.75rem;font-weight:600;}
+        .board-title .pz-tag{background:#e8f4fd;color:#2980b9;}
+        .board-title .cc-tag{background:#fdf2e8;color:#d4952e;}
+        .item-list{list-style:none;padding:0;}
+        .item-list li{padding:8px 0;font-size:0.88rem;color:var(--text);border-bottom:1px solid #f4f5f6;display:block;}
+        .item-list li:last-child{border-bottom:none;}
+        .item-list li::before{content:"\2022";color:var(--text-light);font-weight:bold;margin-top:1px;}
+        .item-list li.sfr{background:#f0faf4;border-radius:6px;padding:8px 10px;border-left:3px solid var(--success);margin:4px 0;}
+        .item-list li.sfr::before{content:"\2605";color:var(--success);}
+        .sfr-tag{background:#e8fdf0;color:#27ae60;padding:1px 8px;border-radius:10px;font-size:0.7rem;font-weight:700;margin-left:6px;white-space:nowrap;}
+        .no-items{color:var(--text-light);font-style:italic;font-size:0.85rem;padding:8px 0;}
+        .error-msg{color:#e74c3c;font-style:italic;font-size:0.85rem;padding:8px 0;}
+        .view-toggle{display:flex;gap:8px;margin-left:auto;}
+        .summary-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin-bottom:24px;}
+        .stat-card{background:white;padding:16px;border-radius:10px;box-shadow:var(--shadow);text-align:center;}
+        .stat-card .num{font-size:1.8rem;font-weight:800;color:var(--primary);}
+        .stat-card .label{font-size:0.8rem;color:var(--text-light);}
+        .empty-state{text-align:center;padding:60px 20px;color:var(--text-light);}
+        .empty-state i{font-size:3rem;margin-bottom:16px;display:block;}
+        @media(max-width:768px){.container{padding:12px;}.city-block{padding:14px;}.board-section{margin-left:4px;padding-left:12px;}.toolbar{padding:10px;}}
+
+        .item-text{display:block;padding-left:18px;position:relative;line-height:1.55;}
+        .item-text::before{content:"\2022";color:var(--text-light);font-weight:bold;position:absolute;left:0;top:0;}
+        .item-list li.sfr .item-text::before{content:"\2605";color:var(--success);}
+        .item-attachments{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px;padding-left:18px;}
+        .attach-link{display:inline-flex;align-items:center;gap:4px;background:#e8f4fd;color:#2980b9;padding:3px 10px;border-radius:12px;font-size:0.75rem;font-weight:600;text-decoration:none;white-space:nowrap;transition:all 0.2s;border:1px solid #d0eafc;}
+        .attach-link:hover{background:#d0eafc;text-decoration:underline;}
+        .attach-link i{font-size:0.7rem;}
+        .page-link{background:#fef3e2;color:#d4952e;border-color:#fce8c8;}
+        .page-link:hover{background:#fce8c8;}
     </style>
 </head>
 <body>
