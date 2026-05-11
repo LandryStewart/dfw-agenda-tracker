@@ -1,10 +1,11 @@
 {
   "metadata": {
-    "last_updated": "2026-05-11T18:33:52.587028Z",
+    "last_updated": "2026-05-11T20:02:44.474784Z",
     "cities_scanned": 98,
     "cutoff_date": "2026-02-10",
-    "total_action_items": 44,
-    "total_sfr_items": 12
+    "total_agenda_items": 44,
+    "total_sfr_items": 12,
+    "total_attachments": 0
   },
   "summaries": [
     {
@@ -35,7 +36,7 @@
       "agenda_url": "https://fortworthtexas.legistar.com/Calendar.aspx",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent matching meetings found"
     },
     {
       "county": "Tarrant",
@@ -154,14 +155,39 @@
       "meeting_date": "2026-05-14",
       "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_05142026-1588",
       "items": [
-        "Carter Blood Care Expansion Rezoning of an existing facility Council approved the rezoning. to accommodate an expansion.",
-        "HEB Grocery Final Plat for grocery store. Plat was approved by City of",
-        "Schumac Estates Final Plat Plat of 2 lots at Schumac and Final plat approved with",
-        "Brown Trail Estates 3300 Brown Trail final plat for 2 Final plat was approved. residential lots. Applicant’s next step would be to obtain permits to construct"
+        {
+          "text": "Carter Blood Care Expansion Rezoning of an existing facility Council approved the rezoning. to accommodate an expansion.",
+          "attachments": []
+        },
+        {
+          "text": "HEB Grocery Final Plat for grocery store. Plat was approved by City of",
+          "attachments": []
+        },
+        {
+          "text": "Schumac Estates Final Plat Plat of 2 lots at Schumac and Final plat approved with",
+          "attachments": []
+        },
+        {
+          "text": "Brown Trail Estates 3300 Brown Trail final plat for 2 Final plat was approved. residential lots. Applicant’s next step would be to obtain permits to construct",
+          "attachments": []
+        }
       ],
       "sfr_items": [
-        "Schumac Estates Final Plat Plat of 2 lots at Schumac and Final plat approved with [Keywords: lot]",
-        "Brown Trail Estates 3300 Brown Trail final plat for 2 Final plat was approved. residential lots. Applicant’s next step would be to obtain permits to construct [Keywords: residential, lot]"
+        {
+          "text": "Schumac Estates Final Plat Plat of 2 lots at Schumac and Final plat approved with",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        },
+        {
+          "text": "Brown Trail Estates 3300 Brown Trail final plat for 2 Final plat was approved. residential lots. Applicant’s next step would be to obtain permits to construct",
+          "attachments": [],
+          "keywords": [
+            "residential",
+            "lot"
+          ]
+        }
       ],
       "status": "success"
     },
@@ -422,7 +448,10 @@
       "meeting_date": "2026-05-12",
       "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_05122026-605",
       "items": [
-        "Application of Stanely Redding requesting a rezone from “M-1” Industrial to “M-2” Heavy"
+        {
+          "text": "Application of Stanely Redding requesting a rezone from “M-1” Industrial to “M-2” Heavy",
+          "attachments": []
+        }
       ],
       "sfr_items": [],
       "status": "success"
@@ -645,7 +674,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Dallas",
@@ -1004,8 +1033,14 @@
       "meeting_date": "2026-05-04",
       "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_05042026-1688",
       "items": [
-        "D.2 Final Plat Consider a final plat for McDonald’s just north of the intersection of FM 75 and Monte Carlo.",
-        "Exhibit A - Proposed Final Plat"
+        {
+          "text": "D.2 Final Plat Consider a final plat for McDonald’s just north of the intersection of FM 75 and Monte Carlo.",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit A - Proposed Final Plat",
+          "attachments": []
+        }
       ],
       "sfr_items": [],
       "status": "success"
@@ -1017,14 +1052,38 @@
       "meeting_date": "2026-05-11",
       "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_05112026-1691",
       "items": [
-        "L8. 2026-111 Consider a request to table discussion on the final plat for",
-        "Exhibit A - Proposed Final Plat.pdf",
-        "Exhibit B - Approved Preliminary Plat.pdf",
-        "L9. 2026-109 Consider a final plat for McDonald’s just north of the intersection of FM 75 and Monte Carlo; and take appropriate action."
+        {
+          "text": "L8. 2026-111 Consider a request to table discussion on the final plat for",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit A - Proposed Final Plat.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit B - Approved Preliminary Plat.pdf",
+          "attachments": []
+        },
+        {
+          "text": "L9. 2026-109 Consider a final plat for McDonald’s just north of the intersection of FM 75 and Monte Carlo; and take appropriate action.",
+          "attachments": []
+        }
       ],
       "sfr_items": [
-        "Exhibit A - Proposed Final Plat.pdf [Keywords: PD]",
-        "Exhibit B - Approved Preliminary Plat.pdf [Keywords: PD]"
+        {
+          "text": "Exhibit A - Proposed Final Plat.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit B - Approved Preliminary Plat.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        }
       ],
       "status": "success"
     },
@@ -1335,7 +1394,10 @@
       "meeting_date": "2026-05-06",
       "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_05062026-1284",
       "items": [
-        "Consider and make a recommendation to Town Council on a Major Final Plat for the [CONTINUED]"
+        {
+          "text": "Consider and make a recommendation to Town Council on a Major Final Plat for the [CONTINUED]",
+          "attachments": []
+        }
       ],
       "sfr_items": [],
       "status": "success"
@@ -1477,13 +1539,35 @@
       "meeting_date": "2026-04-07",
       "agenda_url": "https://www.crossroadstx.gov/AgendaCenter/ViewFile/Agenda/_04072026-49",
       "items": [
-        "Discuss and consider a recommendation to the Town Council on an preliminary plat application for a 82.99 acre parcel generally located west of Naylor Road, across from",
-        "Potter Shop Road to Naylor Road excepting the Prairie House and the old landscape business. The property is currently vacant and zoned Agricultural. The request would comply with the Town’s Comprehensive Plan and allow for the site to be developed for commercial uses. This rezoning is the first step in the development process which will include a preliminary plat and final plat approvals prior to any new structures being",
-        "The property is currently vacant and zoned Agricultural. The request would comply with the Town’s Comprehensive Plan and allow for the site to be developed for a single residential building lot. This rezoning is the first step in the development process which will include platting the site prior to any new structures being constructed."
+        {
+          "text": "Discuss and consider a recommendation to the Town Council on an preliminary plat application for a 82.99 acre parcel generally located west of Naylor Road, across from",
+          "attachments": []
+        },
+        {
+          "text": "Potter Shop Road to Naylor Road excepting the Prairie House and the old landscape business. The property is currently vacant and zoned Agricultural. The request would comply with the Town’s Comprehensive Plan and allow for the site to be developed for commercial uses. This rezoning is the first step in the development process which will include a preliminary plat and final plat approvals prior to any new structures being",
+          "attachments": []
+        },
+        {
+          "text": "The property is currently vacant and zoned Agricultural. The request would comply with the Town’s Comprehensive Plan and allow for the site to be developed for a single residential building lot. This rezoning is the first step in the development process which will include platting the site prior to any new structures being constructed.",
+          "attachments": []
+        }
       ],
       "sfr_items": [
-        "Discuss and consider a recommendation to the Town Council on an preliminary plat application for a 82.99 acre parcel generally located west of Naylor Road, across from [Keywords: acre]",
-        "The property is currently vacant and zoned Agricultural. The request would comply with the Town’s Comprehensive Plan and allow for the site to be developed for a single residential building lot. This rezoning is the first step in the development process which will include platting the site prior to any new structures being constructed. [Keywords: residential, lot]"
+        {
+          "text": "Discuss and consider a recommendation to the Town Council on an preliminary plat application for a 82.99 acre parcel generally located west of Naylor Road, across from",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "The property is currently vacant and zoned Agricultural. The request would comply with the Town’s Comprehensive Plan and allow for the site to be developed for a single residential building lot. This rezoning is the first step in the development process which will include platting the site prior to any new structures being constructed.",
+          "attachments": [],
+          "keywords": [
+            "residential",
+            "lot"
+          ]
+        }
       ],
       "status": "success"
     },
@@ -1494,10 +1578,19 @@
       "meeting_date": "2026-05-14",
       "agenda_url": "https://www.crossroadstx.gov/AgendaCenter/ViewFile/Agenda/_05142026-52",
       "items": [
-        "Town Administrator Jason Laumer gave the development update on Walmart, the preliminary plat for Bridlewood, and advised there is a developer interested in building sit down restaurants in the area of US 380 at FM 424."
+        {
+          "text": "Town Administrator Jason Laumer gave the development update on Walmart, the preliminary plat for Bridlewood, and advised there is a developer interested in building sit down restaurants in the area of US 380 at FM 424.",
+          "attachments": []
+        }
       ],
       "sfr_items": [
-        "Town Administrator Jason Laumer gave the development update on Walmart, the preliminary plat for Bridlewood, and advised there is a developer interested in building sit down restaurants in the area of US 380 at FM 424. [Keywords: PD]"
+        {
+          "text": "Town Administrator Jason Laumer gave the development update on Walmart, the preliminary plat for Bridlewood, and advised there is a developer interested in building sit down restaurants in the area of US 380 at FM 424.",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        }
       ],
       "status": "success"
     },
@@ -1508,12 +1601,27 @@
       "meeting_date": "2026-05-05",
       "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_05052026-585",
       "items": [
-        "G.W. Daniel Survey, Abstract No. 331; City of Oak Point, Texas. c. Consider an act to approve a Preliminary Plat for Oak Point Retail.",
-        "Agenda Items: Consider an application for a final plat on 12.577 acres of land situated in the G.W. Daniel Survey, Abstract No. 331; City of Oak Point, Texas.",
-        "REVIEW COMMENTS FOR FINAL PLAT"
+        {
+          "text": "G.W. Daniel Survey, Abstract No. 331; City of Oak Point, Texas. c. Consider an act to approve a Preliminary Plat for Oak Point Retail.",
+          "attachments": []
+        },
+        {
+          "text": "Agenda Items: Consider an application for a final plat on 12.577 acres of land situated in the G.W. Daniel Survey, Abstract No. 331; City of Oak Point, Texas.",
+          "attachments": []
+        },
+        {
+          "text": "REVIEW COMMENTS FOR FINAL PLAT",
+          "attachments": []
+        }
       ],
       "sfr_items": [
-        "Agenda Items: Consider an application for a final plat on 12.577 acres of land situated in the G.W. Daniel Survey, Abstract No. 331; City of Oak Point, Texas. [Keywords: acre]"
+        {
+          "text": "Agenda Items: Consider an application for a final plat on 12.577 acres of land situated in the G.W. Daniel Survey, Abstract No. 331; City of Oak Point, Texas.",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        }
       ],
       "status": "success"
     },
@@ -1714,17 +1822,55 @@
       "meeting_date": "2026-05-08",
       "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_05082026-614",
       "items": [
-        "Consider and act on a 30-Day Extension Request of a Final Plat for Clearview Ranch",
-        "Consider and act on a 30-Day Extension Request of a Final Plat for Verandah Phase",
-        "Consider and act on a Final Plat for Tesla Inc. Royse City BESS, consisting of +/- 11.9 acres, incorporating both the J. Stephenson Tract No. 27, Abstract No.188 & the E.",
-        "Consider and act on a Final Plat of the Marketplace West Addition, consisting of +/-",
-        "Consider and act on a Final Plat for Waterscape Phase 4A, consisting of +/- 44.87 acres, situated in the Nancy McCasland Survey, Lot 8, Abstract No.149, City of",
-        "Consider and act on a Final Plat for Waterscape Phase 4B, consisting of +/- 64.54 acres, situated in the Nancy McCasland Survey, Lot 8, Abstract No.149, City of"
+        {
+          "text": "Consider and act on a 30-Day Extension Request of a Final Plat for Clearview Ranch",
+          "attachments": []
+        },
+        {
+          "text": "Consider and act on a 30-Day Extension Request of a Final Plat for Verandah Phase",
+          "attachments": []
+        },
+        {
+          "text": "Consider and act on a Final Plat for Tesla Inc. Royse City BESS, consisting of +/- 11.9 acres, incorporating both the J. Stephenson Tract No. 27, Abstract No.188 & the E.",
+          "attachments": []
+        },
+        {
+          "text": "Consider and act on a Final Plat of the Marketplace West Addition, consisting of +/-",
+          "attachments": []
+        },
+        {
+          "text": "Consider and act on a Final Plat for Waterscape Phase 4A, consisting of +/- 44.87 acres, situated in the Nancy McCasland Survey, Lot 8, Abstract No.149, City of",
+          "attachments": []
+        },
+        {
+          "text": "Consider and act on a Final Plat for Waterscape Phase 4B, consisting of +/- 64.54 acres, situated in the Nancy McCasland Survey, Lot 8, Abstract No.149, City of",
+          "attachments": []
+        }
       ],
       "sfr_items": [
-        "Consider and act on a Final Plat for Tesla Inc. Royse City BESS, consisting of +/- 11.9 acres, incorporating both the J. Stephenson Tract No. 27, Abstract No.188 & the E. [Keywords: acre]",
-        "Consider and act on a Final Plat for Waterscape Phase 4A, consisting of +/- 44.87 acres, situated in the Nancy McCasland Survey, Lot 8, Abstract No.149, City of [Keywords: lot, acre]",
-        "Consider and act on a Final Plat for Waterscape Phase 4B, consisting of +/- 64.54 acres, situated in the Nancy McCasland Survey, Lot 8, Abstract No.149, City of [Keywords: lot, acre]"
+        {
+          "text": "Consider and act on a Final Plat for Tesla Inc. Royse City BESS, consisting of +/- 11.9 acres, incorporating both the J. Stephenson Tract No. 27, Abstract No.188 & the E.",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Consider and act on a Final Plat for Waterscape Phase 4A, consisting of +/- 44.87 acres, situated in the Nancy McCasland Survey, Lot 8, Abstract No.149, City of",
+          "attachments": [],
+          "keywords": [
+            "lot",
+            "acre"
+          ]
+        },
+        {
+          "text": "Consider and act on a Final Plat for Waterscape Phase 4B, consisting of +/- 64.54 acres, situated in the Nancy McCasland Survey, Lot 8, Abstract No.149, City of",
+          "attachments": [],
+          "keywords": [
+            "lot",
+            "acre"
+          ]
+        }
       ],
       "status": "success"
     },
@@ -1985,28 +2131,93 @@
       "meeting_date": "2026-05-11",
       "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_05112026-1510",
       "items": [
-        "Consider and take appropriate action to approve an Ordinance to rezone approximately",
-        "PROPERTY OWNER) ZC-26-0001. ORDINANCE 2026-05-14 Pages 11-15",
-        "Consider and take appropriate action to approve an Ordinance rezoning approximately 0.409- acre tract of land being described as Lot 3R-2, Block 116, South Decatur Addition, in the City",
-        "PROPERTY OWNER) ZC-26-0002. ORDINANCE 2026-05-16 Pages 21-25",
-        "Comprehensive Master Plan of the City; serves the health, safety, welfare, and aesthetic concerns of the public; is in the public interest; and that the zoning change does not unreasonably invade the rights of adjacent property owners.",
-        "SEVERABILITY, AND AN EFFECTIVE DATE. (ZC-26-0001)",
-        "WHEREAS, application ZC-26-0001 has been properly made to amend Appendix B,",
-        "WHEREAS, the City Council finds that the requested zoning amendment is consistent with the Comprehensive Master Plan of the City, serves the health, safety, welfare, and aesthetic concerns of the public; is in the interest; and that the zoning change does not unreasonably invade the rights of adjacent property owners. [PASSED]",
-        "SECTION 2. Amendment to the Zoning Ordinance. That Application ZC-26-0001 is hereby approved. Appendix B, “Zoning”, of the City’s Code of Ordinances, the",
-        "DECATUR, BY AMENDING APPENDIX D, THE COMPREHENSIVE PLAN OF",
-        "LAND USE PLAN MAP FROM TRADITIONAL NEIGHBORHOOD (TN) TO",
-        "WHEREAS, the current future land use designation of the tract of land located at 1707 S",
-        "Comprehensive Plan of the City,” to change the Future Land Use designation on the",
-        "WHEREAS, said Planning and Zoning Commission has recommended that the Application for the Future Land Use designation change as requested be APPROVED; and",
-        "WHEREAS, the City Council finds that the requested Comprehensive Plan Future Land [PASSED]",
-        "Use Map amendment is consistent with the Comprehensive Master Plan of the City, serves the health, safety, welfare, and aesthetic concerns of the public; is in the interest; and that the zoning change does not unreasonably invade the rights of adjacent property owners.",
-        "SECTION 2. Amendment to the Comprehensive Plan of the City. Appendix D,",
-        "“Comprehensive Plan of the City”, is hereby amended to change the Future Land Use designation on the Property located at 1707 S Hatcher Street and depicted and more particularly described in Exhibit A and depicted in Exhibit B, attached hereto, and incorporated herein, to Compact Neighborhood (CN).",
-        "SECTION 3. Amendment to Future Land Use Map. The Planning Director is hereby directed to correct the Official Future Land Use Map of the City of Decatur, Texas, to reflect the herein change approved by this Ordinance."
+        {
+          "text": "Consider and take appropriate action to approve an Ordinance to rezone approximately",
+          "attachments": []
+        },
+        {
+          "text": "PROPERTY OWNER) ZC-26-0001. ORDINANCE 2026-05-14 Pages 11-15",
+          "attachments": []
+        },
+        {
+          "text": "Consider and take appropriate action to approve an Ordinance rezoning approximately 0.409- acre tract of land being described as Lot 3R-2, Block 116, South Decatur Addition, in the City",
+          "attachments": []
+        },
+        {
+          "text": "PROPERTY OWNER) ZC-26-0002. ORDINANCE 2026-05-16 Pages 21-25",
+          "attachments": []
+        },
+        {
+          "text": "Comprehensive Master Plan of the City; serves the health, safety, welfare, and aesthetic concerns of the public; is in the public interest; and that the zoning change does not unreasonably invade the rights of adjacent property owners.",
+          "attachments": []
+        },
+        {
+          "text": "SEVERABILITY, AND AN EFFECTIVE DATE. (ZC-26-0001)",
+          "attachments": []
+        },
+        {
+          "text": "WHEREAS, application ZC-26-0001 has been properly made to amend Appendix B,",
+          "attachments": []
+        },
+        {
+          "text": "WHEREAS, the City Council finds that the requested zoning amendment is consistent with the Comprehensive Master Plan of the City, serves the health, safety, welfare, and aesthetic concerns of the public; is in the interest; and that the zoning change does not unreasonably invade the rights of adjacent property owners. [PASSED]",
+          "attachments": []
+        },
+        {
+          "text": "SECTION 2. Amendment to the Zoning Ordinance. That Application ZC-26-0001 is hereby approved. Appendix B, “Zoning”, of the City’s Code of Ordinances, the",
+          "attachments": []
+        },
+        {
+          "text": "DECATUR, BY AMENDING APPENDIX D, THE COMPREHENSIVE PLAN OF",
+          "attachments": []
+        },
+        {
+          "text": "LAND USE PLAN MAP FROM TRADITIONAL NEIGHBORHOOD (TN) TO",
+          "attachments": []
+        },
+        {
+          "text": "WHEREAS, the current future land use designation of the tract of land located at 1707 S",
+          "attachments": []
+        },
+        {
+          "text": "Comprehensive Plan of the City,” to change the Future Land Use designation on the",
+          "attachments": []
+        },
+        {
+          "text": "WHEREAS, said Planning and Zoning Commission has recommended that the Application for the Future Land Use designation change as requested be APPROVED; and",
+          "attachments": []
+        },
+        {
+          "text": "WHEREAS, the City Council finds that the requested Comprehensive Plan Future Land [PASSED]",
+          "attachments": []
+        },
+        {
+          "text": "Use Map amendment is consistent with the Comprehensive Master Plan of the City, serves the health, safety, welfare, and aesthetic concerns of the public; is in the interest; and that the zoning change does not unreasonably invade the rights of adjacent property owners.",
+          "attachments": []
+        },
+        {
+          "text": "SECTION 2. Amendment to the Comprehensive Plan of the City. Appendix D,",
+          "attachments": []
+        },
+        {
+          "text": "“Comprehensive Plan of the City”, is hereby amended to change the Future Land Use designation on the Property located at 1707 S Hatcher Street and depicted and more particularly described in Exhibit A and depicted in Exhibit B, attached hereto, and incorporated herein, to Compact Neighborhood (CN).",
+          "attachments": []
+        },
+        {
+          "text": "SECTION 3. Amendment to Future Land Use Map. The Planning Director is hereby directed to correct the Official Future Land Use Map of the City of Decatur, Texas, to reflect the herein change approved by this Ordinance.",
+          "attachments": []
+        }
       ],
       "sfr_items": [
-        "Consider and take appropriate action to approve an Ordinance rezoning approximately 0.409- acre tract of land being described as Lot 3R-2, Block 116, South Decatur Addition, in the City [Keywords: lot, acre, R-2]"
+        {
+          "text": "Consider and take appropriate action to approve an Ordinance rezoning approximately 0.409- acre tract of land being described as Lot 3R-2, Block 116, South Decatur Addition, in the City",
+          "attachments": [],
+          "keywords": [
+            "lot",
+            "acre",
+            "R-2"
+          ]
+        }
       ],
       "status": "success"
     },
