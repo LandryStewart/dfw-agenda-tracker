@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "last_updated": "2026-05-10T15:09:27.785729Z",
+    "last_updated": "2026-05-11T18:33:52.587028Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-02-09",
-    "total_action_items": 45,
+    "cutoff_date": "2026-02-10",
+    "total_action_items": 44,
     "total_sfr_items": 12
   },
   "summaries": [
@@ -35,7 +35,7 @@
       "agenda_url": "https://fortworthtexas.legistar.com/Calendar.aspx",
       "items": [],
       "sfr_items": [],
-      "status": "no recent matching meetings found"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -279,20 +279,18 @@
       "county": "Tarrant",
       "city": "Benbrook",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-04-30",
-      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_04302026-821",
-      "items": [
-        "II. Discussion of draft revisions to Chapter 3 of the Comprehensive Plan"
-      ],
+      "meeting_date": "2026-05-18",
+      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_05182026-825",
+      "items": [],
       "sfr_items": [],
-      "status": "success"
+      "status": "PDF parsed (123 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Tarrant",
       "city": "Benbrook",
       "board": "City Council",
-      "meeting_date": "2026-04-20",
-      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_04202026-820",
+      "meeting_date": "2026-05-18",
+      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_05182026-825",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -365,7 +363,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Tarrant",
@@ -647,7 +645,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Dallas",
@@ -1994,14 +1992,14 @@
         "Comprehensive Master Plan of the City; serves the health, safety, welfare, and aesthetic concerns of the public; is in the public interest; and that the zoning change does not unreasonably invade the rights of adjacent property owners.",
         "SEVERABILITY, AND AN EFFECTIVE DATE. (ZC-26-0001)",
         "WHEREAS, application ZC-26-0001 has been properly made to amend Appendix B,",
-        "WHEREAS, the City Council finds that the requested zoning amendment is consistent with the Comprehensive Master Plan of the City, serves the health, safety, welfare, and aesthetic concerns of the public; is in the interest; and that the zoning change does not unreasonably invade the rights of adjacent property owners.",
+        "WHEREAS, the City Council finds that the requested zoning amendment is consistent with the Comprehensive Master Plan of the City, serves the health, safety, welfare, and aesthetic concerns of the public; is in the interest; and that the zoning change does not unreasonably invade the rights of adjacent property owners. [PASSED]",
         "SECTION 2. Amendment to the Zoning Ordinance. That Application ZC-26-0001 is hereby approved. Appendix B, “Zoning”, of the City’s Code of Ordinances, the",
         "DECATUR, BY AMENDING APPENDIX D, THE COMPREHENSIVE PLAN OF",
         "LAND USE PLAN MAP FROM TRADITIONAL NEIGHBORHOOD (TN) TO",
         "WHEREAS, the current future land use designation of the tract of land located at 1707 S",
         "Comprehensive Plan of the City,” to change the Future Land Use designation on the",
         "WHEREAS, said Planning and Zoning Commission has recommended that the Application for the Future Land Use designation change as requested be APPROVED; and",
-        "WHEREAS, the City Council finds that the requested Comprehensive Plan Future Land",
+        "WHEREAS, the City Council finds that the requested Comprehensive Plan Future Land [PASSED]",
         "Use Map amendment is consistent with the Comprehensive Master Plan of the City, serves the health, safety, welfare, and aesthetic concerns of the public; is in the interest; and that the zoning change does not unreasonably invade the rights of adjacent property owners.",
         "SECTION 2. Amendment to the Comprehensive Plan of the City. Appendix D,",
         "“Comprehensive Plan of the City”, is hereby amended to change the Future Land Use designation on the Property located at 1707 S Hatcher Street and depicted and more particularly described in Exhibit A and depicted in Exhibit B, attached hereto, and incorporated herein, to Compact Neighborhood (CN).",
