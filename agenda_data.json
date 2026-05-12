@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-05-11T20:02:44.474784Z",
+    "last_updated": "2026-05-12T18:48:54.529570Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-02-10",
-    "total_agenda_items": 44,
-    "total_sfr_items": 12,
+    "cutoff_date": "2026-02-11",
+    "total_agenda_items": 25,
+    "total_sfr_items": 11,
     "total_attachments": 0
   },
   "summaries": [
@@ -389,7 +389,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -1888,11 +1888,11 @@
       "county": "Kaufman",
       "city": "Forney",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-07",
-      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_05072026-1272",
+      "meeting_date": "2026-05-14",
+      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_05142026-1273",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (32 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (49 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Kaufman",
@@ -2128,105 +2128,18 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-11",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_05112026-1510",
-      "items": [
-        {
-          "text": "Consider and take appropriate action to approve an Ordinance to rezone approximately",
-          "attachments": []
-        },
-        {
-          "text": "PROPERTY OWNER) ZC-26-0001. ORDINANCE 2026-05-14 Pages 11-15",
-          "attachments": []
-        },
-        {
-          "text": "Consider and take appropriate action to approve an Ordinance rezoning approximately 0.409- acre tract of land being described as Lot 3R-2, Block 116, South Decatur Addition, in the City",
-          "attachments": []
-        },
-        {
-          "text": "PROPERTY OWNER) ZC-26-0002. ORDINANCE 2026-05-16 Pages 21-25",
-          "attachments": []
-        },
-        {
-          "text": "Comprehensive Master Plan of the City; serves the health, safety, welfare, and aesthetic concerns of the public; is in the public interest; and that the zoning change does not unreasonably invade the rights of adjacent property owners.",
-          "attachments": []
-        },
-        {
-          "text": "SEVERABILITY, AND AN EFFECTIVE DATE. (ZC-26-0001)",
-          "attachments": []
-        },
-        {
-          "text": "WHEREAS, application ZC-26-0001 has been properly made to amend Appendix B,",
-          "attachments": []
-        },
-        {
-          "text": "WHEREAS, the City Council finds that the requested zoning amendment is consistent with the Comprehensive Master Plan of the City, serves the health, safety, welfare, and aesthetic concerns of the public; is in the interest; and that the zoning change does not unreasonably invade the rights of adjacent property owners. [PASSED]",
-          "attachments": []
-        },
-        {
-          "text": "SECTION 2. Amendment to the Zoning Ordinance. That Application ZC-26-0001 is hereby approved. Appendix B, “Zoning”, of the City’s Code of Ordinances, the",
-          "attachments": []
-        },
-        {
-          "text": "DECATUR, BY AMENDING APPENDIX D, THE COMPREHENSIVE PLAN OF",
-          "attachments": []
-        },
-        {
-          "text": "LAND USE PLAN MAP FROM TRADITIONAL NEIGHBORHOOD (TN) TO",
-          "attachments": []
-        },
-        {
-          "text": "WHEREAS, the current future land use designation of the tract of land located at 1707 S",
-          "attachments": []
-        },
-        {
-          "text": "Comprehensive Plan of the City,” to change the Future Land Use designation on the",
-          "attachments": []
-        },
-        {
-          "text": "WHEREAS, said Planning and Zoning Commission has recommended that the Application for the Future Land Use designation change as requested be APPROVED; and",
-          "attachments": []
-        },
-        {
-          "text": "WHEREAS, the City Council finds that the requested Comprehensive Plan Future Land [PASSED]",
-          "attachments": []
-        },
-        {
-          "text": "Use Map amendment is consistent with the Comprehensive Master Plan of the City, serves the health, safety, welfare, and aesthetic concerns of the public; is in the interest; and that the zoning change does not unreasonably invade the rights of adjacent property owners.",
-          "attachments": []
-        },
-        {
-          "text": "SECTION 2. Amendment to the Comprehensive Plan of the City. Appendix D,",
-          "attachments": []
-        },
-        {
-          "text": "“Comprehensive Plan of the City”, is hereby amended to change the Future Land Use designation on the Property located at 1707 S Hatcher Street and depicted and more particularly described in Exhibit A and depicted in Exhibit B, attached hereto, and incorporated herein, to Compact Neighborhood (CN).",
-          "attachments": []
-        },
-        {
-          "text": "SECTION 3. Amendment to Future Land Use Map. The Planning Director is hereby directed to correct the Official Future Land Use Map of the City of Decatur, Texas, to reflect the herein change approved by this Ordinance.",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Consider and take appropriate action to approve an Ordinance rezoning approximately 0.409- acre tract of land being described as Lot 3R-2, Block 116, South Decatur Addition, in the City",
-          "attachments": [],
-          "keywords": [
-            "lot",
-            "acre",
-            "R-2"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-05-18",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_05182026-1512",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (383 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Wise",
       "city": "Decatur",
       "board": "City Council",
-      "meeting_date": "2026-05-11",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_05112026-1510",
+      "meeting_date": "2026-05-18",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_05182026-1512",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
