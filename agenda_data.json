@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-05-12T18:48:54.529570Z",
+    "last_updated": "2026-05-13T18:51:07.498137Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-02-11",
-    "total_agenda_items": 25,
-    "total_sfr_items": 11,
+    "cutoff_date": "2026-02-12",
+    "total_agenda_items": 28,
+    "total_sfr_items": 16,
     "total_attachments": 0
   },
   "summaries": [
@@ -92,18 +92,57 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-12",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_05122026-2246",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (23 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-05-21",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_05212026-2250",
+      "items": [
+        {
+          "text": "Table: CP26-0004, Amendment to the City of Southlake Consolidated Future Land Use",
+          "attachments": []
+        },
+        {
+          "text": "Plan, an element of the Southlake Comprehensive Plan, for 360 Development, on property described as Lot 5A, Drake Estates Addition and located at 360 Randol Mill Avenue,",
+          "attachments": []
+        },
+        {
+          "text": "Table: ZA25-0072, Zoning Change and Site Plan for 360 Development, on property described as Lot 5A, Drake Estates Addition and located at 360 Randol Mill Avenue,",
+          "attachments": []
+        },
+        {
+          "text": "Consider: ZA26-0035, Zoning Change and Concept Plan for 3095 Johnson Rd. on property described as a portion of Lot 16, J. G. Allen No. 18 Addition and located at 3095",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Plan, an element of the Southlake Comprehensive Plan, for 360 Development, on property described as Lot 5A, Drake Estates Addition and located at 360 Randol Mill Avenue,",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        },
+        {
+          "text": "Table: ZA25-0072, Zoning Change and Site Plan for 360 Development, on property described as Lot 5A, Drake Estates Addition and located at 360 Randol Mill Avenue,",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        },
+        {
+          "text": "Consider: ZA26-0035, Zoning Change and Concept Plan for 3095 Johnson Rd. on property described as a portion of Lot 16, J. G. Allen No. 18 Addition and located at 3095",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
-      "meeting_date": "2026-05-12",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_05122026-2246",
+      "meeting_date": "2026-05-14",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_05142026-2248",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -195,8 +234,8 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "City Council",
-      "meeting_date": "2026-04-28",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_04282026-1586",
+      "meeting_date": "2026-04-30",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_04302026-1587",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -820,8 +859,8 @@
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "City Council",
-      "meeting_date": "2026-04-28",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_04282026-1792",
+      "meeting_date": "2026-05-07",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_05072026-1793",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1030,11 +1069,11 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-04",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_05042026-1688",
+      "meeting_date": "2026-05-18",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_05182026-1692",
       "items": [
         {
-          "text": "D.2 Final Plat Consider a final plat for McDonald’s just north of the intersection of FM 75 and Monte Carlo.",
+          "text": "E2. 2026-04-009-FP Consider a request from AFK Wash Investments, LLC to final plat a property being a 1.184-acre tract of land located at 1732 East",
           "attachments": []
         },
         {
@@ -1042,50 +1081,26 @@
           "attachments": []
         }
       ],
-      "sfr_items": [],
+      "sfr_items": [
+        {
+          "text": "E2. 2026-04-009-FP Consider a request from AFK Wash Investments, LLC to final plat a property being a 1.184-acre tract of land located at 1732 East",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        }
+      ],
       "status": "success"
     },
     {
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-05-11",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_05112026-1691",
-      "items": [
-        {
-          "text": "L8. 2026-111 Consider a request to table discussion on the final plat for",
-          "attachments": []
-        },
-        {
-          "text": "Exhibit A - Proposed Final Plat.pdf",
-          "attachments": []
-        },
-        {
-          "text": "Exhibit B - Approved Preliminary Plat.pdf",
-          "attachments": []
-        },
-        {
-          "text": "L9. 2026-109 Consider a final plat for McDonald’s just north of the intersection of FM 75 and Monte Carlo; and take appropriate action.",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Exhibit A - Proposed Final Plat.pdf",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "Exhibit B - Approved Preliminary Plat.pdf",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-05-13",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_06032026-1693",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Collin",
@@ -1406,11 +1421,29 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "City Council",
-      "meeting_date": "2026-05-07",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_05072026-1285",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-05-18",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_05182026-1290",
+      "items": [
+        {
+          "text": "Discuss and consider Final Plat (FP-26-004) for the Knights Ridge subdivision, Lots 1-25, 26X [CONTINUED]",
+          "attachments": []
+        },
+        {
+          "text": "Hold a public hearing and consider action on Ordinance 2026-11 authorizing a Zoning Change [CONTINUED]",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Discuss and consider Final Plat (FP-26-004) for the Knights Ridge subdivision, Lots 1-25, 26X [CONTINUED]",
+          "attachments": [],
+          "keywords": [
+            "subdivision",
+            "lot"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Denton",
@@ -1598,32 +1631,11 @@
       "county": "Denton",
       "city": "Oak Point",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-05",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_05052026-585",
-      "items": [
-        {
-          "text": "G.W. Daniel Survey, Abstract No. 331; City of Oak Point, Texas. c. Consider an act to approve a Preliminary Plat for Oak Point Retail.",
-          "attachments": []
-        },
-        {
-          "text": "Agenda Items: Consider an application for a final plat on 12.577 acres of land situated in the G.W. Daniel Survey, Abstract No. 331; City of Oak Point, Texas.",
-          "attachments": []
-        },
-        {
-          "text": "REVIEW COMMENTS FOR FINAL PLAT",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Agenda Items: Consider an application for a final plat on 12.577 acres of land situated in the G.W. Daniel Survey, Abstract No. 331; City of Oak Point, Texas.",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-05-07",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_05072026-586",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (196 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Denton",
@@ -1912,7 +1924,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Kaufman",
@@ -1988,11 +2000,54 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-07",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_05072026-2194",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (26 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-05-18",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_05182026-2198",
+      "items": [
+        {
+          "text": "Commissioner Svendsen made a motion to recommend approval of the final plat as presented, with the condition that filing information for all easements dedicated by separate instrument be added to the plat prior to recordation with the Johnson County Clerk’s Office, in accordance with Section 154.025(C)(11) of the Subdivision Ordinance. Commissioner [FAILED]",
+          "attachments": []
+        },
+        {
+          "text": "Future Land Use Plan: The Future Land Use Plan shows this property to be located in the Medium-Density",
+          "attachments": []
+        },
+        {
+          "text": "Residential District, which is intended to provide areas for detached single-family homes on traditionally sized lots. Given that this property is located within an existing manufactured home subdivision, the proposed SUP request is considered compatible with the Future Land Use Plan. [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "Cleburne, TX 76033 Future Land Use Map",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Commissioner Svendsen made a motion to recommend approval of the final plat as presented, with the condition that filing information for all easements dedicated by separate instrument be added to the plat prior to recordation with the Johnson County Clerk’s Office, in accordance with Section 154.025(C)(11) of the Subdivision Ordinance. Commissioner [FAILED]",
+          "attachments": [],
+          "keywords": [
+            "subdivision"
+          ]
+        },
+        {
+          "text": "Future Land Use Plan: The Future Land Use Plan shows this property to be located in the Medium-Density",
+          "attachments": [],
+          "keywords": [
+            "density"
+          ]
+        },
+        {
+          "text": "Residential District, which is intended to provide areas for detached single-family homes on traditionally sized lots. Given that this property is located within an existing manufactured home subdivision, the proposed SUP request is considered compatible with the Future Land Use Plan. [APPROVED]",
+          "attachments": [],
+          "keywords": [
+            "single-family",
+            "residential",
+            "subdivision",
+            "detached",
+            "lot"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Johnson",
@@ -2129,10 +2184,10 @@
       "city": "Decatur",
       "board": "Planning & Zoning",
       "meeting_date": "2026-05-18",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_05182026-1512",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_05182026-1515",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (383 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (35 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Wise",
