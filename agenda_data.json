@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "last_updated": "2026-05-13T18:51:07.498137Z",
+    "last_updated": "2026-05-14T17:56:53.449398Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-02-12",
-    "total_agenda_items": 28,
+    "cutoff_date": "2026-02-13",
+    "total_agenda_items": 35,
     "total_sfr_items": 16,
     "total_attachments": 0
   },
@@ -141,11 +141,40 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
-      "meeting_date": "2026-05-14",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_05142026-2248",
-      "items": [],
+      "meeting_date": "2026-05-19",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_05192026-2252",
+      "items": [
+        {
+          "text": "Southlake Consolidated Future Land Use Plan, an element of the Southlake",
+          "attachments": []
+        },
+        {
+          "text": "Comprehensive Plan, to add a site specific recommendation for limited low intensity local retail services for 1170 - 1180 N. White Chapel Boulevard, on property described as Tracts 8B03 and 8B04, Thomas M. Hood Survey",
+          "attachments": []
+        },
+        {
+          "text": "B. Ordinance No. 480-842, ZA25-0074, 3rd Reading, Zoning Change and Site",
+          "attachments": []
+        },
+        {
+          "text": "A. Ordinance No. 480-843, ZA26-0014, 1st Reading, Zoning Change and",
+          "attachments": []
+        },
+        {
+          "text": "B. Ordinance No. 480-844, ZA26-0015, 1st Reading, Zoning Change and",
+          "attachments": []
+        },
+        {
+          "text": "C. Ordinance No. 480-845, ZA26-0020, 1st Reading, Zoning Change and",
+          "attachments": []
+        },
+        {
+          "text": "D. Ordinance No. 480-846, ZA26-0022, 1st Reading, Zoning Change and",
+          "attachments": []
+        }
+      ],
       "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "status": "success"
     },
     {
       "county": "Tarrant",
@@ -499,8 +528,8 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-05-05",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_05052026-602",
+      "meeting_date": "2026-05-13",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_03162026-582",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1097,7 +1126,7 @@
       "city": "Princeton",
       "board": "City Council",
       "meeting_date": "2026-05-13",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_06032026-1693",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_06062026-1694",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1641,8 +1670,8 @@
       "county": "Denton",
       "city": "Oak Point",
       "board": "City Council",
-      "meeting_date": "2026-05-11",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_05112026-588",
+      "meeting_date": "2026-05-12",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_05122026-589",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1711,18 +1740,18 @@
       "county": "Ellis",
       "city": "Midlothian",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-02-12",
-      "agenda_url": "https://www.midlothian.tx.us/AgendaCenter/ViewFile/Agenda/_02122026-13",
+      "meeting_date": "2026-03-12",
+      "agenda_url": "https://www.midlothian.tx.us/AgendaCenter/ViewFile/Agenda/_03122026-17",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (39 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (43 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Ellis",
       "city": "Midlothian",
       "board": "City Council",
-      "meeting_date": "2026-02-12",
-      "agenda_url": "https://www.midlothian.tx.us/AgendaCenter/ViewFile/Agenda/_02122026-13",
+      "meeting_date": "2026-03-12",
+      "agenda_url": "https://www.midlothian.tx.us/AgendaCenter/ViewFile/Agenda/_03122026-17",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
