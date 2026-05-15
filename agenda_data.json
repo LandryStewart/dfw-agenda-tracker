@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "last_updated": "2026-05-14T17:56:53.449398Z",
+    "last_updated": "2026-05-15T17:44:40.300379Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-02-13",
-    "total_agenda_items": 35,
+    "cutoff_date": "2026-02-14",
+    "total_agenda_items": 37,
     "total_sfr_items": 16,
     "total_attachments": 0
   },
@@ -96,39 +96,32 @@
       "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_05212026-2250",
       "items": [
         {
-          "text": "Table: CP26-0004, Amendment to the City of Southlake Consolidated Future Land Use",
+          "text": "Table: CP26-0004, Amendment to the City of Southlake Consolidated Future Land Use Plan, an element of the Southlake Comprehensive Plan, for 360 Development, on property described as",
           "attachments": []
         },
         {
-          "text": "Plan, an element of the Southlake Comprehensive Plan, for 360 Development, on property described as Lot 5A, Drake Estates Addition and located at 360 Randol Mill Avenue,",
+          "text": "Table: ZA25-0072, Zoning Change and Site Plan for 360 Development, on property described as",
           "attachments": []
         },
         {
-          "text": "Table: ZA25-0072, Zoning Change and Site Plan for 360 Development, on property described as Lot 5A, Drake Estates Addition and located at 360 Randol Mill Avenue,",
+          "text": "Consider: CP26-0006, Amendment to the City of Southlake Consolidated Future Land Use Plan, an Element of the Southlake Comprehensive Plan, for 3095 Johnson Rd. on property described as a portion of Lot 16, J. G. Allen No. 18 Addition and located at 3095 Johnson Road. Current",
           "attachments": []
         },
         {
-          "text": "Consider: ZA26-0035, Zoning Change and Concept Plan for 3095 Johnson Rd. on property described as a portion of Lot 16, J. G. Allen No. 18 Addition and located at 3095",
+          "text": "Consider: ZA26-0035, Zoning Change and Concept Plan for 3095 Johnson Rd. on property described as a portion of Lot 16, J. G. Allen No. 18 Addition and located at 3095 Johnson Road. Current",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "Plan, an element of the Southlake Comprehensive Plan, for 360 Development, on property described as Lot 5A, Drake Estates Addition and located at 360 Randol Mill Avenue,",
+          "text": "Consider: CP26-0006, Amendment to the City of Southlake Consolidated Future Land Use Plan, an Element of the Southlake Comprehensive Plan, for 3095 Johnson Rd. on property described as a portion of Lot 16, J. G. Allen No. 18 Addition and located at 3095 Johnson Road. Current",
           "attachments": [],
           "keywords": [
             "lot"
           ]
         },
         {
-          "text": "Table: ZA25-0072, Zoning Change and Site Plan for 360 Development, on property described as Lot 5A, Drake Estates Addition and located at 360 Randol Mill Avenue,",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        },
-        {
-          "text": "Consider: ZA26-0035, Zoning Change and Concept Plan for 3095 Johnson Rd. on property described as a portion of Lot 16, J. G. Allen No. 18 Addition and located at 3095",
+          "text": "Consider: ZA26-0035, Zoning Change and Concept Plan for 3095 Johnson Rd. on property described as a portion of Lot 16, J. G. Allen No. 18 Addition and located at 3095 Johnson Road. Current",
           "attachments": [],
           "keywords": [
             "lot"
@@ -263,8 +256,8 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "City Council",
-      "meeting_date": "2026-04-30",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_04302026-1587",
+      "meeting_date": "2026-05-12",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_05122026-1589",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -457,7 +450,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Tarrant",
@@ -888,11 +881,29 @@
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "City Council",
-      "meeting_date": "2026-05-07",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_05072026-1793",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-05-21",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_05212026-1796",
+      "items": [
+        {
+          "text": "Conduct a public hearing on Preliminary Plat Application 008-2026 for True Fellowship",
+          "attachments": []
+        },
+        {
+          "text": "Church to plat subject parcel totaling (+/-) 1.225 acres located at 13420 Alexander Road in an Industrial (I) Zone District for an existing church. a. Conduct a Public Hearing on the Preliminary Plat Application 008-2026 b. Consideration and action on the Preliminary Plat Application 008-2026 a. Updates and briefings on Land Use Applications. b. Update on Planning & Zoning Commission Attendance Report.",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Church to plat subject parcel totaling (+/-) 1.225 acres located at 13420 Alexander Road in an Industrial (I) Zone District for an existing church. a. Conduct a Public Hearing on the Preliminary Plat Application 008-2026 b. Consideration and action on the Preliminary Plat Application 008-2026 a. Updates and briefings on Land Use Applications. b. Update on Planning & Zoning Commission Attendance Report.",
+          "attachments": [],
+          "keywords": [
+            "acre",
+            "PD"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Dallas",
@@ -1125,8 +1136,8 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-05-13",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_06062026-1694",
+      "meeting_date": "2026-05-16",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_05162026-1690",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2213,17 +2224,17 @@
       "city": "Decatur",
       "board": "Planning & Zoning",
       "meeting_date": "2026-05-18",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_05182026-1515",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_05182026-1511",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (35 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (66 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Wise",
       "city": "Decatur",
       "board": "City Council",
-      "meeting_date": "2026-05-18",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_05182026-1512",
+      "meeting_date": "2026-05-19",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_05192026-1516",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
