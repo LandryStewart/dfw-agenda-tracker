@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-05-18T18:43:01.351116Z",
+    "last_updated": "2026-05-19T18:48:55.724697Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-02-17",
-    "total_agenda_items": 37,
-    "total_sfr_items": 16,
+    "cutoff_date": "2026-02-18",
+    "total_agenda_items": 26,
+    "total_sfr_items": 14,
     "total_attachments": 0
   },
   "summaries": [
@@ -92,82 +92,21 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-21",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_05212026-2250",
-      "items": [
-        {
-          "text": "Table: CP26-0004, Amendment to the City of Southlake Consolidated Future Land Use Plan, an element of the Southlake Comprehensive Plan, for 360 Development, on property described as",
-          "attachments": []
-        },
-        {
-          "text": "Table: ZA25-0072, Zoning Change and Site Plan for 360 Development, on property described as",
-          "attachments": []
-        },
-        {
-          "text": "Consider: CP26-0006, Amendment to the City of Southlake Consolidated Future Land Use Plan, an Element of the Southlake Comprehensive Plan, for 3095 Johnson Rd. on property described as a portion of Lot 16, J. G. Allen No. 18 Addition and located at 3095 Johnson Road. Current",
-          "attachments": []
-        },
-        {
-          "text": "Consider: ZA26-0035, Zoning Change and Concept Plan for 3095 Johnson Rd. on property described as a portion of Lot 16, J. G. Allen No. 18 Addition and located at 3095 Johnson Road. Current",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Consider: CP26-0006, Amendment to the City of Southlake Consolidated Future Land Use Plan, an Element of the Southlake Comprehensive Plan, for 3095 Johnson Rd. on property described as a portion of Lot 16, J. G. Allen No. 18 Addition and located at 3095 Johnson Road. Current",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        },
-        {
-          "text": "Consider: ZA26-0035, Zoning Change and Concept Plan for 3095 Johnson Rd. on property described as a portion of Lot 16, J. G. Allen No. 18 Addition and located at 3095 Johnson Road. Current",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-05-26",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_05262026-2257",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (24 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
-      "meeting_date": "2026-05-19",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_05192026-2252",
-      "items": [
-        {
-          "text": "Southlake Consolidated Future Land Use Plan, an element of the Southlake",
-          "attachments": []
-        },
-        {
-          "text": "Comprehensive Plan, to add a site specific recommendation for limited low intensity local retail services for 1170 - 1180 N. White Chapel Boulevard, on property described as Tracts 8B03 and 8B04, Thomas M. Hood Survey",
-          "attachments": []
-        },
-        {
-          "text": "B. Ordinance No. 480-842, ZA25-0074, 3rd Reading, Zoning Change and Site",
-          "attachments": []
-        },
-        {
-          "text": "A. Ordinance No. 480-843, ZA26-0014, 1st Reading, Zoning Change and",
-          "attachments": []
-        },
-        {
-          "text": "B. Ordinance No. 480-844, ZA26-0015, 1st Reading, Zoning Change and",
-          "attachments": []
-        },
-        {
-          "text": "C. Ordinance No. 480-845, ZA26-0020, 1st Reading, Zoning Change and",
-          "attachments": []
-        },
-        {
-          "text": "D. Ordinance No. 480-846, ZA26-0022, 1st Reading, Zoning Change and",
-          "attachments": []
-        }
-      ],
+      "meeting_date": "2026-05-26",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_05262026-2257",
+      "items": [],
       "sfr_items": [],
-      "status": "success"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
@@ -256,8 +195,8 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "City Council",
-      "meeting_date": "2026-05-12",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_05122026-1589",
+      "meeting_date": "2026-05-18",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_05182026-1590",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -681,8 +620,8 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-05-14",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_05142026-2192",
+      "meeting_date": "2026-05-18",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_05182026-2194",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1450,7 +1389,7 @@
       "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_05062026-1284",
       "items": [
         {
-          "text": "Consider and make a recommendation to Town Council on a Major Final Plat for the [CONTINUED]",
+          "text": "Consider and make a recommendation to Town Council on a Major Final Plat for the [PASSED 4-0]",
           "attachments": []
         }
       ],
@@ -1465,17 +1404,17 @@
       "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_05182026-1290",
       "items": [
         {
-          "text": "Discuss and consider Final Plat (FP-26-004) for the Knights Ridge subdivision, Lots 1-25, 26X [CONTINUED]",
+          "text": "Discuss and consider Final Plat (FP-26-004) for the Knights Ridge subdivision, Lots 1-25, 26X",
           "attachments": []
         },
         {
-          "text": "Hold a public hearing and consider action on Ordinance 2026-11 authorizing a Zoning Change [CONTINUED]",
+          "text": "Hold a public hearing and consider action on Ordinance 2026-11 authorizing a Zoning Change",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "Discuss and consider Final Plat (FP-26-004) for the Knights Ridge subdivision, Lots 1-25, 26X [CONTINUED]",
+          "text": "Discuss and consider Final Plat (FP-26-004) for the Knights Ridge subdivision, Lots 1-25, 26X",
           "attachments": [],
           "keywords": [
             "subdivision",
@@ -1862,7 +1801,7 @@
       "city": "Fate",
       "board": "City Council",
       "meeting_date": "2026-05-15",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_05152026-1450",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_05152026-1449",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2094,7 +2033,7 @@
       "city": "Cleburne",
       "board": "City Council",
       "meeting_date": "2026-05-04",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_05042026-2192",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_05042026-2193",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2223,18 +2162,18 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-18",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_05182026-1511",
+      "meeting_date": "2026-05-20",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_05202026-1521",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (66 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (45 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Wise",
       "city": "Decatur",
       "board": "City Council",
-      "meeting_date": "2026-05-19",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_05192026-1516",
+      "meeting_date": "2026-05-20",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_05202026-1521",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
