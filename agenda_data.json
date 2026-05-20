@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-05-19T18:48:55.724697Z",
+    "last_updated": "2026-05-20T20:02:41.331812Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-02-18",
-    "total_agenda_items": 26,
-    "total_sfr_items": 14,
+    "cutoff_date": "2026-02-19",
+    "total_agenda_items": 27,
+    "total_sfr_items": 16,
     "total_attachments": 0
   },
   "summaries": [
@@ -445,15 +445,25 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-12",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_05122026-605",
+      "meeting_date": "2026-05-26",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_05262026-610",
       "items": [
         {
-          "text": "Application of Stanely Redding requesting a rezone from “M-1” Industrial to “M-2” Heavy",
+          "text": "Application of Mark S. Wood requesting a rezone from “CF” Community Facility District to“SF-2”SingleFamilyResidentialDistrictlocatedonSchoolTract,Block11,oftheWest",
           "attachments": []
         }
       ],
-      "sfr_items": [],
+      "sfr_items": [
+        {
+          "text": "Application of Mark S. Wood requesting a rezone from “CF” Community Facility District to“SF-2”SingleFamilyResidentialDistrictlocatedonSchoolTract,Block11,oftheWest",
+          "attachments": [],
+          "keywords": [
+            "residential",
+            "SF-",
+            "unit"
+          ]
+        }
+      ],
       "status": "success"
     },
     {
@@ -610,18 +620,18 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-14",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_05142026-2192",
+      "meeting_date": "2026-05-26",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_05262026-2197",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (37 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (22 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-05-18",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_05182026-2194",
+      "meeting_date": "2026-05-26",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_05262026-2197",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1075,8 +1085,8 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-05-16",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_05162026-1690",
+      "meeting_date": "2026-05-19",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_05192026-1695",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1610,18 +1620,18 @@
       "county": "Denton",
       "city": "Oak Point",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-07",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_05072026-586",
+      "meeting_date": "2026-05-11",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_05112026-587",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (196 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (90 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Denton",
       "city": "Oak Point",
       "board": "City Council",
-      "meeting_date": "2026-05-12",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_05122026-589",
+      "meeting_date": "2026-05-13",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_05132026-590",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1791,7 +1801,7 @@
       "city": "Fate",
       "board": "Planning & Zoning",
       "meeting_date": "2026-05-15",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_05152026-1450",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_05152026-1449",
       "items": [],
       "sfr_items": [],
       "status": "PDF parsed (26 lines) but no rezone/plat/comp plan items"
@@ -1800,8 +1810,8 @@
       "county": "Rockwall",
       "city": "Fate",
       "board": "City Council",
-      "meeting_date": "2026-05-15",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_05152026-1449",
+      "meeting_date": "2026-05-20",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_06032026-1454",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2172,11 +2182,24 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "City Council",
-      "meeting_date": "2026-05-20",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_05202026-1521",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-05-26",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_05262026-1523",
+      "items": [
+        {
+          "text": "Final Plat Lot 1R, Block 2, Memorial Park Addition, being a replat of Lot 1R, Block 108, and Lot 1R, Block 119, South Decatur Addition, and Lot 1, Block 2, Decatur Police Station, in the City of Decatur, Wise County, Texas. (CITY OF DECATUR, PROPERTY OWNER)",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Final Plat Lot 1R, Block 2, Memorial Park Addition, being a replat of Lot 1R, Block 108, and Lot 1R, Block 119, South Decatur Addition, and Lot 1, Block 2, Decatur Police Station, in the City of Decatur, Wise County, Texas. (CITY OF DECATUR, PROPERTY OWNER)",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Wise",
