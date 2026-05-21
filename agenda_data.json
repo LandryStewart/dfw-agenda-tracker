@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-05-20T20:02:41.331812Z",
+    "last_updated": "2026-05-21T18:41:41.538442Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-02-19",
-    "total_agenda_items": 27,
-    "total_sfr_items": 16,
+    "cutoff_date": "2026-02-20",
+    "total_agenda_items": 32,
+    "total_sfr_items": 19,
     "total_attachments": 0
   },
   "summaries": [
@@ -152,40 +152,39 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-14",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_05142026-1588",
+      "meeting_date": "2026-05-28",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_05282026-1593",
       "items": [
         {
-          "text": "Carter Blood Care Expansion Rezoning of an existing facility Council approved the rezoning. to accommodate an expansion.",
+          "text": "Conduct a public hearing and consider making a recommendation to City Council regarding a rezoning of the property legally described as First State Addition Lot C from Heavy",
           "attachments": []
         },
         {
-          "text": "HEB Grocery Final Plat for grocery store. Plat was approved by City of",
+          "text": "Council regarding a rezoning of the property legally described as First [APPROVED]",
           "attachments": []
         },
         {
-          "text": "Schumac Estates Final Plat Plat of 2 lots at Schumac and Final plat approved with",
+          "text": "Analysis: The Comprehensive Plan/Future Land Use Map identifies the subject property as being located within the Place Focused Commercial development pattern. Characteristics of this development pattern include providing minor level density, scale, and a mix of uses. Such uses include a blend of dining, shopping, entertainment, and social gathering spaces. It is not believed that a massage salon would complement adjacent retail and shopping uses within the shopping center.",
           "attachments": []
         },
         {
-          "text": "Brown Trail Estates 3300 Brown Trail final plat for 2 Final plat was approved. residential lots. Applicant’s next step would be to obtain permits to construct",
+          "text": "Comprehensive Plan in providing a variety of dining, entertainment, or retail uses to the overall site; and",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "Schumac Estates Final Plat Plat of 2 lots at Schumac and Final plat approved with",
+          "text": "Conduct a public hearing and consider making a recommendation to City Council regarding a rezoning of the property legally described as First State Addition Lot C from Heavy",
           "attachments": [],
           "keywords": [
             "lot"
           ]
         },
         {
-          "text": "Brown Trail Estates 3300 Brown Trail final plat for 2 Final plat was approved. residential lots. Applicant’s next step would be to obtain permits to construct",
+          "text": "Analysis: The Comprehensive Plan/Future Land Use Map identifies the subject property as being located within the Place Focused Commercial development pattern. Characteristics of this development pattern include providing minor level density, scale, and a mix of uses. Such uses include a blend of dining, shopping, entertainment, and social gathering spaces. It is not believed that a massage salon would complement adjacent retail and shopping uses within the shopping center.",
           "attachments": [],
           "keywords": [
-            "residential",
-            "lot"
+            "density"
           ]
         }
       ],
@@ -470,8 +469,8 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-05-13",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_03162026-582",
+      "meeting_date": "2026-05-18",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_05182026-607",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -620,18 +619,18 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-26",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_05262026-2197",
+      "meeting_date": "2026-05-27",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_05272026-2199",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (22 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (55 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-05-26",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_05262026-2197",
+      "meeting_date": "2026-05-27",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_05272026-2199",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1879,11 +1878,54 @@
       "county": "Rockwall",
       "city": "Royse City",
       "board": "City Council",
-      "meeting_date": "2026-05-06",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_05062026-612",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-05-26",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_05262026-617",
+      "items": [
+        {
+          "text": "Public hearing regarding a zoning change from SF1 to PD and AG to PD, generally located along the western frontage of FM 2453 and directly south of the Meadows at",
+          "attachments": []
+        },
+        {
+          "text": "Adopt an Ordinance approving a final plat for Tesla Inc. Royse City BESS, consisting of +/- 11.9 acres, incorporating both the J. Stephenson Tract No. 27,",
+          "attachments": []
+        },
+        {
+          "text": "Adopt an Ordinance approving a final plat for Waterscape Phase 4A, consisting of",
+          "attachments": []
+        },
+        {
+          "text": "Adopt an Ordinance approving a final plat for Waterscape Phase 4B, consisting of",
+          "attachments": []
+        },
+        {
+          "text": "Adopt an Ordinance approving a zoning change from SF1 to PD and AG to PD, generally located along the western frontage of FM 2453 and directly south of the",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Public hearing regarding a zoning change from SF1 to PD and AG to PD, generally located along the western frontage of FM 2453 and directly south of the Meadows at",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Adopt an Ordinance approving a final plat for Tesla Inc. Royse City BESS, consisting of +/- 11.9 acres, incorporating both the J. Stephenson Tract No. 27,",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Adopt an Ordinance approving a zoning change from SF1 to PD and AG to PD, generally located along the western frontage of FM 2453 and directly south of the",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Kaufman",
