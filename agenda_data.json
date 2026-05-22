@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "last_updated": "2026-05-21T18:41:41.538442Z",
+    "last_updated": "2026-05-22T17:59:39.219059Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-02-20",
-    "total_agenda_items": 32,
+    "cutoff_date": "2026-02-21",
+    "total_agenda_items": 33,
     "total_sfr_items": 19,
     "total_attachments": 0
   },
@@ -388,7 +388,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -1799,18 +1799,18 @@
       "county": "Rockwall",
       "city": "Fate",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-15",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_05152026-1449",
+      "meeting_date": "2026-05-27",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_05272026-1453",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (26 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (23 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Rockwall",
       "city": "Fate",
       "board": "City Council",
-      "meeting_date": "2026-05-20",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_06032026-1454",
+      "meeting_date": "2026-05-27",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_05272026-1453",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2214,21 +2214,15 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-20",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_05202026-1521",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (45 lines) but no rezone/plat/comp plan items"
-    },
-    {
-      "county": "Wise",
-      "city": "Decatur",
-      "board": "City Council",
       "meeting_date": "2026-05-26",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_05262026-1523",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_05262026-1524",
       "items": [
         {
           "text": "Final Plat Lot 1R, Block 2, Memorial Park Addition, being a replat of Lot 1R, Block 108, and Lot 1R, Block 119, South Decatur Addition, and Lot 1, Block 2, Decatur Police Station, in the City of Decatur, Wise County, Texas. (CITY OF DECATUR, PROPERTY OWNER)",
+          "attachments": []
+        },
+        {
+          "text": "Comprehensive Master Plan of the City; serves the health, safety, welfare, and aesthetic concerns of the public; is in the public interest; and that the zoning change does not unreasonably invade the rights of adjacent property owners.",
           "attachments": []
         }
       ],
@@ -2242,6 +2236,16 @@
         }
       ],
       "status": "success"
+    },
+    {
+      "county": "Wise",
+      "city": "Decatur",
+      "board": "City Council",
+      "meeting_date": "2026-05-26",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_05262026-1523",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Wise",
