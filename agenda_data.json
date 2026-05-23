@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-05-22T17:59:39.219059Z",
+    "last_updated": "2026-05-23T15:16:39.468914Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-02-21",
-    "total_agenda_items": 33,
-    "total_sfr_items": 19,
+    "cutoff_date": "2026-02-22",
+    "total_agenda_items": 29,
+    "total_sfr_items": 16,
     "total_attachments": 0
   },
   "summaries": [
@@ -388,7 +388,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Tarrant",
@@ -469,8 +469,8 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-05-18",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_05182026-607",
+      "meeting_date": "2026-05-22",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_04072026-592",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -619,18 +619,18 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-27",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_05272026-2199",
+      "meeting_date": "2026-05-28",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_05282026-2205",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (55 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (306 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-05-27",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_05272026-2199",
+      "meeting_date": "2026-05-28",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_05282026-2205",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1084,8 +1084,8 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-05-19",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_05192026-1695",
+      "meeting_date": "2026-05-20",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_05202026-1696",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2031,61 +2031,18 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-18",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_05182026-2198",
-      "items": [
-        {
-          "text": "Commissioner Svendsen made a motion to recommend approval of the final plat as presented, with the condition that filing information for all easements dedicated by separate instrument be added to the plat prior to recordation with the Johnson County Clerk’s Office, in accordance with Section 154.025(C)(11) of the Subdivision Ordinance. Commissioner [FAILED]",
-          "attachments": []
-        },
-        {
-          "text": "Future Land Use Plan: The Future Land Use Plan shows this property to be located in the Medium-Density",
-          "attachments": []
-        },
-        {
-          "text": "Residential District, which is intended to provide areas for detached single-family homes on traditionally sized lots. Given that this property is located within an existing manufactured home subdivision, the proposed SUP request is considered compatible with the Future Land Use Plan. [APPROVED]",
-          "attachments": []
-        },
-        {
-          "text": "Cleburne, TX 76033 Future Land Use Map",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Commissioner Svendsen made a motion to recommend approval of the final plat as presented, with the condition that filing information for all easements dedicated by separate instrument be added to the plat prior to recordation with the Johnson County Clerk’s Office, in accordance with Section 154.025(C)(11) of the Subdivision Ordinance. Commissioner [FAILED]",
-          "attachments": [],
-          "keywords": [
-            "subdivision"
-          ]
-        },
-        {
-          "text": "Future Land Use Plan: The Future Land Use Plan shows this property to be located in the Medium-Density",
-          "attachments": [],
-          "keywords": [
-            "density"
-          ]
-        },
-        {
-          "text": "Residential District, which is intended to provide areas for detached single-family homes on traditionally sized lots. Given that this property is located within an existing manufactured home subdivision, the proposed SUP request is considered compatible with the Future Land Use Plan. [APPROVED]",
-          "attachments": [],
-          "keywords": [
-            "single-family",
-            "residential",
-            "subdivision",
-            "detached",
-            "lot"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-05-19",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_03172026-2178",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (30 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Johnson",
       "city": "Cleburne",
       "board": "City Council",
-      "meeting_date": "2026-05-04",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_05042026-2193",
+      "meeting_date": "2026-05-07",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_05072026-2194",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
