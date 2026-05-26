@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-05-25T17:49:52.074915Z",
+    "last_updated": "2026-05-26T19:59:40.427271Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-02-24",
+    "cutoff_date": "2026-02-25",
     "total_agenda_items": 29,
     "total_sfr_items": 16,
     "total_attachments": 0
@@ -93,17 +93,17 @@
       "city": "Southlake",
       "board": "Planning & Zoning",
       "meeting_date": "2026-05-26",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_05262026-2257",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_06012026-2258",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (24 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (27 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
       "meeting_date": "2026-05-26",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_05262026-2257",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_06012026-2258",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
