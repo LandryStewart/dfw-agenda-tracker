@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-05-26T19:59:40.427271Z",
+    "last_updated": "2026-05-27T20:07:04.053971Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-02-25",
-    "total_agenda_items": 29,
-    "total_sfr_items": 16,
+    "cutoff_date": "2026-02-26",
+    "total_agenda_items": 36,
+    "total_sfr_items": 20,
     "total_attachments": 0
   },
   "summaries": [
@@ -160,7 +160,7 @@
           "attachments": []
         },
         {
-          "text": "Council regarding a rezoning of the property legally described as First [APPROVED]",
+          "text": "Council regarding a rezoning of the property legally described as First [CONTINUED]",
           "attachments": []
         },
         {
@@ -629,8 +629,8 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-05-28",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_05282026-2205",
+      "meeting_date": "2026-05-29",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_05292026-2204",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -763,7 +763,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Dallas",
@@ -1057,35 +1057,23 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-18",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_05182026-1692",
+      "meeting_date": "2026-05-26",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_06012026-1699",
       "items": [
         {
-          "text": "E2. 2026-04-009-FP Consider a request from AFK Wash Investments, LLC to final plat a property being a 1.184-acre tract of land located at 1732 East",
-          "attachments": []
-        },
-        {
-          "text": "Exhibit A - Proposed Final Plat",
+          "text": "Current tentative milestones for the Live Princeton Comprehensive Plan",
           "attachments": []
         }
       ],
-      "sfr_items": [
-        {
-          "text": "E2. 2026-04-009-FP Consider a request from AFK Wash Investments, LLC to final plat a property being a 1.184-acre tract of land located at 1732 East",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        }
-      ],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-05-20",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_05202026-1696",
+      "meeting_date": "2026-05-26",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_05262026-1697",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1178,7 +1166,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Collin",
@@ -1481,7 +1469,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Denton",
@@ -1557,36 +1545,98 @@
       "county": "Denton",
       "city": "Cross Roads",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-04-07",
-      "agenda_url": "https://www.crossroadstx.gov/AgendaCenter/ViewFile/Agenda/_04072026-49",
+      "meeting_date": "2026-06-02",
+      "agenda_url": "https://www.crossroadstx.gov/AgendaCenter/ViewFile/Agenda/_06022026-54",
       "items": [
         {
-          "text": "Discuss and consider a recommendation to the Town Council on an preliminary plat application for a 82.99 acre parcel generally located west of Naylor Road, across from",
+          "text": "PUBLIC HEARING, discuss and consider a recommendation to the Town Council on an amendment to the Future Land Use Map application for a 13.61 acre parcel located at 4801",
           "attachments": []
         },
         {
-          "text": "Potter Shop Road to Naylor Road excepting the Prairie House and the old landscape business. The property is currently vacant and zoned Agricultural. The request would comply with the Town’s Comprehensive Plan and allow for the site to be developed for commercial uses. This rezoning is the first step in the development process which will include a preliminary plat and final plat approvals prior to any new structures being",
+          "text": "Discuss and consider a recommendation to the Town Council on a final plat application for a 59.917 acre parcel generally located west of Naylor Road, across from Sedona Lane,",
           "attachments": []
         },
         {
-          "text": "The property is currently vacant and zoned Agricultural. The request would comply with the Town’s Comprehensive Plan and allow for the site to be developed for a single residential building lot. This rezoning is the first step in the development process which will include platting the site prior to any new structures being constructed.",
+          "text": "PUBLIC HEARING, discuss and consider a recommendation to Town Council on an amendment to the Future Land Use Map application for a 13.61 acre parcel located at",
+          "attachments": []
+        },
+        {
+          "text": "This request is to change the Future Land Use Map, contained in the Comprehensive",
+          "attachments": []
+        },
+        {
+          "text": "Commerce from the existing Rural Estates designation. The surrounding properties in this area are all designated Commerce. Also, the designation would be in conformance with the stated goal of the Comprehensive Plan of promoting sales tax generating",
+          "attachments": []
+        },
+        {
+          "text": "Staff recommends approval of the amendment to the Future Land Use Map to",
+          "attachments": []
+        },
+        {
+          "text": "This request is for a final plat to create 50 lots, of which 47 are designated as residential building sites. Three lots will be dedicated for open space, drainage, and detention for the",
+          "attachments": []
+        },
+        {
+          "text": "The final plat is in conformance with the approved preliminary plat and the Town’s regulations. All residential lots meet the minimum one-acre lot size requirement of the SF-",
+          "attachments": []
+        },
+        {
+          "text": "Staff recommends approval of the preliminary plat to create 47 single-family residential lots on the 59.917 acre parcel, contingent upon final engineering approval of the",
+          "attachments": []
+        },
+        {
+          "text": "The undersigned, Town Secretary, of the Town of Roads, Texas, hereby certifies that WARREN L. CORWIN OWNER the foregoing final plat of the BRIDLEWOOD ESTATES an addition to the Town of Cross R.P.L.S. No. 4621 KEN MAYER",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "Discuss and consider a recommendation to the Town Council on an preliminary plat application for a 82.99 acre parcel generally located west of Naylor Road, across from",
+          "text": "PUBLIC HEARING, discuss and consider a recommendation to the Town Council on an amendment to the Future Land Use Map application for a 13.61 acre parcel located at 4801",
           "attachments": [],
           "keywords": [
             "acre"
           ]
         },
         {
-          "text": "The property is currently vacant and zoned Agricultural. The request would comply with the Town’s Comprehensive Plan and allow for the site to be developed for a single residential building lot. This rezoning is the first step in the development process which will include platting the site prior to any new structures being constructed.",
+          "text": "Discuss and consider a recommendation to the Town Council on a final plat application for a 59.917 acre parcel generally located west of Naylor Road, across from Sedona Lane,",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "PUBLIC HEARING, discuss and consider a recommendation to Town Council on an amendment to the Future Land Use Map application for a 13.61 acre parcel located at",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "This request is for a final plat to create 50 lots, of which 47 are designated as residential building sites. Three lots will be dedicated for open space, drainage, and detention for the",
           "attachments": [],
           "keywords": [
             "residential",
             "lot"
+          ]
+        },
+        {
+          "text": "The final plat is in conformance with the approved preliminary plat and the Town’s regulations. All residential lots meet the minimum one-acre lot size requirement of the SF-",
+          "attachments": [],
+          "keywords": [
+            "residential",
+            "lot",
+            "SF-",
+            "acre"
+          ]
+        },
+        {
+          "text": "Staff recommends approval of the preliminary plat to create 47 single-family residential lots on the 59.917 acre parcel, contingent upon final engineering approval of the",
+          "attachments": [],
+          "keywords": [
+            "single-family",
+            "residential",
+            "lot",
+            "acre"
           ]
         }
       ],
@@ -1619,11 +1669,11 @@
       "county": "Denton",
       "city": "Oak Point",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-11",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_05112026-587",
+      "meeting_date": "2026-05-26",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_05262026-593",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (90 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (81 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Denton",
@@ -2171,15 +2221,40 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-26",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_05262026-1524",
+      "meeting_date": "2026-06-02",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_06022026-1525",
       "items": [
         {
-          "text": "Final Plat Lot 1R, Block 2, Memorial Park Addition, being a replat of Lot 1R, Block 108, and Lot 1R, Block 119, South Decatur Addition, and Lot 1, Block 2, Decatur Police Station, in the City of Decatur, Wise County, Texas. (CITY OF DECATUR, PROPERTY OWNER)",
+          "text": "B. RP-26-0008. Recommend that the City Council approve a plat application for an approximately 5.531-acre tract of land, Final Plat, Lots 3R-3R and 3R-4, Block 1, Eagles",
           "attachments": []
         },
         {
-          "text": "Comprehensive Master Plan of the City; serves the health, safety, welfare, and aesthetic concerns of the public; is in the public interest; and that the zoning change does not unreasonably invade the rights of adjacent property owners.",
+          "text": "Finding #6. The request is not in conflict with the City of Decatur’s 2050 Comprehensive Plan.",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "B. RP-26-0008. Recommend that the City Council approve a plat application for an approximately 5.531-acre tract of land, Final Plat, Lots 3R-3R and 3R-4, Block 1, Eagles",
+          "attachments": [],
+          "keywords": [
+            "lot",
+            "acre",
+            "R-3"
+          ]
+        }
+      ],
+      "status": "success"
+    },
+    {
+      "county": "Wise",
+      "city": "Decatur",
+      "board": "City Council",
+      "meeting_date": "2026-05-26",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_05262026-1523",
+      "items": [
+        {
+          "text": "Final Plat Lot 1R, Block 2, Memorial Park Addition, being a replat of Lot 1R, Block 108, and Lot 1R, Block 119, South Decatur Addition, and Lot 1, Block 2, Decatur Police Station, in the City of Decatur, Wise County, Texas. (CITY OF DECATUR, PROPERTY OWNER)",
           "attachments": []
         }
       ],
@@ -2193,16 +2268,6 @@
         }
       ],
       "status": "success"
-    },
-    {
-      "county": "Wise",
-      "city": "Decatur",
-      "board": "City Council",
-      "meeting_date": "2026-05-26",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_05262026-1523",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Wise",
