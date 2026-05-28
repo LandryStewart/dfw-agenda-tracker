@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-05-27T20:07:04.053971Z",
+    "last_updated": "2026-05-28T20:19:28.269911Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-02-26",
-    "total_agenda_items": 36,
-    "total_sfr_items": 20,
+    "cutoff_date": "2026-02-27",
+    "total_agenda_items": 39,
+    "total_sfr_items": 19,
     "total_attachments": 0
   },
   "summaries": [
@@ -92,18 +92,39 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-26",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_06012026-2258",
-      "items": [],
+      "meeting_date": "2026-05-27",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_06022026-2261",
+      "items": [
+        {
+          "text": "A. Ordinance No. 480-844, ZA26-0015, 2nd Reading, Zoning Change and",
+          "attachments": []
+        },
+        {
+          "text": "B. Ordinance No. 480-845, ZA26-0020, 2nd Reading, Zoning Change and",
+          "attachments": []
+        },
+        {
+          "text": "C. Ordinance No. 480-846, ZA26-0022, 2nd Reading, Zoning Change and",
+          "attachments": []
+        },
+        {
+          "text": "A. Ordinance No. 480-847, ZA26-0027, 1st Reading, Zoning Change and",
+          "attachments": []
+        },
+        {
+          "text": "B. Ordinance No. 480-798a, ZA26-0030, 1st Reading, Zoning Change and Site",
+          "attachments": []
+        }
+      ],
       "sfr_items": [],
-      "status": "PDF parsed (27 lines) but no rezone/plat/comp plan items"
+      "status": "success"
     },
     {
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
-      "meeting_date": "2026-05-26",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_06012026-2258",
+      "meeting_date": "2026-05-27",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_06022026-2261",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1166,7 +1187,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Collin",
@@ -1397,29 +1418,11 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "City Council",
-      "meeting_date": "2026-05-18",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_05182026-1290",
-      "items": [
-        {
-          "text": "Discuss and consider Final Plat (FP-26-004) for the Knights Ridge subdivision, Lots 1-25, 26X",
-          "attachments": []
-        },
-        {
-          "text": "Hold a public hearing and consider action on Ordinance 2026-11 authorizing a Zoning Change",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Discuss and consider Final Plat (FP-26-004) for the Knights Ridge subdivision, Lots 1-25, 26X",
-          "attachments": [],
-          "keywords": [
-            "subdivision",
-            "lot"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-05-26",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_06012026-1294",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Denton",
@@ -1469,7 +1472,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Denton",
