@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-05-28T20:19:28.269911Z",
+    "last_updated": "2026-05-29T20:27:53.504417Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-02-27",
-    "total_agenda_items": 39,
-    "total_sfr_items": 19,
+    "cutoff_date": "2026-02-28",
+    "total_agenda_items": 38,
+    "total_sfr_items": 17,
     "total_attachments": 0
   },
   "summaries": [
@@ -335,8 +335,8 @@
       "county": "Tarrant",
       "city": "Benbrook",
       "board": "City Council",
-      "meeting_date": "2026-05-18",
-      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_05182026-825",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1852,18 +1852,18 @@
       "county": "Rockwall",
       "city": "Fate",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-27",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_05272026-1453",
+      "meeting_date": "2026-05-29",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_05292026-1456",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (23 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (26 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Rockwall",
       "city": "Fate",
       "board": "City Council",
-      "meeting_date": "2026-05-27",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_05272026-1453",
+      "meeting_date": "2026-05-29",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_05292026-1456",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1872,55 +1872,35 @@
       "county": "Rockwall",
       "city": "Royse City",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-08",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_05082026-614",
+      "meeting_date": "2026-06-04",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_06042026-619",
       "items": [
         {
-          "text": "Consider and act on a 30-Day Extension Request of a Final Plat for Clearview Ranch",
+          "text": "Consider and act on a 30-Day Extension Request for a Final Plat within the J.",
           "attachments": []
         },
         {
-          "text": "Consider and act on a 30-Day Extension Request of a Final Plat for Verandah Phase",
+          "text": "Consider and act on a 6-Month Extension Request for the Preliminary Plat of",
           "attachments": []
         },
         {
-          "text": "Consider and act on a Final Plat for Tesla Inc. Royse City BESS, consisting of +/- 11.9 acres, incorporating both the J. Stephenson Tract No. 27, Abstract No.188 & the E.",
+          "text": "Consider and act on the Reinstatement of a Preliminary Plat for Liberty Crossing",
           "attachments": []
         },
         {
-          "text": "Consider and act on a Final Plat of the Marketplace West Addition, consisting of +/-",
+          "text": "Consider and act on a Final Plat for Verandah Phase 8, consisting of +/- 53.1 acres, situated in the Joseph Prewitt Survey, Abstract No. 851, Tract 9, Verandah",
           "attachments": []
         },
         {
-          "text": "Consider and act on a Final Plat for Waterscape Phase 4A, consisting of +/- 44.87 acres, situated in the Nancy McCasland Survey, Lot 8, Abstract No.149, City of",
-          "attachments": []
-        },
-        {
-          "text": "Consider and act on a Final Plat for Waterscape Phase 4B, consisting of +/- 64.54 acres, situated in the Nancy McCasland Survey, Lot 8, Abstract No.149, City of",
+          "text": "Consider and act on a Final Plat for Clearview Ranch Phase 2 South, consisting of",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "Consider and act on a Final Plat for Tesla Inc. Royse City BESS, consisting of +/- 11.9 acres, incorporating both the J. Stephenson Tract No. 27, Abstract No.188 & the E.",
+          "text": "Consider and act on a Final Plat for Verandah Phase 8, consisting of +/- 53.1 acres, situated in the Joseph Prewitt Survey, Abstract No. 851, Tract 9, Verandah",
           "attachments": [],
           "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "Consider and act on a Final Plat for Waterscape Phase 4A, consisting of +/- 44.87 acres, situated in the Nancy McCasland Survey, Lot 8, Abstract No.149, City of",
-          "attachments": [],
-          "keywords": [
-            "lot",
-            "acre"
-          ]
-        },
-        {
-          "text": "Consider and act on a Final Plat for Waterscape Phase 4B, consisting of +/- 64.54 acres, situated in the Nancy McCasland Survey, Lot 8, Abstract No.149, City of",
-          "attachments": [],
-          "keywords": [
-            "lot",
             "acre"
           ]
         }
@@ -1984,11 +1964,11 @@
       "county": "Kaufman",
       "city": "Forney",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-14",
-      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_05142026-1273",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (49 lines) but no rezone/plat/comp plan items"
+      "status": "PDFs found but could not extract text"
     },
     {
       "county": "Kaufman",
