@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-05-29T20:27:53.504417Z",
+    "last_updated": "2026-05-30T15:23:29.349529Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-02-28",
-    "total_agenda_items": 38,
-    "total_sfr_items": 17,
+    "cutoff_date": "2026-03-01",
+    "total_agenda_items": 46,
+    "total_sfr_items": 19,
     "total_attachments": 0
   },
   "summaries": [
@@ -1418,11 +1418,61 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "City Council",
-      "meeting_date": "2026-05-26",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_06012026-1294",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-05-29",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_06012026-1297",
+      "items": [
+        {
+          "text": "Discuss and make a recommendation for Future Land Use Plan amendment (FLUP-",
+          "attachments": []
+        },
+        {
+          "text": "Committee member Brandon motioned to recommend approval to the P&Z Commission for Future Land Use Plan amendment (FLUP-26-001) from Estate Residential 1-acre to [PASSED 4-0]",
+          "attachments": []
+        },
+        {
+          "text": "Discuss and make a recommendation for ordinance amendment (FLUP-26-002) to the Thoroughfare Plan of the Town of Argyle Comprehensive Plan adopted June",
+          "attachments": []
+        },
+        {
+          "text": "Consistence with Comprehensive Plan:",
+          "attachments": []
+        },
+        {
+          "text": "The Future Land Use Plan indicates the Front Street corridor as Low to Medium Density Residential. The small area plan proposes office retail uses that would more closely align with a mixed use type land use.",
+          "attachments": []
+        },
+        {
+          "text": "Current Zoning Future Land Use",
+          "attachments": []
+        },
+        {
+          "text": "Consistency with Comprehensive Plan Required.",
+          "attachments": []
+        },
+        {
+          "text": "The “OT-1” Old Town 1 District is intended to create a mixed-use focal point for the Town. This district is appropriate within that portion of the original dedication of the Town of Argyle that is located east Development proposals shall be consistent with the and west of the centerline of U.S. Highway 377 right-of-way, west of the centerline of the right-of- Comprehensive Plan concept for the Old Town. way for Cypress Street. 2. Windows. Reflective glass shall not be used for windows; detailing for windows, doors and other openings shall be of wood,",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Committee member Brandon motioned to recommend approval to the P&Z Commission for Future Land Use Plan amendment (FLUP-26-001) from Estate Residential 1-acre to [PASSED 4-0]",
+          "attachments": [],
+          "keywords": [
+            "residential",
+            "acre"
+          ]
+        },
+        {
+          "text": "The Future Land Use Plan indicates the Front Street corridor as Low to Medium Density Residential. The small area plan proposes office retail uses that would more closely align with a mixed use type land use.",
+          "attachments": [],
+          "keywords": [
+            "residential",
+            "density"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Denton",
