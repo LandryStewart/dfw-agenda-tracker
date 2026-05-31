@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-05-30T15:23:29.349529Z",
+    "last_updated": "2026-05-31T16:19:02.786058Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-03-01",
-    "total_agenda_items": 46,
-    "total_sfr_items": 19,
+    "cutoff_date": "2026-03-02",
+    "total_agenda_items": 44,
+    "total_sfr_items": 18,
     "total_attachments": 0
   },
   "summaries": [
@@ -640,18 +640,18 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-28",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_05282026-2205",
+      "meeting_date": "2026-05-29",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_05292026-2204",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (306 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (33 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-05-29",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_05292026-2204",
+      "meeting_date": "2026-06-01",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06012026-2206",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1403,42 +1403,42 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-06",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_05062026-1284",
+      "meeting_date": "2026-05-30",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_06032026-1299",
       "items": [
         {
-          "text": "Consider and make a recommendation to Town Council on a Major Final Plat for the [PASSED 4-0]",
+          "text": "Consider and make a recommendation to Town Council on a Major Final Plat for the Knights [PASSED 4-0]",
+          "attachments": []
+        },
+        {
+          "text": "Director Wicks provided a presentation on the item. The Commission discussed the item and considered the final plat.",
+          "attachments": []
+        },
+        {
+          "text": "Commissioner Lewis motioned to recommend approval to Town Council for a Major Final Plat for the Knights Ridge private subdivision, as presented. Commissioner Miersma seconded the motion.",
           "attachments": []
         }
       ],
-      "sfr_items": [],
+      "sfr_items": [
+        {
+          "text": "Commissioner Lewis motioned to recommend approval to Town Council for a Major Final Plat for the Knights Ridge private subdivision, as presented. Commissioner Miersma seconded the motion.",
+          "attachments": [],
+          "keywords": [
+            "subdivision"
+          ]
+        }
+      ],
       "status": "success"
     },
     {
       "county": "Denton",
       "city": "Argyle",
       "board": "City Council",
-      "meeting_date": "2026-05-29",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_06012026-1297",
+      "meeting_date": "2026-05-30",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_06022026-1298",
       "items": [
         {
-          "text": "Discuss and make a recommendation for Future Land Use Plan amendment (FLUP-",
-          "attachments": []
-        },
-        {
-          "text": "Committee member Brandon motioned to recommend approval to the P&Z Commission for Future Land Use Plan amendment (FLUP-26-001) from Estate Residential 1-acre to [PASSED 4-0]",
-          "attachments": []
-        },
-        {
-          "text": "Discuss and make a recommendation for ordinance amendment (FLUP-26-002) to the Thoroughfare Plan of the Town of Argyle Comprehensive Plan adopted June",
-          "attachments": []
-        },
-        {
-          "text": "Consistence with Comprehensive Plan:",
-          "attachments": []
-        },
-        {
-          "text": "The Future Land Use Plan indicates the Front Street corridor as Low to Medium Density Residential. The small area plan proposes office retail uses that would more closely align with a mixed use type land use.",
+          "text": "During the previous MDD meeting on April 7, 2026, Jeremy Blad with Valley Quest Design provided a presentation on a draft version of the Front Street Small Area Plan. Notable comments included clarification on the names of historic buildings in the area, the proximity of the train tracks, the location of a proposed you-pick farm, and future zoning change requirements. Exhibit A is the final version of the small area plan ready for consideration and approval by the MDD.",
           "attachments": []
         },
         {
@@ -1454,24 +1454,7 @@
           "attachments": []
         }
       ],
-      "sfr_items": [
-        {
-          "text": "Committee member Brandon motioned to recommend approval to the P&Z Commission for Future Land Use Plan amendment (FLUP-26-001) from Estate Residential 1-acre to [PASSED 4-0]",
-          "attachments": [],
-          "keywords": [
-            "residential",
-            "acre"
-          ]
-        },
-        {
-          "text": "The Future Land Use Plan indicates the Front Street corridor as Low to Medium Density Residential. The small area plan proposes office retail uses that would more closely align with a mixed use type land use.",
-          "attachments": [],
-          "keywords": [
-            "residential",
-            "density"
-          ]
-        }
-      ],
+      "sfr_items": [],
       "status": "success"
     },
     {
