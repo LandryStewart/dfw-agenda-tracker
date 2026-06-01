@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-05-31T16:19:02.786058Z",
+    "last_updated": "2026-06-01T22:47:02.067131Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-03-02",
+    "cutoff_date": "2026-03-03",
     "total_agenda_items": 44,
     "total_sfr_items": 18,
     "total_attachments": 0
@@ -335,8 +335,8 @@
       "county": "Tarrant",
       "city": "Benbrook",
       "board": "City Council",
-      "meeting_date": "",
-      "agenda_url": "",
+      "meeting_date": "2026-06-15",
+      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_06152026-831",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -640,11 +640,11 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-29",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_05292026-2204",
+      "meeting_date": "2026-06-03",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06032026-2208",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (33 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (4 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
