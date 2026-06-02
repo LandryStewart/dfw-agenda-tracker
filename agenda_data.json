@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-06-01T22:47:02.067131Z",
+    "last_updated": "2026-06-02T22:07:40.561352Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-03-03",
-    "total_agenda_items": 44,
-    "total_sfr_items": 18,
+    "cutoff_date": "2026-03-04",
+    "total_agenda_items": 57,
+    "total_sfr_items": 27,
     "total_attachments": 0
   },
   "summaries": [
@@ -92,39 +92,18 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-27",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_06022026-2261",
-      "items": [
-        {
-          "text": "A. Ordinance No. 480-844, ZA26-0015, 2nd Reading, Zoning Change and",
-          "attachments": []
-        },
-        {
-          "text": "B. Ordinance No. 480-845, ZA26-0020, 2nd Reading, Zoning Change and",
-          "attachments": []
-        },
-        {
-          "text": "C. Ordinance No. 480-846, ZA26-0022, 2nd Reading, Zoning Change and",
-          "attachments": []
-        },
-        {
-          "text": "A. Ordinance No. 480-847, ZA26-0027, 1st Reading, Zoning Change and",
-          "attachments": []
-        },
-        {
-          "text": "B. Ordinance No. 480-798a, ZA26-0030, 1st Reading, Zoning Change and Site",
-          "attachments": []
-        }
-      ],
+      "meeting_date": "2026-06-08",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_06082026-2263",
+      "items": [],
       "sfr_items": [],
-      "status": "success"
+      "status": "PDF parsed (40 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
-      "meeting_date": "2026-05-27",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_06022026-2261",
+      "meeting_date": "2026-06-08",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_06082026-2263",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -640,11 +619,28 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-06-03",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06032026-2208",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (4 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-06-08",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06082026-2209",
+      "items": [
+        {
+          "text": "0446 submitted by Jackson Walker, LLP, for a zoning change from Agricultural within the K-20",
+          "attachments": []
+        },
+        {
+          "text": "0450 submitted by Shayla Hamilton, Song Whiddon, PLLC, on behalf of Prosperity Fire Protection, for a zoning change from North Gus Thomasson Corridor (NGTC) District to Planned Development",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "0450 submitted by Shayla Hamilton, Song Whiddon, PLLC, on behalf of Prosperity Fire Protection, for a zoning change from North Gus Thomasson Corridor (NGTC) District to Planned Development",
+          "attachments": [],
+          "keywords": [
+            "planned development"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Dallas",
@@ -1093,8 +1089,8 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-05-26",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_05262026-1697",
+      "meeting_date": "2026-05-27",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_06022026-1702",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1706,17 +1702,17 @@
       "city": "Oak Point",
       "board": "Planning & Zoning",
       "meeting_date": "2026-05-26",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_05262026-593",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_06012026-595",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (81 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (78 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Denton",
       "city": "Oak Point",
       "board": "City Council",
-      "meeting_date": "2026-05-13",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_05132026-590",
+      "meeting_date": "2026-05-20",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_05202026-592",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2097,11 +2093,134 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-19",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_03172026-2178",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (30 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-06-08",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_06082026-2200",
+      "items": [
+        {
+          "text": "ZONING COMMISSION MEETING. a. *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE ±10.0 ACRES",
+          "attachments": []
+        },
+        {
+          "text": "REGIONAL COMMERCIAL (RC) DISTRICT LOCATED AT 1519 WEST KILPATRICK c. *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE ±0.25 ACRES",
+          "attachments": []
+        },
+        {
+          "text": "Item Title: *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE ±10.0 ACRES",
+          "attachments": []
+        },
+        {
+          "text": "Item Description: The applicant, Marshall Weatherby, requests to rezone approximately 10 acres of undeveloped land located along the west side of North Main Street, approximately 0.25 miles south of",
+          "attachments": []
+        },
+        {
+          "text": "Background & Technical Analysis: The applicant proposes to rezone the subject property from Industrial",
+          "attachments": []
+        },
+        {
+          "text": "Site Development: According to the Letter of Intent provided by the applicant, the property owner intends to develop the subject property with a multi-tenant office and warehouse development. If this rezoning request is approved, future development of the property will require approval of subdivision plats and a detailed site plan in accordance with the City’s development regulations. The Zoning Ordinance requires enhanced landscaping and building design standards within the CI District as compared to the existing",
+          "attachments": []
+        },
+        {
+          "text": "Future Land Use Plan: This property is designated as Commercial on the City’s Future Land Use Plan.",
+          "attachments": []
+        },
+        {
+          "text": "Letter of Intent for Rezoning Application",
+          "attachments": []
+        },
+        {
+          "text": "Re: Letter of Intent – Request for Rezoning from Industrial to Commercial/Industrial Flex [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "I am writing to formally submit this Letter of Intent in support of a rezoning application for a",
+          "attachments": []
+        },
+        {
+          "text": "10-acre tract inside of 4319 N Main St Cleburne Tx, currently zoned Industrial. We are requesting approval to rezone the property to Commercial/Industrial Flex District to better align with our proposed development plans. [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "The intent of this rezoning request is to develop the property into a high-quality office and warehouse facility. The proposed development will consist of modern office/warehouse buildings designed to support a range of commercial and light industrial uses. These facilities are intended to attract reputable tenants, provide functional and flexible space, and contribute positively to the local business environment. [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "We believe that rezoning to Commercial/Industrial Flex District is appropriate for this location and consistent with the City’s long-term planning goals. The proposed development will support economic growth, create job opportunities, and enhance the overall utility and value of the property.",
+          "attachments": []
+        },
+        {
+          "text": "Thank you for your time and consideration of this request. We respectfully ask for your support in approving the proposed rezoning.",
+          "attachments": []
+        },
+        {
+          "text": "Cleburne, TX 76033 Future Land Use Map",
+          "attachments": []
+        },
+        {
+          "text": "Future Land Use Plan: This site is designated as Medium-Density Residential on the City’s Future Land",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "ZONING COMMISSION MEETING. a. *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE ±10.0 ACRES",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "REGIONAL COMMERCIAL (RC) DISTRICT LOCATED AT 1519 WEST KILPATRICK c. *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE ±0.25 ACRES",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Item Title: *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE ±10.0 ACRES",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Item Description: The applicant, Marshall Weatherby, requests to rezone approximately 10 acres of undeveloped land located along the west side of North Main Street, approximately 0.25 miles south of",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Site Development: According to the Letter of Intent provided by the applicant, the property owner intends to develop the subject property with a multi-tenant office and warehouse development. If this rezoning request is approved, future development of the property will require approval of subdivision plats and a detailed site plan in accordance with the City’s development regulations. The Zoning Ordinance requires enhanced landscaping and building design standards within the CI District as compared to the existing",
+          "attachments": [],
+          "keywords": [
+            "subdivision"
+          ]
+        },
+        {
+          "text": "10-acre tract inside of 4319 N Main St Cleburne Tx, currently zoned Industrial. We are requesting approval to rezone the property to Commercial/Industrial Flex District to better align with our proposed development plans. [APPROVED]",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "We believe that rezoning to Commercial/Industrial Flex District is appropriate for this location and consistent with the City’s long-term planning goals. The proposed development will support economic growth, create job opportunities, and enhance the overall utility and value of the property.",
+          "attachments": [],
+          "keywords": [
+            "unit"
+          ]
+        },
+        {
+          "text": "Future Land Use Plan: This site is designated as Medium-Density Residential on the City’s Future Land",
+          "attachments": [],
+          "keywords": [
+            "residential",
+            "density"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Johnson",
