@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-06-03T22:12:47.938893Z",
+    "last_updated": "2026-06-04T14:29:25.228775Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-03-05",
+    "cutoff_date": "2026-03-06",
     "total_agenda_items": 64,
     "total_sfr_items": 34,
     "total_attachments": 0
@@ -1963,17 +1963,17 @@
       "city": "Fate",
       "board": "Planning & Zoning",
       "meeting_date": "2026-05-29",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_05292026-1456",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_06102026-1459",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (26 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (31 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Rockwall",
       "city": "Fate",
       "board": "City Council",
       "meeting_date": "2026-05-29",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_05292026-1456",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_06102026-1459",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
