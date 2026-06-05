@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-06-04T14:29:25.228775Z",
+    "last_updated": "2026-06-05T14:21:37.386716Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-03-06",
-    "total_agenda_items": 64,
-    "total_sfr_items": 34,
+    "cutoff_date": "2026-03-07",
+    "total_agenda_items": 57,
+    "total_sfr_items": 30,
     "total_attachments": 0
   },
   "summaries": [
@@ -871,29 +871,11 @@
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "City Council",
-      "meeting_date": "2026-05-21",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_05212026-1796",
-      "items": [
-        {
-          "text": "Conduct a public hearing on Preliminary Plat Application 008-2026 for True Fellowship",
-          "attachments": []
-        },
-        {
-          "text": "Church to plat subject parcel totaling (+/-) 1.225 acres located at 13420 Alexander Road in an Industrial (I) Zone District for an existing church. a. Conduct a Public Hearing on the Preliminary Plat Application 008-2026 b. Consideration and action on the Preliminary Plat Application 008-2026 a. Updates and briefings on Land Use Applications. b. Update on Planning & Zoning Commission Attendance Report.",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Church to plat subject parcel totaling (+/-) 1.225 acres located at 13420 Alexander Road in an Industrial (I) Zone District for an existing church. a. Conduct a Public Hearing on the Preliminary Plat Application 008-2026 b. Consideration and action on the Preliminary Plat Application 008-2026 a. Updates and briefings on Land Use Applications. b. Update on Planning & Zoning Commission Attendance Report.",
-          "attachments": [],
-          "keywords": [
-            "acre",
-            "PD"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-05-28",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_05282026-1797",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Dallas",
@@ -2021,71 +2003,28 @@
       "county": "Rockwall",
       "city": "Royse City",
       "board": "City Council",
-      "meeting_date": "2026-05-26",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_05262026-617",
-      "items": [
-        {
-          "text": "Public hearing regarding a zoning change from SF1 to PD and AG to PD, generally located along the western frontage of FM 2453 and directly south of the Meadows at",
-          "attachments": []
-        },
-        {
-          "text": "Adopt an Ordinance approving a final plat for Tesla Inc. Royse City BESS, consisting of +/- 11.9 acres, incorporating both the J. Stephenson Tract No. 27,",
-          "attachments": []
-        },
-        {
-          "text": "Adopt an Ordinance approving a final plat for Waterscape Phase 4A, consisting of",
-          "attachments": []
-        },
-        {
-          "text": "Adopt an Ordinance approving a final plat for Waterscape Phase 4B, consisting of",
-          "attachments": []
-        },
-        {
-          "text": "Adopt an Ordinance approving a zoning change from SF1 to PD and AG to PD, generally located along the western frontage of FM 2453 and directly south of the",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Public hearing regarding a zoning change from SF1 to PD and AG to PD, generally located along the western frontage of FM 2453 and directly south of the Meadows at",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "Adopt an Ordinance approving a final plat for Tesla Inc. Royse City BESS, consisting of +/- 11.9 acres, incorporating both the J. Stephenson Tract No. 27,",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "Adopt an Ordinance approving a zoning change from SF1 to PD and AG to PD, generally located along the western frontage of FM 2453 and directly south of the",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-06-03",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_06032026-618",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Kaufman",
       "city": "Forney",
       "board": "Planning & Zoning",
-      "meeting_date": "",
-      "agenda_url": "",
+      "meeting_date": "2026-06-11",
+      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_06112026-1281",
       "items": [],
       "sfr_items": [],
-      "status": "PDFs found but could not extract text"
+      "status": "PDF parsed (58 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Kaufman",
       "city": "Forney",
       "board": "City Council",
-      "meeting_date": "",
-      "agenda_url": "",
+      "meeting_date": "2026-06-11",
+      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_06112026-1281",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
