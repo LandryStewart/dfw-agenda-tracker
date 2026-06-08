@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-06-07T12:48:19.015467Z",
+    "last_updated": "2026-06-08T15:19:35.754927Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-03-09",
+    "cutoff_date": "2026-03-10",
     "total_agenda_items": 55,
     "total_sfr_items": 28,
     "total_attachments": 0
@@ -1246,7 +1246,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Collin",
