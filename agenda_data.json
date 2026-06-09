@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "last_updated": "2026-06-08T15:19:35.754927Z",
+    "last_updated": "2026-06-09T14:12:06.953471Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-03-10",
-    "total_agenda_items": 55,
+    "cutoff_date": "2026-03-11",
+    "total_agenda_items": 54,
     "total_sfr_items": 28,
     "total_attachments": 0
   },
@@ -644,35 +644,18 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-06-08",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06082026-2209",
-      "items": [
-        {
-          "text": "0446 submitted by Jackson Walker, LLP, for a zoning change from Agricultural within the K-20",
-          "attachments": []
-        },
-        {
-          "text": "0450 submitted by Shayla Hamilton, Song Whiddon, PLLC, on behalf of Prosperity Fire Protection, for a zoning change from North Gus Thomasson Corridor (NGTC) District to Planned Development",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "0450 submitted by Shayla Hamilton, Song Whiddon, PLLC, on behalf of Prosperity Fire Protection, for a zoning change from North Gus Thomasson Corridor (NGTC) District to Planned Development",
-          "attachments": [],
-          "keywords": [
-            "planned development"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-06-12",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06122026-2214",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (33 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-06-04",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06042026-2207",
+      "meeting_date": "2026-06-12",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06122026-2214",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1246,7 +1229,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Collin",
@@ -1741,20 +1724,33 @@
       "county": "Denton",
       "city": "Cross Roads",
       "board": "City Council",
-      "meeting_date": "2026-05-14",
-      "agenda_url": "https://www.crossroadstx.gov/AgendaCenter/ViewFile/Agenda/_05142026-52",
+      "meeting_date": "2026-06-15",
+      "agenda_url": "https://www.crossroadstx.gov/AgendaCenter/ViewFile/Agenda/_06152026-55",
       "items": [
         {
-          "text": "Town Administrator Jason Laumer gave the development update on Walmart, the preliminary plat for Bridlewood, and advised there is a developer interested in building sit down restaurants in the area of US 380 at FM 424.",
+          "text": "Council on an amendment to the Future Land Use Map application for a 13.61 acre parcel located at 4801 HWY 377, Cross Roads, Texas. (Permit #2907) (page 49)",
+          "attachments": []
+        },
+        {
+          "text": "Discuss, consider, and act on (P&Z) a recommendation to the Town Council on a final plat application for a 59.917 acre parcel generally located west of Naylor Road, across from Sedona Lane, Cross Roads, Denton County, Texas. The purpose of this plat is to create 47 lots for residential development. (Permit # 2906) (page 51)",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "Town Administrator Jason Laumer gave the development update on Walmart, the preliminary plat for Bridlewood, and advised there is a developer interested in building sit down restaurants in the area of US 380 at FM 424.",
+          "text": "Council on an amendment to the Future Land Use Map application for a 13.61 acre parcel located at 4801 HWY 377, Cross Roads, Texas. (Permit #2907) (page 49)",
           "attachments": [],
           "keywords": [
-            "PD"
+            "acre"
+          ]
+        },
+        {
+          "text": "Discuss, consider, and act on (P&Z) a recommendation to the Town Council on a final plat application for a 59.917 acre parcel generally located west of Naylor Road, across from Sedona Lane, Cross Roads, Denton County, Texas. The purpose of this plat is to create 47 lots for residential development. (Permit # 2906) (page 51)",
+          "attachments": [],
+          "keywords": [
+            "residential",
+            "lot",
+            "acre"
           ]
         }
       ],
