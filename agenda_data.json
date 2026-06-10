@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-06-09T14:12:06.953471Z",
+    "last_updated": "2026-06-10T14:45:28.780186Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-03-11",
-    "total_agenda_items": 54,
-    "total_sfr_items": 28,
+    "cutoff_date": "2026-03-12",
+    "total_agenda_items": 57,
+    "total_sfr_items": 34,
     "total_attachments": 0
   },
   "summaries": [
@@ -92,18 +92,42 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-06-08",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_06082026-2263",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (40 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-06-18",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_06182026-2267",
+      "items": [
+        {
+          "text": "Consider: ZA26-0041, Zoning Change and Site Plan for Hunington Southlake on property described as Lots 6R and 1, Block 1, Stonebridge Park and located at 2350 and 2340 W.",
+          "attachments": []
+        },
+        {
+          "text": "Consider: ZA26-0043, Zoning Change and Site Plan for Building 900 at Shivers’ Farm on property described as Lots 1A03 and 1A, James J. West Survey, Abstract 1620 and located at 1800 and 1900 N. White Chapel Boulevard. Current Zoning: “ECZ” Employment Center",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Consider: ZA26-0041, Zoning Change and Site Plan for Hunington Southlake on property described as Lots 6R and 1, Block 1, Stonebridge Park and located at 2350 and 2340 W.",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        },
+        {
+          "text": "Consider: ZA26-0043, Zoning Change and Site Plan for Building 900 at Shivers’ Farm on property described as Lots 1A03 and 1A, James J. West Survey, Abstract 1620 and located at 1800 and 1900 N. White Chapel Boulevard. Current Zoning: “ECZ” Employment Center",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
-      "meeting_date": "2026-06-08",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_06082026-2263",
+      "meeting_date": "2026-06-09",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_06092026-2264",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -304,18 +328,18 @@
       "county": "Tarrant",
       "city": "Benbrook",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-18",
-      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_05182026-825",
+      "meeting_date": "2026-06-15",
+      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_06152026-832",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (123 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (233 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Tarrant",
       "city": "Benbrook",
       "board": "City Council",
       "meeting_date": "2026-06-15",
-      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_06152026-831",
+      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_06152026-832",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -467,38 +491,11 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-06-08",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_06082026-613",
-      "items": [
-        {
-          "text": "Conduct a public hearing and consideration and/or action on the application of Stanely Redding requesting a rezoning from “M-1” Industrial to “M-2” Heavy Industrial on Tract 14, Abstract 24, of the John Akers Survey, being approximately 6.977 acres of land, locally known as 5722 Airport Freeway. (C. Rozanc)",
-          "attachments": []
-        },
-        {
-          "text": "Conduct a public hearing and consideration and/or action on the application of Mark S. Wood requesting a rezoning from “CF” Community Facility District to “SF-2” Single Family Residential District on School Tract,",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Conduct a public hearing and consideration and/or action on the application of Stanely Redding requesting a rezoning from “M-1” Industrial to “M-2” Heavy Industrial on Tract 14, Abstract 24, of the John Akers Survey, being approximately 6.977 acres of land, locally known as 5722 Airport Freeway. (C. Rozanc)",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "Conduct a public hearing and consideration and/or action on the application of Mark S. Wood requesting a rezoning from “CF” Community Facility District to “SF-2” Single Family Residential District on School Tract,",
-          "attachments": [],
-          "keywords": [
-            "single family",
-            "residential",
-            "SF-",
-            "unit"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-06-09",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_06092026-615",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
@@ -654,8 +651,8 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-06-12",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06122026-2214",
+      "meeting_date": "2026-06-15",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06152026-2216",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -854,8 +851,8 @@
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "City Council",
-      "meeting_date": "2026-05-28",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_05282026-1797",
+      "meeting_date": "2026-05-29",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_06042026-1798",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1064,11 +1061,72 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-30",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_05302026-1698",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (20 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-06-15",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_06152026-1707",
+      "items": [
+        {
+          "text": "E.2 2026-005 Consider a request from JENHOLDCO 24, LLC to final plat a property being a 59.665-acre tract of land called Serenity Phase I, located east of FM 75 and south of County Road 831, Princeton,",
+          "attachments": []
+        },
+        {
+          "text": "P&Z Memo - Final Plat Serenity Ph I - 06.15.2026.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit A - Proposed Final Plat.pdf",
+          "attachments": []
+        },
+        {
+          "text": "E.3 2026-006 Consider a request from Princeton Crossroads PFC to final plat a project called Harvard Flats Addition, being a 15-acre tract of land located 596 N Beauchamp Boulevard, Princeton, Texas; and take",
+          "attachments": []
+        },
+        {
+          "text": "P&Z Memo - Final Plat Harvard Flats - 06.15.2026.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Current tentative milestones for the Live Princeton Comprehensive Plan include:",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "E.2 2026-005 Consider a request from JENHOLDCO 24, LLC to final plat a property being a 59.665-acre tract of land called Serenity Phase I, located east of FM 75 and south of County Road 831, Princeton,",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "P&Z Memo - Final Plat Serenity Ph I - 06.15.2026.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit A - Proposed Final Plat.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "E.3 2026-006 Consider a request from Princeton Crossroads PFC to final plat a project called Harvard Flats Addition, being a 15-acre tract of land located 596 N Beauchamp Boulevard, Princeton, Texas; and take",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "P&Z Memo - Final Plat Harvard Flats - 06.15.2026.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Collin",
@@ -1083,10 +1141,6 @@
         },
         {
           "text": "CC Memo - Quick Splash Wash Final Plat - 06.08.2026.pdf",
-          "attachments": []
-        },
-        {
-          "text": "Exhibit A - Proposed Final Plat.pdf",
           "attachments": []
         },
         {
@@ -1112,13 +1166,6 @@
         },
         {
           "text": "CC Memo - Quick Splash Wash Final Plat - 06.08.2026.pdf",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "Exhibit A - Proposed Final Plat.pdf",
           "attachments": [],
           "keywords": [
             "PD"
@@ -1476,27 +1523,34 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "City Council",
-      "meeting_date": "2026-05-30",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_06022026-1298",
+      "meeting_date": "2026-06-15",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_06152026-1300",
       "items": [
         {
-          "text": "During the previous MDD meeting on April 7, 2026, Jeremy Blad with Valley Quest Design provided a presentation on a draft version of the Front Street Small Area Plan. Notable comments included clarification on the names of historic buildings in the area, the proximity of the train tracks, the location of a proposed you-pick farm, and future zoning change requirements. Exhibit A is the final version of the small area plan ready for consideration and approval by the MDD.",
+          "text": "Hold a public hearing and consider 1st Reading of Ordinance 2026-29 to adopt and enact a moratorium on all development applications (i.e. zoning changes, SUPs, site plans, all plats, etc.) for commercial and residential developments in an area generally bounded by the eastern right-of-way line of I-35W to the east, a line approximately 2,900 feet north of FM",
           "attachments": []
         },
         {
-          "text": "Current Zoning Future Land Use",
-          "attachments": []
-        },
-        {
-          "text": "Consistency with Comprehensive Plan Required.",
-          "attachments": []
-        },
-        {
-          "text": "The “OT-1” Old Town 1 District is intended to create a mixed-use focal point for the Town. This district is appropriate within that portion of the original dedication of the Town of Argyle that is located east Development proposals shall be consistent with the and west of the centerline of U.S. Highway 377 right-of-way, west of the centerline of the right-of- Comprehensive Plan concept for the Old Town. way for Cypress Street. 2. Windows. Reflective glass shall not be used for windows; detailing for windows, doors and other openings shall be of wood,",
+          "text": "407 between I-35W and US Hwy 377 and includes all land indicated as commercial and residential designation on the Town of Argyle Future Land Use Plan dated June 2024 and zoned as commercial or residential on the latest Zoning Map; providing findings of fact; providing exemptions; providing a waiver procedure; providing for a termination date; providing for severability, and providing an effective date.",
           "attachments": []
         }
       ],
-      "sfr_items": [],
+      "sfr_items": [
+        {
+          "text": "Hold a public hearing and consider 1st Reading of Ordinance 2026-29 to adopt and enact a moratorium on all development applications (i.e. zoning changes, SUPs, site plans, all plats, etc.) for commercial and residential developments in an area generally bounded by the eastern right-of-way line of I-35W to the east, a line approximately 2,900 feet north of FM",
+          "attachments": [],
+          "keywords": [
+            "residential"
+          ]
+        },
+        {
+          "text": "407 between I-35W and US Hwy 377 and includes all land indicated as commercial and residential designation on the Town of Argyle Future Land Use Plan dated June 2024 and zoned as commercial or residential on the latest Zoning Map; providing findings of fact; providing exemptions; providing a waiver procedure; providing for a termination date; providing for severability, and providing an effective date.",
+          "attachments": [],
+          "keywords": [
+            "residential"
+          ]
+        }
+      ],
       "status": "success"
     },
     {
@@ -1760,21 +1814,26 @@
       "county": "Denton",
       "city": "Oak Point",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-26",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_06012026-595",
+      "meeting_date": "2026-05-27",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_06022026-596",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (78 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (16 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Denton",
       "city": "Oak Point",
       "board": "City Council",
-      "meeting_date": "2026-05-20",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_05202026-592",
-      "items": [],
+      "meeting_date": "2026-06-16",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_06162026-600",
+      "items": [
+        {
+          "text": "Plan, the City’s comprehensive plan, and adopted overlay district requirements. Target categories may include, without limitation:",
+          "attachments": []
+        }
+      ],
       "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "status": "success"
     },
     {
       "county": "Denton",
@@ -1999,8 +2058,8 @@
       "county": "Rockwall",
       "city": "Royse City",
       "board": "City Council",
-      "meeting_date": "2026-06-03",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_06032026-618",
+      "meeting_date": "2026-06-09",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_06092026-620",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2372,23 +2431,18 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-06-08",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_06082026-1528",
-      "items": [
-        {
-          "text": "Comprehensive Master Plan of the City; serves the health, safety, welfare, and aesthetic concerns of the public; is in the public interest; and that the zoning change does not unreasonably invade the rights of adjacent property owners.",
-          "attachments": []
-        }
-      ],
+      "meeting_date": "2026-06-15",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_06152026-1530",
+      "items": [],
       "sfr_items": [],
-      "status": "success"
+      "status": "PDF parsed (143 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Wise",
       "city": "Decatur",
       "board": "City Council",
-      "meeting_date": "2026-06-08",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_06082026-1528",
+      "meeting_date": "2026-06-15",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_06152026-1529",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
