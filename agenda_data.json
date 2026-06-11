@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-06-10T14:45:28.780186Z",
+    "last_updated": "2026-06-11T15:02:34.981629Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-03-12",
-    "total_agenda_items": 57,
-    "total_sfr_items": 34,
+    "cutoff_date": "2026-03-13",
+    "total_agenda_items": 63,
+    "total_sfr_items": 35,
     "total_attachments": 0
   },
   "summaries": [
@@ -126,11 +126,44 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
-      "meeting_date": "2026-06-09",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_06092026-2264",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-06-16",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_06162026-2268",
+      "items": [
+        {
+          "text": "S. TABLE: Ordinance No. 480-843, ZA26-0014, 1st Reading, Zoning Change and",
+          "attachments": []
+        },
+        {
+          "text": "C. Ordinance No. 480-798a, ZA26-0030, 2nd Reading, Zoning Change and Site",
+          "attachments": []
+        },
+        {
+          "text": "D. Ordinance No. 480-847, ZA26-0027, 2nd Reading, Zoning Change and",
+          "attachments": []
+        },
+        {
+          "text": "Southlake Consolidated Future Land Use Plan, an Element of the Southlake",
+          "attachments": []
+        },
+        {
+          "text": "Comprehensive Plan, for 3095 Johnson Rd. on property described as a portion of Lot 16, J. G. Allen No. 18 Addition and located at 3095 Johnson Road.",
+          "attachments": []
+        },
+        {
+          "text": "B. Ordinance No. 480-848, ZA26-0035, 1st Reading, Zoning Change and",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Comprehensive Plan, for 3095 Johnson Rd. on property described as a portion of Lot 16, J. G. Allen No. 18 Addition and located at 3095 Johnson Road.",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Tarrant",
@@ -491,8 +524,8 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-06-09",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_06092026-615",
+      "meeting_date": "2026-06-11",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_06112026-617",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1899,18 +1932,18 @@
       "county": "Ellis",
       "city": "Midlothian",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-03-12",
-      "agenda_url": "https://www.midlothian.tx.us/AgendaCenter/ViewFile/Agenda/_03122026-17",
+      "meeting_date": "2026-04-09",
+      "agenda_url": "https://www.midlothian.tx.us/AgendaCenter/ViewFile/Agenda/_04092026-11",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (43 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (42 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Ellis",
       "city": "Midlothian",
       "board": "City Council",
-      "meeting_date": "2026-03-12",
-      "agenda_url": "https://www.midlothian.tx.us/AgendaCenter/ViewFile/Agenda/_03122026-17",
+      "meeting_date": "2026-04-09",
+      "agenda_url": "https://www.midlothian.tx.us/AgendaCenter/ViewFile/Agenda/_04092026-11",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
