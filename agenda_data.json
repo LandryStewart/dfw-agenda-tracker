@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-06-11T15:02:34.981629Z",
+    "last_updated": "2026-06-12T14:37:45.752424Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-03-13",
-    "total_agenda_items": 63,
-    "total_sfr_items": 35,
+    "cutoff_date": "2026-03-14",
+    "total_agenda_items": 60,
+    "total_sfr_items": 33,
     "total_attachments": 0
   },
   "summaries": [
@@ -674,11 +674,37 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-06-12",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06122026-2214",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (33 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-06-22",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06222026-2217",
+      "items": [
+        {
+          "text": "0448 submitted by Ricky Ponton for a zoning change from General Retail to Planned Development –",
+          "attachments": []
+        },
+        {
+          "text": "0452 submitted by Veronica Morales for a zoning change from R-3 Single Family Residential to R-3",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "0448 submitted by Ricky Ponton for a zoning change from General Retail to Planned Development –",
+          "attachments": [],
+          "keywords": [
+            "planned development"
+          ]
+        },
+        {
+          "text": "0452 submitted by Veronica Morales for a zoning change from R-3 Single Family Residential to R-3",
+          "attachments": [],
+          "keywords": [
+            "single family",
+            "residential",
+            "R-3"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Dallas",
@@ -1166,60 +1192,10 @@
       "city": "Princeton",
       "board": "City Council",
       "meeting_date": "2026-06-08",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_06082026-1705",
-      "items": [
-        {
-          "text": "H2. 2026-144 Consider a request from AFK Wash Investments, LLC to final plat a property being a 1.184-acre tract of land located at 1732 East",
-          "attachments": []
-        },
-        {
-          "text": "CC Memo - Quick Splash Wash Final Plat - 06.08.2026.pdf",
-          "attachments": []
-        },
-        {
-          "text": "H3. 2026-133 Consider a request from Forestar (USA) Real estate Group Inc. to final plat Crossmill Phase 1A; and take appropriate action",
-          "attachments": []
-        },
-        {
-          "text": "CC Memo-Crossmill Ph 1A Final Plat-06.08.2026.pdf",
-          "attachments": []
-        },
-        {
-          "text": "Exhibit B - Approved Preliminary Plat.pdf",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "H2. 2026-144 Consider a request from AFK Wash Investments, LLC to final plat a property being a 1.184-acre tract of land located at 1732 East",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "CC Memo - Quick Splash Wash Final Plat - 06.08.2026.pdf",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "CC Memo-Crossmill Ph 1A Final Plat-06.08.2026.pdf",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "Exhibit B - Approved Preliminary Plat.pdf",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        }
-      ],
-      "status": "success"
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_06082026-1704",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Collin",
@@ -2464,18 +2440,18 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-06-15",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_06152026-1530",
+      "meeting_date": "2026-06-16",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_06162026-1531",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (143 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (33 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Wise",
       "city": "Decatur",
       "board": "City Council",
-      "meeting_date": "2026-06-15",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_06152026-1529",
+      "meeting_date": "2026-06-16",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_06162026-1531",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
