@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-06-12T14:37:45.752424Z",
+    "last_updated": "2026-06-13T12:56:24.184128Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-03-14",
-    "total_agenda_items": 60,
-    "total_sfr_items": 33,
+    "cutoff_date": "2026-03-15",
+    "total_agenda_items": 62,
+    "total_sfr_items": 34,
     "total_attachments": 0
   },
   "summaries": [
@@ -910,11 +910,29 @@
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "City Council",
-      "meeting_date": "2026-05-29",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_06042026-1798",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-06-18",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_06182026-1801",
+      "items": [
+        {
+          "text": "PD, Planned Development District (Ord. Nos. 3252-22 & 3296-25) to M, Mixed Use a. Conduct a Public Hearing on the Rezoning Application 004-2026. b. Consideration and action on the Rezoning Application 004-2026.",
+          "attachments": []
+        },
+        {
+          "text": "Consideration and action on Final Plat Application 001-2026 by Celimar Bracho dba",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "PD, Planned Development District (Ord. Nos. 3252-22 & 3296-25) to M, Mixed Use a. Conduct a Public Hearing on the Rezoning Application 004-2026. b. Consideration and action on the Rezoning Application 004-2026.",
+          "attachments": [],
+          "keywords": [
+            "PD",
+            "planned development"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Dallas",
@@ -1610,7 +1628,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Denton",
@@ -1892,7 +1910,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Ellis",
@@ -2101,7 +2119,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Kaufman",
