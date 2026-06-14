@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-06-13T12:56:24.184128Z",
+    "last_updated": "2026-06-14T13:28:37.461032Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-03-15",
+    "cutoff_date": "2026-03-16",
     "total_agenda_items": 62,
     "total_sfr_items": 34,
     "total_attachments": 0
@@ -1628,7 +1628,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Denton",
@@ -1910,7 +1910,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Ellis",
@@ -2119,7 +2119,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Kaufman",
