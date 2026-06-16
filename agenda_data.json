@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-06-15T16:45:40.448560Z",
+    "last_updated": "2026-06-16T16:22:43.833160Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-03-17",
+    "cutoff_date": "2026-03-18",
     "total_agenda_items": 62,
     "total_sfr_items": 34,
     "total_attachments": 0
@@ -1841,11 +1841,11 @@
       "county": "Denton",
       "city": "Oak Point",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-27",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_06022026-596",
+      "meeting_date": "2026-06-08",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_06082026-597",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (16 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (77 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Denton",
@@ -2037,7 +2037,7 @@
       "city": "Fate",
       "board": "City Council",
       "meeting_date": "2026-06-12",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_06122026-1467",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_06122026-1466",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2119,7 +2119,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Kaufman",
