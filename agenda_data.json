@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-06-16T16:22:43.833160Z",
+    "last_updated": "2026-06-17T14:49:56.850691Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-03-18",
-    "total_agenda_items": 62,
-    "total_sfr_items": 34,
+    "cutoff_date": "2026-03-19",
+    "total_agenda_items": 42,
+    "total_sfr_items": 24,
     "total_attachments": 0
   },
   "summaries": [
@@ -92,78 +92,21 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-06-18",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_06182026-2267",
-      "items": [
-        {
-          "text": "Consider: ZA26-0041, Zoning Change and Site Plan for Hunington Southlake on property described as Lots 6R and 1, Block 1, Stonebridge Park and located at 2350 and 2340 W.",
-          "attachments": []
-        },
-        {
-          "text": "Consider: ZA26-0043, Zoning Change and Site Plan for Building 900 at Shivers’ Farm on property described as Lots 1A03 and 1A, James J. West Survey, Abstract 1620 and located at 1800 and 1900 N. White Chapel Boulevard. Current Zoning: “ECZ” Employment Center",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Consider: ZA26-0041, Zoning Change and Site Plan for Hunington Southlake on property described as Lots 6R and 1, Block 1, Stonebridge Park and located at 2350 and 2340 W.",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        },
-        {
-          "text": "Consider: ZA26-0043, Zoning Change and Site Plan for Building 900 at Shivers’ Farm on property described as Lots 1A03 and 1A, James J. West Survey, Abstract 1620 and located at 1800 and 1900 N. White Chapel Boulevard. Current Zoning: “ECZ” Employment Center",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-06-23",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_06232026-2272",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (23 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
-      "meeting_date": "2026-06-16",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_06162026-2268",
-      "items": [
-        {
-          "text": "S. TABLE: Ordinance No. 480-843, ZA26-0014, 1st Reading, Zoning Change and",
-          "attachments": []
-        },
-        {
-          "text": "C. Ordinance No. 480-798a, ZA26-0030, 2nd Reading, Zoning Change and Site",
-          "attachments": []
-        },
-        {
-          "text": "D. Ordinance No. 480-847, ZA26-0027, 2nd Reading, Zoning Change and",
-          "attachments": []
-        },
-        {
-          "text": "Southlake Consolidated Future Land Use Plan, an Element of the Southlake",
-          "attachments": []
-        },
-        {
-          "text": "Comprehensive Plan, for 3095 Johnson Rd. on property described as a portion of Lot 16, J. G. Allen No. 18 Addition and located at 3095 Johnson Road.",
-          "attachments": []
-        },
-        {
-          "text": "B. Ordinance No. 480-848, ZA26-0035, 1st Reading, Zoning Change and",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Comprehensive Plan, for 3095 Johnson Rd. on property described as a portion of Lot 16, J. G. Allen No. 18 Addition and located at 3095 Johnson Road.",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-06-23",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_06232026-2272",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
@@ -501,20 +444,24 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-06-09",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_06092026-614",
+      "meeting_date": "2026-06-23",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_06232026-622",
       "items": [
         {
-          "text": "Application of Brenda Hickson for a zone change from “C-1” Commercial District to “SF-",
+          "text": "Consider action on the application of Anthony Marquez creating the Preliminary Plat of",
+          "attachments": []
+        },
+        {
+          "text": "Consider action on the application of Anthony Marquez creating the Final Plat of Lot 1,",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "Application of Brenda Hickson for a zone change from “C-1” Commercial District to “SF-",
+          "text": "Consider action on the application of Anthony Marquez creating the Final Plat of Lot 1,",
           "attachments": [],
           "keywords": [
-            "SF-"
+            "lot"
           ]
         }
       ],
@@ -524,11 +471,68 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-06-15",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_06152026-619",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-06-22",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_06222026-621",
+      "items": [
+        {
+          "text": "Consideration and/or action on the application of Stanely Redding requesting a rezoning from “M-1” Industrial to “M-2” Heavy Industrial on Tract 14, Abstract 24, of the John Akers Survey, being approximately 6.977 acres of land, locally known as 5722 Airport Freeway. (C. Rozanc)",
+          "attachments": []
+        },
+        {
+          "text": "Consideration and/or action on the application of Mark S. Wood requesting a rezoning from “CF” Community",
+          "attachments": []
+        },
+        {
+          "text": "Conduct a public hearing and consideration and/or take action on the application of Brenda Hickson for a zone change from “C-1” Commercial District to “SF-2” Single Family Residential District located on Lot O, of the",
+          "attachments": []
+        },
+        {
+          "text": "Conduct a public hearing and consideration and/or action on the application of Stanely Redding requesting a rezoning from “M-1” Industrial to “M-2” Heavy Industrial on Tract 14, Abstract 24, of the John Akers Survey, being approximately 6.977 acres of land, locally known as 5722 Airport Freeway. (C. Rozanc)",
+          "attachments": []
+        },
+        {
+          "text": "PCDD Rozanc delivered a detailed presentation to the City Council regarding the rezone request for 5722",
+          "attachments": []
+        },
+        {
+          "text": "Council and provided an overview of the requested zoning change, outlining the purpose and intent of the",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Consideration and/or action on the application of Stanely Redding requesting a rezoning from “M-1” Industrial to “M-2” Heavy Industrial on Tract 14, Abstract 24, of the John Akers Survey, being approximately 6.977 acres of land, locally known as 5722 Airport Freeway. (C. Rozanc)",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Consideration and/or action on the application of Mark S. Wood requesting a rezoning from “CF” Community",
+          "attachments": [],
+          "keywords": [
+            "unit"
+          ]
+        },
+        {
+          "text": "Conduct a public hearing and consideration and/or take action on the application of Brenda Hickson for a zone change from “C-1” Commercial District to “SF-2” Single Family Residential District located on Lot O, of the",
+          "attachments": [],
+          "keywords": [
+            "single family",
+            "residential",
+            "lot",
+            "SF-"
+          ]
+        },
+        {
+          "text": "Conduct a public hearing and consideration and/or action on the application of Stanely Redding requesting a rezoning from “M-1” Industrial to “M-2” Heavy Industrial on Tract 14, Abstract 24, of the John Akers Survey, being approximately 6.977 acres of land, locally known as 5722 Airport Freeway. (C. Rozanc)",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Tarrant",
@@ -710,8 +714,8 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-06-15",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06152026-2216",
+      "meeting_date": "2026-06-18",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06182026-2213",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1138,79 +1142,18 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-06-15",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_06152026-1707",
-      "items": [
-        {
-          "text": "E.2 2026-005 Consider a request from JENHOLDCO 24, LLC to final plat a property being a 59.665-acre tract of land called Serenity Phase I, located east of FM 75 and south of County Road 831, Princeton,",
-          "attachments": []
-        },
-        {
-          "text": "P&Z Memo - Final Plat Serenity Ph I - 06.15.2026.pdf",
-          "attachments": []
-        },
-        {
-          "text": "Exhibit A - Proposed Final Plat.pdf",
-          "attachments": []
-        },
-        {
-          "text": "E.3 2026-006 Consider a request from Princeton Crossroads PFC to final plat a project called Harvard Flats Addition, being a 15-acre tract of land located 596 N Beauchamp Boulevard, Princeton, Texas; and take",
-          "attachments": []
-        },
-        {
-          "text": "P&Z Memo - Final Plat Harvard Flats - 06.15.2026.pdf",
-          "attachments": []
-        },
-        {
-          "text": "Current tentative milestones for the Live Princeton Comprehensive Plan include:",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "E.2 2026-005 Consider a request from JENHOLDCO 24, LLC to final plat a property being a 59.665-acre tract of land called Serenity Phase I, located east of FM 75 and south of County Road 831, Princeton,",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "P&Z Memo - Final Plat Serenity Ph I - 06.15.2026.pdf",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "Exhibit A - Proposed Final Plat.pdf",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "E.3 2026-006 Consider a request from Princeton Crossroads PFC to final plat a project called Harvard Flats Addition, being a 15-acre tract of land located 596 N Beauchamp Boulevard, Princeton, Texas; and take",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "P&Z Memo - Final Plat Harvard Flats - 06.15.2026.pdf",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-06-25",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_06252026-1710",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (21 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-06-08",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_06082026-1704",
+      "meeting_date": "2026-06-25",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_06252026-1710",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2085,11 +2028,28 @@
       "county": "Rockwall",
       "city": "Royse City",
       "board": "City Council",
-      "meeting_date": "2026-06-09",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_06092026-620",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-06-23",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_06232026-624",
+      "items": [
+        {
+          "text": "Adopt an Ordinance approving a final plat for Verandah Phase 8, consisting of",
+          "attachments": []
+        },
+        {
+          "text": "Adopt an Ordinance approving a final plat for Clearview Ranch Phase 2 South, consisting of +/- 75.4 acres, situated in the Russell Crawford Survey, Abstract No.",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Adopt an Ordinance approving a final plat for Clearview Ranch Phase 2 South, consisting of +/- 75.4 acres, situated in the Russell Crawford Survey, Abstract No.",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Kaufman",
@@ -2105,8 +2065,8 @@
       "county": "Kaufman",
       "city": "Forney",
       "board": "City Council",
-      "meeting_date": "2026-06-11",
-      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_06112026-1281",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2195,141 +2155,18 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-06-08",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_06082026-2200",
-      "items": [
-        {
-          "text": "ZONING COMMISSION MEETING. a. *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE ±10.0 ACRES",
-          "attachments": []
-        },
-        {
-          "text": "REGIONAL COMMERCIAL (RC) DISTRICT LOCATED AT 1519 WEST KILPATRICK c. *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE ±0.25 ACRES",
-          "attachments": []
-        },
-        {
-          "text": "Item Title: *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE ±10.0 ACRES",
-          "attachments": []
-        },
-        {
-          "text": "Item Description: The applicant, Marshall Weatherby, requests to rezone approximately 10 acres of undeveloped land located along the west side of North Main Street, approximately 0.25 miles south of",
-          "attachments": []
-        },
-        {
-          "text": "Background & Technical Analysis: The applicant proposes to rezone the subject property from Industrial",
-          "attachments": []
-        },
-        {
-          "text": "Site Development: According to the Letter of Intent provided by the applicant, the property owner intends to develop the subject property with a multi-tenant office and warehouse development. If this rezoning request is approved, future development of the property will require approval of subdivision plats and a detailed site plan in accordance with the City’s development regulations. The Zoning Ordinance requires enhanced landscaping and building design standards within the CI District as compared to the existing",
-          "attachments": []
-        },
-        {
-          "text": "Future Land Use Plan: This property is designated as Commercial on the City’s Future Land Use Plan.",
-          "attachments": []
-        },
-        {
-          "text": "Letter of Intent for Rezoning Application",
-          "attachments": []
-        },
-        {
-          "text": "Re: Letter of Intent – Request for Rezoning from Industrial to Commercial/Industrial Flex [APPROVED]",
-          "attachments": []
-        },
-        {
-          "text": "I am writing to formally submit this Letter of Intent in support of a rezoning application for a",
-          "attachments": []
-        },
-        {
-          "text": "10-acre tract inside of 4319 N Main St Cleburne Tx, currently zoned Industrial. We are requesting approval to rezone the property to Commercial/Industrial Flex District to better align with our proposed development plans. [APPROVED]",
-          "attachments": []
-        },
-        {
-          "text": "The intent of this rezoning request is to develop the property into a high-quality office and warehouse facility. The proposed development will consist of modern office/warehouse buildings designed to support a range of commercial and light industrial uses. These facilities are intended to attract reputable tenants, provide functional and flexible space, and contribute positively to the local business environment. [APPROVED]",
-          "attachments": []
-        },
-        {
-          "text": "We believe that rezoning to Commercial/Industrial Flex District is appropriate for this location and consistent with the City’s long-term planning goals. The proposed development will support economic growth, create job opportunities, and enhance the overall utility and value of the property.",
-          "attachments": []
-        },
-        {
-          "text": "Thank you for your time and consideration of this request. We respectfully ask for your support in approving the proposed rezoning.",
-          "attachments": []
-        },
-        {
-          "text": "Cleburne, TX 76033 Future Land Use Map",
-          "attachments": []
-        },
-        {
-          "text": "Future Land Use Plan: This site is designated as Medium-Density Residential on the City’s Future Land",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "ZONING COMMISSION MEETING. a. *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE ±10.0 ACRES",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "REGIONAL COMMERCIAL (RC) DISTRICT LOCATED AT 1519 WEST KILPATRICK c. *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE ±0.25 ACRES",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "Item Title: *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE ±10.0 ACRES",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "Item Description: The applicant, Marshall Weatherby, requests to rezone approximately 10 acres of undeveloped land located along the west side of North Main Street, approximately 0.25 miles south of",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "Site Development: According to the Letter of Intent provided by the applicant, the property owner intends to develop the subject property with a multi-tenant office and warehouse development. If this rezoning request is approved, future development of the property will require approval of subdivision plats and a detailed site plan in accordance with the City’s development regulations. The Zoning Ordinance requires enhanced landscaping and building design standards within the CI District as compared to the existing",
-          "attachments": [],
-          "keywords": [
-            "subdivision"
-          ]
-        },
-        {
-          "text": "10-acre tract inside of 4319 N Main St Cleburne Tx, currently zoned Industrial. We are requesting approval to rezone the property to Commercial/Industrial Flex District to better align with our proposed development plans. [APPROVED]",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "We believe that rezoning to Commercial/Industrial Flex District is appropriate for this location and consistent with the City’s long-term planning goals. The proposed development will support economic growth, create job opportunities, and enhance the overall utility and value of the property.",
-          "attachments": [],
-          "keywords": [
-            "unit"
-          ]
-        },
-        {
-          "text": "Future Land Use Plan: This site is designated as Medium-Density Residential on the City’s Future Land",
-          "attachments": [],
-          "keywords": [
-            "residential",
-            "density"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-06-16",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_06162026-2201",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (296 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Johnson",
       "city": "Cleburne",
       "board": "City Council",
-      "meeting_date": "2026-05-07",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_05072026-2194",
+      "meeting_date": "2026-05-19",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_03172026-2178",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2468,11 +2305,26 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "City Council",
-      "meeting_date": "2026-06-16",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_06162026-1531",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-06-22",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_06222026-1538",
+      "items": [
+        {
+          "text": "A. RP-26-0008. Consider and take appropriate action to approve a plat application for an approximately 5.531-acre tract of land, Final Plat, Lots 3R-3R and 3R-4, Block 1, Eagles",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "A. RP-26-0008. Consider and take appropriate action to approve a plat application for an approximately 5.531-acre tract of land, Final Plat, Lots 3R-3R and 3R-4, Block 1, Eagles",
+          "attachments": [],
+          "keywords": [
+            "lot",
+            "acre",
+            "R-3"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Wise",
