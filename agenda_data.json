@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-06-17T14:49:56.850691Z",
+    "last_updated": "2026-06-18T14:38:33.647333Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-03-19",
-    "total_agenda_items": 42,
-    "total_sfr_items": 24,
+    "cutoff_date": "2026-03-20",
+    "total_agenda_items": 40,
+    "total_sfr_items": 22,
     "total_attachments": 0
   },
   "summaries": [
@@ -194,8 +194,8 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "City Council",
-      "meeting_date": "2026-05-20",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_05202026-1591",
+      "meeting_date": "2026-05-26",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_05262026-1592",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -678,44 +678,18 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-06-22",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06222026-2217",
-      "items": [
-        {
-          "text": "0448 submitted by Ricky Ponton for a zoning change from General Retail to Planned Development –",
-          "attachments": []
-        },
-        {
-          "text": "0452 submitted by Veronica Morales for a zoning change from R-3 Single Family Residential to R-3",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "0448 submitted by Ricky Ponton for a zoning change from General Retail to Planned Development –",
-          "attachments": [],
-          "keywords": [
-            "planned development"
-          ]
-        },
-        {
-          "text": "0452 submitted by Veronica Morales for a zoning change from R-3 Single Family Residential to R-3",
-          "attachments": [],
-          "keywords": [
-            "single family",
-            "residential",
-            "R-3"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-06-24",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06242026-2221",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (56 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-06-18",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06182026-2213",
+      "meeting_date": "2026-06-24",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06242026-2221",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1969,18 +1943,18 @@
       "county": "Rockwall",
       "city": "Fate",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-06-12",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_06122026-1467",
+      "meeting_date": "2026-07-02",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_07022026-1472",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (24 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (18 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Rockwall",
       "city": "Fate",
       "board": "City Council",
-      "meeting_date": "2026-06-12",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_06122026-1466",
+      "meeting_date": "2026-07-02",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_07022026-1472",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
