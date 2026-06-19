@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "last_updated": "2026-06-18T14:38:33.647333Z",
+    "last_updated": "2026-06-19T14:30:37.378873Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-03-20",
-    "total_agenda_items": 40,
+    "cutoff_date": "2026-03-21",
+    "total_agenda_items": 41,
     "total_sfr_items": 22,
     "total_attachments": 0
   },
@@ -2269,21 +2269,15 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-06-16",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_06162026-1531",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (33 lines) but no rezone/plat/comp plan items"
-    },
-    {
-      "county": "Wise",
-      "city": "Decatur",
-      "board": "City Council",
       "meeting_date": "2026-06-22",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_06222026-1538",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_06222026-1539",
       "items": [
         {
           "text": "A. RP-26-0008. Consider and take appropriate action to approve a plat application for an approximately 5.531-acre tract of land, Final Plat, Lots 3R-3R and 3R-4, Block 1, Eagles",
+          "attachments": []
+        },
+        {
+          "text": "Finding #6. The request is not in conflict with the City of Decatur’s 2050 Comprehensive Plan.",
           "attachments": []
         }
       ],
@@ -2299,6 +2293,16 @@
         }
       ],
       "status": "success"
+    },
+    {
+      "county": "Wise",
+      "city": "Decatur",
+      "board": "City Council",
+      "meeting_date": "2026-06-22",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_06222026-1538",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Wise",
