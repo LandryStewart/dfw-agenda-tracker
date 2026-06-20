@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-06-19T14:30:37.378873Z",
+    "last_updated": "2026-06-20T12:56:02.534468Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-03-21",
-    "total_agenda_items": 41,
-    "total_sfr_items": 22,
+    "cutoff_date": "2026-03-22",
+    "total_agenda_items": 43,
+    "total_sfr_items": 23,
     "total_attachments": 0
   },
   "summaries": [
@@ -152,39 +152,55 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-28",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_05282026-1593",
+      "meeting_date": "2026-06-25",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_06252026-1598",
       "items": [
         {
-          "text": "Conduct a public hearing and consider making a recommendation to City Council regarding a rezoning of the property legally described as First State Addition Lot C from Heavy",
+          "text": "Consider approval of a Final Plat of Block 17R Lot CR3 of the Stonegate Addition being a replace of Lots CR1 and C Block 17R of the Stonegate Addition being a 1.35 acre tract. The property is located on the east side of Brown Trail between Gold Hawk Lane and Old Kirk Road, commonly known as 1412 Brown Trail. (PLAT-26-1)",
           "attachments": []
         },
         {
-          "text": "Council regarding a rezoning of the property legally described as First [CONTINUED]",
+          "text": "Council regarding a rezoning of the property legally described as First State [CONTINUED]",
           "attachments": []
         },
         {
-          "text": "Analysis: The Comprehensive Plan/Future Land Use Map identifies the subject property as being located within the Place Focused Commercial development pattern. Characteristics of this development pattern include providing minor level density, scale, and a mix of uses. Such uses include a blend of dining, shopping, entertainment, and social gathering spaces. It is not believed that a massage salon would complement adjacent retail and shopping uses within the shopping center.",
+          "text": "Mr. Morrison gave a presentation and an overview of the Specific Use Permit application stating the proposed use is Massage Parlor and there are no proposed changes to the exterior of the structure or parking. Mr. Morrison detailed how this location was previously a Massage Parlor, but has been vacant for three months, thus the nonconforming use was no longer applicable. However, the previous business was shut down due to a police investigation. Mr. Morrison detailed the Comprehensive Plan, stating that this area has been designated Place Focused Commercial, with a majority of nearby uses being offices focused on professional services.",
           "attachments": []
         },
         {
-          "text": "Comprehensive Plan in providing a variety of dining, entertainment, or retail uses to the overall site; and",
+          "text": "Agenda Caption: Consider approval of a Final Plat of Block 17R Lot CR3 of the Stonegate Addition being a replace of Lots CR1 and C Block 17R of the Stonegate Addition being a",
+          "attachments": []
+        },
+        {
+          "text": "Staff Findings : The final plat is in substantial compliance with the zoning on the property and the",
+          "attachments": []
+        },
+        {
+          "text": "(3) If the residentially- zoned property is developed for a residential use within seven (7) years after the money is placed into escrow, sums equal to the construction cost of the masonry wall will be withdrawn from the escrow account to fund such construction. If the residentially- zoned property is not developed within the seven (7) years after the money is place into escrow, then the escrowed amount shall be used by the City to construct such masonry wall. In the event the abutting residential property is rezoned to a nonresidential use within seven (7) years after the money is placed into escrow, the remaining amount in the escrow account as of the rezoning date shall be refunded to the owner. No refunds will be made by the City to any owner after the seven (7) year period has expired, nor shall the City ever be liable for payment of interest in any deposits or refunds provided for herein.",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "Conduct a public hearing and consider making a recommendation to City Council regarding a rezoning of the property legally described as First State Addition Lot C from Heavy",
+          "text": "Consider approval of a Final Plat of Block 17R Lot CR3 of the Stonegate Addition being a replace of Lots CR1 and C Block 17R of the Stonegate Addition being a 1.35 acre tract. The property is located on the east side of Brown Trail between Gold Hawk Lane and Old Kirk Road, commonly known as 1412 Brown Trail. (PLAT-26-1)",
+          "attachments": [],
+          "keywords": [
+            "lot",
+            "acre"
+          ]
+        },
+        {
+          "text": "Agenda Caption: Consider approval of a Final Plat of Block 17R Lot CR3 of the Stonegate Addition being a replace of Lots CR1 and C Block 17R of the Stonegate Addition being a",
           "attachments": [],
           "keywords": [
             "lot"
           ]
         },
         {
-          "text": "Analysis: The Comprehensive Plan/Future Land Use Map identifies the subject property as being located within the Place Focused Commercial development pattern. Characteristics of this development pattern include providing minor level density, scale, and a mix of uses. Such uses include a blend of dining, shopping, entertainment, and social gathering spaces. It is not believed that a massage salon would complement adjacent retail and shopping uses within the shopping center.",
+          "text": "(3) If the residentially- zoned property is developed for a residential use within seven (7) years after the money is placed into escrow, sums equal to the construction cost of the masonry wall will be withdrawn from the escrow account to fund such construction. If the residentially- zoned property is not developed within the seven (7) years after the money is place into escrow, then the escrowed amount shall be used by the City to construct such masonry wall. In the event the abutting residential property is rezoned to a nonresidential use within seven (7) years after the money is placed into escrow, the remaining amount in the escrow account as of the rezoning date shall be refunded to the owner. No refunds will be made by the City to any owner after the seven (7) year period has expired, nor shall the City ever be liable for payment of interest in any deposits or refunds provided for herein.",
           "attachments": [],
           "keywords": [
-            "density"
+            "residential"
           ]
         }
       ],
@@ -2053,7 +2069,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Kaufman",
