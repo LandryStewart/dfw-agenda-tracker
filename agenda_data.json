@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-06-21T13:39:23.673308Z",
+    "last_updated": "2026-06-22T16:19:27.352765Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-03-23",
+    "cutoff_date": "2026-03-24",
     "total_agenda_items": 43,
     "total_sfr_items": 23,
     "total_attachments": 0
@@ -1561,7 +1561,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Denton",
@@ -1843,7 +1843,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Ellis",
