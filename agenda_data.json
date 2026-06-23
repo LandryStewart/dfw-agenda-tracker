@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-06-22T16:19:27.352765Z",
+    "last_updated": "2026-06-23T14:11:00.094572Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-03-24",
+    "cutoff_date": "2026-03-25",
     "total_agenda_items": 43,
     "total_sfr_items": 23,
     "total_attachments": 0
@@ -1774,11 +1774,11 @@
       "county": "Denton",
       "city": "Oak Point",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-06-08",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_06082026-597",
+      "meeting_date": "2026-06-15",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_06152026-599",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (77 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (73 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Denton",
