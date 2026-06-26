@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-06-25T13:43:44.500589Z",
+    "last_updated": "2026-06-26T13:39:54.558299Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-03-27",
-    "total_agenda_items": 43,
-    "total_sfr_items": 23,
+    "cutoff_date": "2026-03-28",
+    "total_agenda_items": 36,
+    "total_sfr_items": 19,
     "total_attachments": 0
   },
   "summaries": [
@@ -1637,97 +1637,34 @@
       "county": "Denton",
       "city": "Cross Roads",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-06-02",
-      "agenda_url": "https://www.crossroadstx.gov/AgendaCenter/ViewFile/Agenda/_06022026-54",
+      "meeting_date": "2026-07-07",
+      "agenda_url": "https://www.crossroadstx.gov/AgendaCenter/ViewFile/Agenda/_07072026-56",
       "items": [
         {
-          "text": "PUBLIC HEARING, discuss and consider a recommendation to the Town Council on an amendment to the Future Land Use Map application for a 13.61 acre parcel located at 4801",
+          "text": "PUBLIC HEARING, discuss and consider a recommendation to the Town Council on an amendment to the Future Land Use Map application for a 13.61 acre parcel located at",
           "attachments": []
         },
         {
-          "text": "Discuss and consider a recommendation to the Town Council on a final plat application for a 59.917 acre parcel generally located west of Naylor Road, across from Sedona Lane,",
+          "text": "Doug Powell spoke regarding the Town’s comprehensive plan.",
           "attachments": []
         },
         {
-          "text": "PUBLIC HEARING, discuss and consider a recommendation to Town Council on an amendment to the Future Land Use Map application for a 13.61 acre parcel located at",
-          "attachments": []
-        },
-        {
-          "text": "This request is to change the Future Land Use Map, contained in the Comprehensive",
-          "attachments": []
-        },
-        {
-          "text": "Commerce from the existing Rural Estates designation. The surrounding properties in this area are all designated Commerce. Also, the designation would be in conformance with the stated goal of the Comprehensive Plan of promoting sales tax generating",
-          "attachments": []
-        },
-        {
-          "text": "Staff recommends approval of the amendment to the Future Land Use Map to",
-          "attachments": []
-        },
-        {
-          "text": "This request is for a final plat to create 50 lots, of which 47 are designated as residential building sites. Three lots will be dedicated for open space, drainage, and detention for the",
-          "attachments": []
-        },
-        {
-          "text": "The final plat is in conformance with the approved preliminary plat and the Town’s regulations. All residential lots meet the minimum one-acre lot size requirement of the SF-",
-          "attachments": []
-        },
-        {
-          "text": "Staff recommends approval of the preliminary plat to create 47 single-family residential lots on the 59.917 acre parcel, contingent upon final engineering approval of the",
-          "attachments": []
-        },
-        {
-          "text": "The undersigned, Town Secretary, of the Town of Roads, Texas, hereby certifies that WARREN L. CORWIN OWNER the foregoing final plat of the BRIDLEWOOD ESTATES an addition to the Town of Cross R.P.L.S. No. 4621 KEN MAYER",
+          "text": "Discuss and consider a recommendation to the Town Council on a final plat application for a 59.917 acre parcel generally located west of Naylor Road, across from Sedona",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "PUBLIC HEARING, discuss and consider a recommendation to the Town Council on an amendment to the Future Land Use Map application for a 13.61 acre parcel located at 4801",
+          "text": "PUBLIC HEARING, discuss and consider a recommendation to the Town Council on an amendment to the Future Land Use Map application for a 13.61 acre parcel located at",
           "attachments": [],
           "keywords": [
             "acre"
           ]
         },
         {
-          "text": "Discuss and consider a recommendation to the Town Council on a final plat application for a 59.917 acre parcel generally located west of Naylor Road, across from Sedona Lane,",
+          "text": "Discuss and consider a recommendation to the Town Council on a final plat application for a 59.917 acre parcel generally located west of Naylor Road, across from Sedona",
           "attachments": [],
           "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "PUBLIC HEARING, discuss and consider a recommendation to Town Council on an amendment to the Future Land Use Map application for a 13.61 acre parcel located at",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "This request is for a final plat to create 50 lots, of which 47 are designated as residential building sites. Three lots will be dedicated for open space, drainage, and detention for the",
-          "attachments": [],
-          "keywords": [
-            "residential",
-            "lot"
-          ]
-        },
-        {
-          "text": "The final plat is in conformance with the approved preliminary plat and the Town’s regulations. All residential lots meet the minimum one-acre lot size requirement of the SF-",
-          "attachments": [],
-          "keywords": [
-            "residential",
-            "lot",
-            "SF-",
-            "acre"
-          ]
-        },
-        {
-          "text": "Staff recommends approval of the preliminary plat to create 47 single-family residential lots on the 59.917 acre parcel, contingent upon final engineering approval of the",
-          "attachments": [],
-          "keywords": [
-            "single-family",
-            "residential",
-            "lot",
             "acre"
           ]
         }
