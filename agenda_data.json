@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-06-26T13:39:54.558299Z",
+    "last_updated": "2026-06-27T12:37:53.052663Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-03-28",
-    "total_agenda_items": 36,
-    "total_sfr_items": 19,
+    "cutoff_date": "2026-03-29",
+    "total_agenda_items": 37,
+    "total_sfr_items": 20,
     "total_attachments": 0
   },
   "summaries": [
@@ -331,7 +331,7 @@
       "city": "Benbrook",
       "board": "City Council",
       "meeting_date": "2026-06-15",
-      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_06152026-832",
+      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_06152026-831",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1561,7 +1561,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Denton",
@@ -1711,11 +1711,20 @@
       "county": "Denton",
       "city": "Oak Point",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-06-15",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_06152026-599",
-      "items": [],
+      "meeting_date": "2026-07-07",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_07072026-604",
+      "items": [
+        {
+          "text": "SUBJECT: Chapparal Plaza Final Plat",
+          "attachments": []
+        },
+        {
+          "text": "I motion to approve the Final Plat for Chaparral Plaza conditional to the TXDOT access variance",
+          "attachments": []
+        }
+      ],
       "sfr_items": [],
-      "status": "PDF parsed (73 lines) but no rezone/plat/comp plan items"
+      "status": "success"
     },
     {
       "county": "Denton",
@@ -1780,7 +1789,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Ellis",
@@ -1916,36 +1925,40 @@
       "county": "Rockwall",
       "city": "Royse City",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-06-04",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_06042026-619",
+      "meeting_date": "2026-07-02",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_07022026-626",
       "items": [
         {
-          "text": "Consider and act on a 30-Day Extension Request for a Final Plat within the J.",
+          "text": "Public hearing regarding a Zoning Change from Agricultural (A) and Single-",
           "attachments": []
         },
         {
-          "text": "Consider and act on a 6-Month Extension Request for the Preliminary Plat of",
+          "text": "Consider and act on a 30-Day Extension Request for a Preliminary Plat of Bearpen",
           "attachments": []
         },
         {
-          "text": "Consider and act on the Reinstatement of a Preliminary Plat for Liberty Crossing",
+          "text": "Consider and act on a Final Plat of BJ's Wholesale Club: Block A - Lot 1, consisting of +/- 11 acres, situated in the J. Stephenson Survey, Abstract No. 188,",
           "attachments": []
         },
         {
-          "text": "Consider and act on a Final Plat for Verandah Phase 8, consisting of +/- 53.1 acres, situated in the Joseph Prewitt Survey, Abstract No. 851, Tract 9, Verandah",
-          "attachments": []
-        },
-        {
-          "text": "Consider and act on a Final Plat for Clearview Ranch Phase 2 South, consisting of",
+          "text": "Consider and act on a Zoning Change from Agricultural (A) and Single-Family",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "Consider and act on a Final Plat for Verandah Phase 8, consisting of +/- 53.1 acres, situated in the Joseph Prewitt Survey, Abstract No. 851, Tract 9, Verandah",
+          "text": "Consider and act on a Final Plat of BJ's Wholesale Club: Block A - Lot 1, consisting of +/- 11 acres, situated in the J. Stephenson Survey, Abstract No. 188,",
           "attachments": [],
           "keywords": [
+            "lot",
             "acre"
+          ]
+        },
+        {
+          "text": "Consider and act on a Zoning Change from Agricultural (A) and Single-Family",
+          "attachments": [],
+          "keywords": [
+            "single-family"
           ]
         }
       ],
