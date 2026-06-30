@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-06-29T15:15:24.543430Z",
+    "last_updated": "2026-06-30T13:38:09.191272Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-03-31",
-    "total_agenda_items": 37,
-    "total_sfr_items": 20,
+    "cutoff_date": "2026-04-01",
+    "total_agenda_items": 41,
+    "total_sfr_items": 21,
     "total_attachments": 0
   },
   "summaries": [
@@ -704,8 +704,8 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-06-24",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06242026-2221",
+      "meeting_date": "2026-06-25",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06252026-2224",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1132,18 +1132,43 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-06-25",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_06252026-1710",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (21 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-07-06",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07062026-1716",
+      "items": [
+        {
+          "text": "G.1 2026-007 Discussion of draft comprehensive plan and next steps.",
+          "attachments": []
+        },
+        {
+          "text": "P&Z Memo - Comprehensive Plan Discussion - 07.06.2026.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit A - Draft Comprehensive Plan and Appendices",
+          "attachments": []
+        },
+        {
+          "text": "Current tentative milestones for the Live Princeton Comprehensive Plan include:",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "P&Z Memo - Comprehensive Plan Discussion - 07.06.2026.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-06-25",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_06252026-1710",
+      "meeting_date": "2026-06-27",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_06272026-1703",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1915,8 +1940,8 @@
       "county": "Rockwall",
       "city": "Fate",
       "board": "City Council",
-      "meeting_date": "2026-07-02",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_07022026-1472",
+      "meeting_date": "2026-07-04",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_07042026-1473",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
