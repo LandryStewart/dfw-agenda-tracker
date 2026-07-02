@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-07-01T13:59:37.419146Z",
+    "last_updated": "2026-07-02T13:23:22.394893Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-04-02",
+    "cutoff_date": "2026-04-03",
     "total_agenda_items": 41,
     "total_sfr_items": 22,
     "total_attachments": 0
@@ -330,8 +330,8 @@
       "county": "Tarrant",
       "city": "Benbrook",
       "board": "City Council",
-      "meeting_date": "2026-06-15",
-      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_06152026-831",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -894,11 +894,11 @@
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-04-02",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_04022026-1785",
+      "meeting_date": "2026-04-28",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_04282026-1792",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (38 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (44 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
@@ -1930,18 +1930,18 @@
       "county": "Rockwall",
       "city": "Fate",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-02",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_07022026-1472",
+      "meeting_date": "2026-07-17",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_07172026-1478",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (18 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (25 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Rockwall",
       "city": "Fate",
       "board": "City Council",
-      "meeting_date": "",
-      "agenda_url": "",
+      "meeting_date": "2026-07-17",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_07172026-1478",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2120,18 +2120,18 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-06-16",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_06162026-2201",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (296 lines) but no rezone/plat/comp plan items"
+      "status": "PDFs found but could not extract text"
     },
     {
       "county": "Johnson",
       "city": "Cleburne",
       "board": "City Council",
-      "meeting_date": "2026-05-19",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_03172026-2178",
+      "meeting_date": "2026-06-02",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_06022026-2199",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
