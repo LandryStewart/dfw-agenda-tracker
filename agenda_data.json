@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-07-02T13:23:22.394893Z",
+    "last_updated": "2026-07-03T13:23:46.214453Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-04-03",
+    "cutoff_date": "2026-04-04",
     "total_agenda_items": 41,
     "total_sfr_items": 22,
     "total_attachments": 0
@@ -210,8 +210,8 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "City Council",
-      "meeting_date": "2026-05-26",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_05262026-1592",
+      "meeting_date": "2026-06-09",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_06092026-1594",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -321,10 +321,10 @@
       "city": "Benbrook",
       "board": "Planning & Zoning",
       "meeting_date": "2026-06-15",
-      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_06152026-832",
+      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_06152026-831",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (233 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (9 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Tarrant",
@@ -694,18 +694,18 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-06-24",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06242026-2221",
+      "meeting_date": "2026-06-25",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06252026-2224",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (56 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (334 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
       "meeting_date": "2026-06-25",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06252026-2224",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06252026-2222",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
