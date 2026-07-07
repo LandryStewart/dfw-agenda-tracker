@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-07-06T14:58:52.200957Z",
+    "last_updated": "2026-07-07T13:50:11.422589Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-04-07",
-    "total_agenda_items": 36,
-    "total_sfr_items": 20,
+    "cutoff_date": "2026-04-08",
+    "total_agenda_items": 32,
+    "total_sfr_items": 19,
     "total_attachments": 0
   },
   "summaries": [
@@ -660,17 +660,17 @@
       "city": "Mesquite",
       "board": "Planning & Zoning",
       "meeting_date": "2026-06-25",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06252026-2224",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06252026-2222",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (334 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (64 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-06-25",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06252026-2222",
+      "meeting_date": "2026-07-06",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07062026-2227",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1097,43 +1097,18 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-06",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07062026-1716",
-      "items": [
-        {
-          "text": "G.1 2026-007 Discussion of draft comprehensive plan and next steps.",
-          "attachments": []
-        },
-        {
-          "text": "P&Z Memo - Comprehensive Plan Discussion - 07.06.2026.pdf",
-          "attachments": []
-        },
-        {
-          "text": "Exhibit A - Draft Comprehensive Plan and Appendices",
-          "attachments": []
-        },
-        {
-          "text": "Current tentative milestones for the Live Princeton Comprehensive Plan include:",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "P&Z Memo - Comprehensive Plan Discussion - 07.06.2026.pdf",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-07-11",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07112026-1717",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (19 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-06-27",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_06272026-1703",
+      "meeting_date": "2026-07-11",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07112026-1717",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
