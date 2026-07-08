@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-07-07T13:50:11.422589Z",
+    "last_updated": "2026-07-08T12:54:31.715856Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-04-08",
-    "total_agenda_items": 32,
-    "total_sfr_items": 19,
+    "cutoff_date": "2026-04-09",
+    "total_agenda_items": 63,
+    "total_sfr_items": 40,
     "total_attachments": 0
   },
   "summaries": [
@@ -425,46 +425,26 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-06-23",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_06232026-622",
+      "meeting_date": "2026-07-14",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_07142026-626",
       "items": [
         {
-          "text": "Consider action on the application of Anthony Marquez creating the Preliminary Plat of",
-          "attachments": []
-        },
-        {
-          "text": "Consider action on the application of Anthony Marquez creating the Final Plat of Lot 1,",
+          "text": "Consider action on the application of David Salgado for a zone change from “D” Duplex",
           "attachments": []
         }
       ],
-      "sfr_items": [
-        {
-          "text": "Consider action on the application of Anthony Marquez creating the Final Plat of Lot 1,",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        }
-      ],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-06-22",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_06222026-621",
+      "meeting_date": "2026-07-13",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_07132026-628",
       "items": [
         {
-          "text": "Consideration and/or action on the application of Stanely Redding requesting a rezoning from “M-1” Industrial to “M-2” Heavy Industrial on Tract 14, Abstract 24, of the John Akers Survey, being approximately 6.977 acres of land, locally known as 5722 Airport Freeway. (C. Rozanc)",
-          "attachments": []
-        },
-        {
-          "text": "Consideration and/or action on the application of Mark S. Wood requesting a rezoning from “CF” Community",
-          "attachments": []
-        },
-        {
-          "text": "Conduct a public hearing and consideration and/or take action on the application of Brenda Hickson for a zone change from “C-1” Commercial District to “SF-2” Single Family Residential District located on Lot O, of the",
+          "text": "Consideration and/or take action on the application of Brenda Hickson for a zone change from “C-1”",
           "attachments": []
         },
         {
@@ -472,44 +452,108 @@
           "attachments": []
         },
         {
-          "text": "PCDD Rozanc delivered a detailed presentation to the City Council regarding the rezone request for 5722",
+          "text": "Conduct a public hearing and consideration and/or action on the application of Mark S. Wood requesting a rezoning from “CF” Community Facility District to “SF-2” Single Family Residential District on School Tract,",
           "attachments": []
         },
         {
-          "text": "Council and provided an overview of the requested zoning change, outlining the purpose and intent of the",
+          "text": "Conduct a public hearing and consideration and/or take action on the application of Brenda Hickson for a zone change from “C-1” Commercial District to “SF-2” Single Family Residential District located on Lot O, of the Clearview Addition, being approximately 0.2337 acres of land, locally known as 3304 Swan Street.",
+          "attachments": []
+        },
+        {
+          "text": "PCDD Rozanc delivered a detailed presentation to the City Council regarding the rezone request for 3304",
+          "attachments": []
+        },
+        {
+          "text": "Mayor Pro Tem Hantz opened the public hearing at 7:11 p.m. Ms. Brenda Hickson, the applicant, addressed the Council and provided an overview of the requested zoning change, outlining the purpose and intent of the rezoning application.",
+          "attachments": []
+        },
+        {
+          "text": "The applicant requests to rezone the subject site to “SF-2” Single Family Residential to allow someone to live at the home on the site which is being use for an office professional use. The business structure has been converted from what was previously a residence. Without the zone change the applicant would not be allowed to live in the existing residence on the property. They would only be able to maintain what is existing as a business or build in compliance with the “C-1”",
+          "attachments": []
+        },
+        {
+          "text": "Application of Brenda Hickson for a zone change from “C-1” Commercial District to “SF-2”",
+          "attachments": []
+        },
+        {
+          "text": "The business structure has been converted from what was previously a residence. Without the zone change the applicant would not be allowed to live in the existing residence on the property. They would only be able to maintain what is existing as a business or build in compliance with the “C-1” Commercial district.",
+          "attachments": []
+        },
+        {
+          "text": "The subject site has frontage on Swan Street. The proposed zoning change is not anticipated to significantly impact the adjacent roadway systems as long as the developer complies with all relevant City ordinances.",
+          "attachments": []
+        },
+        {
+          "text": "COMPREHENSIVE LAND USE PLAN",
+          "attachments": []
+        },
+        {
+          "text": "The City’s Comprehensive Land Use Plan (CLUP) designates the subject site as Low Density",
+          "attachments": []
+        },
+        {
+          "text": "Residential and the proposed zoning change and use is consistent with this land use",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "Consideration and/or action on the application of Stanely Redding requesting a rezoning from “M-1” Industrial to “M-2” Heavy Industrial on Tract 14, Abstract 24, of the John Akers Survey, being approximately 6.977 acres of land, locally known as 5722 Airport Freeway. (C. Rozanc)",
+          "text": "Conduct a public hearing and consideration and/or action on the application of Stanely Redding requesting a rezoning from “M-1” Industrial to “M-2” Heavy Industrial on Tract 14, Abstract 24, of the John Akers Survey, being approximately 6.977 acres of land, locally known as 5722 Airport Freeway. (C. Rozanc)",
           "attachments": [],
           "keywords": [
             "acre"
           ]
         },
         {
-          "text": "Consideration and/or action on the application of Mark S. Wood requesting a rezoning from “CF” Community",
+          "text": "Conduct a public hearing and consideration and/or action on the application of Mark S. Wood requesting a rezoning from “CF” Community Facility District to “SF-2” Single Family Residential District on School Tract,",
           "attachments": [],
           "keywords": [
+            "single family",
+            "residential",
+            "SF-",
             "unit"
           ]
         },
         {
-          "text": "Conduct a public hearing and consideration and/or take action on the application of Brenda Hickson for a zone change from “C-1” Commercial District to “SF-2” Single Family Residential District located on Lot O, of the",
+          "text": "Conduct a public hearing and consideration and/or take action on the application of Brenda Hickson for a zone change from “C-1” Commercial District to “SF-2” Single Family Residential District located on Lot O, of the Clearview Addition, being approximately 0.2337 acres of land, locally known as 3304 Swan Street.",
           "attachments": [],
           "keywords": [
             "single family",
             "residential",
             "lot",
+            "SF-",
+            "acre"
+          ]
+        },
+        {
+          "text": "The applicant requests to rezone the subject site to “SF-2” Single Family Residential to allow someone to live at the home on the site which is being use for an office professional use. The business structure has been converted from what was previously a residence. Without the zone change the applicant would not be allowed to live in the existing residence on the property. They would only be able to maintain what is existing as a business or build in compliance with the “C-1”",
+          "attachments": [],
+          "keywords": [
+            "single family",
+            "residential",
+            "SF-",
+            "home"
+          ]
+        },
+        {
+          "text": "Application of Brenda Hickson for a zone change from “C-1” Commercial District to “SF-2”",
+          "attachments": [],
+          "keywords": [
             "SF-"
           ]
         },
         {
-          "text": "Conduct a public hearing and consideration and/or action on the application of Stanely Redding requesting a rezoning from “M-1” Industrial to “M-2” Heavy Industrial on Tract 14, Abstract 24, of the John Akers Survey, being approximately 6.977 acres of land, locally known as 5722 Airport Freeway. (C. Rozanc)",
+          "text": "The City’s Comprehensive Land Use Plan (CLUP) designates the subject site as Low Density",
           "attachments": [],
           "keywords": [
-            "acre"
+            "density"
+          ]
+        },
+        {
+          "text": "Residential and the proposed zoning change and use is consistent with this land use",
+          "attachments": [],
+          "keywords": [
+            "residential"
           ]
         }
       ],
@@ -659,11 +703,24 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-06-25",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_06252026-2222",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (64 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-07-13",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07132026-2230",
+      "items": [
+        {
+          "text": "Acquisition, LLC, for a zoning change to amend Planned Development – Multifamily Ordinance No.",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Acquisition, LLC, for a zoning change to amend Planned Development – Multifamily Ordinance No.",
+          "attachments": [],
+          "keywords": [
+            "planned development"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Dallas",
@@ -1107,8 +1164,8 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-07-11",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07112026-1717",
+      "meeting_date": "2026-07-13",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07132026-1721",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1695,15 +1752,23 @@
       "county": "Denton",
       "city": "Oak Point",
       "board": "City Council",
-      "meeting_date": "2026-06-16",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_06162026-600",
+      "meeting_date": "2026-07-13",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_07132026-605",
       "items": [
         {
-          "text": "Plan, the City’s comprehensive plan, and adopted overlay district requirements. Target categories may include, without limitation:",
+          "text": "Steczko mentioned he was pleased that several quotes come in within budget. The commission agreed to table all Pickleball considerations until after the comprehensive plan Parks development updates.",
           "attachments": []
         }
       ],
-      "sfr_items": [],
+      "sfr_items": [
+        {
+          "text": "Steczko mentioned he was pleased that several quotes come in within budget. The commission agreed to table all Pickleball considerations until after the comprehensive plan Parks development updates.",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        }
+      ],
       "status": "success"
     },
     {
@@ -1933,28 +1998,11 @@
       "county": "Rockwall",
       "city": "Royse City",
       "board": "City Council",
-      "meeting_date": "2026-06-23",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_06232026-624",
-      "items": [
-        {
-          "text": "Adopt an Ordinance approving a final plat for Verandah Phase 8, consisting of",
-          "attachments": []
-        },
-        {
-          "text": "Adopt an Ordinance approving a final plat for Clearview Ranch Phase 2 South, consisting of +/- 75.4 acres, situated in the Russell Crawford Survey, Abstract No.",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Adopt an Ordinance approving a final plat for Clearview Ranch Phase 2 South, consisting of +/- 75.4 acres, situated in the Russell Crawford Survey, Abstract No.",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-07-13",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_07132026-629",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Kaufman",
@@ -2060,11 +2108,265 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "Planning & Zoning",
-      "meeting_date": "",
-      "agenda_url": "",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDFs found but could not extract text"
+      "meeting_date": "2026-07-13",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_07132026-2206",
+      "items": [
+        {
+          "text": "ZONING COMMISSION MEETING. a. *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE ±138.31 ACRES",
+          "attachments": []
+        },
+        {
+          "text": "Commissioner Saunders seconded the motion. The motion carried by a vote of 6-0. c. *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE ±0.25 ACRES LOCATED AT",
+          "attachments": []
+        },
+        {
+          "text": "Item Title: *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE ±138.31 ACRES",
+          "attachments": []
+        },
+        {
+          "text": "Item Description: The applicant, Mark Allen, requests to rezone approximately 138.31 acres of undeveloped land addressed as 2861 Weatherford Highway, from Single-Family Dwelling (SF-6) District to Industrial (I) District. The City Council is scheduled to consider this request on July 28, 2026, following a recommendation from the Planning and Zoning Commission.",
+          "attachments": []
+        },
+        {
+          "text": "Background & Technical Analysis: The subject property has undergone several zoning changes in recent years. In December 2021, approximately 46.32 acres comprising the western portion of the property were voluntarily annexed into the City of Cleburne and assigned Interim Holding (IH) zoning. At that time, the remaining 91.99 acres within the city limits were zoned Heavy Industrial (M2) District.",
+          "attachments": []
+        },
+        {
+          "text": "In February 2022, the entire 138.31-acre property was rezoned to Single-Family Dwelling (SF-4) District.",
+          "attachments": []
+        },
+        {
+          "text": "In August 2022, the City Council approved a request to rezone the property from SF-7 District to SF-6 [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "District, establishing the current zoning designation on the site. A preliminary plat and final plat were later approved for Aberdeen Lakes, a proposed 439-lot single-family residential subdivision. Construction of this subdivision has not occurred, and the property remains undeveloped.",
+          "attachments": []
+        },
+        {
+          "text": "Rezoning Proposal: The applicant requests to rezone the subject property from Single-Family Dwelling",
+          "attachments": []
+        },
+        {
+          "text": "Future Land Use Plan: The majority of the property's frontage, approximately 18 acres, is designated [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "Commercial on the City's Future Land Use Plan. This designation is primarily intended to accommodate a broad range of commercial and retail uses oriented toward major roadways with a secondary purpose of providing limited, compatible commercial and light industrial uses at mid-block locations.",
+          "attachments": []
+        },
+        {
+          "text": "The remaining 120 acres are designated as Medium-Density Residential on the City’s Future Land Use",
+          "attachments": []
+        },
+        {
+          "text": "However, the subject site is located generally mid-block, rather than at a major intersection, offering compatibility for commercial or light industrial uses within the Commercial Future Land Use designation.",
+          "attachments": []
+        },
+        {
+          "text": "RE: Letter of Intent – Rezoning Application",
+          "attachments": []
+        },
+        {
+          "text": "Requested Action: Rezoning from SF-6 (Single-Family Single-Family Dwelling District) to I [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "Cleburne 135, LLC, as owner of the above-referenced property (the “Property”), hereby submits this Letter of Intent in support of its application to rezone approximately 138.311 acres from SF-6 Single-Family Residential to I Industrial. The Property is located within the city limits of Cleburne, Johnson County, Texas, and is currently designated SF-6 under the [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "The applicant believes that the proposed I Industrial zoning is not only appropriate but is, in fact, the highest and best use designation for this Property given the development and land use patterns that have emerged in the surrounding area over the past five years. The requested zoning change will bring the Property into alignment with adjacent and nearby uses, providing a logical and coherent zoning pattern that supports the City’s continued",
+          "attachments": []
+        },
+        {
+          "text": "The proposed rezoning and subsequent industrial development will provide substantial benefits to the City of Cleburne, its residents, and the broader community:",
+          "attachments": []
+        },
+        {
+          "text": "Cleburne 135, LLC are confident that the rezoning of this 138.311-acre tract from SF-6",
+          "attachments": []
+        },
+        {
+          "text": "We firmly believe this rezoning will be a tremendous benefit to the City of Cleburne — its residents, its tax base, and its long-term prosperity — and we respectfully request that the",
+          "attachments": []
+        },
+        {
+          "text": "Cleburne, TX 76033 Future Land Use Map",
+          "attachments": []
+        },
+        {
+          "text": "REZONING APPROXIMATELY ±138.31 ACRES FROM SINGLE-FAMILY",
+          "attachments": []
+        },
+        {
+          "text": "ZC26-011, has requested the rezoning of ±138.31 acres addressed as 2861 Weatherford [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "Texas, with a recommendation for _____ of the rezoning request by a vote of _____; and",
+          "attachments": []
+        },
+        {
+          "text": "WHEREAS, public notice was given and property owners within 200 feet were notified of the rezoning request as required by state law; and",
+          "attachments": []
+        },
+        {
+          "text": "SECTION ONE. A certain tract or parcel of land, known as ±138.61 acres, further described and depicted in Exhibit “A” addressed as 2861 Weatherford Highway, is rezoned from Single-Family Dwelling (SF-6) District to Industrial (I) District. [APPROVED]",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "ZONING COMMISSION MEETING. a. *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE ±138.31 ACRES",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Commissioner Saunders seconded the motion. The motion carried by a vote of 6-0. c. *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE ±0.25 ACRES LOCATED AT",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Item Title: *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE ±138.31 ACRES",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Item Description: The applicant, Mark Allen, requests to rezone approximately 138.31 acres of undeveloped land addressed as 2861 Weatherford Highway, from Single-Family Dwelling (SF-6) District to Industrial (I) District. The City Council is scheduled to consider this request on July 28, 2026, following a recommendation from the Planning and Zoning Commission.",
+          "attachments": [],
+          "keywords": [
+            "single-family",
+            "dwelling",
+            "SF-",
+            "acre"
+          ]
+        },
+        {
+          "text": "Background & Technical Analysis: The subject property has undergone several zoning changes in recent years. In December 2021, approximately 46.32 acres comprising the western portion of the property were voluntarily annexed into the City of Cleburne and assigned Interim Holding (IH) zoning. At that time, the remaining 91.99 acres within the city limits were zoned Heavy Industrial (M2) District.",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "In February 2022, the entire 138.31-acre property was rezoned to Single-Family Dwelling (SF-4) District.",
+          "attachments": [],
+          "keywords": [
+            "single-family",
+            "dwelling",
+            "SF-",
+            "acre"
+          ]
+        },
+        {
+          "text": "In August 2022, the City Council approved a request to rezone the property from SF-7 District to SF-6 [APPROVED]",
+          "attachments": [],
+          "keywords": [
+            "SF-"
+          ]
+        },
+        {
+          "text": "District, establishing the current zoning designation on the site. A preliminary plat and final plat were later approved for Aberdeen Lakes, a proposed 439-lot single-family residential subdivision. Construction of this subdivision has not occurred, and the property remains undeveloped.",
+          "attachments": [],
+          "keywords": [
+            "single-family",
+            "residential",
+            "subdivision",
+            "lot"
+          ]
+        },
+        {
+          "text": "Rezoning Proposal: The applicant requests to rezone the subject property from Single-Family Dwelling",
+          "attachments": [],
+          "keywords": [
+            "single-family",
+            "dwelling"
+          ]
+        },
+        {
+          "text": "Future Land Use Plan: The majority of the property's frontage, approximately 18 acres, is designated [APPROVED]",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "The remaining 120 acres are designated as Medium-Density Residential on the City’s Future Land Use",
+          "attachments": [],
+          "keywords": [
+            "residential",
+            "density",
+            "acre"
+          ]
+        },
+        {
+          "text": "Requested Action: Rezoning from SF-6 (Single-Family Single-Family Dwelling District) to I [APPROVED]",
+          "attachments": [],
+          "keywords": [
+            "single-family",
+            "dwelling",
+            "SF-"
+          ]
+        },
+        {
+          "text": "Cleburne 135, LLC, as owner of the above-referenced property (the “Property”), hereby submits this Letter of Intent in support of its application to rezone approximately 138.311 acres from SF-6 Single-Family Residential to I Industrial. The Property is located within the city limits of Cleburne, Johnson County, Texas, and is currently designated SF-6 under the [APPROVED]",
+          "attachments": [],
+          "keywords": [
+            "single-family",
+            "residential",
+            "SF-",
+            "acre"
+          ]
+        },
+        {
+          "text": "The proposed rezoning and subsequent industrial development will provide substantial benefits to the City of Cleburne, its residents, and the broader community:",
+          "attachments": [],
+          "keywords": [
+            "unit"
+          ]
+        },
+        {
+          "text": "Cleburne 135, LLC are confident that the rezoning of this 138.311-acre tract from SF-6",
+          "attachments": [],
+          "keywords": [
+            "SF-",
+            "acre"
+          ]
+        },
+        {
+          "text": "REZONING APPROXIMATELY ±138.31 ACRES FROM SINGLE-FAMILY",
+          "attachments": [],
+          "keywords": [
+            "single-family",
+            "acre"
+          ]
+        },
+        {
+          "text": "ZC26-011, has requested the rezoning of ±138.31 acres addressed as 2861 Weatherford [APPROVED]",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "SECTION ONE. A certain tract or parcel of land, known as ±138.61 acres, further described and depicted in Exhibit “A” addressed as 2861 Weatherford Highway, is rezoned from Single-Family Dwelling (SF-6) District to Industrial (I) District. [APPROVED]",
+          "attachments": [],
+          "keywords": [
+            "single-family",
+            "dwelling",
+            "SF-",
+            "acre"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Johnson",
