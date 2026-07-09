@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "last_updated": "2026-07-08T12:54:31.715856Z",
+    "last_updated": "2026-07-09T14:17:11.569309Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-04-09",
-    "total_agenda_items": 63,
+    "cutoff_date": "2026-04-10",
+    "total_agenda_items": 64,
     "total_sfr_items": 40,
     "total_attachments": 0
   },
@@ -175,8 +175,8 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "City Council",
-      "meeting_date": "2026-06-09",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_06092026-1594",
+      "meeting_date": "2026-06-23",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_06232026-1597",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -703,31 +703,18 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-13",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07132026-2230",
-      "items": [
-        {
-          "text": "Acquisition, LLC, for a zoning change to amend Planned Development – Multifamily Ordinance No.",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Acquisition, LLC, for a zoning change to amend Planned Development – Multifamily Ordinance No.",
-          "attachments": [],
-          "keywords": [
-            "planned development"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-07-14",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07142026-2228",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (27 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-07-06",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07062026-2227",
+      "meeting_date": "2026-07-14",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07142026-2228",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1154,8 +1141,8 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-11",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07112026-1717",
+      "meeting_date": "2026-07-14",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07142026-1722",
       "items": [],
       "sfr_items": [],
       "status": "PDF parsed (19 lines) but no rezone/plat/comp plan items"
@@ -1164,8 +1151,8 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-07-13",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07132026-1721",
+      "meeting_date": "2026-07-14",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07142026-1722",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1835,18 +1822,18 @@
       "county": "Ellis",
       "city": "Midlothian",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-04-09",
-      "agenda_url": "https://www.midlothian.tx.us/AgendaCenter/ViewFile/Agenda/_04092026-11",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (42 lines) but no rezone/plat/comp plan items"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Ellis",
       "city": "Midlothian",
       "board": "City Council",
-      "meeting_date": "2026-04-09",
-      "agenda_url": "https://www.midlothian.tx.us/AgendaCenter/ViewFile/Agenda/_04092026-11",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1998,11 +1985,28 @@
       "county": "Rockwall",
       "city": "Royse City",
       "board": "City Council",
-      "meeting_date": "2026-07-13",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_07132026-629",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-07-14",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_07142026-632",
+      "items": [
+        {
+          "text": "Public hearing regarding a Zoning Change from Agricultural (A) and Single-Family",
+          "attachments": []
+        },
+        {
+          "text": "Adopt an Ordinance approving a zoning change from Agricultural (A) and Single-",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Public hearing regarding a Zoning Change from Agricultural (A) and Single-Family",
+          "attachments": [],
+          "keywords": [
+            "single-family"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Kaufman",
