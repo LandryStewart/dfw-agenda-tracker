@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-07-09T14:17:11.569309Z",
+    "last_updated": "2026-07-10T13:39:36.401766Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-04-10",
-    "total_agenda_items": 64,
-    "total_sfr_items": 40,
+    "cutoff_date": "2026-04-11",
+    "total_agenda_items": 46,
+    "total_sfr_items": 28,
     "total_attachments": 0
   },
   "summaries": [
@@ -175,11 +175,16 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "City Council",
-      "meeting_date": "2026-06-23",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_06232026-1597",
-      "items": [],
+      "meeting_date": "2026-07-14",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_07142026-1601",
+      "items": [
+        {
+          "text": "In the focus area of Economic Development, completed initiatives include reviewing all economic development policies and incentives. Initiatives currently in progress include developing economic development zones as part of the City’s Comprehensive Plan, initiating and guiding the development of the Bedford Commons and Gateway Village projects, and creating a plan to address large commercial vacancies. Ongoing initiatives include initiating events that attract visitors and support the local economy as well as conducting efforts to increase sales and hotel",
+          "attachments": []
+        }
+      ],
       "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "status": "success"
     },
     {
       "county": "Tarrant",
@@ -440,124 +445,11 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-07-13",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_07132026-628",
-      "items": [
-        {
-          "text": "Consideration and/or take action on the application of Brenda Hickson for a zone change from “C-1”",
-          "attachments": []
-        },
-        {
-          "text": "Conduct a public hearing and consideration and/or action on the application of Stanely Redding requesting a rezoning from “M-1” Industrial to “M-2” Heavy Industrial on Tract 14, Abstract 24, of the John Akers Survey, being approximately 6.977 acres of land, locally known as 5722 Airport Freeway. (C. Rozanc)",
-          "attachments": []
-        },
-        {
-          "text": "Conduct a public hearing and consideration and/or action on the application of Mark S. Wood requesting a rezoning from “CF” Community Facility District to “SF-2” Single Family Residential District on School Tract,",
-          "attachments": []
-        },
-        {
-          "text": "Conduct a public hearing and consideration and/or take action on the application of Brenda Hickson for a zone change from “C-1” Commercial District to “SF-2” Single Family Residential District located on Lot O, of the Clearview Addition, being approximately 0.2337 acres of land, locally known as 3304 Swan Street.",
-          "attachments": []
-        },
-        {
-          "text": "PCDD Rozanc delivered a detailed presentation to the City Council regarding the rezone request for 3304",
-          "attachments": []
-        },
-        {
-          "text": "Mayor Pro Tem Hantz opened the public hearing at 7:11 p.m. Ms. Brenda Hickson, the applicant, addressed the Council and provided an overview of the requested zoning change, outlining the purpose and intent of the rezoning application.",
-          "attachments": []
-        },
-        {
-          "text": "The applicant requests to rezone the subject site to “SF-2” Single Family Residential to allow someone to live at the home on the site which is being use for an office professional use. The business structure has been converted from what was previously a residence. Without the zone change the applicant would not be allowed to live in the existing residence on the property. They would only be able to maintain what is existing as a business or build in compliance with the “C-1”",
-          "attachments": []
-        },
-        {
-          "text": "Application of Brenda Hickson for a zone change from “C-1” Commercial District to “SF-2”",
-          "attachments": []
-        },
-        {
-          "text": "The business structure has been converted from what was previously a residence. Without the zone change the applicant would not be allowed to live in the existing residence on the property. They would only be able to maintain what is existing as a business or build in compliance with the “C-1” Commercial district.",
-          "attachments": []
-        },
-        {
-          "text": "The subject site has frontage on Swan Street. The proposed zoning change is not anticipated to significantly impact the adjacent roadway systems as long as the developer complies with all relevant City ordinances.",
-          "attachments": []
-        },
-        {
-          "text": "COMPREHENSIVE LAND USE PLAN",
-          "attachments": []
-        },
-        {
-          "text": "The City’s Comprehensive Land Use Plan (CLUP) designates the subject site as Low Density",
-          "attachments": []
-        },
-        {
-          "text": "Residential and the proposed zoning change and use is consistent with this land use",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Conduct a public hearing and consideration and/or action on the application of Stanely Redding requesting a rezoning from “M-1” Industrial to “M-2” Heavy Industrial on Tract 14, Abstract 24, of the John Akers Survey, being approximately 6.977 acres of land, locally known as 5722 Airport Freeway. (C. Rozanc)",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "Conduct a public hearing and consideration and/or action on the application of Mark S. Wood requesting a rezoning from “CF” Community Facility District to “SF-2” Single Family Residential District on School Tract,",
-          "attachments": [],
-          "keywords": [
-            "single family",
-            "residential",
-            "SF-",
-            "unit"
-          ]
-        },
-        {
-          "text": "Conduct a public hearing and consideration and/or take action on the application of Brenda Hickson for a zone change from “C-1” Commercial District to “SF-2” Single Family Residential District located on Lot O, of the Clearview Addition, being approximately 0.2337 acres of land, locally known as 3304 Swan Street.",
-          "attachments": [],
-          "keywords": [
-            "single family",
-            "residential",
-            "lot",
-            "SF-",
-            "acre"
-          ]
-        },
-        {
-          "text": "The applicant requests to rezone the subject site to “SF-2” Single Family Residential to allow someone to live at the home on the site which is being use for an office professional use. The business structure has been converted from what was previously a residence. Without the zone change the applicant would not be allowed to live in the existing residence on the property. They would only be able to maintain what is existing as a business or build in compliance with the “C-1”",
-          "attachments": [],
-          "keywords": [
-            "single family",
-            "residential",
-            "SF-",
-            "home"
-          ]
-        },
-        {
-          "text": "Application of Brenda Hickson for a zone change from “C-1” Commercial District to “SF-2”",
-          "attachments": [],
-          "keywords": [
-            "SF-"
-          ]
-        },
-        {
-          "text": "The City’s Comprehensive Land Use Plan (CLUP) designates the subject site as Low Density",
-          "attachments": [],
-          "keywords": [
-            "density"
-          ]
-        },
-        {
-          "text": "Residential and the proposed zoning change and use is consistent with this land use",
-          "attachments": [],
-          "keywords": [
-            "residential"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-07-16",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_07162026-631",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
@@ -913,29 +805,11 @@
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "City Council",
-      "meeting_date": "2026-06-18",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_06182026-1801",
-      "items": [
-        {
-          "text": "PD, Planned Development District (Ord. Nos. 3252-22 & 3296-25) to M, Mixed Use a. Conduct a Public Hearing on the Rezoning Application 004-2026. b. Consideration and action on the Rezoning Application 004-2026.",
-          "attachments": []
-        },
-        {
-          "text": "Consideration and action on Final Plat Application 001-2026 by Celimar Bracho dba",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "PD, Planned Development District (Ord. Nos. 3252-22 & 3296-25) to M, Mixed Use a. Conduct a Public Hearing on the Rezoning Application 004-2026. b. Consideration and action on the Rezoning Application 004-2026.",
-          "attachments": [],
-          "keywords": [
-            "PD",
-            "planned development"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-06-25",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_06252026-1802",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Dallas",
@@ -1151,8 +1025,8 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-07-14",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07142026-1722",
+      "meeting_date": "2026-07-15",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07152026-1723",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1245,7 +1119,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Collin",
@@ -1461,32 +1335,11 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-30",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_06032026-1299",
-      "items": [
-        {
-          "text": "Consider and make a recommendation to Town Council on a Major Final Plat for the Knights [PASSED 4-0]",
-          "attachments": []
-        },
-        {
-          "text": "Director Wicks provided a presentation on the item. The Commission discussed the item and considered the final plat.",
-          "attachments": []
-        },
-        {
-          "text": "Commissioner Lewis motioned to recommend approval to Town Council for a Major Final Plat for the Knights Ridge private subdivision, as presented. Commissioner Miersma seconded the motion.",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Commissioner Lewis motioned to recommend approval to Town Council for a Major Final Plat for the Knights Ridge private subdivision, as presented. Commissioner Miersma seconded the motion.",
-          "attachments": [],
-          "keywords": [
-            "subdivision"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-07-01",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_07012026-1303",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (655 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Denton",
@@ -1739,24 +1592,11 @@
       "county": "Denton",
       "city": "Oak Point",
       "board": "City Council",
-      "meeting_date": "2026-07-13",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_07132026-605",
-      "items": [
-        {
-          "text": "Steczko mentioned he was pleased that several quotes come in within budget. The commission agreed to table all Pickleball considerations until after the comprehensive plan Parks development updates.",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Steczko mentioned he was pleased that several quotes come in within budget. The commission agreed to table all Pickleball considerations until after the comprehensive plan Parks development updates.",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-07-14",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_07142026-606",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Denton",
@@ -2506,50 +2346,30 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-07",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_07072026-1540",
+      "meeting_date": "2026-07-13",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_07132026-1544",
       "items": [
         {
-          "text": "B. RP-26-0009 – Recommend that the City Council approve a plat application for an approximately 1.026-acre tract of land, Final Plat, Lot 1, Block 1, Klement Addition, being a replat of Lot 1, Block 1, Hodges Addition, Lots 1 and part of 2, Block 7, Sunset Hill",
+          "text": "Finding #6. The request is not in conflict with the City of Decatur’s 2050 Comprehensive Plan.",
+          "attachments": []
+        },
+        {
+          "text": "WHEREAS, the City Council finds that the requested zoning amendment is consistent with the Comprehensive Master Plan of the City; serves the health, safety, welfare, and aesthetic concerns of the public; is in the public interest; and that the zoning change does not unreasonably invade the rights of adjacent property owners.",
           "attachments": []
         }
       ],
-      "sfr_items": [
-        {
-          "text": "B. RP-26-0009 – Recommend that the City Council approve a plat application for an approximately 1.026-acre tract of land, Final Plat, Lot 1, Block 1, Klement Addition, being a replat of Lot 1, Block 1, Hodges Addition, Lots 1 and part of 2, Block 7, Sunset Hill",
-          "attachments": [],
-          "keywords": [
-            "lot",
-            "acre"
-          ]
-        }
-      ],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Wise",
       "city": "Decatur",
       "board": "City Council",
-      "meeting_date": "2026-06-22",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_06222026-1538",
-      "items": [
-        {
-          "text": "A. RP-26-0008. Consider and take appropriate action to approve a plat application for an approximately 5.531-acre tract of land, Final Plat, Lots 3R-3R and 3R-4, Block 1, Eagles",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "A. RP-26-0008. Consider and take appropriate action to approve a plat application for an approximately 5.531-acre tract of land, Final Plat, Lots 3R-3R and 3R-4, Block 1, Eagles",
-          "attachments": [],
-          "keywords": [
-            "lot",
-            "acre",
-            "R-3"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-07-13",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_07132026-1544",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Wise",
