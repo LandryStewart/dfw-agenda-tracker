@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-07-10T13:39:36.401766Z",
+    "last_updated": "2026-07-11T12:23:27.800736Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-04-11",
-    "total_agenda_items": 46,
-    "total_sfr_items": 28,
+    "cutoff_date": "2026-04-12",
+    "total_agenda_items": 50,
+    "total_sfr_items": 31,
     "total_attachments": 0
   },
   "summaries": [
@@ -596,17 +596,17 @@
       "city": "Mesquite",
       "board": "Planning & Zoning",
       "meeting_date": "2026-07-14",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07142026-2228",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07142026-2229",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (27 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (11 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
       "meeting_date": "2026-07-14",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07142026-2228",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07142026-2229",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -805,11 +805,51 @@
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "City Council",
-      "meeting_date": "2026-06-25",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_06252026-1802",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-07-16",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_07162026-1805",
+      "items": [
+        {
+          "text": "Conduct a briefing on Preliminary Plat Application 001-2025 by James McGee to plat subject parcel situated on (+/-) 1.041 acres located at 2607 Hickory Tree Road. a. Conduct a Public Hearing on Preliminary Plat Application 001-2025 located at 2607 b. Consideration and action on Preliminary Plat Application 001-2025 located at 2607",
+          "attachments": []
+        },
+        {
+          "text": "Conduct a briefing on Preliminary Plat Application 004-2026 by Real Estate Group of",
+          "attachments": []
+        },
+        {
+          "text": "Lane to allow for a single-family subdivision. a. Conduct a Public Hearing on Preliminary Plat Application 004-2026 located at b. Consideration and action on Preliminary Plat Application 004-2026 located at 13009",
+          "attachments": []
+        },
+        {
+          "text": "Consideration and action on Final Plat Application 003-2026 by Wayne Borstad to plat subject parcel situated on (+/-) 2.784 acres located at 13498 Alexander Road.",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Conduct a briefing on Preliminary Plat Application 001-2025 by James McGee to plat subject parcel situated on (+/-) 1.041 acres located at 2607 Hickory Tree Road. a. Conduct a Public Hearing on Preliminary Plat Application 001-2025 located at 2607 b. Consideration and action on Preliminary Plat Application 001-2025 located at 2607",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Lane to allow for a single-family subdivision. a. Conduct a Public Hearing on Preliminary Plat Application 004-2026 located at b. Consideration and action on Preliminary Plat Application 004-2026 located at 13009",
+          "attachments": [],
+          "keywords": [
+            "single-family",
+            "subdivision"
+          ]
+        },
+        {
+          "text": "Consideration and action on Final Plat Application 003-2026 by Wayne Borstad to plat subject parcel situated on (+/-) 2.784 acres located at 13498 Alexander Road.",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Dallas",
@@ -1015,8 +1055,8 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-14",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07142026-1722",
+      "meeting_date": "2026-07-15",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07152026-1724",
       "items": [],
       "sfr_items": [],
       "status": "PDF parsed (19 lines) but no rezone/plat/comp plan items"
@@ -1119,7 +1159,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Collin",
@@ -1852,11 +1892,11 @@
       "county": "Kaufman",
       "city": "Forney",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-06-29",
-      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_06292026-1287",
+      "meeting_date": "2026-07-09",
+      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_07092026-1289",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (25 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (61 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Kaufman",
@@ -2366,7 +2406,7 @@
       "city": "Decatur",
       "board": "City Council",
       "meeting_date": "2026-07-13",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_07132026-1544",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_07132026-1542",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
