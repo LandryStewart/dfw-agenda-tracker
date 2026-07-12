@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-07-11T12:23:27.800736Z",
+    "last_updated": "2026-07-12T12:26:30.321315Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-04-12",
-    "total_agenda_items": 50,
-    "total_sfr_items": 31,
+    "cutoff_date": "2026-04-13",
+    "total_agenda_items": 67,
+    "total_sfr_items": 43,
     "total_attachments": 0
   },
   "summaries": [
@@ -1375,45 +1375,202 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-01",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_07012026-1303",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (655 lines) but no rezone/plat/comp plan items"
-    },
-    {
-      "county": "Denton",
-      "city": "Argyle",
-      "board": "City Council",
-      "meeting_date": "2026-06-15",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_06152026-1300",
+      "meeting_date": "2026-07-15",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_07152026-1306",
       "items": [
         {
-          "text": "Hold a public hearing and consider 1st Reading of Ordinance 2026-29 to adopt and enact a moratorium on all development applications (i.e. zoning changes, SUPs, site plans, all plats, etc.) for commercial and residential developments in an area generally bounded by the eastern right-of-way line of I-35W to the east, a line approximately 2,900 feet north of FM",
+          "text": "The 2018 Comprehensive Plan Update did not include a Parks survey or public input; therefore, the",
           "attachments": []
         },
         {
-          "text": "407 between I-35W and US Hwy 377 and includes all land indicated as commercial and residential designation on the Town of Argyle Future Land Use Plan dated June 2024 and zoned as commercial or residential on the latest Zoning Map; providing findings of fact; providing exemptions; providing a waiver procedure; providing for a termination date; providing for severability, and providing an effective date.",
+          "text": "Objectives of the 2009 Comp Plan remain the current policy intent of the Town Council, realizing that future parks will require future non-residential ad valorem and sales tax to support.",
+          "attachments": []
+        },
+        {
+          "text": "COMPREHENSIVE PLAN UPDATE",
+          "attachments": []
+        },
+        {
+          "text": "LAND USE PLAN ..........................................................................................................................................................7",
+          "attachments": []
+        },
+        {
+          "text": "THE NATURE OF A LAND USE PLAN ........................................................................................................................7",
+          "attachments": []
+        },
+        {
+          "text": "This Comprehensive Plan Update* is a reflection of community sentiments, aspirations, goals, objectives, and vision for Argyle’s incorporated land area and its associated Extra-Territorial Jurisdiction. In the summer of 2017,",
+          "attachments": []
+        },
+        {
+          "text": "The Town Council appointed a steering committee made up of appointed council members and P&Z members to review the assumptions in the 2009 Comprehensive Plan. The steering committee worked through the summer and fall on a major rewrite of the Plan and presented the findings for public input in November of 2017 with an anticipated adoption date in early 2018. The policy goal of this 2018 re-write of the Plan was primarily to reduce residential density in Argyle in order to preserve the rural character of the community, but significant time was also spent reviewing the land use assumptions surrounding retail and commercial properties along the I-35 [PASSED 4-0]",
+          "attachments": []
+        },
+        {
+          "text": "The citizens of Argyle desire to preserve and creatively extend a physical image of Argyle that identifies its rural heritage and life style. Therefore, the Comprehensive Plan Update preserves the existing Form Based Code development in order to continue to provide visual continuity and definition in the commercial areas.",
+          "attachments": []
+        },
+        {
+          "text": "The Comprehensive Plan Update is a guide and should not be construed as a rigid code. The Plan is an ongoing process that will, in time, necessitate another reassessment and update.",
+          "attachments": []
+        },
+        {
+          "text": "Comprehensive Plan amended February 2018. Some original Comprehensive Plan text preserved herein as provided by MESA in 2009 Comprehensive Plan Update.",
+          "attachments": []
+        },
+        {
+          "text": "Already announced residential development outside of Argyle town boundaries, yet near the I-35W corridor, will be beneficial to the potential commercial growth along I-35W within Argyle’s municipal boundaries. Although it will potentially create more traffic through our town, via 407, the potential future commercial development may be the balance Argyle needs to become self-sustaining without sacrificing additional, dense, residential development within the town. The reduction in residential density contemplated in the 2018 Comprehensive Plan",
+          "attachments": []
+        },
+        {
+          "text": "The primary reason for the 2018 Comprehensive Plan Update is to address the increased growth pressures on",
+          "attachments": []
+        },
+        {
+          "text": "A significant effort of public outreach and education was implemented during the 2009 Comp Plan preparation including lengthy discussions and input on parks planning. Since the 2009 Comp Plan was approved, Argyle has acquired one public park and has approved one public trail through Transect T3A, although that trail was moved along the north south connector roadway and away from the railroad ROW. Argyle has no administrative staff specifically dedicated to park, planning, acquisition, or operations. These roles will be determined as the town continues to expand in population and as there are funds available. Meanwhile, it will be the responsibility of the existing town administrators, development/planning/zoning committees, and economic development groups to oversee implementation of the new parks and trails plan.",
+          "attachments": []
+        },
+        {
+          "text": "Plan Update did not include a Parks survey or public input; therefore, the Objectives of the 2009 Comp Plan remain the current policy intent of the Town Council, realizing that future parks will require future non- residential ad valorem and sales tax to support.",
+          "attachments": []
+        },
+        {
+          "text": "Working with these goals in mind, and incorporating the assessments and concurrent land use plan, the parks plan proposes the following initiatives associated with each goal:",
+          "attachments": []
+        },
+        {
+          "text": "Provide open space for public gatherings and civic events. a. Capitalize upon opportunities that coincide with the land use plan to seek opportunities for public/ private partnerships that provide community gathering spaces in areas that most support that use in the land use plan, resulting in added value for both components (public and private).",
+          "attachments": []
+        },
+        {
+          "text": "Comprehensive Plan, the park planning approach utilized a triangulated blend of assessing needs (demand, standards, and resource-based assessment).",
+          "attachments": []
+        },
+        {
+          "text": "The elements of a successful Town-wide parks and open space plan consist of a wide array of active and passive recreational experiences for citizens of all ages. It is the distribution, placement, and programming of these spaces that create the vibrant park experience that are community defining elements. This plan seeks to not only determine the quantity of facilities; but, more importantly, to describe a manner in which these are integrated into the fabric of the community (again, directly tied to the Land Use Plan). The system should be a legible experience that reads through the diversity of park facilities.",
+          "attachments": []
+        },
+        {
+          "text": "The resulting vision is an incremental strategy that responds to the public’s concerns while providing for the future needs of the community. It is a customized approach that preserves the integrity of the town’s character, balanced with a progressive land use ethic. Tied to the Land Use Plan, implementation will be partially driven by market",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "Hold a public hearing and consider 1st Reading of Ordinance 2026-29 to adopt and enact a moratorium on all development applications (i.e. zoning changes, SUPs, site plans, all plats, etc.) for commercial and residential developments in an area generally bounded by the eastern right-of-way line of I-35W to the east, a line approximately 2,900 feet north of FM",
+          "text": "The 2018 Comprehensive Plan Update did not include a Parks survey or public input; therefore, the",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Objectives of the 2009 Comp Plan remain the current policy intent of the Town Council, realizing that future parks will require future non-residential ad valorem and sales tax to support.",
           "attachments": [],
           "keywords": [
             "residential"
           ]
         },
         {
-          "text": "407 between I-35W and US Hwy 377 and includes all land indicated as commercial and residential designation on the Town of Argyle Future Land Use Plan dated June 2024 and zoned as commercial or residential on the latest Zoning Map; providing findings of fact; providing exemptions; providing a waiver procedure; providing for a termination date; providing for severability, and providing an effective date.",
+          "text": "COMPREHENSIVE PLAN UPDATE",
           "attachments": [],
           "keywords": [
-            "residential"
+            "PD"
+          ]
+        },
+        {
+          "text": "This Comprehensive Plan Update* is a reflection of community sentiments, aspirations, goals, objectives, and vision for Argyle’s incorporated land area and its associated Extra-Territorial Jurisdiction. In the summer of 2017,",
+          "attachments": [],
+          "keywords": [
+            "unit",
+            "PD"
+          ]
+        },
+        {
+          "text": "The Town Council appointed a steering committee made up of appointed council members and P&Z members to review the assumptions in the 2009 Comprehensive Plan. The steering committee worked through the summer and fall on a major rewrite of the Plan and presented the findings for public input in November of 2017 with an anticipated adoption date in early 2018. The policy goal of this 2018 re-write of the Plan was primarily to reduce residential density in Argyle in order to preserve the rural character of the community, but significant time was also spent reviewing the land use assumptions surrounding retail and commercial properties along the I-35 [PASSED 4-0]",
+          "attachments": [],
+          "keywords": [
+            "residential",
+            "density",
+            "unit"
+          ]
+        },
+        {
+          "text": "The citizens of Argyle desire to preserve and creatively extend a physical image of Argyle that identifies its rural heritage and life style. Therefore, the Comprehensive Plan Update preserves the existing Form Based Code development in order to continue to provide visual continuity and definition in the commercial areas.",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "The Comprehensive Plan Update is a guide and should not be construed as a rigid code. The Plan is an ongoing process that will, in time, necessitate another reassessment and update.",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Comprehensive Plan amended February 2018. Some original Comprehensive Plan text preserved herein as provided by MESA in 2009 Comprehensive Plan Update.",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Already announced residential development outside of Argyle town boundaries, yet near the I-35W corridor, will be beneficial to the potential commercial growth along I-35W within Argyle’s municipal boundaries. Although it will potentially create more traffic through our town, via 407, the potential future commercial development may be the balance Argyle needs to become self-sustaining without sacrificing additional, dense, residential development within the town. The reduction in residential density contemplated in the 2018 Comprehensive Plan",
+          "attachments": [],
+          "keywords": [
+            "residential",
+            "density"
+          ]
+        },
+        {
+          "text": "The primary reason for the 2018 Comprehensive Plan Update is to address the increased growth pressures on",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Plan Update did not include a Parks survey or public input; therefore, the Objectives of the 2009 Comp Plan remain the current policy intent of the Town Council, realizing that future parks will require future non- residential ad valorem and sales tax to support.",
+          "attachments": [],
+          "keywords": [
+            "residential",
+            "PD"
+          ]
+        },
+        {
+          "text": "Provide open space for public gatherings and civic events. a. Capitalize upon opportunities that coincide with the land use plan to seek opportunities for public/ private partnerships that provide community gathering spaces in areas that most support that use in the land use plan, resulting in added value for both components (public and private).",
+          "attachments": [],
+          "keywords": [
+            "unit"
+          ]
+        },
+        {
+          "text": "The elements of a successful Town-wide parks and open space plan consist of a wide array of active and passive recreational experiences for citizens of all ages. It is the distribution, placement, and programming of these spaces that create the vibrant park experience that are community defining elements. This plan seeks to not only determine the quantity of facilities; but, more importantly, to describe a manner in which these are integrated into the fabric of the community (again, directly tied to the Land Use Plan). The system should be a legible experience that reads through the diversity of park facilities.",
+          "attachments": [],
+          "keywords": [
+            "unit"
+          ]
+        },
+        {
+          "text": "The resulting vision is an incremental strategy that responds to the public’s concerns while providing for the future needs of the community. It is a customized approach that preserves the integrity of the town’s character, balanced with a progressive land use ethic. Tied to the Land Use Plan, implementation will be partially driven by market",
+          "attachments": [],
+          "keywords": [
+            "unit"
           ]
         }
       ],
       "status": "success"
+    },
+    {
+      "county": "Denton",
+      "city": "Argyle",
+      "board": "City Council",
+      "meeting_date": "2026-07-15",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_07152026-1306",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Denton",
