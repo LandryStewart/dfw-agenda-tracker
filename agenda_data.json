@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-07-13T13:44:12.260929Z",
+    "last_updated": "2026-07-14T12:35:59.036385Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-04-14",
+    "cutoff_date": "2026-04-15",
     "total_agenda_items": 67,
     "total_sfr_items": 43,
     "total_attachments": 0
@@ -879,7 +879,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Dallas",
@@ -1159,7 +1159,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Collin",
@@ -2413,8 +2413,8 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "City Council",
-      "meeting_date": "2026-06-02",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_06022026-2199",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
