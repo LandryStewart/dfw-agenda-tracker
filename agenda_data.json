@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-07-14T12:35:59.036385Z",
+    "last_updated": "2026-07-15T12:40:01.009401Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-04-15",
-    "total_agenda_items": 67,
-    "total_sfr_items": 43,
+    "cutoff_date": "2026-04-16",
+    "total_agenda_items": 43,
+    "total_sfr_items": 27,
     "total_attachments": 0
   },
   "summaries": [
@@ -290,18 +290,18 @@
       "county": "Tarrant",
       "city": "Benbrook",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-06-15",
-      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_06152026-831",
+      "meeting_date": "2026-07-20",
+      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_07202026-838",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (9 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (136 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Tarrant",
       "city": "Benbrook",
       "board": "City Council",
-      "meeting_date": "",
-      "agenda_url": "",
+      "meeting_date": "2026-07-20",
+      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_07202026-838",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -374,7 +374,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Tarrant",
@@ -605,8 +605,8 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-07-14",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07142026-2229",
+      "meeting_date": "2026-07-18",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07182026-2235",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1055,11 +1055,43 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-15",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07152026-1724",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (19 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-07-20",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07202026-1725",
+      "items": [
+        {
+          "text": "Draft Comprehensive Plan, and consider a recommendation to the City Council; and take appropriate action.",
+          "attachments": []
+        },
+        {
+          "text": "PZ Memo - Comprehensive Plan Update - 07.20.2026.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit A - Draft Comprehensive Plan.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Current tentative milestones for the Live Princeton Comprehensive Plan include:",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "PZ Memo - Comprehensive Plan Update - 07.20.2026.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit A - Draft Comprehensive Plan.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Collin",
@@ -2059,8 +2091,8 @@
       "county": "Kaufman",
       "city": "Forney",
       "board": "City Council",
-      "meeting_date": "2026-06-29",
-      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_06292026-1287",
+      "meeting_date": "2026-07-09",
+      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_07092026-1289",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2149,272 +2181,18 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-13",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_07132026-2206",
-      "items": [
-        {
-          "text": "ZONING COMMISSION MEETING. a. *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE ±138.31 ACRES",
-          "attachments": []
-        },
-        {
-          "text": "Commissioner Saunders seconded the motion. The motion carried by a vote of 6-0. c. *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE ±0.25 ACRES LOCATED AT",
-          "attachments": []
-        },
-        {
-          "text": "Item Title: *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE ±138.31 ACRES",
-          "attachments": []
-        },
-        {
-          "text": "Item Description: The applicant, Mark Allen, requests to rezone approximately 138.31 acres of undeveloped land addressed as 2861 Weatherford Highway, from Single-Family Dwelling (SF-6) District to Industrial (I) District. The City Council is scheduled to consider this request on July 28, 2026, following a recommendation from the Planning and Zoning Commission.",
-          "attachments": []
-        },
-        {
-          "text": "Background & Technical Analysis: The subject property has undergone several zoning changes in recent years. In December 2021, approximately 46.32 acres comprising the western portion of the property were voluntarily annexed into the City of Cleburne and assigned Interim Holding (IH) zoning. At that time, the remaining 91.99 acres within the city limits were zoned Heavy Industrial (M2) District.",
-          "attachments": []
-        },
-        {
-          "text": "In February 2022, the entire 138.31-acre property was rezoned to Single-Family Dwelling (SF-4) District.",
-          "attachments": []
-        },
-        {
-          "text": "In August 2022, the City Council approved a request to rezone the property from SF-7 District to SF-6 [APPROVED]",
-          "attachments": []
-        },
-        {
-          "text": "District, establishing the current zoning designation on the site. A preliminary plat and final plat were later approved for Aberdeen Lakes, a proposed 439-lot single-family residential subdivision. Construction of this subdivision has not occurred, and the property remains undeveloped.",
-          "attachments": []
-        },
-        {
-          "text": "Rezoning Proposal: The applicant requests to rezone the subject property from Single-Family Dwelling",
-          "attachments": []
-        },
-        {
-          "text": "Future Land Use Plan: The majority of the property's frontage, approximately 18 acres, is designated [APPROVED]",
-          "attachments": []
-        },
-        {
-          "text": "Commercial on the City's Future Land Use Plan. This designation is primarily intended to accommodate a broad range of commercial and retail uses oriented toward major roadways with a secondary purpose of providing limited, compatible commercial and light industrial uses at mid-block locations.",
-          "attachments": []
-        },
-        {
-          "text": "The remaining 120 acres are designated as Medium-Density Residential on the City’s Future Land Use",
-          "attachments": []
-        },
-        {
-          "text": "However, the subject site is located generally mid-block, rather than at a major intersection, offering compatibility for commercial or light industrial uses within the Commercial Future Land Use designation.",
-          "attachments": []
-        },
-        {
-          "text": "RE: Letter of Intent – Rezoning Application",
-          "attachments": []
-        },
-        {
-          "text": "Requested Action: Rezoning from SF-6 (Single-Family Single-Family Dwelling District) to I [APPROVED]",
-          "attachments": []
-        },
-        {
-          "text": "Cleburne 135, LLC, as owner of the above-referenced property (the “Property”), hereby submits this Letter of Intent in support of its application to rezone approximately 138.311 acres from SF-6 Single-Family Residential to I Industrial. The Property is located within the city limits of Cleburne, Johnson County, Texas, and is currently designated SF-6 under the [APPROVED]",
-          "attachments": []
-        },
-        {
-          "text": "The applicant believes that the proposed I Industrial zoning is not only appropriate but is, in fact, the highest and best use designation for this Property given the development and land use patterns that have emerged in the surrounding area over the past five years. The requested zoning change will bring the Property into alignment with adjacent and nearby uses, providing a logical and coherent zoning pattern that supports the City’s continued",
-          "attachments": []
-        },
-        {
-          "text": "The proposed rezoning and subsequent industrial development will provide substantial benefits to the City of Cleburne, its residents, and the broader community:",
-          "attachments": []
-        },
-        {
-          "text": "Cleburne 135, LLC are confident that the rezoning of this 138.311-acre tract from SF-6",
-          "attachments": []
-        },
-        {
-          "text": "We firmly believe this rezoning will be a tremendous benefit to the City of Cleburne — its residents, its tax base, and its long-term prosperity — and we respectfully request that the",
-          "attachments": []
-        },
-        {
-          "text": "Cleburne, TX 76033 Future Land Use Map",
-          "attachments": []
-        },
-        {
-          "text": "REZONING APPROXIMATELY ±138.31 ACRES FROM SINGLE-FAMILY",
-          "attachments": []
-        },
-        {
-          "text": "ZC26-011, has requested the rezoning of ±138.31 acres addressed as 2861 Weatherford [APPROVED]",
-          "attachments": []
-        },
-        {
-          "text": "Texas, with a recommendation for _____ of the rezoning request by a vote of _____; and",
-          "attachments": []
-        },
-        {
-          "text": "WHEREAS, public notice was given and property owners within 200 feet were notified of the rezoning request as required by state law; and",
-          "attachments": []
-        },
-        {
-          "text": "SECTION ONE. A certain tract or parcel of land, known as ±138.61 acres, further described and depicted in Exhibit “A” addressed as 2861 Weatherford Highway, is rezoned from Single-Family Dwelling (SF-6) District to Industrial (I) District. [APPROVED]",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "ZONING COMMISSION MEETING. a. *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE ±138.31 ACRES",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "Commissioner Saunders seconded the motion. The motion carried by a vote of 6-0. c. *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE ±0.25 ACRES LOCATED AT",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "Item Title: *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE ±138.31 ACRES",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "Item Description: The applicant, Mark Allen, requests to rezone approximately 138.31 acres of undeveloped land addressed as 2861 Weatherford Highway, from Single-Family Dwelling (SF-6) District to Industrial (I) District. The City Council is scheduled to consider this request on July 28, 2026, following a recommendation from the Planning and Zoning Commission.",
-          "attachments": [],
-          "keywords": [
-            "single-family",
-            "dwelling",
-            "SF-",
-            "acre"
-          ]
-        },
-        {
-          "text": "Background & Technical Analysis: The subject property has undergone several zoning changes in recent years. In December 2021, approximately 46.32 acres comprising the western portion of the property were voluntarily annexed into the City of Cleburne and assigned Interim Holding (IH) zoning. At that time, the remaining 91.99 acres within the city limits were zoned Heavy Industrial (M2) District.",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "In February 2022, the entire 138.31-acre property was rezoned to Single-Family Dwelling (SF-4) District.",
-          "attachments": [],
-          "keywords": [
-            "single-family",
-            "dwelling",
-            "SF-",
-            "acre"
-          ]
-        },
-        {
-          "text": "In August 2022, the City Council approved a request to rezone the property from SF-7 District to SF-6 [APPROVED]",
-          "attachments": [],
-          "keywords": [
-            "SF-"
-          ]
-        },
-        {
-          "text": "District, establishing the current zoning designation on the site. A preliminary plat and final plat were later approved for Aberdeen Lakes, a proposed 439-lot single-family residential subdivision. Construction of this subdivision has not occurred, and the property remains undeveloped.",
-          "attachments": [],
-          "keywords": [
-            "single-family",
-            "residential",
-            "subdivision",
-            "lot"
-          ]
-        },
-        {
-          "text": "Rezoning Proposal: The applicant requests to rezone the subject property from Single-Family Dwelling",
-          "attachments": [],
-          "keywords": [
-            "single-family",
-            "dwelling"
-          ]
-        },
-        {
-          "text": "Future Land Use Plan: The majority of the property's frontage, approximately 18 acres, is designated [APPROVED]",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "The remaining 120 acres are designated as Medium-Density Residential on the City’s Future Land Use",
-          "attachments": [],
-          "keywords": [
-            "residential",
-            "density",
-            "acre"
-          ]
-        },
-        {
-          "text": "Requested Action: Rezoning from SF-6 (Single-Family Single-Family Dwelling District) to I [APPROVED]",
-          "attachments": [],
-          "keywords": [
-            "single-family",
-            "dwelling",
-            "SF-"
-          ]
-        },
-        {
-          "text": "Cleburne 135, LLC, as owner of the above-referenced property (the “Property”), hereby submits this Letter of Intent in support of its application to rezone approximately 138.311 acres from SF-6 Single-Family Residential to I Industrial. The Property is located within the city limits of Cleburne, Johnson County, Texas, and is currently designated SF-6 under the [APPROVED]",
-          "attachments": [],
-          "keywords": [
-            "single-family",
-            "residential",
-            "SF-",
-            "acre"
-          ]
-        },
-        {
-          "text": "The proposed rezoning and subsequent industrial development will provide substantial benefits to the City of Cleburne, its residents, and the broader community:",
-          "attachments": [],
-          "keywords": [
-            "unit"
-          ]
-        },
-        {
-          "text": "Cleburne 135, LLC are confident that the rezoning of this 138.311-acre tract from SF-6",
-          "attachments": [],
-          "keywords": [
-            "SF-",
-            "acre"
-          ]
-        },
-        {
-          "text": "REZONING APPROXIMATELY ±138.31 ACRES FROM SINGLE-FAMILY",
-          "attachments": [],
-          "keywords": [
-            "single-family",
-            "acre"
-          ]
-        },
-        {
-          "text": "ZC26-011, has requested the rezoning of ±138.31 acres addressed as 2861 Weatherford [APPROVED]",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "SECTION ONE. A certain tract or parcel of land, known as ±138.61 acres, further described and depicted in Exhibit “A” addressed as 2861 Weatherford Highway, is rezoned from Single-Family Dwelling (SF-6) District to Industrial (I) District. [APPROVED]",
-          "attachments": [],
-          "keywords": [
-            "single-family",
-            "dwelling",
-            "SF-",
-            "acre"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-07-20",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_07202026-2209",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (28 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Johnson",
       "city": "Cleburne",
       "board": "City Council",
-      "meeting_date": "",
-      "agenda_url": "",
+      "meeting_date": "2026-07-20",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_07202026-2209",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2543,27 +2321,18 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-13",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_07132026-1544",
-      "items": [
-        {
-          "text": "Finding #6. The request is not in conflict with the City of Decatur’s 2050 Comprehensive Plan.",
-          "attachments": []
-        },
-        {
-          "text": "WHEREAS, the City Council finds that the requested zoning amendment is consistent with the Comprehensive Master Plan of the City; serves the health, safety, welfare, and aesthetic concerns of the public; is in the public interest; and that the zoning change does not unreasonably invade the rights of adjacent property owners.",
-          "attachments": []
-        }
-      ],
+      "meeting_date": "2026-07-20",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_07202026-1546",
+      "items": [],
       "sfr_items": [],
-      "status": "success"
+      "status": "PDF parsed (66 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Wise",
       "city": "Decatur",
       "board": "City Council",
-      "meeting_date": "2026-07-13",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_07132026-1542",
+      "meeting_date": "2026-07-20",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_07202026-1553",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
