@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "last_updated": "2026-07-15T12:40:01.009401Z",
+    "last_updated": "2026-07-16T12:48:41.729504Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-04-16",
-    "total_agenda_items": 43,
-    "total_sfr_items": 27,
-    "total_attachments": 0
+    "cutoff_date": "2026-04-17",
+    "total_agenda_items": 56,
+    "total_sfr_items": 35,
+    "total_attachments": 21
   },
   "summaries": [
     {
@@ -136,7 +136,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -606,7 +606,7 @@
       "city": "Mesquite",
       "board": "City Council",
       "meeting_date": "2026-07-18",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07182026-2235",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07182026-2236",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1097,8 +1097,8 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-07-15",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07152026-1723",
+      "meeting_date": "2026-07-21",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07212026-1726",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2091,11 +2091,277 @@
       "county": "Kaufman",
       "city": "Forney",
       "board": "City Council",
-      "meeting_date": "2026-07-09",
-      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_07092026-1289",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-07-21",
+      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_07212026-1292",
+      "items": [
+        {
+          "text": "Consider approval of a preliminary plat of the Forney Carwash Addition, located west of South [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "Consider approval of a final plat for Ace Forney, located east of Lakewood Trail and north of [APPROVED]",
+          "attachments": [
+            {
+              "name": "Item Summary-Trailhouse Lot 5 Final Plat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12637?fileID=23672"
+            },
+            {
+              "name": "Exhibits-Trailhouse Lot 5 Final Plat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12637?fileID=23673"
+            },
+            {
+              "name": "Item Summary - Discuss and consider approval of an Ordinance adopting the Northside Park Master Plan updated.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12529?fileID=23546"
+            }
+          ]
+        },
+        {
+          "text": "Item Summary-Ace Forney Final Plat.pdf [PASSED]",
+          "attachments": [
+            {
+              "name": "Item Summary-Ace Forney Final Plat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12999?fileID=24309"
+            },
+            {
+              "name": "Item Summary-FBC Final Plat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12760?fileID=23838"
+            },
+            {
+              "name": "Exhibits-FBC Final Plat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12760?fileID=23837"
+            }
+          ]
+        },
+        {
+          "text": "Exhibits-Ace Forney Final Plat.pdf [PASSED]",
+          "attachments": [
+            {
+              "name": "Exhibits-Ace Forney Final Plat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12999?fileID=24310"
+            }
+          ]
+        },
+        {
+          "text": "Consider approval of a final plat of the Forney Carwash Addition, located west of South F.M. [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "Item Summary-Forney Carwash Final Plat.pdf",
+          "attachments": [
+            {
+              "name": "Item Summary-Forney Carwash Prelim Plat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/13001?fileID=24313"
+            },
+            {
+              "name": "Item Summary-Forney Carwash Final Plat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/13002?fileID=24315"
+            }
+          ]
+        },
+        {
+          "text": "Exhibits-Forney Carwash Final Plat.pdf",
+          "attachments": [
+            {
+              "name": "Exhibits-Forney Carwash Prelim Plat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/13001?fileID=24314"
+            },
+            {
+              "name": "Exhibits-Forney Carwash Final Plat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/13002?fileID=24316"
+            }
+          ]
+        },
+        {
+          "text": "Consider approval of a final plat of the Fox Hollow Commercial Plaza Addition, located north of [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "Item Summary-Fox Hollow Commercial Final Plat.pdf",
+          "attachments": [
+            {
+              "name": "Item Summary-Fox Hollow Commercial Final Plat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/13000?fileID=24311"
+            },
+            {
+              "name": "Item Summary-Fox Hollow Site Plan.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12936?fileID=24218"
+            },
+            {
+              "name": "Item Summary-Fox Hollow Retail Replat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12635?fileID=23668"
+            },
+            {
+              "name": "Item Summary-Cypress Hollow Plat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12575?fileID=23594"
+            },
+            {
+              "name": "Exhibits-Cypress Hollow Plat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12575?fileID=23595"
+            }
+          ]
+        },
+        {
+          "text": "Exhibits-Fox Hollow Commercial Final Plat.pdf",
+          "attachments": [
+            {
+              "name": "Exhibits-Fox Hollow Commercial Final Plat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/13000?fileID=24312"
+            },
+            {
+              "name": "Exhibits-Fox Hollow Site Plan.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12936?fileID=24212"
+            },
+            {
+              "name": "Exhibits-Fox Hollow Commercial Prelim.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12839?fileID=24000"
+            },
+            {
+              "name": "Exhibits-Fox Hollow Retail Replat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12635?fileID=23669"
+            }
+          ]
+        },
+        {
+          "text": "Commission recommendation of denial for an Ordinance to rezone 5.4 acres of property from",
+          "attachments": [
+            {
+              "name": "Item Summary - Habitual Criminal and Nuisance Property Abatement Ordinance 2026.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12494?fileID=23487"
+            }
+          ]
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Item Summary-Ace Forney Final Plat.pdf [PASSED]",
+          "attachments": [
+            {
+              "name": "Item Summary-Ace Forney Final Plat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12999?fileID=24309"
+            },
+            {
+              "name": "Item Summary-FBC Final Plat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12760?fileID=23838"
+            },
+            {
+              "name": "Exhibits-FBC Final Plat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12760?fileID=23837"
+            }
+          ],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibits-Ace Forney Final Plat.pdf [PASSED]",
+          "attachments": [
+            {
+              "name": "Exhibits-Ace Forney Final Plat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12999?fileID=24310"
+            }
+          ],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Item Summary-Forney Carwash Final Plat.pdf",
+          "attachments": [
+            {
+              "name": "Item Summary-Forney Carwash Prelim Plat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/13001?fileID=24313"
+            },
+            {
+              "name": "Item Summary-Forney Carwash Final Plat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/13002?fileID=24315"
+            }
+          ],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibits-Forney Carwash Final Plat.pdf",
+          "attachments": [
+            {
+              "name": "Exhibits-Forney Carwash Prelim Plat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/13001?fileID=24314"
+            },
+            {
+              "name": "Exhibits-Forney Carwash Final Plat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/13002?fileID=24316"
+            }
+          ],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Item Summary-Fox Hollow Commercial Final Plat.pdf",
+          "attachments": [
+            {
+              "name": "Item Summary-Fox Hollow Commercial Final Plat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/13000?fileID=24311"
+            },
+            {
+              "name": "Item Summary-Fox Hollow Site Plan.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12936?fileID=24218"
+            },
+            {
+              "name": "Item Summary-Fox Hollow Retail Replat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12635?fileID=23668"
+            },
+            {
+              "name": "Item Summary-Cypress Hollow Plat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12575?fileID=23594"
+            },
+            {
+              "name": "Exhibits-Cypress Hollow Plat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12575?fileID=23595"
+            }
+          ],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibits-Fox Hollow Commercial Final Plat.pdf",
+          "attachments": [
+            {
+              "name": "Exhibits-Fox Hollow Commercial Final Plat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/13000?fileID=24312"
+            },
+            {
+              "name": "Exhibits-Fox Hollow Site Plan.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12936?fileID=24212"
+            },
+            {
+              "name": "Exhibits-Fox Hollow Commercial Prelim.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12839?fileID=24000"
+            },
+            {
+              "name": "Exhibits-Fox Hollow Retail Replat.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12635?fileID=23669"
+            }
+          ],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Commission recommendation of denial for an Ordinance to rezone 5.4 acres of property from",
+          "attachments": [
+            {
+              "name": "Item Summary - Habitual Criminal and Nuisance Property Abatement Ordinance 2026.pdf",
+              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12494?fileID=23487"
+            }
+          ],
+          "keywords": [
+            "acre"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Kaufman",
@@ -2181,11 +2447,28 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-20",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_07202026-2209",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (28 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-07-21",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_07212026-2211",
+      "items": [
+        {
+          "text": "In September 2025, the City Council approved the rezoning of 1708 Shawnee Drive from Single-Family [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "Cleburne, TX 76033 Future Land Use Map",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "In September 2025, the City Council approved the rezoning of 1708 Shawnee Drive from Single-Family [APPROVED]",
+          "attachments": [],
+          "keywords": [
+            "single-family"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Johnson",
