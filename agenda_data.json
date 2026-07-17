@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-07-16T12:48:41.729504Z",
+    "last_updated": "2026-07-17T12:30:51.016473Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-04-17",
-    "total_agenda_items": 56,
-    "total_sfr_items": 35,
+    "cutoff_date": "2026-04-18",
+    "total_agenda_items": 52,
+    "total_sfr_items": 32,
     "total_attachments": 21
   },
   "summaries": [
@@ -136,7 +136,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Tarrant",
@@ -596,10 +596,10 @@
       "city": "Mesquite",
       "board": "Planning & Zoning",
       "meeting_date": "2026-07-14",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07142026-2229",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07142026-2231",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (11 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (59 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
@@ -795,61 +795,21 @@
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-04-28",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_04282026-1792",
+      "meeting_date": "2026-05-07",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_05072026-1793",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (44 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (52 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "City Council",
-      "meeting_date": "2026-07-16",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_07162026-1805",
-      "items": [
-        {
-          "text": "Conduct a briefing on Preliminary Plat Application 001-2025 by James McGee to plat subject parcel situated on (+/-) 1.041 acres located at 2607 Hickory Tree Road. a. Conduct a Public Hearing on Preliminary Plat Application 001-2025 located at 2607 b. Consideration and action on Preliminary Plat Application 001-2025 located at 2607",
-          "attachments": []
-        },
-        {
-          "text": "Conduct a briefing on Preliminary Plat Application 004-2026 by Real Estate Group of",
-          "attachments": []
-        },
-        {
-          "text": "Lane to allow for a single-family subdivision. a. Conduct a Public Hearing on Preliminary Plat Application 004-2026 located at b. Consideration and action on Preliminary Plat Application 004-2026 located at 13009",
-          "attachments": []
-        },
-        {
-          "text": "Consideration and action on Final Plat Application 003-2026 by Wayne Borstad to plat subject parcel situated on (+/-) 2.784 acres located at 13498 Alexander Road.",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Conduct a briefing on Preliminary Plat Application 001-2025 by James McGee to plat subject parcel situated on (+/-) 1.041 acres located at 2607 Hickory Tree Road. a. Conduct a Public Hearing on Preliminary Plat Application 001-2025 located at 2607 b. Consideration and action on Preliminary Plat Application 001-2025 located at 2607",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "Lane to allow for a single-family subdivision. a. Conduct a Public Hearing on Preliminary Plat Application 004-2026 located at b. Consideration and action on Preliminary Plat Application 004-2026 located at 13009",
-          "attachments": [],
-          "keywords": [
-            "single-family",
-            "subdivision"
-          ]
-        },
-        {
-          "text": "Consideration and action on Final Plat Application 003-2026 by Wayne Borstad to plat subject parcel situated on (+/-) 2.784 acres located at 13498 Alexander Road.",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-07-20",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_07202026-1806",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Dallas",
@@ -1821,8 +1781,8 @@
       "county": "Denton",
       "city": "Oak Point",
       "board": "City Council",
-      "meeting_date": "2026-07-14",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_07142026-606",
+      "meeting_date": "2026-07-15",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_07152026-607",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2081,11 +2041,11 @@
       "county": "Kaufman",
       "city": "Forney",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-09",
-      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_07092026-1289",
+      "meeting_date": "2026-07-20",
+      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_07202026-1291",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (61 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (20 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Kaufman",
@@ -2474,8 +2434,8 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "City Council",
-      "meeting_date": "2026-07-20",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_07202026-2209",
+      "meeting_date": "2026-06-02",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_06022026-2199",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
