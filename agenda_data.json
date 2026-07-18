@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-07-17T12:30:51.016473Z",
+    "last_updated": "2026-07-18T12:16:15.960241Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-04-18",
-    "total_agenda_items": 52,
-    "total_sfr_items": 32,
+    "cutoff_date": "2026-04-19",
+    "total_agenda_items": 53,
+    "total_sfr_items": 31,
     "total_attachments": 21
   },
   "summaries": [
@@ -152,23 +152,19 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-09",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_07092026-1600",
+      "meeting_date": "2026-07-23",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_07232026-1603",
       "items": [
         {
-          "text": "Consider approval of a Final Plat of Block 17R Lot CR3 of the Stonegate",
+          "text": "Chairmen Emery asked if the Comprehensive Plan could be amended ti better fit the City.",
+          "attachments": []
+        },
+        {
+          "text": "PUD which should be guided by the comprehensive plan.",
           "attachments": []
         }
       ],
-      "sfr_items": [
-        {
-          "text": "Consider approval of a Final Plat of Block 17R Lot CR3 of the Stonegate",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        }
-      ],
+      "sfr_items": [],
       "status": "success"
     },
     {
@@ -374,7 +370,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -595,18 +591,18 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-14",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07142026-2231",
+      "meeting_date": "2026-07-23",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07232026-2238",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (59 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (458 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-07-18",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07182026-2236",
+      "meeting_date": "2026-07-20",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07202026-2234",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
