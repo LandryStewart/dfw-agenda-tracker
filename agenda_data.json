@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-07-18T12:16:15.960241Z",
+    "last_updated": "2026-07-19T12:21:45.824517Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-04-19",
+    "cutoff_date": "2026-04-20",
     "total_agenda_items": 53,
     "total_sfr_items": 31,
     "total_attachments": 21
@@ -370,7 +370,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Tarrant",
@@ -591,18 +591,18 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-23",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07232026-2238",
+      "meeting_date": "2026-07-22",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07222026-2239",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (458 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (13 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-07-20",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07202026-2234",
+      "meeting_date": "2026-07-22",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07222026-2239",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
