@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-07-19T12:21:45.824517Z",
+    "last_updated": "2026-07-20T13:36:16.630452Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-04-20",
+    "cutoff_date": "2026-04-21",
     "total_agenda_items": 53,
     "total_sfr_items": 31,
     "total_attachments": 21
@@ -1053,8 +1053,8 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-07-21",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07212026-1726",
+      "meeting_date": "2026-07-24",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07242026-1718",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2327,7 +2327,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Kaufman",
