@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "last_updated": "2026-07-21T12:51:08.546201Z",
+    "last_updated": "2026-07-22T12:57:35.040368Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-04-22",
-    "total_agenda_items": 53,
-    "total_sfr_items": 31,
-    "total_attachments": 21
+    "cutoff_date": "2026-04-23",
+    "total_agenda_items": 41,
+    "total_sfr_items": 24,
+    "total_attachments": 0
   },
   "summaries": [
     {
@@ -92,18 +92,18 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-06-29",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_06292026-2275",
+      "meeting_date": "2026-07-07",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_07072026-2276",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (27 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (13 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
-      "meeting_date": "2026-06-29",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_06292026-2275",
+      "meeting_date": "2026-07-07",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_07072026-2276",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -441,8 +441,8 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-07-16",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_07162026-631",
+      "meeting_date": "2026-07-20",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_07202026-632",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -591,11 +591,16 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-22",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07222026-2239",
-      "items": [],
+      "meeting_date": "2026-07-27",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07272026-2240",
+      "items": [
+        {
+          "text": "0453 submitted by Viviana Monreal for a zoning change from General Retail to General Retail with a",
+          "attachments": []
+        }
+      ],
       "sfr_items": [],
-      "status": "PDF parsed (13 lines) but no rezone/plat/comp plan items"
+      "status": "success"
     },
     {
       "county": "Dallas",
@@ -1011,50 +1016,18 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-20",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07202026-1725",
-      "items": [
-        {
-          "text": "Draft Comprehensive Plan, and consider a recommendation to the City Council; and take appropriate action.",
-          "attachments": []
-        },
-        {
-          "text": "PZ Memo - Comprehensive Plan Update - 07.20.2026.pdf",
-          "attachments": []
-        },
-        {
-          "text": "Exhibit A - Draft Comprehensive Plan.pdf",
-          "attachments": []
-        },
-        {
-          "text": "Current tentative milestones for the Live Princeton Comprehensive Plan include:",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "PZ Memo - Comprehensive Plan Update - 07.20.2026.pdf",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "Exhibit A - Draft Comprehensive Plan.pdf",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-07-24",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07242026-1718",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (20 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-07-24",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07242026-1718",
+      "meeting_date": "2026-07-25",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07252026-1719",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2047,277 +2020,11 @@
       "county": "Kaufman",
       "city": "Forney",
       "board": "City Council",
-      "meeting_date": "2026-07-21",
-      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_07212026-1292",
-      "items": [
-        {
-          "text": "Consider approval of a preliminary plat of the Forney Carwash Addition, located west of South [APPROVED]",
-          "attachments": []
-        },
-        {
-          "text": "Consider approval of a final plat for Ace Forney, located east of Lakewood Trail and north of [APPROVED]",
-          "attachments": [
-            {
-              "name": "Item Summary-Trailhouse Lot 5 Final Plat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12637?fileID=23672"
-            },
-            {
-              "name": "Exhibits-Trailhouse Lot 5 Final Plat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12637?fileID=23673"
-            },
-            {
-              "name": "Item Summary - Discuss and consider approval of an Ordinance adopting the Northside Park Master Plan updated.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12529?fileID=23546"
-            }
-          ]
-        },
-        {
-          "text": "Item Summary-Ace Forney Final Plat.pdf [PASSED]",
-          "attachments": [
-            {
-              "name": "Item Summary-Ace Forney Final Plat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12999?fileID=24309"
-            },
-            {
-              "name": "Item Summary-FBC Final Plat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12760?fileID=23838"
-            },
-            {
-              "name": "Exhibits-FBC Final Plat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12760?fileID=23837"
-            }
-          ]
-        },
-        {
-          "text": "Exhibits-Ace Forney Final Plat.pdf [PASSED]",
-          "attachments": [
-            {
-              "name": "Exhibits-Ace Forney Final Plat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12999?fileID=24310"
-            }
-          ]
-        },
-        {
-          "text": "Consider approval of a final plat of the Forney Carwash Addition, located west of South F.M. [APPROVED]",
-          "attachments": []
-        },
-        {
-          "text": "Item Summary-Forney Carwash Final Plat.pdf",
-          "attachments": [
-            {
-              "name": "Item Summary-Forney Carwash Prelim Plat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/13001?fileID=24313"
-            },
-            {
-              "name": "Item Summary-Forney Carwash Final Plat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/13002?fileID=24315"
-            }
-          ]
-        },
-        {
-          "text": "Exhibits-Forney Carwash Final Plat.pdf",
-          "attachments": [
-            {
-              "name": "Exhibits-Forney Carwash Prelim Plat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/13001?fileID=24314"
-            },
-            {
-              "name": "Exhibits-Forney Carwash Final Plat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/13002?fileID=24316"
-            }
-          ]
-        },
-        {
-          "text": "Consider approval of a final plat of the Fox Hollow Commercial Plaza Addition, located north of [APPROVED]",
-          "attachments": []
-        },
-        {
-          "text": "Item Summary-Fox Hollow Commercial Final Plat.pdf",
-          "attachments": [
-            {
-              "name": "Item Summary-Fox Hollow Commercial Final Plat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/13000?fileID=24311"
-            },
-            {
-              "name": "Item Summary-Fox Hollow Site Plan.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12936?fileID=24218"
-            },
-            {
-              "name": "Item Summary-Fox Hollow Retail Replat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12635?fileID=23668"
-            },
-            {
-              "name": "Item Summary-Cypress Hollow Plat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12575?fileID=23594"
-            },
-            {
-              "name": "Exhibits-Cypress Hollow Plat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12575?fileID=23595"
-            }
-          ]
-        },
-        {
-          "text": "Exhibits-Fox Hollow Commercial Final Plat.pdf",
-          "attachments": [
-            {
-              "name": "Exhibits-Fox Hollow Commercial Final Plat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/13000?fileID=24312"
-            },
-            {
-              "name": "Exhibits-Fox Hollow Site Plan.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12936?fileID=24212"
-            },
-            {
-              "name": "Exhibits-Fox Hollow Commercial Prelim.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12839?fileID=24000"
-            },
-            {
-              "name": "Exhibits-Fox Hollow Retail Replat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12635?fileID=23669"
-            }
-          ]
-        },
-        {
-          "text": "Commission recommendation of denial for an Ordinance to rezone 5.4 acres of property from",
-          "attachments": [
-            {
-              "name": "Item Summary - Habitual Criminal and Nuisance Property Abatement Ordinance 2026.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12494?fileID=23487"
-            }
-          ]
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Item Summary-Ace Forney Final Plat.pdf [PASSED]",
-          "attachments": [
-            {
-              "name": "Item Summary-Ace Forney Final Plat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12999?fileID=24309"
-            },
-            {
-              "name": "Item Summary-FBC Final Plat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12760?fileID=23838"
-            },
-            {
-              "name": "Exhibits-FBC Final Plat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12760?fileID=23837"
-            }
-          ],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "Exhibits-Ace Forney Final Plat.pdf [PASSED]",
-          "attachments": [
-            {
-              "name": "Exhibits-Ace Forney Final Plat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12999?fileID=24310"
-            }
-          ],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "Item Summary-Forney Carwash Final Plat.pdf",
-          "attachments": [
-            {
-              "name": "Item Summary-Forney Carwash Prelim Plat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/13001?fileID=24313"
-            },
-            {
-              "name": "Item Summary-Forney Carwash Final Plat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/13002?fileID=24315"
-            }
-          ],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "Exhibits-Forney Carwash Final Plat.pdf",
-          "attachments": [
-            {
-              "name": "Exhibits-Forney Carwash Prelim Plat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/13001?fileID=24314"
-            },
-            {
-              "name": "Exhibits-Forney Carwash Final Plat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/13002?fileID=24316"
-            }
-          ],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "Item Summary-Fox Hollow Commercial Final Plat.pdf",
-          "attachments": [
-            {
-              "name": "Item Summary-Fox Hollow Commercial Final Plat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/13000?fileID=24311"
-            },
-            {
-              "name": "Item Summary-Fox Hollow Site Plan.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12936?fileID=24218"
-            },
-            {
-              "name": "Item Summary-Fox Hollow Retail Replat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12635?fileID=23668"
-            },
-            {
-              "name": "Item Summary-Cypress Hollow Plat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12575?fileID=23594"
-            },
-            {
-              "name": "Exhibits-Cypress Hollow Plat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12575?fileID=23595"
-            }
-          ],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "Exhibits-Fox Hollow Commercial Final Plat.pdf",
-          "attachments": [
-            {
-              "name": "Exhibits-Fox Hollow Commercial Final Plat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/13000?fileID=24312"
-            },
-            {
-              "name": "Exhibits-Fox Hollow Site Plan.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12936?fileID=24212"
-            },
-            {
-              "name": "Exhibits-Fox Hollow Commercial Prelim.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12839?fileID=24000"
-            },
-            {
-              "name": "Exhibits-Fox Hollow Retail Replat.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12635?fileID=23669"
-            }
-          ],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "Commission recommendation of denial for an Ordinance to rezone 5.4 acres of property from",
-          "attachments": [
-            {
-              "name": "Item Summary - Habitual Criminal and Nuisance Property Abatement Ordinance 2026.pdf",
-              "url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Item/12494?fileID=23487"
-            }
-          ],
-          "keywords": [
-            "acre"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-07-23",
+      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_07232026-1293",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Kaufman",
@@ -2327,7 +2034,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Kaufman",
@@ -2403,24 +2110,36 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-21",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_07212026-2211",
+      "meeting_date": "2026-07-27",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_07272026-2212",
       "items": [
         {
-          "text": "In September 2025, the City Council approved the rezoning of 1708 Shawnee Drive from Single-Family [APPROVED]",
+          "text": "The applicant does not have an end user under contract; therefore, because the final site layout and design may change based on the future user, a straight rezoning request was submitted for the property, rather than a Planned Development (PD) District.",
           "attachments": []
         },
         {
-          "text": "Cleburne, TX 76033 Future Land Use Map",
+          "text": "Mark Allen, 500 W. 7th Street, Suite 1220, Fort Worth, applicant for this request, came forward and stated that he initially pursued the existing SF-6 zoning for this property because it was consistent with the Future Land Use Plan at the time, prior to Amazon locating in Cleburne.",
+          "attachments": []
+        },
+        {
+          "text": "A straight rezoning request was submitted because no tenant has been identified. As a result, the applicant cannot determine the final site layout at this time, but the proposed development will comply with all requirements of the Zoning Ordinance. [APPROVED]",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "In September 2025, the City Council approved the rezoning of 1708 Shawnee Drive from Single-Family [APPROVED]",
+          "text": "The applicant does not have an end user under contract; therefore, because the final site layout and design may change based on the future user, a straight rezoning request was submitted for the property, rather than a Planned Development (PD) District.",
           "attachments": [],
           "keywords": [
-            "single-family"
+            "PD",
+            "planned development"
+          ]
+        },
+        {
+          "text": "Mark Allen, 500 W. 7th Street, Suite 1220, Fort Worth, applicant for this request, came forward and stated that he initially pursued the existing SF-6 zoning for this property because it was consistent with the Future Land Use Plan at the time, prior to Amazon locating in Cleburne.",
+          "attachments": [],
+          "keywords": [
+            "SF-"
           ]
         }
       ],
@@ -2570,11 +2289,25 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "City Council",
-      "meeting_date": "2026-07-20",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_07202026-1553",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-07-27",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_07272026-1554",
+      "items": [
+        {
+          "text": "026-acre tract of land, Final Plat, Lot 1, Block 1, Klement Addition, being a replat of Lot 1,",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "026-acre tract of land, Final Plat, Lot 1, Block 1, Klement Addition, being a replat of Lot 1,",
+          "attachments": [],
+          "keywords": [
+            "lot",
+            "acre"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Wise",
