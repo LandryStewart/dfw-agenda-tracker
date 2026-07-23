@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-07-22T12:57:35.040368Z",
+    "last_updated": "2026-07-23T12:51:51.814534Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-04-23",
-    "total_agenda_items": 41,
-    "total_sfr_items": 24,
+    "cutoff_date": "2026-04-24",
+    "total_agenda_items": 42,
+    "total_sfr_items": 26,
     "total_attachments": 0
   },
   "summaries": [
@@ -441,8 +441,8 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-07-20",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_07202026-632",
+      "meeting_date": "2026-07-21",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_07212026-629",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1983,24 +1983,43 @@
       "county": "Rockwall",
       "city": "Royse City",
       "board": "City Council",
-      "meeting_date": "2026-07-14",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_07142026-632",
+      "meeting_date": "2026-07-28",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_07282026-633",
       "items": [
         {
-          "text": "Public hearing regarding a Zoning Change from Agricultural (A) and Single-Family",
+          "text": "Public Hearing regarding a Zoning Change from A to PD, generally located on the",
           "attachments": []
         },
         {
-          "text": "Adopt an Ordinance approving a zoning change from Agricultural (A) and Single-",
+          "text": "Adopt an Ordinance approving a zoning change from A to PD, generally located on the SWC of SH66 and N Erby Campbell Blvd, directly south of the D.G.N Railroad; situated in the E. Gossett Tract, Abstract No. 0086, City of Royse City, Texas, and any matters related thereto.",
+          "attachments": []
+        },
+        {
+          "text": "Adopt an Ordinance approving a final plat of BJ's Wholesale Club: Block A - Lot 1, consisting of +/- 11 acres, situated in the J. Stephenson Survey, Abstract No. 188,",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "Public hearing regarding a Zoning Change from Agricultural (A) and Single-Family",
+          "text": "Public Hearing regarding a Zoning Change from A to PD, generally located on the",
           "attachments": [],
           "keywords": [
-            "single-family"
+            "PD"
+          ]
+        },
+        {
+          "text": "Adopt an Ordinance approving a zoning change from A to PD, generally located on the SWC of SH66 and N Erby Campbell Blvd, directly south of the D.G.N Railroad; situated in the E. Gossett Tract, Abstract No. 0086, City of Royse City, Texas, and any matters related thereto.",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Adopt an Ordinance approving a final plat of BJ's Wholesale Club: Block A - Lot 1, consisting of +/- 11 acres, situated in the J. Stephenson Survey, Abstract No. 188,",
+          "attachments": [],
+          "keywords": [
+            "lot",
+            "acre"
           ]
         }
       ],
@@ -2010,11 +2029,11 @@
       "county": "Kaufman",
       "city": "Forney",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-20",
-      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_07202026-1291",
+      "meeting_date": "2026-07-23",
+      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_07232026-1293",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (20 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (18 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Kaufman",
