@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-07-23T12:51:51.814534Z",
+    "last_updated": "2026-07-24T12:51:51.552211Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-04-24",
+    "cutoff_date": "2026-04-25",
     "total_agenda_items": 42,
     "total_sfr_items": 26,
     "total_attachments": 0
@@ -1750,8 +1750,8 @@
       "county": "Denton",
       "city": "Oak Point",
       "board": "City Council",
-      "meeting_date": "2026-07-15",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_07152026-607",
+      "meeting_date": "2026-07-22",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_07222026-609",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2029,18 +2029,18 @@
       "county": "Kaufman",
       "city": "Forney",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-23",
-      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_07232026-1293",
+      "meeting_date": "2026-08-10",
+      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_08102026-1297",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (18 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (20 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Kaufman",
       "city": "Forney",
       "board": "City Council",
-      "meeting_date": "2026-07-23",
-      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_07232026-1293",
+      "meeting_date": "2026-08-10",
+      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_08102026-1297",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2298,18 +2298,8 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-20",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_07202026-1546",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (66 lines) but no rezone/plat/comp plan items"
-    },
-    {
-      "county": "Wise",
-      "city": "Decatur",
-      "board": "City Council",
       "meeting_date": "2026-07-27",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_07272026-1554",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_07272026-1555",
       "items": [
         {
           "text": "026-acre tract of land, Final Plat, Lot 1, Block 1, Klement Addition, being a replat of Lot 1,",
@@ -2327,6 +2317,16 @@
         }
       ],
       "status": "success"
+    },
+    {
+      "county": "Wise",
+      "city": "Decatur",
+      "board": "City Council",
+      "meeting_date": "2026-07-27",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_07272026-1554",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Wise",
