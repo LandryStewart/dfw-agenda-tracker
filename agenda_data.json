@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "last_updated": "2026-07-26T12:30:53.617498Z",
+    "last_updated": "2026-07-27T14:05:04.748324Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-04-27",
-    "total_agenda_items": 42,
+    "cutoff_date": "2026-04-28",
+    "total_agenda_items": 40,
     "total_sfr_items": 26,
     "total_attachments": 0
   },
@@ -370,7 +370,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -1731,20 +1731,11 @@
       "county": "Denton",
       "city": "Oak Point",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-07",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_07072026-604",
-      "items": [
-        {
-          "text": "SUBJECT: Chapparal Plaza Final Plat",
-          "attachments": []
-        },
-        {
-          "text": "I motion to approve the Final Plat for Chaparral Plaza conditional to the TXDOT access variance",
-          "attachments": []
-        }
-      ],
+      "meeting_date": "2026-07-15",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_07152026-607",
+      "items": [],
       "sfr_items": [],
-      "status": "success"
+      "status": "PDF parsed (34 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Denton",
