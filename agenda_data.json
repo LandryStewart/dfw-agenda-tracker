@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-07-27T14:05:04.748324Z",
+    "last_updated": "2026-07-28T13:16:56.409492Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-04-28",
+    "cutoff_date": "2026-04-29",
     "total_agenda_items": 40,
     "total_sfr_items": 26,
     "total_attachments": 0
@@ -370,7 +370,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Tarrant",
@@ -606,8 +606,8 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-07-22",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07222026-2239",
+      "meeting_date": "2026-07-23",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07232026-2238",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
