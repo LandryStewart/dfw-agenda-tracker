@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "last_updated": "2026-07-28T13:16:56.409492Z",
+    "last_updated": "2026-07-29T13:30:25.796035Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-04-29",
-    "total_agenda_items": 40,
-    "total_sfr_items": 26,
-    "total_attachments": 0
+    "cutoff_date": "2026-04-30",
+    "total_agenda_items": 55,
+    "total_sfr_items": 31,
+    "total_attachments": 1
   },
   "summaries": [
     {
@@ -92,18 +92,58 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-07",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_07072026-2276",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (13 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-08-06",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_08062026-2280",
+      "items": [
+        {
+          "text": "Withdraw: ZA26-0049, Preliminary Plat for Union Estates on property described as Tract",
+          "attachments": []
+        },
+        {
+          "text": "Consider: ZA26-0010, Zoning Change and Site Plan for Chapel Crossing on property described as Lots 1R1 and 1R2, Block A, Ranenaux Village Addition and located at 245 and 275",
+          "attachments": []
+        },
+        {
+          "text": "Consider: ZA26-0042, Zoning Change and Site Plan for St. Martin’s Episcopal Church on property described as Lot 1R, Block 1, St. Martin in the Fields Addition and located 223 S. Pearson",
+          "attachments": []
+        },
+        {
+          "text": "Consider: ZA26-0045, Zoning Change and Site Plan for Sedo Laser on property described as",
+          "attachments": []
+        },
+        {
+          "text": "Consider: ZA26-0047, Zoning Change and Development Plan for Shivers’ Farm on property described as a portion of Tracts 1A03 and 1A, James J. West Survey Abstract 1620 and located at 1800 and 1900 N. White Chapel Blvd. Current Zoning: “ECZ” Employment Center Zoning",
+          "attachments": []
+        },
+        {
+          "text": "Consider: ZA26-0050, Preliminary Plat for Jane’s Place on property described as Tract 1,",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Consider: ZA26-0010, Zoning Change and Site Plan for Chapel Crossing on property described as Lots 1R1 and 1R2, Block A, Ranenaux Village Addition and located at 245 and 275",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        },
+        {
+          "text": "Consider: ZA26-0042, Zoning Change and Site Plan for St. Martin’s Episcopal Church on property described as Lot 1R, Block 1, St. Martin in the Fields Addition and located 223 S. Pearson",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
-      "meeting_date": "2026-07-07",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_07072026-2276",
+      "meeting_date": "2026-07-29",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_07292026-2278",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -160,7 +200,7 @@
           "attachments": []
         },
         {
-          "text": "PUD which should be guided by the comprehensive plan.",
+          "text": "PUD which should be guided by the comprehensive plan. [PASSED]",
           "attachments": []
         }
       ],
@@ -370,7 +410,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -441,8 +481,8 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-07-21",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_07212026-629",
+      "meeting_date": "2026-08-01",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_08012026-638",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -607,7 +647,7 @@
       "city": "Mesquite",
       "board": "City Council",
       "meeting_date": "2026-07-23",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07232026-2238",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07232026-2237",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1016,8 +1056,8 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-24",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07242026-1718",
+      "meeting_date": "2026-07-25",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07252026-1719",
       "items": [],
       "sfr_items": [],
       "status": "PDF parsed (20 lines) but no rezone/plat/comp plan items"
@@ -1026,8 +1066,8 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-07-25",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07252026-1719",
+      "meeting_date": "2026-07-27",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07272026-1729",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1527,11 +1567,24 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "City Council",
-      "meeting_date": "2026-07-15",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_07152026-1306",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-08-03",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_08032026-1308",
+      "items": [
+        {
+          "text": "35W and US Hwy 377 and includes all land indicated as commercial and residential designation on the Town of Argyle Future Land Use Plan dated June 2024 and zoned as commercial or residential on the latest Zoning Map; providing findings of fact; providing exemptions; providing a waiver procedure; providing for a termination date; providing for severability, and providing an effective date.",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "35W and US Hwy 377 and includes all land indicated as commercial and residential designation on the Town of Argyle Future Land Use Plan dated June 2024 and zoned as commercial or residential on the latest Zoning Map; providing findings of fact; providing exemptions; providing a waiver procedure; providing for a termination date; providing for severability, and providing an effective date.",
+          "attachments": [],
+          "keywords": [
+            "residential"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Denton",
@@ -1911,18 +1964,40 @@
       "county": "Rockwall",
       "city": "Fate",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-24",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_07242026-1483",
-      "items": [],
+      "meeting_date": "2026-08-03",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_08032026-1489",
+      "items": [
+        {
+          "text": "Leadership Presentation As Part Of The Forward Fate Comprehensive Plan",
+          "attachments": []
+        },
+        {
+          "text": "C. (This Is An Application For A Zoning Change Request From Agriculture To",
+          "attachments": [
+            {
+              "name": "ZR-26-001_Post-Annexation Zoning_Staff Summary w Exhibits_20260319 (1).pdf",
+              "url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Item/12965?fileID=43052"
+            }
+          ]
+        },
+        {
+          "text": "D. (This Is An Application For Approval Of A Zoning Change Request From",
+          "attachments": []
+        },
+        {
+          "text": "Applicant, Ruben Ortiz, Is Proposing A Zoning Change To Prepare The Site For",
+          "attachments": []
+        }
+      ],
       "sfr_items": [],
-      "status": "PDF parsed (26 lines) but no rezone/plat/comp plan items"
+      "status": "success"
     },
     {
       "county": "Rockwall",
       "city": "Fate",
       "board": "City Council",
       "meeting_date": "2026-07-24",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_07242026-1483",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_07242026-1482",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2289,8 +2364,51 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "Planning & Zoning",
+      "meeting_date": "2026-08-04",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_08042026-1556",
+      "items": [
+        {
+          "text": "CP-26-0002 – Public Hearing, discussion, and action to make a recommendation to the City Council regarding the first reading of an ordinance to amend the City of Decatur’s Comprehensive Plan and",
+          "attachments": []
+        },
+        {
+          "text": "Future Land Use Map from Agriculture and Rural Living Land Use (AR) to Activity Center Land Use",
+          "attachments": []
+        },
+        {
+          "text": "ZC-26-0003 – Public Hearing, discussion, and action to make a recommendation to the City Council regarding the first reading of an ordinance to change the zoning from Extraterritorial Jurisdiction (ETJ) to Thoroughfare Business District (C-2) for a 3.93-acre tract of land, located at 3260 S US Hwy 81-",
+          "attachments": []
+        },
+        {
+          "text": "B. PP-26-0002 – Recommend that the City Council approve a Preliminary Plat application for an approximately 2.76-acre tract of land, Quick Al’s Addition, Lot 1, Block 1, in the City of Decatur, Wise County, Texas, addressed as 1105 N US Hwy 81-287. (Quick Al’s Real",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "ZC-26-0003 – Public Hearing, discussion, and action to make a recommendation to the City Council regarding the first reading of an ordinance to change the zoning from Extraterritorial Jurisdiction (ETJ) to Thoroughfare Business District (C-2) for a 3.93-acre tract of land, located at 3260 S US Hwy 81-",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "B. PP-26-0002 – Recommend that the City Council approve a Preliminary Plat application for an approximately 2.76-acre tract of land, Quick Al’s Addition, Lot 1, Block 1, in the City of Decatur, Wise County, Texas, addressed as 1105 N US Hwy 81-287. (Quick Al’s Real",
+          "attachments": [],
+          "keywords": [
+            "lot",
+            "acre"
+          ]
+        }
+      ],
+      "status": "success"
+    },
+    {
+      "county": "Wise",
+      "city": "Decatur",
+      "board": "City Council",
       "meeting_date": "2026-07-27",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_07272026-1555",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_07272026-1554",
       "items": [
         {
           "text": "026-acre tract of land, Final Plat, Lot 1, Block 1, Klement Addition, being a replat of Lot 1,",
@@ -2308,16 +2426,6 @@
         }
       ],
       "status": "success"
-    },
-    {
-      "county": "Wise",
-      "city": "Decatur",
-      "board": "City Council",
-      "meeting_date": "2026-07-27",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_07272026-1554",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Wise",
