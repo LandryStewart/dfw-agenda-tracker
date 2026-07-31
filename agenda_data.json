@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "last_updated": "2026-07-30T12:57:46.441695Z",
+    "last_updated": "2026-07-31T13:24:17.998992Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-05-01",
-    "total_agenda_items": 58,
+    "cutoff_date": "2026-05-02",
+    "total_agenda_items": 57,
     "total_sfr_items": 32,
     "total_attachments": 0
   },
@@ -510,8 +510,8 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-08-01",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_08012026-638",
+      "meeting_date": "2026-08-03",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_08032026-637",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -660,23 +660,18 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-27",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07272026-2240",
-      "items": [
-        {
-          "text": "0453 submitted by Viviana Monreal for a zoning change from General Retail to General Retail with a",
-          "attachments": []
-        }
-      ],
+      "meeting_date": "2026-07-31",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07312026-2242",
+      "items": [],
       "sfr_items": [],
-      "status": "success"
+      "status": "PDF parsed (20 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-07-23",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07232026-2237",
+      "meeting_date": "2026-07-31",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07312026-2242",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1085,18 +1080,18 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-25",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07252026-1719",
+      "meeting_date": "2026-08-06",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_08062026-1733",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (20 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (114 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-07-27",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_07272026-1729",
+      "meeting_date": "2026-08-06",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_08062026-1733",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
