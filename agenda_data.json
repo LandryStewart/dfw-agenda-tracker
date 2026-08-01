@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-07-31T13:24:17.998992Z",
+    "last_updated": "2026-08-01T12:38:10.005646Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-05-02",
-    "total_agenda_items": 57,
-    "total_sfr_items": 32,
+    "cutoff_date": "2026-05-03",
+    "total_agenda_items": 60,
+    "total_sfr_items": 37,
     "total_attachments": 0
   },
   "summaries": [
@@ -240,16 +240,11 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "City Council",
-      "meeting_date": "2026-07-14",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_07142026-1601",
-      "items": [
-        {
-          "text": "In the focus area of Economic Development, completed initiatives include reviewing all economic development policies and incentives. Initiatives currently in progress include developing economic development zones as part of the City’s Comprehensive Plan, initiating and guiding the development of the Bedford Commons and Gateway Village projects, and creating a plan to address large commercial vacancies. Ongoing initiatives include initiating events that attract visitors and support the local economy as well as conducting efforts to increase sales and hotel",
-          "attachments": []
-        }
-      ],
+      "meeting_date": "2026-07-28",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_07282026-1604",
+      "items": [],
       "sfr_items": [],
-      "status": "success"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
@@ -439,7 +434,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -604,7 +599,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Dallas",
@@ -660,8 +655,8 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-31",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07312026-2242",
+      "meeting_date": "2026-08-01",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_08012026-2243",
       "items": [],
       "sfr_items": [],
       "status": "PDF parsed (20 lines) but no rezone/plat/comp plan items"
@@ -670,8 +665,8 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-07-31",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_07312026-2242",
+      "meeting_date": "2026-08-03",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_08032026-2244",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -870,11 +865,63 @@
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "City Council",
-      "meeting_date": "2026-07-20",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_07202026-1806",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-08-06",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_08062026-1810",
+      "items": [
+        {
+          "text": "Conduct a briefing on Preliminary Plat Application 006-2025 by Bloomfield Homes L.P. /",
+          "attachments": []
+        },
+        {
+          "text": "1, commonly known as and located at 4600 Mercury Road. a. Conduct a Public Hearing on Preliminary Plat Application 006-2025 located at 4600 b. Consideration and action on Preliminary Plat Application 006-2025 located at 4600",
+          "attachments": []
+        },
+        {
+          "text": "Conduct a briefing on Preliminary Plat Application 005-2026 by Houshang Jahvani to plat one lot totaling (+/-) 0.924 acres of land located at 11804 Elam Road to allow a retail strip center in a Local Retail Zone District. a. Conduct a Public Hearing on Preliminary Plat Application 005-2026 located at b. Consideration and action on Preliminary Plat Application 005-2026 located at 11804",
+          "attachments": []
+        },
+        {
+          "text": "Consideration and action on Final Plat Application 002-2026 by Simon Ventura to plat subject parcels totaling (+/-) 6.54 acres located at 12120 and 12204 Seagoville Road in",
+          "attachments": []
+        },
+        {
+          "text": "Consideration and action on Final Plat Application 003-2026 by Bel Grand Estates LLC to plat subject parcel situated on (+/-) 4.57 acres located at 2830 S Beltline Road to allow for a medical daycare facility in accordance with SUP Ordinance No. 3314-26. a. Updates and briefings on Land Use Applications. b. Update on Planning & Zoning Commission Attendance Report.",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Conduct a briefing on Preliminary Plat Application 006-2025 by Bloomfield Homes L.P. /",
+          "attachments": [],
+          "keywords": [
+            "home"
+          ]
+        },
+        {
+          "text": "Conduct a briefing on Preliminary Plat Application 005-2026 by Houshang Jahvani to plat one lot totaling (+/-) 0.924 acres of land located at 11804 Elam Road to allow a retail strip center in a Local Retail Zone District. a. Conduct a Public Hearing on Preliminary Plat Application 005-2026 located at b. Consideration and action on Preliminary Plat Application 005-2026 located at 11804",
+          "attachments": [],
+          "keywords": [
+            "lot",
+            "acre"
+          ]
+        },
+        {
+          "text": "Consideration and action on Final Plat Application 002-2026 by Simon Ventura to plat subject parcels totaling (+/-) 6.54 acres located at 12120 and 12204 Seagoville Road in",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Consideration and action on Final Plat Application 003-2026 by Bel Grand Estates LLC to plat subject parcel situated on (+/-) 4.57 acres located at 2830 S Beltline Road to allow for a medical daycare facility in accordance with SUP Ordinance No. 3314-26. a. Updates and briefings on Land Use Applications. b. Update on Planning & Zoning Commission Attendance Report.",
+          "attachments": [],
+          "keywords": [
+            "acre",
+            "PD"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Dallas",
@@ -1224,7 +1271,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Collin",
@@ -1787,77 +1834,23 @@
       "county": "Denton",
       "city": "Oak Point",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-04",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_08042026-613",
+      "meeting_date": "2026-08-06",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_08062026-614",
       "items": [
-        {
-          "text": "Brian Salvesen presented upcoming training opportunities for the board to b. Update on the Comprehensive Plan project.",
-          "attachments": []
-        },
-        {
-          "text": "The Planning Commission wanted to discuss upcoming zoning changes for hotel/event center",
-          "attachments": []
-        },
-        {
-          "text": "SUBJECT: Zoning Ordinance, Use Chart, and Comprehensive Plan Update",
-          "attachments": []
-        },
-        {
-          "text": "Manufactured Housing; however, the zoning district is no longer within the City Limits due to a boundary change with Little Elm since the last Comprehensive Plan.",
-          "attachments": []
-        },
-        {
-          "text": "This change will also require a change to the Comprehensive Plan as required by State Law, which is a part of the proposal, public hearing, and motion.",
-          "attachments": []
-        },
-        {
-          "text": "Comprehensive Plan as proposed by staff to allow for “HUD-code manufactured homes” in the RE-5",
-          "attachments": []
-        },
         {
           "text": "D. 2018 Zoning Map: Page 34 of 2019 Comprehensive Plan",
           "attachments": []
         }
       ],
-      "sfr_items": [
-        {
-          "text": "Brian Salvesen presented upcoming training opportunities for the board to b. Update on the Comprehensive Plan project.",
-          "attachments": [],
-          "keywords": [
-            "unit",
-            "PD"
-          ]
-        },
-        {
-          "text": "SUBJECT: Zoning Ordinance, Use Chart, and Comprehensive Plan Update",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "Manufactured Housing; however, the zoning district is no longer within the City Limits due to a boundary change with Little Elm since the last Comprehensive Plan.",
-          "attachments": [],
-          "keywords": [
-            "housing"
-          ]
-        },
-        {
-          "text": "Comprehensive Plan as proposed by staff to allow for “HUD-code manufactured homes” in the RE-5",
-          "attachments": [],
-          "keywords": [
-            "home"
-          ]
-        }
-      ],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Denton",
       "city": "Oak Point",
       "board": "City Council",
-      "meeting_date": "2026-07-22",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_07222026-609",
+      "meeting_date": "2026-08-06",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_08062026-614",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2046,11 +2039,69 @@
       "county": "Rockwall",
       "city": "Royse City",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-13",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_07132026-630",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (19 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-08-06",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_08062026-636",
+      "items": [
+        {
+          "text": "Preliminary Plat of Bearpen Phase 2, consisting of +/- 62.1 acres, situated in the",
+          "attachments": []
+        },
+        {
+          "text": "Preliminary Plat of Bearpen Phase 3, consisting of +/- 44.95 acres, situated in the",
+          "attachments": []
+        },
+        {
+          "text": "Consider and act on a Final Plat of the CVS Royse City Addition, Block 1 - Lot 3R, consisting of +/- 1.7 acres, situated in the existing CVS Royse City Addition, Lot 3, [PASSED]",
+          "attachments": []
+        },
+        {
+          "text": "Consider and act on the Preliminary Plat of Bearpen Phase 4, consisting of +/- 82.3 acres, situated in the James Road Survey - Tract 19, Abstract No. 872 and Palmetto",
+          "attachments": []
+        },
+        {
+          "text": "Consider and act on the Preliminary Plat of Bearpen Phase 5, consisting of +/- 86.7 acres, situated in the James Road Survey - Tract 19, Abstract No. 872 and Palmetto",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Preliminary Plat of Bearpen Phase 2, consisting of +/- 62.1 acres, situated in the",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Preliminary Plat of Bearpen Phase 3, consisting of +/- 44.95 acres, situated in the",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Consider and act on a Final Plat of the CVS Royse City Addition, Block 1 - Lot 3R, consisting of +/- 1.7 acres, situated in the existing CVS Royse City Addition, Lot 3, [PASSED]",
+          "attachments": [],
+          "keywords": [
+            "lot",
+            "acre"
+          ]
+        },
+        {
+          "text": "Consider and act on the Preliminary Plat of Bearpen Phase 4, consisting of +/- 82.3 acres, situated in the James Road Survey - Tract 19, Abstract No. 872 and Palmetto",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Consider and act on the Preliminary Plat of Bearpen Phase 5, consisting of +/- 86.7 acres, situated in the James Road Survey - Tract 19, Abstract No. 872 and Palmetto",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Rockwall",
@@ -2126,7 +2177,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Kaufman",
