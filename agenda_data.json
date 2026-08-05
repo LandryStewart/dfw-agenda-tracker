@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-08-04T13:31:57.900439Z",
+    "last_updated": "2026-08-05T13:24:11.900271Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-05-06",
-    "total_agenda_items": 41,
-    "total_sfr_items": 23,
+    "cutoff_date": "2026-05-07",
+    "total_agenda_items": 36,
+    "total_sfr_items": 22,
     "total_attachments": 0
   },
   "summaries": [
@@ -92,90 +92,21 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-06",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_08062026-2280",
-      "items": [
-        {
-          "text": "Withdraw: ZA26-0049, Preliminary Plat for Union Estates on property described as Tract",
-          "attachments": []
-        },
-        {
-          "text": "Consider: ZA26-0010, Zoning Change and Site Plan for Chapel Crossing on property described as Lots 1R1 and 1R2, Block A, Ranenaux Village Addition and located at 245 and 275",
-          "attachments": []
-        },
-        {
-          "text": "Consider: ZA26-0042, Zoning Change and Site Plan for St. Martin’s Episcopal Church on property described as Lot 1R, Block 1, St. Martin in the Fields Addition and located 223 S. Pearson",
-          "attachments": []
-        },
-        {
-          "text": "Consider: ZA26-0045, Zoning Change and Site Plan for Sedo Laser on property described as",
-          "attachments": []
-        },
-        {
-          "text": "Consider: ZA26-0047, Zoning Change and Development Plan for Shivers’ Farm on property described as a portion of Tracts 1A03 and 1A, James J. West Survey Abstract 1620 and located at 1800 and 1900 N. White Chapel Blvd. Current Zoning: “ECZ” Employment Center Zoning",
-          "attachments": []
-        },
-        {
-          "text": "Consider: ZA26-0050, Preliminary Plat for Jane’s Place on property described as Tract 1,",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Consider: ZA26-0010, Zoning Change and Site Plan for Chapel Crossing on property described as Lots 1R1 and 1R2, Block A, Ranenaux Village Addition and located at 245 and 275",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        },
-        {
-          "text": "Consider: ZA26-0042, Zoning Change and Site Plan for St. Martin’s Episcopal Church on property described as Lot 1R, Block 1, St. Martin in the Fields Addition and located 223 S. Pearson",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-08-11",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_08112026-2298",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (23 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
-      "meeting_date": "2026-08-04",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_08042026-2282",
-      "items": [
-        {
-          "text": "A. Ordinance No. 480-847, ZA26-0027, 2nd Reading, Zoning Change and",
-          "attachments": []
-        },
-        {
-          "text": "Southlake Consolidated Future Land Use Plan, an Element of the Southlake",
-          "attachments": []
-        },
-        {
-          "text": "Comprehensive Plan, for 3095 Johnson Rd. on property described as a portion of Lot 16, J. G. Allen No. 18 Addition and located at 3095 Johnson Road.",
-          "attachments": []
-        },
-        {
-          "text": "D. Ordinance No. 480-848, ZA26-0035, 2nd Reading, Zoning Change and",
-          "attachments": []
-        },
-        {
-          "text": "A. Ordinance No. 480-843, ZA26-0014, 1st Reading, Zoning Change and",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Comprehensive Plan, for 3095 Johnson Rd. on property described as a portion of Lot 16, J. G. Allen No. 18 Addition and located at 3095 Johnson Road.",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-08-11",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_08112026-2298",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
@@ -505,8 +436,8 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-08-03",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_08032026-637",
+      "meeting_date": "2026-08-04",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_08042026-639",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -655,11 +586,16 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-06",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_08062026-2246",
-      "items": [],
+      "meeting_date": "2026-08-10",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_08102026-2249",
+      "items": [
+        {
+          "text": "0458 submitted by Juan Pablo Ambris, D&D Fragrances and Essential Oils, LLC, for a zoning change from Industrial within the Skyline Logistics Hub to Industrial within the Skyline Logistics Hub with a Conditional Use Permit to allow a Fragrance Manufacture located at 222 S. Town East Blvd.",
+          "attachments": []
+        }
+      ],
       "sfr_items": [],
-      "status": "PDF parsed (36 lines) but no rezone/plat/comp plan items"
+      "status": "success"
     },
     {
       "county": "Dallas",
@@ -1137,11 +1073,39 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-08-06",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_08062026-1733",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-08-10",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_08102026-1734",
+      "items": [
+        {
+          "text": "Draft Comprehensive Plan; and take appropriate action.",
+          "attachments": []
+        },
+        {
+          "text": "CC Memo - Comprehensive Plan - 08.10.2026.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit A - Draft Comprehensive Plan.pdf",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "CC Memo - Comprehensive Plan - 08.10.2026.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit A - Draft Comprehensive Plan.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Collin",
@@ -1848,8 +1812,8 @@
       "county": "Rockwall",
       "city": "Fate",
       "board": "City Council",
-      "meeting_date": "2026-08-03",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_08032026-1488",
+      "meeting_date": "2026-08-07",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_08072026-1486",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2072,36 +2036,45 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-27",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_07272026-2212",
+      "meeting_date": "2026-08-10",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_08102026-2213",
       "items": [
         {
-          "text": "The applicant does not have an end user under contract; therefore, because the final site layout and design may change based on the future user, a straight rezoning request was submitted for the property, rather than a Planned Development (PD) District.",
+          "text": "Planning and Zoning cases.",
           "attachments": []
         },
         {
-          "text": "Mark Allen, 500 W. 7th Street, Suite 1220, Fort Worth, applicant for this request, came forward and stated that he initially pursued the existing SF-6 zoning for this property because it was consistent with the Future Land Use Plan at the time, prior to Amazon locating in Cleburne.",
+          "text": "Future Land Use Plan: The Future Land Use Plan designates the subject property as Neighborhood",
           "attachments": []
         },
         {
-          "text": "A straight rezoning request was submitted because no tenant has been identified. As a result, the applicant cannot determine the final site layout at this time, but the proposed development will comply with all requirements of the Zoning Ordinance. [APPROVED]",
+          "text": "Although the Future Land Use Plan does not specifically address manufactured homes, the existing SF-7",
+          "attachments": []
+        },
+        {
+          "text": "As manufactured homes may be approved within the SF-7 District through the SUP process, this request is considered to be generally consistent with the Future Land Use Plan. [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "Cleburne, TX 76033 Future Land Use Map",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "The applicant does not have an end user under contract; therefore, because the final site layout and design may change based on the future user, a straight rezoning request was submitted for the property, rather than a Planned Development (PD) District.",
+          "text": "Although the Future Land Use Plan does not specifically address manufactured homes, the existing SF-7",
           "attachments": [],
           "keywords": [
-            "PD",
-            "planned development"
+            "SF-",
+            "home"
           ]
         },
         {
-          "text": "Mark Allen, 500 W. 7th Street, Suite 1220, Fort Worth, applicant for this request, came forward and stated that he initially pursued the existing SF-6 zoning for this property because it was consistent with the Future Land Use Plan at the time, prior to Amazon locating in Cleburne.",
+          "text": "As manufactured homes may be approved within the SF-7 District through the SUP process, this request is considered to be generally consistent with the Future Land Use Plan. [APPROVED]",
           "attachments": [],
           "keywords": [
-            "SF-"
+            "SF-",
+            "home"
           ]
         }
       ],
