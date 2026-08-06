@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-08-05T13:24:11.900271Z",
+    "last_updated": "2026-08-06T13:24:13.150140Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-05-07",
-    "total_agenda_items": 36,
-    "total_sfr_items": 22,
+    "cutoff_date": "2026-05-08",
+    "total_agenda_items": 33,
+    "total_sfr_items": 19,
     "total_attachments": 0
   },
   "summaries": [
@@ -171,8 +171,8 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "City Council",
-      "meeting_date": "2026-07-28",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_07282026-1604",
+      "meeting_date": "2026-08-04",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_08042026-1605",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -791,11 +791,11 @@
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-05-07",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_05072026-1793",
+      "meeting_date": "2026-07-15",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_07152026-1804",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (52 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (34 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
@@ -1421,8 +1421,8 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "City Council",
-      "meeting_date": "2026-08-03",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_08032026-1308",
+      "meeting_date": "2026-08-11",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_08112026-1314",
       "items": [
         {
           "text": "35W and US Hwy 377 and includes all land indicated as commercial and residential designation on the Town of Argyle Future Land Use Plan dated June 2024 and zoned as commercial or residential on the latest Zoning Map; providing findings of fact; providing exemptions; providing a waiver procedure; providing for a termination date; providing for severability, and providing an effective date.",
@@ -1890,47 +1890,11 @@
       "county": "Rockwall",
       "city": "Royse City",
       "board": "City Council",
-      "meeting_date": "2026-07-28",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_07282026-633",
-      "items": [
-        {
-          "text": "Public Hearing regarding a Zoning Change from A to PD, generally located on the",
-          "attachments": []
-        },
-        {
-          "text": "Adopt an Ordinance approving a zoning change from A to PD, generally located on the SWC of SH66 and N Erby Campbell Blvd, directly south of the D.G.N Railroad; situated in the E. Gossett Tract, Abstract No. 0086, City of Royse City, Texas, and any matters related thereto.",
-          "attachments": []
-        },
-        {
-          "text": "Adopt an Ordinance approving a final plat of BJ's Wholesale Club: Block A - Lot 1, consisting of +/- 11 acres, situated in the J. Stephenson Survey, Abstract No. 188,",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Public Hearing regarding a Zoning Change from A to PD, generally located on the",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "Adopt an Ordinance approving a zoning change from A to PD, generally located on the SWC of SH66 and N Erby Campbell Blvd, directly south of the D.G.N Railroad; situated in the E. Gossett Tract, Abstract No. 0086, City of Royse City, Texas, and any matters related thereto.",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "Adopt an Ordinance approving a final plat of BJ's Wholesale Club: Block A - Lot 1, consisting of +/- 11 acres, situated in the J. Stephenson Survey, Abstract No. 188,",
-          "attachments": [],
-          "keywords": [
-            "lot",
-            "acre"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-08-05",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_08052026-635",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Kaufman",
@@ -2084,8 +2048,8 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "City Council",
-      "meeting_date": "2026-06-02",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_06022026-2199",
+      "meeting_date": "2026-07-20",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_07202026-2209",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
