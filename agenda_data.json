@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-08-06T13:24:13.150140Z",
+    "last_updated": "2026-08-07T12:14:45.493349Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-05-08",
-    "total_agenda_items": 33,
-    "total_sfr_items": 19,
+    "cutoff_date": "2026-05-09",
+    "total_agenda_items": 24,
+    "total_sfr_items": 12,
     "total_attachments": 0
   },
   "summaries": [
@@ -171,8 +171,8 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "City Council",
-      "meeting_date": "2026-08-04",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_08042026-1605",
+      "meeting_date": "2026-08-06",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_08062026-1606",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -436,8 +436,8 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-08-04",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_08042026-639",
+      "meeting_date": "2026-08-06",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_08062026-640",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -802,62 +802,10 @@
       "city": "Balch Springs",
       "board": "City Council",
       "meeting_date": "2026-08-06",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_08062026-1810",
-      "items": [
-        {
-          "text": "Conduct a briefing on Preliminary Plat Application 006-2025 by Bloomfield Homes L.P. /",
-          "attachments": []
-        },
-        {
-          "text": "1, commonly known as and located at 4600 Mercury Road. a. Conduct a Public Hearing on Preliminary Plat Application 006-2025 located at 4600 b. Consideration and action on Preliminary Plat Application 006-2025 located at 4600",
-          "attachments": []
-        },
-        {
-          "text": "Conduct a briefing on Preliminary Plat Application 005-2026 by Houshang Jahvani to plat one lot totaling (+/-) 0.924 acres of land located at 11804 Elam Road to allow a retail strip center in a Local Retail Zone District. a. Conduct a Public Hearing on Preliminary Plat Application 005-2026 located at b. Consideration and action on Preliminary Plat Application 005-2026 located at 11804",
-          "attachments": []
-        },
-        {
-          "text": "Consideration and action on Final Plat Application 002-2026 by Simon Ventura to plat subject parcels totaling (+/-) 6.54 acres located at 12120 and 12204 Seagoville Road in",
-          "attachments": []
-        },
-        {
-          "text": "Consideration and action on Final Plat Application 003-2026 by Bel Grand Estates LLC to plat subject parcel situated on (+/-) 4.57 acres located at 2830 S Beltline Road to allow for a medical daycare facility in accordance with SUP Ordinance No. 3314-26. a. Updates and briefings on Land Use Applications. b. Update on Planning & Zoning Commission Attendance Report.",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Conduct a briefing on Preliminary Plat Application 006-2025 by Bloomfield Homes L.P. /",
-          "attachments": [],
-          "keywords": [
-            "home"
-          ]
-        },
-        {
-          "text": "Conduct a briefing on Preliminary Plat Application 005-2026 by Houshang Jahvani to plat one lot totaling (+/-) 0.924 acres of land located at 11804 Elam Road to allow a retail strip center in a Local Retail Zone District. a. Conduct a Public Hearing on Preliminary Plat Application 005-2026 located at b. Consideration and action on Preliminary Plat Application 005-2026 located at 11804",
-          "attachments": [],
-          "keywords": [
-            "lot",
-            "acre"
-          ]
-        },
-        {
-          "text": "Consideration and action on Final Plat Application 002-2026 by Simon Ventura to plat subject parcels totaling (+/-) 6.54 acres located at 12120 and 12204 Seagoville Road in",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "Consideration and action on Final Plat Application 003-2026 by Bel Grand Estates LLC to plat subject parcel situated on (+/-) 4.57 acres located at 2830 S Beltline Road to allow for a medical daycare facility in accordance with SUP Ordinance No. 3314-26. a. Updates and briefings on Land Use Applications. b. Update on Planning & Zoning Commission Attendance Report.",
-          "attachments": [],
-          "keywords": [
-            "acre",
-            "PD"
-          ]
-        }
-      ],
-      "status": "success"
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_08062026-1809",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Dallas",
@@ -1375,7 +1323,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Denton",
@@ -1411,11 +1359,11 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-15",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_07152026-1305",
+      "meeting_date": "2026-08-05",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_08052026-1311",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (43 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (74 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Denton",
@@ -1890,8 +1838,8 @@
       "county": "Rockwall",
       "city": "Royse City",
       "board": "City Council",
-      "meeting_date": "2026-08-05",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_08052026-635",
+      "meeting_date": "2026-08-11",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_08112026-638",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1910,8 +1858,8 @@
       "county": "Kaufman",
       "city": "Forney",
       "board": "City Council",
-      "meeting_date": "2026-08-10",
-      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_08102026-1297",
+      "meeting_date": "2026-08-13",
+      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_08132026-1301",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2178,68 +2126,26 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-04",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_08042026-1556",
+      "meeting_date": "2026-08-10",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_08102026-1559",
       "items": [
         {
-          "text": "CP-26-0002 – Public Hearing, discussion, and action to make a recommendation to the City Council regarding the first reading of an ordinance to amend the City of Decatur’s Comprehensive Plan and",
-          "attachments": []
-        },
-        {
-          "text": "Future Land Use Map from Agriculture and Rural Living Land Use (AR) to Activity Center Land Use",
-          "attachments": []
-        },
-        {
-          "text": "ZC-26-0003 – Public Hearing, discussion, and action to make a recommendation to the City Council regarding the first reading of an ordinance to change the zoning from Extraterritorial Jurisdiction (ETJ) to Thoroughfare Business District (C-2) for a 3.93-acre tract of land, located at 3260 S US Hwy 81-",
-          "attachments": []
-        },
-        {
-          "text": "B. PP-26-0002 – Recommend that the City Council approve a Preliminary Plat application for an approximately 2.76-acre tract of land, Quick Al’s Addition, Lot 1, Block 1, in the City of Decatur, Wise County, Texas, addressed as 1105 N US Hwy 81-287. (Quick Al’s Real",
+          "text": " The final plat of Vista Park, Phase I-A was filed and recorded with the County as document number 202504023 on March 31, 2025.",
           "attachments": []
         }
       ],
-      "sfr_items": [
-        {
-          "text": "ZC-26-0003 – Public Hearing, discussion, and action to make a recommendation to the City Council regarding the first reading of an ordinance to change the zoning from Extraterritorial Jurisdiction (ETJ) to Thoroughfare Business District (C-2) for a 3.93-acre tract of land, located at 3260 S US Hwy 81-",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "B. PP-26-0002 – Recommend that the City Council approve a Preliminary Plat application for an approximately 2.76-acre tract of land, Quick Al’s Addition, Lot 1, Block 1, in the City of Decatur, Wise County, Texas, addressed as 1105 N US Hwy 81-287. (Quick Al’s Real",
-          "attachments": [],
-          "keywords": [
-            "lot",
-            "acre"
-          ]
-        }
-      ],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Wise",
       "city": "Decatur",
       "board": "City Council",
-      "meeting_date": "2026-07-27",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_07272026-1554",
-      "items": [
-        {
-          "text": "026-acre tract of land, Final Plat, Lot 1, Block 1, Klement Addition, being a replat of Lot 1,",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "026-acre tract of land, Final Plat, Lot 1, Block 1, Klement Addition, being a replat of Lot 1,",
-          "attachments": [],
-          "keywords": [
-            "lot",
-            "acre"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-08-10",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_08102026-1559",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Wise",
