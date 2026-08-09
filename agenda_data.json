@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-08-08T11:54:24.444435Z",
+    "last_updated": "2026-08-09T11:54:28.729898Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-05-10",
-    "total_agenda_items": 24,
-    "total_sfr_items": 12,
+    "cutoff_date": "2026-05-11",
+    "total_agenda_items": 27,
+    "total_sfr_items": 11,
     "total_attachments": 0
   },
   "summaries": [
@@ -365,7 +365,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Tarrant",
@@ -530,7 +530,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Dallas",
@@ -1183,7 +1183,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Collin",
@@ -1359,34 +1359,38 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-05",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_08052026-1311",
-      "items": [],
+      "meeting_date": "2026-08-12",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_08122026-1316",
+      "items": [
+        {
+          "text": "Area Plan. Notable comments included clarification on the names of historic buildings in the area, the proximity of the train tracks, the location of a proposed you-pick farm, and future zoning change requirements. Exhibit A is the final approved version of the small area plan.",
+          "attachments": []
+        },
+        {
+          "text": "Current Zoning Future Land Use",
+          "attachments": []
+        },
+        {
+          "text": "Consistency with Comprehensive Plan Required.",
+          "attachments": []
+        },
+        {
+          "text": "The “OT-1” Old Town 1 District is intended to create a mixed-use focal point for the Town. This district is appropriate within that portion of the original dedication of the Town of Argyle that is located east Development proposals shall be consistent with the and west of the centerline of U.S. Highway 377 right-of-way, west of the centerline of the right-of- Comprehensive Plan concept for the Old Town. way for Cypress Street. 2. Windows. Reflective glass shall not be used for windows; detailing for windows, doors and other openings shall be of wood,",
+          "attachments": []
+        }
+      ],
       "sfr_items": [],
-      "status": "PDF parsed (74 lines) but no rezone/plat/comp plan items"
+      "status": "success"
     },
     {
       "county": "Denton",
       "city": "Argyle",
       "board": "City Council",
-      "meeting_date": "2026-08-11",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_08112026-1314",
-      "items": [
-        {
-          "text": "35W and US Hwy 377 and includes all land indicated as commercial and residential designation on the Town of Argyle Future Land Use Plan dated June 2024 and zoned as commercial or residential on the latest Zoning Map; providing findings of fact; providing exemptions; providing a waiver procedure; providing for a termination date; providing for severability, and providing an effective date.",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "35W and US Hwy 377 and includes all land indicated as commercial and residential designation on the Town of Argyle Future Land Use Plan dated June 2024 and zoned as commercial or residential on the latest Zoning Map; providing findings of fact; providing exemptions; providing a waiver procedure; providing for a termination date; providing for severability, and providing an effective date.",
-          "attachments": [],
-          "keywords": [
-            "residential"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-08-12",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_08122026-1316",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Denton",
