@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-08-11T12:07:20.460857Z",
+    "last_updated": "2026-08-12T12:18:29.240048Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-05-13",
-    "total_agenda_items": 27,
-    "total_sfr_items": 11,
+    "cutoff_date": "2026-05-14",
+    "total_agenda_items": 32,
+    "total_sfr_items": 14,
     "total_attachments": 0
   },
   "summaries": [
@@ -92,18 +92,61 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-11",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_08112026-2298",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (23 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-08-20",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_08202026-2301",
+      "items": [
+        {
+          "text": "Withdraw: CP26-0004, Amendment to the City of Southlake Consolidated Future Land Use",
+          "attachments": []
+        },
+        {
+          "text": "Plan, an element of the Southlake Comprehensive Plan, for 360 Development, on property described as Lot 5A, Drake Estates Addition and located at 360 Randol Mill Avenue, Southlake,",
+          "attachments": []
+        },
+        {
+          "text": "Withdraw: ZA25-0072, Zoning Change and Site Plan for 360 Development, on property described as Lot 5A, Drake Estates Addition and located at 360 Randol Mill Avenue, Southlake,",
+          "attachments": []
+        },
+        {
+          "text": "Consider: ZA26-0044, Zoning Change and Site Plan for Mulino Ristorante, on property described as Lot 4, T. Thompson Addition No. 1502 and located at 1125 Davis Boulevard. Current",
+          "attachments": []
+        },
+        {
+          "text": "Consider: ZA26-0054, Zoning Change and Concept Plan for 4060 N. White Chapel Boulevard on property described as Tract 16, R.D. Price Survey Abstract No. 992A. Current Zoning: “AG”",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Plan, an element of the Southlake Comprehensive Plan, for 360 Development, on property described as Lot 5A, Drake Estates Addition and located at 360 Randol Mill Avenue, Southlake,",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        },
+        {
+          "text": "Withdraw: ZA25-0072, Zoning Change and Site Plan for 360 Development, on property described as Lot 5A, Drake Estates Addition and located at 360 Randol Mill Avenue, Southlake,",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        },
+        {
+          "text": "Consider: ZA26-0044, Zoning Change and Site Plan for Mulino Ristorante, on property described as Lot 4, T. Thompson Addition No. 1502 and located at 1125 Davis Boulevard. Current",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
-      "meeting_date": "2026-08-11",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_08112026-2298",
+      "meeting_date": "2026-08-13",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_08132026-2299",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -281,18 +324,18 @@
       "county": "Tarrant",
       "city": "Benbrook",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-20",
-      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_07202026-838",
+      "meeting_date": "2026-07-28",
+      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_07282026-839",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (136 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (14 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Tarrant",
       "city": "Benbrook",
       "board": "City Council",
-      "meeting_date": "2026-07-20",
-      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_07202026-838",
+      "meeting_date": "2026-08-17",
+      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_08172026-843",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -601,8 +644,8 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "",
-      "agenda_url": "",
+      "meeting_date": "2026-08-14",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_08142026-2252",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -801,8 +844,8 @@
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "City Council",
-      "meeting_date": "2026-08-06",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_08062026-1809",
+      "meeting_date": "2026-08-12",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_08122026-1811",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -975,7 +1018,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Collin",
