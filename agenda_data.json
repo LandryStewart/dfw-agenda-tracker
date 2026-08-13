@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-08-12T12:18:29.240048Z",
+    "last_updated": "2026-08-13T12:14:50.681060Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-05-14",
-    "total_agenda_items": 32,
-    "total_sfr_items": 14,
+    "cutoff_date": "2026-05-15",
+    "total_agenda_items": 34,
+    "total_sfr_items": 12,
     "total_attachments": 0
   },
   "summaries": [
@@ -145,11 +145,32 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
-      "meeting_date": "2026-08-13",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_08132026-2299",
-      "items": [],
+      "meeting_date": "2026-08-18",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_08182026-2303",
+      "items": [
+        {
+          "text": "Section 551.071: Consultation with city attorney. a. Seek advice of the city attorney regarding legal issues related to b. Seek advice of the city attorney regarding commercial and industrial land use planning and regulations.",
+          "attachments": []
+        },
+        {
+          "text": "E. Approve ZA26-0050, Preliminary Plat for Jane’s Place on property described as Tract 1, Jane’s Creek Addition, and Tracts 3, 3C, 3D, and 3C02, J. Childress [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "A. Ordinance No. 480-843, ZA26-0014, 2nd Reading, Zoning Change and",
+          "attachments": []
+        },
+        {
+          "text": "A. Ordinance No. 480-208b, ZA26-0041, 1st Reading, Zoning Change and Site",
+          "attachments": []
+        },
+        {
+          "text": "B. Ordinance No. 480-837a, ZA26-0043, 1st Reading, Zoning Change and Site",
+          "attachments": []
+        }
+      ],
       "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "status": "success"
     },
     {
       "county": "Tarrant",
@@ -203,7 +224,7 @@
           "attachments": []
         },
         {
-          "text": "PUD which should be guided by the comprehensive plan. [PASSED]",
+          "text": "PUD which should be guided by the comprehensive plan.",
           "attachments": []
         }
       ],
@@ -214,8 +235,8 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "City Council",
-      "meeting_date": "2026-08-11",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_08112026-1607",
+      "meeting_date": "2026-08-13",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_08132026-1608",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -479,8 +500,8 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-08-06",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_08062026-640",
+      "meeting_date": "2026-08-10",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_08102026-642",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1055,48 +1076,20 @@
       "city": "Princeton",
       "board": "Planning & Zoning",
       "meeting_date": "2026-08-06",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_08062026-1733",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_08062026-1732",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (114 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (127 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-08-10",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_08102026-1734",
-      "items": [
-        {
-          "text": "Draft Comprehensive Plan; and take appropriate action.",
-          "attachments": []
-        },
-        {
-          "text": "CC Memo - Comprehensive Plan - 08.10.2026.pdf",
-          "attachments": []
-        },
-        {
-          "text": "Exhibit A - Draft Comprehensive Plan.pdf",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "CC Memo - Comprehensive Plan - 08.10.2026.pdf",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "Exhibit A - Draft Comprehensive Plan.pdf",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-08-18",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_08182026-1737",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Collin",
@@ -1741,7 +1734,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Ellis",
@@ -1905,8 +1898,8 @@
       "county": "Kaufman",
       "city": "Forney",
       "board": "City Council",
-      "meeting_date": "2026-08-13",
-      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_08132026-1301",
+      "meeting_date": "2026-08-17",
+      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_08172026-1302",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
