@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-08-13T12:14:50.681060Z",
+    "last_updated": "2026-08-14T12:10:21.107951Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-05-15",
-    "total_agenda_items": 34,
-    "total_sfr_items": 12,
+    "cutoff_date": "2026-05-16",
+    "total_agenda_items": 29,
+    "total_sfr_items": 11,
     "total_attachments": 0
   },
   "summaries": [
@@ -855,18 +855,18 @@
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-15",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_07152026-1804",
+      "meeting_date": "2026-07-23",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_07232026-1808",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (34 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (50 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "City Council",
       "meeting_date": "2026-08-12",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_08122026-1811",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_08122026-1812",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1085,8 +1085,8 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-08-18",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_08182026-1737",
+      "meeting_date": "2026-08-19",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_08192026-1728",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1422,11 +1422,24 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "City Council",
-      "meeting_date": "2026-08-12",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_08122026-1316",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-08-17",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_08172026-1318",
+      "items": [
+        {
+          "text": "Hold a public hearing on Ordinance 2026-29 to adopt and enact a moratorium on all development applications (i.e. plats, construction plans, building permits etc.) for commercial and residential developments in an area generally bounded by the eastern right-of-way line of I-35W to the east, a line approximately 2,900 feet north of FM 407, the western right-of-way line of US Hwy 377 to the west, and a line approximately 5,300 feet south of FM 407. The area includes properties on both the north and south sides of FM 407 between I-35W and US Hwy 377 and includes all land indicated as commercial and residential designation on the Town of Argyle Future Land Use Plan dated June 2024 and zoned as commercial or residential on the latest Zoning Map; providing findings of fact; providing exemptions; providing a waiver procedure; providing for a termination date; providing for severability, and providing an effective date.",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Hold a public hearing on Ordinance 2026-29 to adopt and enact a moratorium on all development applications (i.e. plats, construction plans, building permits etc.) for commercial and residential developments in an area generally bounded by the eastern right-of-way line of I-35W to the east, a line approximately 2,900 feet north of FM 407, the western right-of-way line of US Hwy 377 to the west, and a line approximately 5,300 feet south of FM 407. The area includes properties on both the north and south sides of FM 407 between I-35W and US Hwy 377 and includes all land indicated as commercial and residential designation on the Town of Argyle Future Land Use Plan dated June 2024 and zoned as commercial or residential on the latest Zoning Map; providing findings of fact; providing exemptions; providing a waiver procedure; providing for a termination date; providing for severability, and providing an effective date.",
+          "attachments": [],
+          "keywords": [
+            "residential"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Denton",
@@ -1620,8 +1633,8 @@
       "county": "Denton",
       "city": "Oak Point",
       "board": "City Council",
-      "meeting_date": "2026-08-06",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_08062026-614",
+      "meeting_date": "2026-08-19",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_08192026-617",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1734,7 +1747,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Ellis",
@@ -1988,56 +2001,18 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-10",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_08102026-2213",
-      "items": [
-        {
-          "text": "Planning and Zoning cases.",
-          "attachments": []
-        },
-        {
-          "text": "Future Land Use Plan: The Future Land Use Plan designates the subject property as Neighborhood",
-          "attachments": []
-        },
-        {
-          "text": "Although the Future Land Use Plan does not specifically address manufactured homes, the existing SF-7",
-          "attachments": []
-        },
-        {
-          "text": "As manufactured homes may be approved within the SF-7 District through the SUP process, this request is considered to be generally consistent with the Future Land Use Plan. [APPROVED]",
-          "attachments": []
-        },
-        {
-          "text": "Cleburne, TX 76033 Future Land Use Map",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Although the Future Land Use Plan does not specifically address manufactured homes, the existing SF-7",
-          "attachments": [],
-          "keywords": [
-            "SF-",
-            "home"
-          ]
-        },
-        {
-          "text": "As manufactured homes may be approved within the SF-7 District through the SUP process, this request is considered to be generally consistent with the Future Land Use Plan. [APPROVED]",
-          "attachments": [],
-          "keywords": [
-            "SF-",
-            "home"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-08-11",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_08112026-2214",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (35 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Johnson",
       "city": "Cleburne",
       "board": "City Council",
-      "meeting_date": "2026-07-21",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_07212026-2210",
+      "meeting_date": "2026-08-11",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_08112026-2214",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2166,23 +2141,18 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-10",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_08102026-1559",
-      "items": [
-        {
-          "text": " The final plat of Vista Park, Phase I-A was filed and recorded with the County as document number 202504023 on March 31, 2025.",
-          "attachments": []
-        }
-      ],
+      "meeting_date": "2026-08-17",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_08172026-1560",
+      "items": [],
       "sfr_items": [],
-      "status": "success"
+      "status": "PDF parsed (102 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Wise",
       "city": "Decatur",
       "board": "City Council",
-      "meeting_date": "2026-08-10",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_08102026-1559",
+      "meeting_date": "2026-08-17",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_08172026-1560",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
