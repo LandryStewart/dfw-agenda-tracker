@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-08-14T12:10:21.107951Z",
+    "last_updated": "2026-08-15T11:45:16.434820Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-05-16",
+    "cutoff_date": "2026-05-17",
     "total_agenda_items": 29,
     "total_sfr_items": 11,
     "total_attachments": 0
@@ -235,8 +235,8 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "City Council",
-      "meeting_date": "2026-08-13",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_08132026-1608",
+      "meeting_date": "2026-08-17",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_08172026-1609",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -429,7 +429,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -865,8 +865,8 @@
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "City Council",
-      "meeting_date": "2026-08-12",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_08122026-1812",
+      "meeting_date": "2026-08-17",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_08172026-1813",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1901,18 +1901,18 @@
       "county": "Kaufman",
       "city": "Forney",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-13",
-      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_08132026-1301",
+      "meeting_date": "2026-08-17",
+      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_08172026-1302",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (47 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (21 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Kaufman",
       "city": "Forney",
       "board": "City Council",
-      "meeting_date": "2026-08-17",
-      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_08172026-1302",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2141,18 +2141,18 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-17",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_08172026-1560",
+      "meeting_date": "2026-08-19",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_08192026-1562",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (102 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (44 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Wise",
       "city": "Decatur",
       "board": "City Council",
-      "meeting_date": "2026-08-17",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_08172026-1560",
+      "meeting_date": "2026-08-19",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_08192026-1562",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
