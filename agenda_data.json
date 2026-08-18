@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "last_updated": "2026-08-17T11:51:07.337526Z",
+    "last_updated": "2026-08-18T11:52:16.675168Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-05-19",
-    "total_agenda_items": 29,
+    "cutoff_date": "2026-05-20",
+    "total_agenda_items": 28,
     "total_sfr_items": 11,
     "total_attachments": 0
   },
@@ -429,7 +429,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Tarrant",
@@ -500,8 +500,8 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-08-10",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_08102026-642",
+      "meeting_date": "2026-08-17",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_08172026-643",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -594,7 +594,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Dallas",
@@ -650,16 +650,11 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-10",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_08102026-2249",
-      "items": [
-        {
-          "text": "0458 submitted by Juan Pablo Ambris, D&D Fragrances and Essential Oils, LLC, for a zoning change from Industrial within the Skyline Logistics Hub to Industrial within the Skyline Logistics Hub with a Conditional Use Permit to allow a Fragrance Manufacture located at 222 S. Town East Blvd.",
-          "attachments": []
-        }
-      ],
+      "meeting_date": "2026-08-14",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_08142026-2252",
+      "items": [],
       "sfr_items": [],
-      "status": "success"
+      "status": "PDF parsed (20 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
@@ -1219,7 +1214,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Collin",
@@ -1803,18 +1798,18 @@
       "county": "Rockwall",
       "city": "Fate",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-07",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_08072026-1486",
+      "meeting_date": "2026-09-19",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_09192026-1505",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (25 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (30 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Rockwall",
       "city": "Fate",
       "board": "City Council",
-      "meeting_date": "2026-08-07",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_08072026-1486",
+      "meeting_date": "2026-09-19",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_09192026-1505",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1925,7 +1920,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Kaufman",
