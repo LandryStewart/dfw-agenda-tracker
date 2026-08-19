@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-08-18T11:52:16.675168Z",
+    "last_updated": "2026-08-19T11:52:56.109124Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-05-20",
-    "total_agenda_items": 28,
-    "total_sfr_items": 11,
+    "cutoff_date": "2026-05-21",
+    "total_agenda_items": 20,
+    "total_sfr_items": 9,
     "total_attachments": 0
   },
   "summaries": [
@@ -92,85 +92,21 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-20",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_08202026-2301",
-      "items": [
-        {
-          "text": "Withdraw: CP26-0004, Amendment to the City of Southlake Consolidated Future Land Use",
-          "attachments": []
-        },
-        {
-          "text": "Plan, an element of the Southlake Comprehensive Plan, for 360 Development, on property described as Lot 5A, Drake Estates Addition and located at 360 Randol Mill Avenue, Southlake,",
-          "attachments": []
-        },
-        {
-          "text": "Withdraw: ZA25-0072, Zoning Change and Site Plan for 360 Development, on property described as Lot 5A, Drake Estates Addition and located at 360 Randol Mill Avenue, Southlake,",
-          "attachments": []
-        },
-        {
-          "text": "Consider: ZA26-0044, Zoning Change and Site Plan for Mulino Ristorante, on property described as Lot 4, T. Thompson Addition No. 1502 and located at 1125 Davis Boulevard. Current",
-          "attachments": []
-        },
-        {
-          "text": "Consider: ZA26-0054, Zoning Change and Concept Plan for 4060 N. White Chapel Boulevard on property described as Tract 16, R.D. Price Survey Abstract No. 992A. Current Zoning: “AG”",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Plan, an element of the Southlake Comprehensive Plan, for 360 Development, on property described as Lot 5A, Drake Estates Addition and located at 360 Randol Mill Avenue, Southlake,",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        },
-        {
-          "text": "Withdraw: ZA25-0072, Zoning Change and Site Plan for 360 Development, on property described as Lot 5A, Drake Estates Addition and located at 360 Randol Mill Avenue, Southlake,",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        },
-        {
-          "text": "Consider: ZA26-0044, Zoning Change and Site Plan for Mulino Ristorante, on property described as Lot 4, T. Thompson Addition No. 1502 and located at 1125 Davis Boulevard. Current",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-08-25",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_08252026-2306",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (17 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
-      "meeting_date": "2026-08-18",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_08182026-2303",
-      "items": [
-        {
-          "text": "Section 551.071: Consultation with city attorney. a. Seek advice of the city attorney regarding legal issues related to b. Seek advice of the city attorney regarding commercial and industrial land use planning and regulations.",
-          "attachments": []
-        },
-        {
-          "text": "E. Approve ZA26-0050, Preliminary Plat for Jane’s Place on property described as Tract 1, Jane’s Creek Addition, and Tracts 3, 3C, 3D, and 3C02, J. Childress [APPROVED]",
-          "attachments": []
-        },
-        {
-          "text": "A. Ordinance No. 480-843, ZA26-0014, 2nd Reading, Zoning Change and",
-          "attachments": []
-        },
-        {
-          "text": "A. Ordinance No. 480-208b, ZA26-0041, 1st Reading, Zoning Change and Site",
-          "attachments": []
-        },
-        {
-          "text": "B. Ordinance No. 480-837a, ZA26-0043, 1st Reading, Zoning Change and Site",
-          "attachments": []
-        }
-      ],
+      "meeting_date": "2026-08-25",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_08252026-2306",
+      "items": [],
       "sfr_items": [],
-      "status": "success"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
@@ -429,7 +365,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -485,23 +421,18 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-14",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_07142026-626",
-      "items": [
-        {
-          "text": "Consider action on the application of David Salgado for a zone change from “D” Duplex",
-          "attachments": []
-        }
-      ],
+      "meeting_date": "2026-08-11",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_08112026-641",
+      "items": [],
       "sfr_items": [],
-      "status": "success"
+      "status": "PDF parsed (29 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-08-17",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_08172026-643",
+      "meeting_date": "2026-08-20",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_08202026-645",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -594,7 +525,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Dallas",
@@ -1081,7 +1012,7 @@
       "city": "Princeton",
       "board": "City Council",
       "meeting_date": "2026-08-19",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_08192026-1728",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_08192026-1740",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1214,7 +1145,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Collin",
@@ -1799,17 +1730,17 @@
       "city": "Fate",
       "board": "Planning & Zoning",
       "meeting_date": "2026-09-19",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_09192026-1505",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_09192026-1506",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (30 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (27 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Rockwall",
       "city": "Fate",
       "board": "City Council",
       "meeting_date": "2026-09-19",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_09192026-1505",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_09192026-1506",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2146,11 +2077,33 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "City Council",
-      "meeting_date": "2026-08-19",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_08192026-1562",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-08-24",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_08242026-1565",
+      "items": [
+        {
+          "text": "CP-26-0002 – Public Hearing and discussion regarding the first reading the first reading of an ordinance to amend the City of Decatur’s Comprehensive Plan and Future Land Use Map from",
+          "attachments": []
+        },
+        {
+          "text": "ZC-26-0003 – Public Hearing and discussion regarding the first reading the first reading of an ordinance to change the zoning from Extraterritorial Jurisdiction (ETJ) to Thoroughfare Business",
+          "attachments": []
+        },
+        {
+          "text": "A. PP-26-0002 – Take appropriate action to approve a Preliminary Plat application for an approximately 2.76-acre tract of land, Quick Al’s Addition, Lot 1, Block 1, in the City of",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "A. PP-26-0002 – Take appropriate action to approve a Preliminary Plat application for an approximately 2.76-acre tract of land, Quick Al’s Addition, Lot 1, Block 1, in the City of",
+          "attachments": [],
+          "keywords": [
+            "lot",
+            "acre"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Wise",
