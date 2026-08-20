@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-08-19T11:52:56.109124Z",
+    "last_updated": "2026-08-20T11:56:00.484297Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-05-21",
-    "total_agenda_items": 20,
-    "total_sfr_items": 9,
+    "cutoff_date": "2026-05-22",
+    "total_agenda_items": 24,
+    "total_sfr_items": 13,
     "total_attachments": 0
   },
   "summaries": [
@@ -171,8 +171,8 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "City Council",
-      "meeting_date": "2026-08-17",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_08172026-1609",
+      "meeting_date": "2026-08-19",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_08192026-1611",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -365,7 +365,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Tarrant",
@@ -581,18 +581,18 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-14",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_08142026-2252",
+      "meeting_date": "2026-08-26",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_08262026-2257",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (20 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (42 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-08-14",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_08142026-2252",
+      "meeting_date": "2026-08-20",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_08202026-2254",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1761,7 +1761,7 @@
           "attachments": []
         },
         {
-          "text": "Consider and act on a Final Plat of the CVS Royse City Addition, Block 1 - Lot 3R, consisting of +/- 1.7 acres, situated in the existing CVS Royse City Addition, Lot 3, [PASSED]",
+          "text": "Consider and act on a Final Plat of the CVS Royse City Addition, Block 1 - Lot 3R, consisting of +/- 1.7 acres, situated in the existing CVS Royse City Addition, Lot 3,",
           "attachments": []
         },
         {
@@ -1789,7 +1789,7 @@
           ]
         },
         {
-          "text": "Consider and act on a Final Plat of the CVS Royse City Addition, Block 1 - Lot 3R, consisting of +/- 1.7 acres, situated in the existing CVS Royse City Addition, Lot 3, [PASSED]",
+          "text": "Consider and act on a Final Plat of the CVS Royse City Addition, Block 1 - Lot 3R, consisting of +/- 1.7 acres, situated in the existing CVS Royse City Addition, Lot 3,",
           "attachments": [],
           "keywords": [
             "lot",
@@ -1817,11 +1817,58 @@
       "county": "Rockwall",
       "city": "Royse City",
       "board": "City Council",
-      "meeting_date": "2026-08-11",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_08112026-638",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-08-25",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_08252026-641",
+      "items": [
+        {
+          "text": "Approve a final plat of the CVS Royse City Addition, Block 1 - Lot 3R, consisting of +/- 1.7 acres, situated in the existing CVS Royse City Addition, Lot 3, City of",
+          "attachments": []
+        },
+        {
+          "text": "Approve a preliminary plat of Bearpen Phase 4, consisting of +/- 82.3 acres, situated in the James Road Survey - Tract 19, Abstract No. 872 and Palmetto Grove Phase 1,",
+          "attachments": []
+        },
+        {
+          "text": "Approve a preliminary plat of Bearpen Phase 5, consisting of +/- 86.7 acres, situated in the James Road Survey - Tract 19, Abstract No. 872 and Palmetto Grove Phase 1,",
+          "attachments": []
+        },
+        {
+          "text": "Adopt an ordinance approving a zoning change from A to PD, generally located on the south-west corner of State Highway 66 and north Erby Campbell Boulevard, directly south of the D.G.N Railroad; situated in the E. Gossett Tract, Abstract No.",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Approve a final plat of the CVS Royse City Addition, Block 1 - Lot 3R, consisting of +/- 1.7 acres, situated in the existing CVS Royse City Addition, Lot 3, City of",
+          "attachments": [],
+          "keywords": [
+            "lot",
+            "acre"
+          ]
+        },
+        {
+          "text": "Approve a preliminary plat of Bearpen Phase 4, consisting of +/- 82.3 acres, situated in the James Road Survey - Tract 19, Abstract No. 872 and Palmetto Grove Phase 1,",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Approve a preliminary plat of Bearpen Phase 5, consisting of +/- 86.7 acres, situated in the James Road Survey - Tract 19, Abstract No. 872 and Palmetto Grove Phase 1,",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Adopt an ordinance approving a zoning change from A to PD, generally located on the south-west corner of State Highway 66 and north Erby Campbell Boulevard, directly south of the D.G.N Railroad; situated in the E. Gossett Tract, Abstract No.",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Kaufman",
