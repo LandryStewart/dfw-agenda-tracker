@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-08-20T11:56:00.484297Z",
+    "last_updated": "2026-08-21T11:52:58.304259Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-05-22",
-    "total_agenda_items": 24,
-    "total_sfr_items": 13,
+    "cutoff_date": "2026-05-23",
+    "total_agenda_items": 25,
+    "total_sfr_items": 14,
     "total_attachments": 0
   },
   "summaries": [
@@ -171,11 +171,24 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "City Council",
-      "meeting_date": "2026-08-19",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_08192026-1611",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-08-25",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_08252026-1612",
+      "items": [
+        {
+          "text": "Meadow Park property is currently zoned for the least dense residential and that any development outside of that zoning designation would require the full rezoning process. She further confirmed that the City’s Master Plan does not identify the Meadow Park property for data centers. Ms. Roy stated the City currently does not have location or a district that would support a data center, which would generally be geared towards the Industrial District, which is extremely limited in",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Meadow Park property is currently zoned for the least dense residential and that any development outside of that zoning designation would require the full rezoning process. She further confirmed that the City’s Master Plan does not identify the Meadow Park property for data centers. Ms. Roy stated the City currently does not have location or a district that would support a data center, which would generally be geared towards the Industrial District, which is extremely limited in",
+          "attachments": [],
+          "keywords": [
+            "residential"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Tarrant",
@@ -591,8 +604,8 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-08-20",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_08202026-2254",
+      "meeting_date": "2026-08-26",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_08262026-2257",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
