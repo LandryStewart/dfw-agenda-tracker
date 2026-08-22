@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-08-21T11:52:58.304259Z",
+    "last_updated": "2026-08-22T11:48:55.621340Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-05-23",
-    "total_agenda_items": 25,
-    "total_sfr_items": 14,
+    "cutoff_date": "2026-05-24",
+    "total_agenda_items": 34,
+    "total_sfr_items": 17,
     "total_attachments": 0
   },
   "summaries": [
@@ -378,7 +378,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -595,17 +595,17 @@
       "city": "Mesquite",
       "board": "Planning & Zoning",
       "meeting_date": "2026-08-26",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_08262026-2257",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_08262026-2256",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (42 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (41 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
       "meeting_date": "2026-08-26",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_08262026-2257",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_08262026-2256",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -794,18 +794,18 @@
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-23",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_07232026-1808",
+      "meeting_date": "2026-08-19",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_08192026-1814",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (50 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (48 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "City Council",
-      "meeting_date": "2026-08-17",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_08172026-1813",
+      "meeting_date": "2026-08-27",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_08272026-1817",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2127,18 +2127,8 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-19",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_08192026-1562",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (44 lines) but no rezone/plat/comp plan items"
-    },
-    {
-      "county": "Wise",
-      "city": "Decatur",
-      "board": "City Council",
       "meeting_date": "2026-08-24",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_08242026-1565",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_08242026-1566",
       "items": [
         {
           "text": "CP-26-0002 – Public Hearing and discussion regarding the first reading the first reading of an ordinance to amend the City of Decatur’s Comprehensive Plan and Future Land Use Map from",
@@ -2151,6 +2141,42 @@
         {
           "text": "A. PP-26-0002 – Take appropriate action to approve a Preliminary Plat application for an approximately 2.76-acre tract of land, Quick Al’s Addition, Lot 1, Block 1, in the City of",
           "attachments": []
+        },
+        {
+          "text": "Finding #2. A voluntary annexation petition, a comprehensive plan amendment application, and a zoning change application have been submitted for consideration by the City Council of the City of Decatur. The property includes approximately 3.93 acres of land to be annexed, adjacent to the corporate limits of the City of Decatur, Texas, in Decatur’s central ETJ.",
+          "attachments": []
+        },
+        {
+          "text": "CP-26-0002 – Public Hearing and discussion regarding the first reading of an ordinance to amend the City of Decatur’s Comprehensive Plan and Future Land Use Map from",
+          "attachments": []
+        },
+        {
+          "text": "Request by JWM Dealership Property, LLC, property owner (Application CP-26-0002), to amend the City of Decatur’s Comprehensive Plan and Future Land Use Map for the 3.93- acre tract of land from the ETJ into the City limits of the City of Decatur.",
+          "attachments": []
+        },
+        {
+          "text": "Conclusion #1: The request is to amend the City’s Future Land Use Map to show its Future",
+          "attachments": []
+        },
+        {
+          "text": "City’s Comprehensive Plan to the proposed properties as described in the",
+          "attachments": []
+        },
+        {
+          "text": "Conclusion #2: The Comprehensive Plan Amendment request is consistent with the City of",
+          "attachments": []
+        },
+        {
+          "text": "Decatur 2050 Comprehensive Plan. a. Specifically, Guiding Principles, Economic/Fiscal Strategy i. Encourage non-residential development that diversifies the",
+          "attachments": []
+        },
+        {
+          "text": "Conclusion #3: Based upon similar land use classifications of Activity Center (AC) and for the properties to the west of this parcel, this Comprehensive Plan Future",
+          "attachments": []
+        },
+        {
+          "text": "Conclusion #4: The property is contiguous to the boundaries of the City of Decatur, and the annexation does not create an enclave. The Comprehensive Plan Future",
+          "attachments": []
         }
       ],
       "sfr_items": [
@@ -2161,9 +2187,40 @@
             "lot",
             "acre"
           ]
+        },
+        {
+          "text": "Finding #2. A voluntary annexation petition, a comprehensive plan amendment application, and a zoning change application have been submitted for consideration by the City Council of the City of Decatur. The property includes approximately 3.93 acres of land to be annexed, adjacent to the corporate limits of the City of Decatur, Texas, in Decatur’s central ETJ.",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Request by JWM Dealership Property, LLC, property owner (Application CP-26-0002), to amend the City of Decatur’s Comprehensive Plan and Future Land Use Map for the 3.93- acre tract of land from the ETJ into the City limits of the City of Decatur.",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Decatur 2050 Comprehensive Plan. a. Specifically, Guiding Principles, Economic/Fiscal Strategy i. Encourage non-residential development that diversifies the",
+          "attachments": [],
+          "keywords": [
+            "residential"
+          ]
         }
       ],
       "status": "success"
+    },
+    {
+      "county": "Wise",
+      "city": "Decatur",
+      "board": "City Council",
+      "meeting_date": "2026-08-24",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_08242026-1565",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Wise",
