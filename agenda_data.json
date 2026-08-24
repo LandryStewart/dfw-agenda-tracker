@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-08-23T11:46:54.189371Z",
+    "last_updated": "2026-08-24T11:55:48.966575Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-05-25",
+    "cutoff_date": "2026-05-26",
     "total_agenda_items": 34,
     "total_sfr_items": 17,
     "total_attachments": 0
@@ -378,7 +378,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Tarrant",
