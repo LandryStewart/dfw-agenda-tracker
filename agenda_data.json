@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-08-25T11:52:49.308286Z",
+    "last_updated": "2026-08-26T11:54:29.056538Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-05-27",
-    "total_agenda_items": 34,
-    "total_sfr_items": 17,
+    "cutoff_date": "2026-05-28",
+    "total_agenda_items": 26,
+    "total_sfr_items": 15,
     "total_attachments": 0
   },
   "summaries": [
@@ -92,18 +92,18 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-25",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_08252026-2306",
+      "meeting_date": "2026-09-01",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09012026-2309",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (17 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (24 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
-      "meeting_date": "2026-08-25",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_08252026-2306",
+      "meeting_date": "2026-08-27",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_08272026-2308",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -444,8 +444,8 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-08-20",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_08202026-645",
+      "meeting_date": "2026-08-25",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_08252026-649",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -595,17 +595,17 @@
       "city": "Mesquite",
       "board": "Planning & Zoning",
       "meeting_date": "2026-08-27",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_08272026-2261",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_08272026-2260",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (342 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (57 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
       "meeting_date": "2026-08-27",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_08272026-2261",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_08272026-2260",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1987,18 +1987,18 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-11",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_08112026-2214",
+      "meeting_date": "2026-08-13",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_08132026-2215",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (35 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (29 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Johnson",
       "city": "Cleburne",
       "board": "City Council",
-      "meeting_date": "2026-08-11",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_08112026-2214",
+      "meeting_date": "2026-08-13",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_08132026-2215",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2127,8 +2127,32 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "Planning & Zoning",
+      "meeting_date": "2026-09-01",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_09012026-1567",
+      "items": [
+        {
+          "text": "B. FP-26-0003 – Recommend that the City Council approve a request to Final Plat approximately 4.046 acres of land, Lots 1 and 3, Block 1, Decatur Office Village, being a replat of Lot 1R, Block 1, South Decatur Business Park, CAB. D, Slide 509, O.P.R.W.C.T.,",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "B. FP-26-0003 – Recommend that the City Council approve a request to Final Plat approximately 4.046 acres of land, Lots 1 and 3, Block 1, Decatur Office Village, being a replat of Lot 1R, Block 1, South Decatur Business Park, CAB. D, Slide 509, O.P.R.W.C.T.,",
+          "attachments": [],
+          "keywords": [
+            "lot",
+            "acre"
+          ]
+        }
+      ],
+      "status": "success"
+    },
+    {
+      "county": "Wise",
+      "city": "Decatur",
+      "board": "City Council",
       "meeting_date": "2026-08-24",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_08242026-1566",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_08242026-1565",
       "items": [
         {
           "text": "CP-26-0002 – Public Hearing and discussion regarding the first reading the first reading of an ordinance to amend the City of Decatur’s Comprehensive Plan and Future Land Use Map from",
@@ -2141,42 +2165,6 @@
         {
           "text": "A. PP-26-0002 – Take appropriate action to approve a Preliminary Plat application for an approximately 2.76-acre tract of land, Quick Al’s Addition, Lot 1, Block 1, in the City of",
           "attachments": []
-        },
-        {
-          "text": "Finding #2. A voluntary annexation petition, a comprehensive plan amendment application, and a zoning change application have been submitted for consideration by the City Council of the City of Decatur. The property includes approximately 3.93 acres of land to be annexed, adjacent to the corporate limits of the City of Decatur, Texas, in Decatur’s central ETJ.",
-          "attachments": []
-        },
-        {
-          "text": "CP-26-0002 – Public Hearing and discussion regarding the first reading of an ordinance to amend the City of Decatur’s Comprehensive Plan and Future Land Use Map from",
-          "attachments": []
-        },
-        {
-          "text": "Request by JWM Dealership Property, LLC, property owner (Application CP-26-0002), to amend the City of Decatur’s Comprehensive Plan and Future Land Use Map for the 3.93- acre tract of land from the ETJ into the City limits of the City of Decatur.",
-          "attachments": []
-        },
-        {
-          "text": "Conclusion #1: The request is to amend the City’s Future Land Use Map to show its Future",
-          "attachments": []
-        },
-        {
-          "text": "City’s Comprehensive Plan to the proposed properties as described in the",
-          "attachments": []
-        },
-        {
-          "text": "Conclusion #2: The Comprehensive Plan Amendment request is consistent with the City of",
-          "attachments": []
-        },
-        {
-          "text": "Decatur 2050 Comprehensive Plan. a. Specifically, Guiding Principles, Economic/Fiscal Strategy i. Encourage non-residential development that diversifies the",
-          "attachments": []
-        },
-        {
-          "text": "Conclusion #3: Based upon similar land use classifications of Activity Center (AC) and for the properties to the west of this parcel, this Comprehensive Plan Future",
-          "attachments": []
-        },
-        {
-          "text": "Conclusion #4: The property is contiguous to the boundaries of the City of Decatur, and the annexation does not create an enclave. The Comprehensive Plan Future",
-          "attachments": []
         }
       ],
       "sfr_items": [
@@ -2187,40 +2175,9 @@
             "lot",
             "acre"
           ]
-        },
-        {
-          "text": "Finding #2. A voluntary annexation petition, a comprehensive plan amendment application, and a zoning change application have been submitted for consideration by the City Council of the City of Decatur. The property includes approximately 3.93 acres of land to be annexed, adjacent to the corporate limits of the City of Decatur, Texas, in Decatur’s central ETJ.",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "Request by JWM Dealership Property, LLC, property owner (Application CP-26-0002), to amend the City of Decatur’s Comprehensive Plan and Future Land Use Map for the 3.93- acre tract of land from the ETJ into the City limits of the City of Decatur.",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "Decatur 2050 Comprehensive Plan. a. Specifically, Guiding Principles, Economic/Fiscal Strategy i. Encourage non-residential development that diversifies the",
-          "attachments": [],
-          "keywords": [
-            "residential"
-          ]
         }
       ],
       "status": "success"
-    },
-    {
-      "county": "Wise",
-      "city": "Decatur",
-      "board": "City Council",
-      "meeting_date": "2026-08-24",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_08242026-1565",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Wise",
