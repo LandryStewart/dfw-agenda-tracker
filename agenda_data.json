@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-08-27T21:26:13.327161Z",
+    "last_updated": "2026-08-28T21:57:37.155523Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-05-29",
+    "cutoff_date": "2026-05-30",
     "total_agenda_items": 47,
     "total_sfr_items": 21,
     "total_attachments": 0
@@ -403,7 +403,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -863,7 +863,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Dallas",
@@ -2021,11 +2021,11 @@
       "county": "Kaufman",
       "city": "Forney",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-17",
-      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_08172026-1302",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (21 lines) but no rezone/plat/comp plan items"
+      "status": "PDFs found but could not extract text"
     },
     {
       "county": "Kaufman",
