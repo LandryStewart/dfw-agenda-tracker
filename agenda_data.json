@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-08-31T18:20:02.504736Z",
+    "last_updated": "2026-09-01T16:06:07.122184Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-06-02",
-    "total_agenda_items": 43,
-    "total_sfr_items": 21,
+    "cutoff_date": "2026-06-03",
+    "total_agenda_items": 52,
+    "total_sfr_items": 23,
     "total_attachments": 0
   },
   "summaries": [
@@ -92,6 +92,16 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "Planning & Zoning",
+      "meeting_date": "2026-09-03",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09032026-2311",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (42 lines) but no rezone/plat/comp plan items"
+    },
+    {
+      "county": "Tarrant",
+      "city": "Southlake",
+      "board": "City Council",
       "meeting_date": "2026-09-01",
       "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09012026-2312",
       "items": [
@@ -122,16 +132,6 @@
       ],
       "sfr_items": [],
       "status": "success"
-    },
-    {
-      "county": "Tarrant",
-      "city": "Southlake",
-      "board": "City Council",
-      "meeting_date": "2026-09-01",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09012026-2312",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
@@ -403,7 +403,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -1359,21 +1359,73 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-12",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_08122026-1315",
+      "meeting_date": "2026-09-02",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_09022026-1321",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (45 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (60 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Denton",
       "city": "Argyle",
       "board": "City Council",
-      "meeting_date": "2026-08-31",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_08312026-1319",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-09-03",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_09032026-1324",
+      "items": [
+        {
+          "text": "Consistence with Comprehensive Plan:",
+          "attachments": []
+        },
+        {
+          "text": "The Town of Argyle Thoroughfare Plan provides a framework for the implementation of roadway projects that will accommodate the needs of the community. The Thoroughfare Plan is designed to align with the Comprehensive Plan to ensure a cohesive approach to development and transportation, ensuring that the roadway system supports the overall goals of Argyle.",
+          "attachments": []
+        },
+        {
+          "text": "COMPREHENSIVE PLAN OF THE TOWN OF ARGYLE, TEXAS, TO",
+          "attachments": []
+        },
+        {
+          "text": "Government Code, to adopt a comprehensive plan for the long-range development of the",
+          "attachments": []
+        },
+        {
+          "text": "WHEREAS, the Town Council adopted the Comprehensive Plan for the Town of [PASSED 5-0]",
+          "attachments": []
+        },
+        {
+          "text": "Comprehensive Plan\"); and",
+          "attachments": []
+        },
+        {
+          "text": "WHEREAS, the Town of Argyle initiated a comprehensive plan amendment to amend the Comprehensive Plan to change the Thoroughfare Plan, more specifically described in Exhibit A; and",
+          "attachments": []
+        },
+        {
+          "text": "WHEREAS, after all persons were given an opportunity to present testimony, and the Commission completed its review, the Commission determined the requested changes to be consistent with the goals of the Comprehensive Plan for orderly development within the Town and voted to recommend approval of the revisions to the",
+          "attachments": []
+        },
+        {
+          "text": "SECTION 2. The Comprehensive Plan is hereby amended to incorporate revisions to the Thoroughfare Plan as detailed below:",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "The Town of Argyle Thoroughfare Plan provides a framework for the implementation of roadway projects that will accommodate the needs of the community. The Thoroughfare Plan is designed to align with the Comprehensive Plan to ensure a cohesive approach to development and transportation, ensuring that the roadway system supports the overall goals of Argyle.",
+          "attachments": [],
+          "keywords": [
+            "unit"
+          ]
+        },
+        {
+          "text": "WHEREAS, after all persons were given an opportunity to present testimony, and the Commission completed its review, the Commission determined the requested changes to be consistent with the goals of the Comprehensive Plan for orderly development within the Town and voted to recommend approval of the revisions to the",
+          "attachments": [],
+          "keywords": [
+            "unit"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Denton",
@@ -1778,7 +1830,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Ellis",
@@ -1798,7 +1850,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Ellis",
