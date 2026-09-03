@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-09-02T15:38:20.734114Z",
+    "last_updated": "2026-09-03T15:24:34.149428Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-06-04",
-    "total_agenda_items": 52,
-    "total_sfr_items": 22,
+    "cutoff_date": "2026-06-05",
+    "total_agenda_items": 44,
+    "total_sfr_items": 21,
     "total_attachments": 0
   },
   "summaries": [
@@ -833,18 +833,18 @@
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-19",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_08192026-1814",
+      "meeting_date": "2026-08-12",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_08122026-1811",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (48 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (71 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "City Council",
       "meeting_date": "2026-08-27",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_08272026-1817",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_08272026-1816",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1053,11 +1053,36 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-19",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_08192026-1728",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (19 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-09-09",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_09092026-1745",
+      "items": [
+        {
+          "text": "380 Retail LP, Home Depot U.S.A. INC., and Kroger Texas LP, to final plat a property being 66.623 acres of land called Princeton",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit A - Proposed Final Plat Review.pdf",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "380 Retail LP, Home Depot U.S.A. INC., and Kroger Texas LP, to final plat a property being 66.623 acres of land called Princeton",
+          "attachments": [],
+          "keywords": [
+            "home",
+            "acre"
+          ]
+        },
+        {
+          "text": "Exhibit A - Proposed Final Plat Review.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Collin",
@@ -1374,72 +1399,20 @@
       "city": "Argyle",
       "board": "Planning & Zoning",
       "meeting_date": "2026-09-02",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_09022026-1321",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_09022026-1325",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (60 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (887 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Denton",
       "city": "Argyle",
       "board": "City Council",
       "meeting_date": "2026-09-03",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_09032026-1324",
-      "items": [
-        {
-          "text": "Consistence with Comprehensive Plan:",
-          "attachments": []
-        },
-        {
-          "text": "The Town of Argyle Thoroughfare Plan provides a framework for the implementation of roadway projects that will accommodate the needs of the community. The Thoroughfare Plan is designed to align with the Comprehensive Plan to ensure a cohesive approach to development and transportation, ensuring that the roadway system supports the overall goals of Argyle.",
-          "attachments": []
-        },
-        {
-          "text": "COMPREHENSIVE PLAN OF THE TOWN OF ARGYLE, TEXAS, TO",
-          "attachments": []
-        },
-        {
-          "text": "Government Code, to adopt a comprehensive plan for the long-range development of the",
-          "attachments": []
-        },
-        {
-          "text": "WHEREAS, the Town Council adopted the Comprehensive Plan for the Town of [PASSED 5-0]",
-          "attachments": []
-        },
-        {
-          "text": "Comprehensive Plan\"); and",
-          "attachments": []
-        },
-        {
-          "text": "WHEREAS, the Town of Argyle initiated a comprehensive plan amendment to amend the Comprehensive Plan to change the Thoroughfare Plan, more specifically described in Exhibit A; and",
-          "attachments": []
-        },
-        {
-          "text": "WHEREAS, after all persons were given an opportunity to present testimony, and the Commission completed its review, the Commission determined the requested changes to be consistent with the goals of the Comprehensive Plan for orderly development within the Town and voted to recommend approval of the revisions to the",
-          "attachments": []
-        },
-        {
-          "text": "SECTION 2. The Comprehensive Plan is hereby amended to incorporate revisions to the Thoroughfare Plan as detailed below:",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "The Town of Argyle Thoroughfare Plan provides a framework for the implementation of roadway projects that will accommodate the needs of the community. The Thoroughfare Plan is designed to align with the Comprehensive Plan to ensure a cohesive approach to development and transportation, ensuring that the roadway system supports the overall goals of Argyle.",
-          "attachments": [],
-          "keywords": [
-            "unit"
-          ]
-        },
-        {
-          "text": "WHEREAS, after all persons were given an opportunity to present testimony, and the Commission completed its review, the Commission determined the requested changes to be consistent with the goals of the Comprehensive Plan for orderly development within the Town and voted to recommend approval of the revisions to the",
-          "attachments": [],
-          "keywords": [
-            "unit"
-          ]
-        }
-      ],
-      "status": "success"
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_09032026-1322",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Denton",
@@ -2048,40 +2021,27 @@
       "city": "Royse City",
       "board": "City Council",
       "meeting_date": "2026-09-02",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_09022026-644",
-      "items": [
-        {
-          "text": "E. Discussion and update on the Comprehensive Plan/Downtown Plan Round #2. Meeting for Main",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "E. Discussion and update on the Comprehensive Plan/Downtown Plan Round #2. Meeting for Main",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        }
-      ],
-      "status": "success"
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_09022026-643",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Kaufman",
       "city": "Forney",
       "board": "Planning & Zoning",
-      "meeting_date": "",
-      "agenda_url": "",
+      "meeting_date": "2026-09-10",
+      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_09102026-1309",
       "items": [],
       "sfr_items": [],
-      "status": "PDFs found but could not extract text"
+      "status": "PDF parsed (55 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Kaufman",
       "city": "Forney",
       "board": "City Council",
-      "meeting_date": "",
-      "agenda_url": "",
+      "meeting_date": "2026-09-10",
+      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_09102026-1309",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2170,18 +2130,18 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-19",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_08192026-2217",
+      "meeting_date": "2026-09-01",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_09012026-2218",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (297 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (30 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Johnson",
       "city": "Cleburne",
       "board": "City Council",
-      "meeting_date": "2026-08-19",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_08192026-2217",
+      "meeting_date": "2026-09-01",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_09012026-2218",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
