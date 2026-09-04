@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-09-03T15:24:34.149428Z",
+    "last_updated": "2026-09-04T15:30:24.153167Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-06-05",
+    "cutoff_date": "2026-06-06",
     "total_agenda_items": 44,
     "total_sfr_items": 21,
     "total_attachments": 0
@@ -319,11 +319,11 @@
       "county": "Tarrant",
       "city": "Benbrook",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-28",
-      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_07282026-839",
+      "meeting_date": "2026-08-17",
+      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_08172026-843",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (14 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (140 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Tarrant",
@@ -628,11 +628,11 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-02",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_09022026-2263",
+      "meeting_date": "2026-09-10",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_09102026-2269",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (10 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (21 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
@@ -877,7 +877,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Dallas",
@@ -2130,18 +2130,18 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-01",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_09012026-2218",
+      "meeting_date": "2026-09-10",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_09102026-2220",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (30 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (33 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Johnson",
       "city": "Cleburne",
       "board": "City Council",
-      "meeting_date": "2026-09-01",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_09012026-2218",
+      "meeting_date": "2026-09-10",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_09102026-2220",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
