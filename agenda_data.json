@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-09-04T15:30:24.153167Z",
+    "last_updated": "2026-09-05T14:11:35.147720Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-06-06",
+    "cutoff_date": "2026-06-07",
     "total_agenda_items": 44,
     "total_sfr_items": 21,
     "total_attachments": 0
@@ -833,18 +833,18 @@
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-12",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_08122026-1811",
+      "meeting_date": "2026-08-27",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_08272026-1816",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (71 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (44 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "City Council",
-      "meeting_date": "2026-08-27",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_08272026-1816",
+      "meeting_date": "2026-09-09",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_09092026-1819",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
