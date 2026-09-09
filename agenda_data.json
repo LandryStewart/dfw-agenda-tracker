@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-09-08T15:25:22.443582Z",
+    "last_updated": "2026-09-09T15:32:18.177010Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-06-10",
+    "cutoff_date": "2026-06-11",
     "total_agenda_items": 44,
-    "total_sfr_items": 21,
+    "total_sfr_items": 26,
     "total_attachments": 0
   },
   "summaries": [
@@ -92,46 +92,45 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-03",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09032026-2311",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (42 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-09-17",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09172026-2318",
+      "items": [
+        {
+          "text": "Consider: ZA26-0053, Zoning Change and Site Plan for 731 Zena Opp, LLC, on property described as Lot 4, Block 1, Pecan Creek Addition and located 731 Zena Rucker Road.",
+          "attachments": []
+        },
+        {
+          "text": "Consider: ZA26-0060, Preliminary Plat for Bridlegate, on property described as Lot 2R,",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Consider: ZA26-0053, Zoning Change and Site Plan for 731 Zena Opp, LLC, on property described as Lot 4, Block 1, Pecan Creek Addition and located 731 Zena Rucker Road.",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        },
+        {
+          "text": "Consider: ZA26-0060, Preliminary Plat for Bridlegate, on property described as Lot 2R,",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
-      "meeting_date": "2026-09-01",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09012026-2312",
-      "items": [
-        {
-          "text": "D. Ordinance No. 480-208b, ZA26-0041, 2nd Reading, Zoning Change and Site",
-          "attachments": []
-        },
-        {
-          "text": "E. Ordinance No. 480-837a, ZA26-0043, 2nd Reading, Zoning Change and Site",
-          "attachments": []
-        },
-        {
-          "text": "A. Ordinance No. 480-667C, ZA26-0010, 1st Reading, Zoning Change and Site",
-          "attachments": []
-        },
-        {
-          "text": "B. Ordinance No. 480-321a, ZA26-0042, 1st Reading, Zoning Change and Site",
-          "attachments": []
-        },
-        {
-          "text": "C. Ordinance No. 480-772a, ZA26-0045, 1st Reading, Zoning Change and Site",
-          "attachments": []
-        },
-        {
-          "text": "D. Ordinance No. 480-837b, ZA26-0047, 1st Reading, Zoning Change and",
-          "attachments": []
-        }
-      ],
+      "meeting_date": "2026-09-08",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09082026-2316",
+      "items": [],
       "sfr_items": [],
-      "status": "success"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
@@ -478,8 +477,8 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-08-25",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_08252026-649",
+      "meeting_date": "2026-09-01",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_09012026-651",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -628,11 +627,26 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-10",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_09102026-2269",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (21 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-09-14",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_09142026-2271",
+      "items": [
+        {
+          "text": "0455 submitted by Rita Prieto for a zoning change from R-3 Single Family Residential to R-3 Single",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "0455 submitted by Rita Prieto for a zoning change from R-3 Single Family Residential to R-3 Single",
+          "attachments": [],
+          "keywords": [
+            "single family",
+            "residential",
+            "R-3"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Dallas",
@@ -844,7 +858,7 @@
       "city": "Balch Springs",
       "board": "City Council",
       "meeting_date": "2026-09-09",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_09092026-1819",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_09092026-1821",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1398,18 +1412,18 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-02",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_09022026-1325",
+      "meeting_date": "2026-09-03",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_09032026-1322",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (887 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (48 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Denton",
       "city": "Argyle",
       "board": "City Council",
       "meeting_date": "2026-09-08",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_09082026-1326",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_09082026-1328",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2130,18 +2144,18 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-10",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_09102026-2220",
+      "meeting_date": "2026-09-14",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_09142026-2221",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (33 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (30 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Johnson",
       "city": "Cleburne",
       "board": "City Council",
-      "meeting_date": "2026-09-10",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_09102026-2220",
+      "meeting_date": "2026-09-14",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_09142026-2221",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2294,11 +2308,40 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "City Council",
-      "meeting_date": "2026-08-31",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_08312026-1570",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-09-08",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_09082026-1572",
+      "items": [
+        {
+          "text": "Decatur, Texas, to amend the City of Decatur’s Comprehensive Plan and Future Land Use Map from",
+          "attachments": []
+        },
+        {
+          "text": "Business District (C-2) for a 3.93-acre tract of land, located at 3260 S US Hwy 81-287 (long legal on file), and within the Extraterritorial Jurisdiction (ETJ). ZC-26-0003 (JWM Dealership Property, LLC)",
+          "attachments": []
+        },
+        {
+          "text": "A. FP-26-0003 – Recommend that the City Council approve a request to Final Plat approximately 4.046 acres of land, Lots 1 and 3, Block 1, Decatur Office Village, being a replat of Lot 1R, Block 1, South Decatur Business Park, CAB. D, Slide 509, O.P.R.W.C.T.,",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Business District (C-2) for a 3.93-acre tract of land, located at 3260 S US Hwy 81-287 (long legal on file), and within the Extraterritorial Jurisdiction (ETJ). ZC-26-0003 (JWM Dealership Property, LLC)",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "A. FP-26-0003 – Recommend that the City Council approve a request to Final Plat approximately 4.046 acres of land, Lots 1 and 3, Block 1, Decatur Office Village, being a replat of Lot 1R, Block 1, South Decatur Business Park, CAB. D, Slide 509, O.P.R.W.C.T.,",
+          "attachments": [],
+          "keywords": [
+            "lot",
+            "acre"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Wise",
