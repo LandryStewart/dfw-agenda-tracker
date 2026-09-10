@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-09-09T15:32:18.177010Z",
+    "last_updated": "2026-09-10T15:21:20.081141Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-06-11",
-    "total_agenda_items": 44,
-    "total_sfr_items": 26,
+    "cutoff_date": "2026-06-12",
+    "total_agenda_items": 42,
+    "total_sfr_items": 18,
     "total_attachments": 0
   },
   "summaries": [
@@ -126,11 +126,44 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
-      "meeting_date": "2026-09-08",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09082026-2316",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-09-15",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09152026-2320",
+      "items": [
+        {
+          "text": "L. TABLE: Ordinance No. 480-667C, ZA26-0010, 1st Reading, Zoning Change and Site Plan for Chapel Crossing Medical, on property described as Lots 1R1 and 1R2, Block A, Ravenaux Village Addition, City of Southlake, Tarrant",
+          "attachments": []
+        },
+        {
+          "text": "D. Ordinance No. 480-321a, ZA26-0042, 2nd Reading, Zoning Change and Site",
+          "attachments": []
+        },
+        {
+          "text": "E. Ordinance No. 480-772a, ZA26-0045, 2nd Reading, Zoning Change and Site",
+          "attachments": []
+        },
+        {
+          "text": "F. Ordinance No. 480-837b, ZA26-0047, 2nd Reading, Zoning Change and",
+          "attachments": []
+        },
+        {
+          "text": "A. Ordinance No. 480-299a, ZA26-0044, 1st Reading, Zoning Change and Site",
+          "attachments": []
+        },
+        {
+          "text": "B. Ordinance No. 480-849, ZA26-0054, 1st Reading, Zoning Change and",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "L. TABLE: Ordinance No. 480-667C, ZA26-0010, 1st Reading, Zoning Change and Site Plan for Chapel Crossing Medical, on property described as Lots 1R1 and 1R2, Block A, Ravenaux Village Addition, City of Southlake, Tarrant",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Tarrant",
@@ -195,24 +228,11 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "City Council",
-      "meeting_date": "2026-08-25",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_08252026-1612",
-      "items": [
-        {
-          "text": "Meadow Park property is currently zoned for the least dense residential and that any development outside of that zoning designation would require the full rezoning process. She further confirmed that the City’s Master Plan does not identify the Meadow Park property for data centers. Ms. Roy stated the City currently does not have location or a district that would support a data center, which would generally be geared towards the Industrial District, which is extremely limited in",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Meadow Park property is currently zoned for the least dense residential and that any development outside of that zoning designation would require the full rezoning process. She further confirmed that the City’s Master Plan does not identify the Meadow Park property for data centers. Ms. Roy stated the City currently does not have location or a district that would support a data center, which would generally be geared towards the Industrial District, which is extremely limited in",
-          "attachments": [],
-          "keywords": [
-            "residential"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-09-08",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_09082026-1613",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
@@ -627,41 +647,26 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-14",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_09142026-2271",
+      "meeting_date": "2026-09-15",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_09152026-2272",
       "items": [
         {
-          "text": "0455 submitted by Rita Prieto for a zoning change from R-3 Single Family Residential to R-3 Single",
+          "text": "2026, to discuss the Comprehensive Plan and Strategic Plan.",
           "attachments": []
         }
       ],
-      "sfr_items": [
-        {
-          "text": "0455 submitted by Rita Prieto for a zoning change from R-3 Single Family Residential to R-3 Single",
-          "attachments": [],
-          "keywords": [
-            "single family",
-            "residential",
-            "R-3"
-          ]
-        }
-      ],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-09-08",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_09082026-2266",
-      "items": [
-        {
-          "text": "Fragrances and Essential Oils, LLC, for a zoning change from Industrial within the Skyline Logistics Hub Overlay District to Industrial within the",
-          "attachments": []
-        }
-      ],
+      "meeting_date": "2026-09-15",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_09152026-2272",
+      "items": [],
       "sfr_items": [],
-      "status": "success"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Dallas",
@@ -847,18 +852,18 @@
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-27",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_08272026-1816",
+      "meeting_date": "2026-09-09",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_09092026-1820",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (44 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (34 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "City Council",
-      "meeting_date": "2026-09-09",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_09092026-1821",
+      "meeting_date": "2026-09-16",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_09162026-1824",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1067,43 +1072,18 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-09",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_09092026-1745",
-      "items": [
-        {
-          "text": "380 Retail LP, Home Depot U.S.A. INC., and Kroger Texas LP, to final plat a property being 66.623 acres of land called Princeton",
-          "attachments": []
-        },
-        {
-          "text": "Exhibit A - Proposed Final Plat Review.pdf",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "380 Retail LP, Home Depot U.S.A. INC., and Kroger Texas LP, to final plat a property being 66.623 acres of land called Princeton",
-          "attachments": [],
-          "keywords": [
-            "home",
-            "acre"
-          ]
-        },
-        {
-          "text": "Exhibit A - Proposed Final Plat Review.pdf",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-09-15",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_09152026-1749",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (484 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-09-08",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_09082026-1744",
+      "meeting_date": "2026-09-15",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_09152026-1749",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1967,75 +1947,23 @@
       "county": "Rockwall",
       "city": "Royse City",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-03",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_09032026-645",
+      "meeting_date": "2026-09-15",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_09152026-648",
       "items": [
         {
-          "text": "Preliminary Plat of Clearview Ranch Phase 2 North, consisting of +/- 50.9 acres, situated in the John W Foote Survey, Abstract No. 333 and the Russell Crawford",
-          "attachments": []
-        },
-        {
-          "text": "Consider and act on a Final Plat of Bearpen Phase 1, consisting of +/- 106 acres, situated in the James Road Survey, Tracts 10-1, 10-2, 1-1, 2, Abstract No.872 and the James May Survey, Abstract No.1297, City of Royse City, Hunt County, Texas, and any matters related thereto.",
-          "attachments": []
-        },
-        {
-          "text": "Consider and act on a Final Plat of the Marketplace West Addition, Block A, Lots 1",
-          "attachments": []
-        },
-        {
-          "text": "Consider and act on a Final Plat for Verandah Phase 3E, consisting of +/- 24.6 acres, situated in the James May Survey, Abstract No.1297, Verandah Municipal",
-          "attachments": []
-        },
-        {
-          "text": "Consider and act on a Final Plat of Mercantile 30, Block 1, Lots 1R1 & 1R2, consisting of +/- 13.7, situated in Block A, Lot 1 of the Marketplace West Addition,",
+          "text": "TUESDAY, SEPTEMBER 15, 2026 may attend a Comprehensive Planning meeting on Tuesday, September 15, 2026, beginning at",
           "attachments": []
         }
       ],
-      "sfr_items": [
-        {
-          "text": "Preliminary Plat of Clearview Ranch Phase 2 North, consisting of +/- 50.9 acres, situated in the John W Foote Survey, Abstract No. 333 and the Russell Crawford",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "Consider and act on a Final Plat of Bearpen Phase 1, consisting of +/- 106 acres, situated in the James Road Survey, Tracts 10-1, 10-2, 1-1, 2, Abstract No.872 and the James May Survey, Abstract No.1297, City of Royse City, Hunt County, Texas, and any matters related thereto.",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "Consider and act on a Final Plat of the Marketplace West Addition, Block A, Lots 1",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        },
-        {
-          "text": "Consider and act on a Final Plat for Verandah Phase 3E, consisting of +/- 24.6 acres, situated in the James May Survey, Abstract No.1297, Verandah Municipal",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "Consider and act on a Final Plat of Mercantile 30, Block 1, Lots 1R1 & 1R2, consisting of +/- 13.7, situated in Block A, Lot 1 of the Marketplace West Addition,",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        }
-      ],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Rockwall",
       "city": "Royse City",
       "board": "City Council",
-      "meeting_date": "2026-09-02",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_09022026-643",
+      "meeting_date": "2026-09-15",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_09152026-648",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2145,17 +2073,17 @@
       "city": "Cleburne",
       "board": "Planning & Zoning",
       "meeting_date": "2026-09-14",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_09142026-2221",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_09142026-2219",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (30 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (34 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Johnson",
       "city": "Cleburne",
       "board": "City Council",
       "meeting_date": "2026-09-14",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_09142026-2221",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_09142026-2219",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
