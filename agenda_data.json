@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-09-10T15:21:20.081141Z",
+    "last_updated": "2026-09-11T15:30:34.681403Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-06-12",
-    "total_agenda_items": 42,
-    "total_sfr_items": 18,
+    "cutoff_date": "2026-06-13",
+    "total_agenda_items": 45,
+    "total_sfr_items": 20,
     "total_attachments": 0
   },
   "summaries": [
@@ -228,8 +228,8 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "City Council",
-      "meeting_date": "2026-09-08",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_09082026-1613",
+      "meeting_date": "2026-09-14",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_09142026-1615",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -422,7 +422,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -1073,7 +1073,7 @@
       "city": "Princeton",
       "board": "Planning & Zoning",
       "meeting_date": "2026-09-15",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_09152026-1749",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_09152026-1748",
       "items": [],
       "sfr_items": [],
       "status": "PDF parsed (484 lines) but no rezone/plat/comp plan items"
@@ -1083,7 +1083,7 @@
       "city": "Princeton",
       "board": "City Council",
       "meeting_date": "2026-09-15",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_09152026-1749",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_09152026-1748",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1757,11 +1757,24 @@
       "county": "Denton",
       "city": "Oak Point",
       "board": "City Council",
-      "meeting_date": "2026-08-19",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_08192026-617",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-09-16",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_09162026-624",
+      "items": [
+        {
+          "text": "Manager to implement each item in accordance with staff recommendations. a. Approve City Council Meeting Minutes. (City Secretary) i. August 19, 2026 Regular City Council Meeting b. Consider and act upon Resolution 2026-09-89R to authorize the City Manager to negotiate and execute a contract for the Comprehensive Plan Update with",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Manager to implement each item in accordance with staff recommendations. a. Approve City Council Meeting Minutes. (City Secretary) i. August 19, 2026 Regular City Council Meeting b. Consider and act upon Resolution 2026-09-89R to authorize the City Manager to negotiate and execute a contract for the Comprehensive Plan Update with",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Denton",
@@ -2212,32 +2225,8 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-01",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_09012026-1567",
-      "items": [
-        {
-          "text": "B. FP-26-0003 – Recommend that the City Council approve a request to Final Plat approximately 4.046 acres of land, Lots 1 and 3, Block 1, Decatur Office Village, being a replat of Lot 1R, Block 1, South Decatur Business Park, CAB. D, Slide 509, O.P.R.W.C.T.,",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "B. FP-26-0003 – Recommend that the City Council approve a request to Final Plat approximately 4.046 acres of land, Lots 1 and 3, Block 1, Decatur Office Village, being a replat of Lot 1R, Block 1, South Decatur Business Park, CAB. D, Slide 509, O.P.R.W.C.T.,",
-          "attachments": [],
-          "keywords": [
-            "lot",
-            "acre"
-          ]
-        }
-      ],
-      "status": "success"
-    },
-    {
-      "county": "Wise",
-      "city": "Decatur",
-      "board": "City Council",
-      "meeting_date": "2026-09-08",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_09082026-1572",
+      "meeting_date": "2026-09-14",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_09142026-1575",
       "items": [
         {
           "text": "Decatur, Texas, to amend the City of Decatur’s Comprehensive Plan and Future Land Use Map from",
@@ -2250,6 +2239,18 @@
         {
           "text": "A. FP-26-0003 – Recommend that the City Council approve a request to Final Plat approximately 4.046 acres of land, Lots 1 and 3, Block 1, Decatur Office Village, being a replat of Lot 1R, Block 1, South Decatur Business Park, CAB. D, Slide 509, O.P.R.W.C.T.,",
           "attachments": []
+        },
+        {
+          "text": "Finding #2. A voluntary annexation petition, a comprehensive plan amendment application, and a zoning change application have been submitted for consideration by the City Council of the City of Decatur. The property includes approximately 3.93 acres of land to be annexed, adjacent to the corporate limits of the City of Decatur, Texas, in Decatur’s central ETJ.",
+          "attachments": []
+        },
+        {
+          "text": "CP-26-0002 – Public Hearing and discussion regarding the first reading of an ordinance to amend the City of Decatur’s Comprehensive Plan and Future Land Use Map from",
+          "attachments": []
+        },
+        {
+          "text": "Request by JWM Dealership Property, LLC, property owner (Application CP-26-0002), to amend the City of Decatur’s Comprehensive Plan and Future Land Use Map for the 3.93- acre tract of land from the ETJ into the City limits of the City of Decatur.",
+          "attachments": []
         }
       ],
       "sfr_items": [
@@ -2267,9 +2268,33 @@
             "lot",
             "acre"
           ]
+        },
+        {
+          "text": "Finding #2. A voluntary annexation petition, a comprehensive plan amendment application, and a zoning change application have been submitted for consideration by the City Council of the City of Decatur. The property includes approximately 3.93 acres of land to be annexed, adjacent to the corporate limits of the City of Decatur, Texas, in Decatur’s central ETJ.",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Request by JWM Dealership Property, LLC, property owner (Application CP-26-0002), to amend the City of Decatur’s Comprehensive Plan and Future Land Use Map for the 3.93- acre tract of land from the ETJ into the City limits of the City of Decatur.",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
         }
       ],
       "status": "success"
+    },
+    {
+      "county": "Wise",
+      "city": "Decatur",
+      "board": "City Council",
+      "meeting_date": "2026-09-14",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_09142026-1575",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Wise",
