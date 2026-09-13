@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-09-12T14:21:05.504597Z",
+    "last_updated": "2026-09-13T15:22:00.266009Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-06-14",
+    "cutoff_date": "2026-06-15",
     "total_agenda_items": 45,
     "total_sfr_items": 20,
     "total_attachments": 0
@@ -2009,7 +2009,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Kaufman",
