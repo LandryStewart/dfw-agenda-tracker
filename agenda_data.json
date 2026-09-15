@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-09-14T17:20:50.792791Z",
+    "last_updated": "2026-09-15T16:00:23.819556Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-06-16",
+    "cutoff_date": "2026-06-17",
     "total_agenda_items": 45,
     "total_sfr_items": 20,
     "total_attachments": 0
@@ -228,8 +228,8 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "City Council",
-      "meeting_date": "2026-09-14",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_09142026-1615",
+      "meeting_date": "2026-09-21",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_09212026-1618",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
