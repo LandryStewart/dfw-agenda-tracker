@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-09-15T16:00:23.819556Z",
+    "last_updated": "2026-09-16T15:49:30.520971Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-06-17",
-    "total_agenda_items": 45,
-    "total_sfr_items": 20,
+    "cutoff_date": "2026-06-18",
+    "total_agenda_items": 15,
+    "total_sfr_items": 8,
     "total_attachments": 0
   },
   "summaries": [
@@ -92,78 +92,21 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-17",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09172026-2318",
-      "items": [
-        {
-          "text": "Consider: ZA26-0053, Zoning Change and Site Plan for 731 Zena Opp, LLC, on property described as Lot 4, Block 1, Pecan Creek Addition and located 731 Zena Rucker Road.",
-          "attachments": []
-        },
-        {
-          "text": "Consider: ZA26-0060, Preliminary Plat for Bridlegate, on property described as Lot 2R,",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Consider: ZA26-0053, Zoning Change and Site Plan for 731 Zena Opp, LLC, on property described as Lot 4, Block 1, Pecan Creek Addition and located 731 Zena Rucker Road.",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        },
-        {
-          "text": "Consider: ZA26-0060, Preliminary Plat for Bridlegate, on property described as Lot 2R,",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-09-22",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09222026-2323",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (23 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
-      "meeting_date": "2026-09-15",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09152026-2320",
-      "items": [
-        {
-          "text": "L. TABLE: Ordinance No. 480-667C, ZA26-0010, 1st Reading, Zoning Change and Site Plan for Chapel Crossing Medical, on property described as Lots 1R1 and 1R2, Block A, Ravenaux Village Addition, City of Southlake, Tarrant",
-          "attachments": []
-        },
-        {
-          "text": "D. Ordinance No. 480-321a, ZA26-0042, 2nd Reading, Zoning Change and Site",
-          "attachments": []
-        },
-        {
-          "text": "E. Ordinance No. 480-772a, ZA26-0045, 2nd Reading, Zoning Change and Site",
-          "attachments": []
-        },
-        {
-          "text": "F. Ordinance No. 480-837b, ZA26-0047, 2nd Reading, Zoning Change and",
-          "attachments": []
-        },
-        {
-          "text": "A. Ordinance No. 480-299a, ZA26-0044, 1st Reading, Zoning Change and Site",
-          "attachments": []
-        },
-        {
-          "text": "B. Ordinance No. 480-849, ZA26-0054, 1st Reading, Zoning Change and",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "L. TABLE: Ordinance No. 480-667C, ZA26-0010, 1st Reading, Zoning Change and Site Plan for Chapel Crossing Medical, on property described as Lots 1R1 and 1R2, Block A, Ravenaux Village Addition, City of Southlake, Tarrant",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-09-22",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09222026-2323",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
@@ -497,8 +440,8 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-09-01",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_09012026-651",
+      "meeting_date": "2026-09-15",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_09152026-654",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -647,23 +590,18 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-15",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_09152026-2272",
-      "items": [
-        {
-          "text": "2026, to discuss the Comprehensive Plan and Strategic Plan.",
-          "attachments": []
-        }
-      ],
+      "meeting_date": "2026-09-22",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_09222026-2277",
+      "items": [],
       "sfr_items": [],
-      "status": "success"
+      "status": "PDF parsed (54 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-09-15",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_09152026-2272",
+      "meeting_date": "2026-09-22",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_09222026-2277",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -863,7 +801,7 @@
       "city": "Balch Springs",
       "board": "City Council",
       "meeting_date": "2026-09-16",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_09162026-1824",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_09162026-1823",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1072,21 +1010,68 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-15",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_09152026-1748",
+      "meeting_date": "2026-09-16",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_09162026-1751",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (484 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (17 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-09-15",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_09152026-1748",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-09-21",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_09212026-1753",
+      "items": [
+        {
+          "text": "380 Retail LP, Home Depot U.S.A. INC., and Kroger Texas LP, to final plat a property being 66.623 acres of land called Princeton",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit A - Proposed Final Plat.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit B - Approved Preliminary Plat.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit C - Preliminary to Final Plat Comparison.pdf",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "380 Retail LP, Home Depot U.S.A. INC., and Kroger Texas LP, to final plat a property being 66.623 acres of land called Princeton",
+          "attachments": [],
+          "keywords": [
+            "home",
+            "acre"
+          ]
+        },
+        {
+          "text": "Exhibit A - Proposed Final Plat.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit B - Approved Preliminary Plat.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit C - Preliminary to Final Plat Comparison.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Collin",
@@ -1402,11 +1387,24 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "City Council",
-      "meeting_date": "2026-09-08",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_09082026-1328",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-09-21",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_09212026-1330",
+      "items": [
+        {
+          "text": "35W and US Hwy 377 and includes all land indicated as commercial and residential designations on the Town of Argyle Future Land Use Plan dated June 2024 and zoned as commercial or residential on the latest Zoning Map; providing findings of fact; providing exemptions; providing a waiver procedure; providing for a termination date; providing for severability; and providing an effective date.",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "35W and US Hwy 377 and includes all land indicated as commercial and residential designations on the Town of Argyle Future Land Use Plan dated June 2024 and zoned as commercial or residential on the latest Zoning Map; providing findings of fact; providing exemptions; providing a waiver procedure; providing for a termination date; providing for severability; and providing an effective date.",
+          "attachments": [],
+          "keywords": [
+            "residential"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Denton",
@@ -1585,173 +1583,11 @@
       "county": "Denton",
       "city": "Oak Point",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-01",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_09012026-619",
-      "items": [
-        {
-          "text": "Section 551.042 of the Government Code, a representative of City staff or the Planning and Zoning Commission may respond with either a statement of specific factual information relating to the inquiry or a recitation of existing policy in response to the inquiry. a. Approve the August 4, 2026 Planning and Zoning Commission Meeting Minutes. (City b. Consideration of a request for a Final Plat of “Elevation at Shahan Prairie”, being 8.385 acres in the D.M. Cule Survey A-226, generally located south of the intersection of Shahan Prairie Road and Driftwood Drive, within the City’s Extraterritorial Jurisdiction, in order to establish 6 new parcels and necessary easements. (Director of Community Development) c. Consideration of a request for a Final Plat of “Greywood Phase 1” being 38.613 in the",
-          "attachments": []
-        },
-        {
-          "text": "SUBJECT: Final Plat for “Elevation at Shahan Prairie” Subdivision",
-          "attachments": []
-        },
-        {
-          "text": "This Final Plat establishes six lots in the City’s ETJ, south of the intersection of Shahan Prairie Road",
-          "attachments": []
-        },
-        {
-          "text": "Staff have received a request for approval of a Final Plat for six lots in the City’s ETJ. The existing parcel is approximately 8.385 acres and will divide the parcel into six parcels ranging from 1.097 acres to 1.605 acres. The current parcel has yet to be platted and is currently just an abstract parcel from the D.M Cule Survey, Abstract-226. The parcel resides in the City’s ETJ and there is no zoning authority by the city for the current parcel or parcels being created. The plat establishes a build line of",
-          "attachments": []
-        },
-        {
-          "text": "Staff recommended Motion: “I motion to approve the Final Plat for “Elevation at Shahan Prairie” as",
-          "attachments": []
-        },
-        {
-          "text": "SUBJECT: Final Plat for Greywood Phase 1",
-          "attachments": []
-        },
-        {
-          "text": "This Final Plat establishes 181 residential lots, 6 non-residential lots, and the necessary right-of-way and easements for development of the first phase of the Greywood subdivision, generally located south of the intersection of Shahan Prairie Road and .",
-          "attachments": []
-        },
-        {
-          "text": "Staff have received a request for approval of a Final Plat which will establish 181 residential lots, 6 non-residential lots, and the necessary right-of-way and easements necessary for the development.",
-          "attachments": []
-        },
-        {
-          "text": "Staff recommended Motion: “I motion to approve the Final Plat for Greywood Phase 1 as presented”",
-          "attachments": []
-        },
-        {
-          "text": "Issued for review 2/4/2026 1:48 PM FINAL PLAT 2 T E OF",
-          "attachments": []
-        },
-        {
-          "text": "GRAPHIC SCALE 1\"=60' 0 60 120 180 SEE SHEET 1 FOR LINE & CURVE TABLES PRELIMINARY, this document shall not be recorded for any purpose and shall not be used or viewed or relied upon as a final survey document. Issued for review 2/4/2026 1:48 PM FINAL PLAT OF LOTS 1-71, 72X, 73X, BLOCK 1, LOT 107X, BLOCK 2, LOTS 1-39, 40X, BLOCK 7, LOTS 1-47, 48X, BLOCK 8, AND LOTS 1-24, 25X, BLOCK 9 GREYWOOD, PHASE 1 BEING 38.613 ACRES SITUATED IN THE ELIZABETH A. SHAHAN SURVEY, ABSTRACT No. 1204 JOHN F. DANIEL SURVEY, ABSTRACT No. 365 WILLIAM MCNEIL SURVEY, ABSTRACT No. 814 CITY OF OAK POINT, DENTON COUNTY, TEXAS",
-          "attachments": []
-        },
-        {
-          "text": "Road (55' width right-of-way) as shown on the Final Plat of Wildridge Phase 1B recorded in Document No. 29 1 2,940 18 7 5,750 41 8 9,108",
-          "attachments": []
-        },
-        {
-          "text": "Development standards conform with the R4X District of the City of Oak Point FINAL PLAT applicable.",
-          "attachments": []
-        },
-        {
-          "text": "THENCE in a westerly direction along said curve to the right, a distance of 81.91 feet to a 1/2\" capped iron C/O MERITAGE HOMES OF TEXAS, LLC 38.613 ACRES rod set in the West line of said 64.891 acre tract and the Southeast corner of Winnetka Drive (a 50' right-of-way) as shown on the Final Plat of Woodridge Estates Phase Four recorded in Document No.",
-          "attachments": []
-        },
-        {
-          "text": "SUBJECT: Requested Rezoning and Planned Development for Hotel and Event Center",
-          "attachments": []
-        },
-        {
-          "text": "During the last update to the City’s Comprehensive plan, the parcel was on the dividing line of what is recommended to be commercial and residential. During the 2023 Corridor Plan, the property was recommended to be changed to commercial. Lastly, in the FM 720 Overlay Plan, the future land use for the property is recommended to be “Corridor Residential” which is a residential use where most lot sizes are no less than 7,500 square feet, or about 1/6 of an acre.",
-          "attachments": []
-        },
-        {
-          "text": "Towards the front/center of the property is a three-story hotel with 110 rooms, a restaurant, and other accessory uses. Towards the rear/south of the site is a ~18,000 square foot event center. Along the perimeter of the building are parking areas, some outdoor event space, and a perimeter screen. The applicant is asking for a zoning change in order to allow the requested use and associated variances of development standards.",
-          "attachments": []
-        },
-        {
-          "text": "Staff believe the uses are in line with the adopted Future Land Use Plan adopted in the 2019",
-          "attachments": []
-        },
-        {
-          "text": "Comprehensive Plan. The plan describes the Retail/Commercial uses area as:",
-          "attachments": []
-        },
-        {
-          "text": "Comprehensive Plan, Chapter 3 Land Use",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Section 551.042 of the Government Code, a representative of City staff or the Planning and Zoning Commission may respond with either a statement of specific factual information relating to the inquiry or a recitation of existing policy in response to the inquiry. a. Approve the August 4, 2026 Planning and Zoning Commission Meeting Minutes. (City b. Consideration of a request for a Final Plat of “Elevation at Shahan Prairie”, being 8.385 acres in the D.M. Cule Survey A-226, generally located south of the intersection of Shahan Prairie Road and Driftwood Drive, within the City’s Extraterritorial Jurisdiction, in order to establish 6 new parcels and necessary easements. (Director of Community Development) c. Consideration of a request for a Final Plat of “Greywood Phase 1” being 38.613 in the",
-          "attachments": [],
-          "keywords": [
-            "acre",
-            "unit"
-          ]
-        },
-        {
-          "text": "SUBJECT: Final Plat for “Elevation at Shahan Prairie” Subdivision",
-          "attachments": [],
-          "keywords": [
-            "subdivision"
-          ]
-        },
-        {
-          "text": "This Final Plat establishes six lots in the City’s ETJ, south of the intersection of Shahan Prairie Road",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        },
-        {
-          "text": "Staff have received a request for approval of a Final Plat for six lots in the City’s ETJ. The existing parcel is approximately 8.385 acres and will divide the parcel into six parcels ranging from 1.097 acres to 1.605 acres. The current parcel has yet to be platted and is currently just an abstract parcel from the D.M Cule Survey, Abstract-226. The parcel resides in the City’s ETJ and there is no zoning authority by the city for the current parcel or parcels being created. The plat establishes a build line of",
-          "attachments": [],
-          "keywords": [
-            "lot",
-            "acre"
-          ]
-        },
-        {
-          "text": "This Final Plat establishes 181 residential lots, 6 non-residential lots, and the necessary right-of-way and easements for development of the first phase of the Greywood subdivision, generally located south of the intersection of Shahan Prairie Road and .",
-          "attachments": [],
-          "keywords": [
-            "residential",
-            "subdivision",
-            "lot"
-          ]
-        },
-        {
-          "text": "Staff have received a request for approval of a Final Plat which will establish 181 residential lots, 6 non-residential lots, and the necessary right-of-way and easements necessary for the development.",
-          "attachments": [],
-          "keywords": [
-            "residential",
-            "lot"
-          ]
-        },
-        {
-          "text": "GRAPHIC SCALE 1\"=60' 0 60 120 180 SEE SHEET 1 FOR LINE & CURVE TABLES PRELIMINARY, this document shall not be recorded for any purpose and shall not be used or viewed or relied upon as a final survey document. Issued for review 2/4/2026 1:48 PM FINAL PLAT OF LOTS 1-71, 72X, 73X, BLOCK 1, LOT 107X, BLOCK 2, LOTS 1-39, 40X, BLOCK 7, LOTS 1-47, 48X, BLOCK 8, AND LOTS 1-24, 25X, BLOCK 9 GREYWOOD, PHASE 1 BEING 38.613 ACRES SITUATED IN THE ELIZABETH A. SHAHAN SURVEY, ABSTRACT No. 1204 JOHN F. DANIEL SURVEY, ABSTRACT No. 365 WILLIAM MCNEIL SURVEY, ABSTRACT No. 814 CITY OF OAK POINT, DENTON COUNTY, TEXAS",
-          "attachments": [],
-          "keywords": [
-            "lot",
-            "acre"
-          ]
-        },
-        {
-          "text": "THENCE in a westerly direction along said curve to the right, a distance of 81.91 feet to a 1/2\" capped iron C/O MERITAGE HOMES OF TEXAS, LLC 38.613 ACRES rod set in the West line of said 64.891 acre tract and the Southeast corner of Winnetka Drive (a 50' right-of-way) as shown on the Final Plat of Woodridge Estates Phase Four recorded in Document No.",
-          "attachments": [],
-          "keywords": [
-            "home",
-            "acre"
-          ]
-        },
-        {
-          "text": "SUBJECT: Requested Rezoning and Planned Development for Hotel and Event Center",
-          "attachments": [],
-          "keywords": [
-            "planned development"
-          ]
-        },
-        {
-          "text": "During the last update to the City’s Comprehensive plan, the parcel was on the dividing line of what is recommended to be commercial and residential. During the 2023 Corridor Plan, the property was recommended to be changed to commercial. Lastly, in the FM 720 Overlay Plan, the future land use for the property is recommended to be “Corridor Residential” which is a residential use where most lot sizes are no less than 7,500 square feet, or about 1/6 of an acre.",
-          "attachments": [],
-          "keywords": [
-            "residential",
-            "lot",
-            "acre",
-            "PD"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-09-08",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_09082026-621",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (73 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Denton",
@@ -1951,7 +1787,7 @@
       "city": "Fate",
       "board": "City Council",
       "meeting_date": "2026-09-19",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_09192026-1506",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_09192026-1497",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2225,73 +2061,18 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-14",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_09142026-1575",
-      "items": [
-        {
-          "text": "Decatur, Texas, to amend the City of Decatur’s Comprehensive Plan and Future Land Use Map from",
-          "attachments": []
-        },
-        {
-          "text": "Business District (C-2) for a 3.93-acre tract of land, located at 3260 S US Hwy 81-287 (long legal on file), and within the Extraterritorial Jurisdiction (ETJ). ZC-26-0003 (JWM Dealership Property, LLC)",
-          "attachments": []
-        },
-        {
-          "text": "A. FP-26-0003 – Recommend that the City Council approve a request to Final Plat approximately 4.046 acres of land, Lots 1 and 3, Block 1, Decatur Office Village, being a replat of Lot 1R, Block 1, South Decatur Business Park, CAB. D, Slide 509, O.P.R.W.C.T.,",
-          "attachments": []
-        },
-        {
-          "text": "Finding #2. A voluntary annexation petition, a comprehensive plan amendment application, and a zoning change application have been submitted for consideration by the City Council of the City of Decatur. The property includes approximately 3.93 acres of land to be annexed, adjacent to the corporate limits of the City of Decatur, Texas, in Decatur’s central ETJ.",
-          "attachments": []
-        },
-        {
-          "text": "CP-26-0002 – Public Hearing and discussion regarding the first reading of an ordinance to amend the City of Decatur’s Comprehensive Plan and Future Land Use Map from",
-          "attachments": []
-        },
-        {
-          "text": "Request by JWM Dealership Property, LLC, property owner (Application CP-26-0002), to amend the City of Decatur’s Comprehensive Plan and Future Land Use Map for the 3.93- acre tract of land from the ETJ into the City limits of the City of Decatur.",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Business District (C-2) for a 3.93-acre tract of land, located at 3260 S US Hwy 81-287 (long legal on file), and within the Extraterritorial Jurisdiction (ETJ). ZC-26-0003 (JWM Dealership Property, LLC)",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "A. FP-26-0003 – Recommend that the City Council approve a request to Final Plat approximately 4.046 acres of land, Lots 1 and 3, Block 1, Decatur Office Village, being a replat of Lot 1R, Block 1, South Decatur Business Park, CAB. D, Slide 509, O.P.R.W.C.T.,",
-          "attachments": [],
-          "keywords": [
-            "lot",
-            "acre"
-          ]
-        },
-        {
-          "text": "Finding #2. A voluntary annexation petition, a comprehensive plan amendment application, and a zoning change application have been submitted for consideration by the City Council of the City of Decatur. The property includes approximately 3.93 acres of land to be annexed, adjacent to the corporate limits of the City of Decatur, Texas, in Decatur’s central ETJ.",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "Request by JWM Dealership Property, LLC, property owner (Application CP-26-0002), to amend the City of Decatur’s Comprehensive Plan and Future Land Use Map for the 3.93- acre tract of land from the ETJ into the City limits of the City of Decatur.",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-09-21",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_09212026-1577",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (245 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Wise",
       "city": "Decatur",
       "board": "City Council",
-      "meeting_date": "2026-09-14",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_09142026-1575",
+      "meeting_date": "2026-09-21",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_09212026-1577",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
