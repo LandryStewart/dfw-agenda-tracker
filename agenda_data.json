@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "last_updated": "2026-09-16T15:49:30.520971Z",
+    "last_updated": "2026-09-17T15:59:21.913710Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-06-18",
-    "total_agenda_items": 15,
+    "cutoff_date": "2026-06-19",
+    "total_agenda_items": 13,
     "total_sfr_items": 8,
     "total_attachments": 0
   },
@@ -152,27 +152,18 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-23",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_07232026-1603",
-      "items": [
-        {
-          "text": "Chairmen Emery asked if the Comprehensive Plan could be amended ti better fit the City.",
-          "attachments": []
-        },
-        {
-          "text": "PUD which should be guided by the comprehensive plan.",
-          "attachments": []
-        }
-      ],
+      "meeting_date": "2026-08-19",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_08192026-1610",
+      "items": [],
       "sfr_items": [],
-      "status": "success"
+      "status": "PDF parsed (10 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Tarrant",
       "city": "Bedford",
       "board": "City Council",
       "meeting_date": "2026-09-21",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_09212026-1618",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_09212026-1620",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -365,7 +356,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -514,7 +505,7 @@
       "agenda_url": "https://dallascityhall.com/government/cityplan/Pages/default.aspx",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no matching items found"
     },
     {
       "county": "Dallas",
@@ -524,7 +515,7 @@
       "agenda_url": "https://dallascityhall.com/government/citycouncil/Pages/city-council-agendas.aspx",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no matching items found"
     },
     {
       "county": "Dallas",
@@ -1010,68 +1001,21 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-16",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_09162026-1751",
+      "meeting_date": "2026-09-23",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_09232026-1756",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (17 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (25 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-09-21",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_09212026-1753",
-      "items": [
-        {
-          "text": "380 Retail LP, Home Depot U.S.A. INC., and Kroger Texas LP, to final plat a property being 66.623 acres of land called Princeton",
-          "attachments": []
-        },
-        {
-          "text": "Exhibit A - Proposed Final Plat.pdf",
-          "attachments": []
-        },
-        {
-          "text": "Exhibit B - Approved Preliminary Plat.pdf",
-          "attachments": []
-        },
-        {
-          "text": "Exhibit C - Preliminary to Final Plat Comparison.pdf",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "380 Retail LP, Home Depot U.S.A. INC., and Kroger Texas LP, to final plat a property being 66.623 acres of land called Princeton",
-          "attachments": [],
-          "keywords": [
-            "home",
-            "acre"
-          ]
-        },
-        {
-          "text": "Exhibit A - Proposed Final Plat.pdf",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "Exhibit B - Approved Preliminary Plat.pdf",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "Exhibit C - Preliminary to Final Plat Comparison.pdf",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-09-23",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_09232026-1756",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Collin",
@@ -1811,11 +1755,58 @@
       "county": "Rockwall",
       "city": "Royse City",
       "board": "City Council",
-      "meeting_date": "2026-09-15",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_09152026-648",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-09-22",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_09222026-652",
+      "items": [
+        {
+          "text": "Approve a final plat for Verandah Phase 3E, consisting of +/- 24.6 acres, situated in the James May Survey, Abstract No.1297, Verandah Municipal Utility District,",
+          "attachments": []
+        },
+        {
+          "text": "Approve a final plat of Bearpen Phase 1, consisting of +/- 106 acres, situated in the",
+          "attachments": []
+        },
+        {
+          "text": "Approve a final plat of the Marketplace West Addition, Block A, Lots 1 & 2, consisting of +/- 27.6 acres, situated in the Jared Stephenson Survey, Abstract No.",
+          "attachments": []
+        },
+        {
+          "text": "Approve a final plat Marketplace West Addition, Lots 1R1 & 1R2 (previously known as Mercantile 30), consisting of +/- 13.7, situated in Block A, Lot 1 of the",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Approve a final plat for Verandah Phase 3E, consisting of +/- 24.6 acres, situated in the James May Survey, Abstract No.1297, Verandah Municipal Utility District,",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Approve a final plat of Bearpen Phase 1, consisting of +/- 106 acres, situated in the",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Approve a final plat of the Marketplace West Addition, Block A, Lots 1 & 2, consisting of +/- 27.6 acres, situated in the Jared Stephenson Survey, Abstract No.",
+          "attachments": [],
+          "keywords": [
+            "lot",
+            "acre"
+          ]
+        },
+        {
+          "text": "Approve a final plat Marketplace West Addition, Lots 1R1 & 1R2 (previously known as Mercantile 30), consisting of +/- 13.7, situated in Block A, Lot 1 of the",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Kaufman",
@@ -1831,8 +1822,8 @@
       "county": "Kaufman",
       "city": "Forney",
       "board": "City Council",
-      "meeting_date": "2026-09-10",
-      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_09102026-1309",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
