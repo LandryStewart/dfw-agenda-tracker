@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-09-17T15:59:21.913710Z",
+    "last_updated": "2026-09-18T15:24:27.520901Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-06-19",
-    "total_agenda_items": 13,
-    "total_sfr_items": 8,
+    "cutoff_date": "2026-06-20",
+    "total_agenda_items": 19,
+    "total_sfr_items": 12,
     "total_attachments": 0
   },
   "summaries": [
@@ -152,11 +152,70 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-19",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_08192026-1610",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (10 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-09-24",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_09242026-1623",
+      "items": [
+        {
+          "text": "Consider approval of a Final Plat of Gateway Village consisting of 106 Lots & 9 Open Space",
+          "attachments": []
+        },
+        {
+          "text": "Final Plat of Gateway Village",
+          "attachments": []
+        },
+        {
+          "text": "Agenda Caption: Consider approval of a Final Plat of Gateway Village consisting of 106 Lots & 9",
+          "attachments": []
+        },
+        {
+          "text": "Summary of Request: The property is zoned “MD-4”, Medium- Density Single-Family Attached. The final plat subdivides the 11.275-acre property into 106 individual residential lots and 9 open space lots. The residential configuration remains generally consistent with the previously approved preliminary plat (PLAT-24-6), with the final plat reflecting additional open space, final street names, right of way and easements.",
+          "attachments": []
+        },
+        {
+          "text": "The final plat includes wall maintenance easements and open space lots associated with the required screening wall between the residential and commercial properties. The screening will be maintained by the respective",
+          "attachments": []
+        },
+        {
+          "text": "Staff Findings : The final plat is in substantial compliance with the zoning on the property and the",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Consider approval of a Final Plat of Gateway Village consisting of 106 Lots & 9 Open Space",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        },
+        {
+          "text": "Agenda Caption: Consider approval of a Final Plat of Gateway Village consisting of 106 Lots & 9",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        },
+        {
+          "text": "Summary of Request: The property is zoned “MD-4”, Medium- Density Single-Family Attached. The final plat subdivides the 11.275-acre property into 106 individual residential lots and 9 open space lots. The residential configuration remains generally consistent with the previously approved preliminary plat (PLAT-24-6), with the final plat reflecting additional open space, final street names, right of way and easements.",
+          "attachments": [],
+          "keywords": [
+            "single-family",
+            "residential",
+            "density",
+            "lot",
+            "acre"
+          ]
+        },
+        {
+          "text": "The final plat includes wall maintenance easements and open space lots associated with the required screening wall between the residential and commercial properties. The screening will be maintained by the respective",
+          "attachments": [],
+          "keywords": [
+            "residential",
+            "lot"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Tarrant",
@@ -356,7 +415,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Tarrant",
@@ -505,7 +564,7 @@
       "agenda_url": "https://dallascityhall.com/government/cityplan/Pages/default.aspx",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found"
+      "status": "could not reach site"
     },
     {
       "county": "Dallas",
@@ -515,7 +574,7 @@
       "agenda_url": "https://dallascityhall.com/government/citycouncil/Pages/city-council-agendas.aspx",
       "items": [],
       "sfr_items": [],
-      "status": "no matching items found"
+      "status": "could not reach site"
     },
     {
       "county": "Dallas",
@@ -525,7 +584,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Dallas",
@@ -1145,7 +1204,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Collin",
@@ -1398,7 +1457,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Denton",
@@ -1604,7 +1663,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Ellis",
@@ -1721,7 +1780,7 @@
       "city": "Fate",
       "board": "Planning & Zoning",
       "meeting_date": "2026-09-19",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_09192026-1506",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_09192026-1497",
       "items": [],
       "sfr_items": [],
       "status": "PDF parsed (27 lines) but no rezone/plat/comp plan items"
@@ -1731,7 +1790,7 @@
       "city": "Fate",
       "board": "City Council",
       "meeting_date": "2026-09-19",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_09192026-1497",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_09192026-1500",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
