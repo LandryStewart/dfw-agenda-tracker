@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-09-18T15:24:27.520901Z",
+    "last_updated": "2026-09-19T14:46:50.751789Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-06-20",
+    "cutoff_date": "2026-06-21",
     "total_agenda_items": 19,
     "total_sfr_items": 12,
     "total_attachments": 0
@@ -584,7 +584,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Dallas",
@@ -640,18 +640,18 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-22",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_09222026-2277",
+      "meeting_date": "2026-09-23",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_09232026-2278",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (54 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (43 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-09-22",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_09222026-2277",
+      "meeting_date": "2026-09-23",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_09232026-2278",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1204,7 +1204,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Collin",
@@ -1457,7 +1457,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Denton",
@@ -1663,7 +1663,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Ellis",
@@ -1895,7 +1895,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Kaufman",
