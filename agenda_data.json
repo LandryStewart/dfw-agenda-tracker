@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-09-19T14:46:50.751789Z",
+    "last_updated": "2026-09-20T14:58:58.772244Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-06-21",
+    "cutoff_date": "2026-06-22",
     "total_agenda_items": 19,
     "total_sfr_items": 12,
     "total_attachments": 0
@@ -435,7 +435,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -455,7 +455,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -1104,7 +1104,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Collin",
@@ -1124,7 +1124,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Collin",
@@ -1264,7 +1264,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Denton",
@@ -1457,7 +1457,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Denton",
@@ -1663,7 +1663,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Ellis",
@@ -1779,18 +1779,18 @@
       "county": "Rockwall",
       "city": "Fate",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-19",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_09192026-1497",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (27 lines) but no rezone/plat/comp plan items"
+      "status": "could not reach site"
     },
     {
       "county": "Rockwall",
       "city": "Fate",
       "board": "City Council",
-      "meeting_date": "2026-09-19",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_09192026-1500",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1971,18 +1971,18 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-14",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_09142026-2219",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (34 lines) but no rezone/plat/comp plan items"
+      "status": "could not reach site"
     },
     {
       "county": "Johnson",
       "city": "Cleburne",
       "board": "City Council",
-      "meeting_date": "2026-09-14",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_09142026-2219",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
