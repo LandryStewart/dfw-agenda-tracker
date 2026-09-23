@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-09-22T15:46:17.315015Z",
+    "last_updated": "2026-09-23T15:53:59.548325Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-06-24",
-    "total_agenda_items": 19,
-    "total_sfr_items": 12,
+    "cutoff_date": "2026-06-25",
+    "total_agenda_items": 39,
+    "total_sfr_items": 21,
     "total_attachments": 0
   },
   "summaries": [
@@ -295,7 +295,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -341,8 +341,8 @@
       "county": "Tarrant",
       "city": "Benbrook",
       "board": "City Council",
-      "meeting_date": "",
-      "agenda_url": "",
+      "meeting_date": "2026-09-28",
+      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_09282026-851",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -415,7 +415,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Tarrant",
@@ -435,7 +435,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Tarrant",
@@ -455,7 +455,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Tarrant",
@@ -490,8 +490,8 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-09-15",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_09152026-654",
+      "meeting_date": "2026-09-21",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_09212026-657",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -640,11 +640,30 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-23",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_09232026-2278",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (43 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-09-28",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_09282026-2281",
+      "items": [
+        {
+          "text": "0460 submitted by RLK Engineering on behalf of Mesquite Independent School District (MISD) for a zoning change from Planned Development – Single Family Residential to Planned Development – [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "0461 submitted by WRA Architect on behalf of Mesquite Independent School District (MISD) for a zoning change from Agricultural to Agricultural with a Conditional Use Permit to allow a public school located at 2300 Mesquite Valley Road. [APPROVED]",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "0460 submitted by RLK Engineering on behalf of Mesquite Independent School District (MISD) for a zoning change from Planned Development – Single Family Residential to Planned Development – [APPROVED]",
+          "attachments": [],
+          "keywords": [
+            "single family",
+            "residential",
+            "planned development"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Dallas",
@@ -1070,11 +1089,62 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-09-23",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_09232026-1756",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-09-28",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_09282026-1759",
+      "items": [
+        {
+          "text": "380 Retail LP, Home Depot U.S.A. INC., and Kroger Texas LP, to final plat a property being 66.623 acres of land called Princeton",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit A - Proposed Final Plat.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit B - Approved Preliminary Plat.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit C - Preliminary to Final Plat Comparison.pdf",
+          "attachments": []
+        },
+        {
+          "text": "CC Presentation - PTC FP- 09.28.2026.pptx",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "380 Retail LP, Home Depot U.S.A. INC., and Kroger Texas LP, to final plat a property being 66.623 acres of land called Princeton",
+          "attachments": [],
+          "keywords": [
+            "home",
+            "acre"
+          ]
+        },
+        {
+          "text": "Exhibit A - Proposed Final Plat.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit B - Approved Preliminary Plat.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit C - Preliminary to Final Plat Comparison.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Collin",
@@ -1104,7 +1174,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Collin",
@@ -1124,7 +1194,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Collin",
@@ -1264,7 +1334,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Denton",
@@ -1457,7 +1527,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Denton",
@@ -1663,7 +1733,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Ellis",
@@ -1779,18 +1849,18 @@
       "county": "Rockwall",
       "city": "Fate",
       "board": "Planning & Zoning",
-      "meeting_date": "",
-      "agenda_url": "",
+      "meeting_date": "2026-10-06",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_10062026-1531",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "PDF parsed (28 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Rockwall",
       "city": "Fate",
       "board": "City Council",
-      "meeting_date": "",
-      "agenda_url": "",
+      "meeting_date": "2026-10-06",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_10062026-1531",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1971,18 +2041,100 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "Planning & Zoning",
-      "meeting_date": "",
-      "agenda_url": "",
-      "items": [],
-      "sfr_items": [],
-      "status": "could not reach site"
+      "meeting_date": "2026-09-28",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_09282026-2225",
+      "items": [
+        {
+          "text": "Chairman Archer seconded the motion. The motion carried by a vote of 6-0. c. *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE VARIOUS PROPERTIES",
+          "attachments": []
+        },
+        {
+          "text": "Item Title: *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE FROM",
+          "attachments": []
+        },
+        {
+          "text": "Item Description: The applicant, KBC Advisors, represented by Hayes Stewart, requests to rezone approximately 62.79 acres located north of County Road 1125 (Industrial Boulevard) from Agricultural",
+          "attachments": []
+        },
+        {
+          "text": "Following annexation, the property owner originally requested to rezone the property to Planned",
+          "attachments": []
+        },
+        {
+          "text": "Rezoning Proposal: The applicant now requests to rezone the subject property from Agricultural (A)",
+          "attachments": []
+        },
+        {
+          "text": "If this rezoning request is approved, the property may be developed with any use permitted within the [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "Future Land Use Plan: The Future Land Use Plan designates the western portion of this site as Medium-",
+          "attachments": []
+        },
+        {
+          "text": "While the requested Industrial zoning is not consistent with the Future Land Use Plan, the request does conform to the existing zoning and prevailing development patterns in the area, including the recent rezone of the 138-acre parcel immediately to the north to Industrial and the existing Amazon facility to the south. [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "Cleburne, TX 76033 Future Land Use Map",
+          "attachments": []
+        },
+        {
+          "text": "REZONING APPROXIMATELY ±62.79 ACRES GENERALLY LOCATED ON THE",
+          "attachments": []
+        },
+        {
+          "text": "XV: Land Usage, Chapter 155: Zoning, Section 155.5.05: Amendments, Hayes Stewart, under case ZC26-020, has requested the rezoning of ±62.79 acres generally located on the north side of",
+          "attachments": []
+        },
+        {
+          "text": "Texas, with a recommendation for _____ of the rezoning request by a vote of _____; and",
+          "attachments": []
+        },
+        {
+          "text": "WHEREAS, public notice was given and property owners within 200 feet were notified of the rezoning request as required by state law; and",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Item Description: The applicant, KBC Advisors, represented by Hayes Stewart, requests to rezone approximately 62.79 acres located north of County Road 1125 (Industrial Boulevard) from Agricultural",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "While the requested Industrial zoning is not consistent with the Future Land Use Plan, the request does conform to the existing zoning and prevailing development patterns in the area, including the recent rezone of the 138-acre parcel immediately to the north to Industrial and the existing Amazon facility to the south. [APPROVED]",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "REZONING APPROXIMATELY ±62.79 ACRES GENERALLY LOCATED ON THE",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "XV: Land Usage, Chapter 155: Zoning, Section 155.5.05: Amendments, Hayes Stewart, under case ZC26-020, has requested the rezoning of ±62.79 acres generally located on the north side of",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Johnson",
       "city": "Cleburne",
       "board": "City Council",
-      "meeting_date": "",
-      "agenda_url": "",
+      "meeting_date": "2026-09-14",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_09142026-2219",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2122,7 +2274,7 @@
       "city": "Decatur",
       "board": "City Council",
       "meeting_date": "2026-09-21",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_09212026-1577",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_09212026-1576",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
