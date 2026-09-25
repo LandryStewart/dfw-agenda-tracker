@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-09-24T16:16:58.922317Z",
+    "last_updated": "2026-09-25T16:20:22.723297Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-06-26",
-    "total_agenda_items": 39,
-    "total_sfr_items": 21,
+    "cutoff_date": "2026-06-27",
+    "total_agenda_items": 41,
+    "total_sfr_items": 22,
     "total_attachments": 0
   },
   "summaries": [
@@ -221,8 +221,8 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "City Council",
-      "meeting_date": "2026-09-21",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_09212026-1620",
+      "meeting_date": "2026-09-22",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_09222026-1622",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -490,8 +490,8 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-09-21",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_09212026-657",
+      "meeting_date": "2026-09-22",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_09222026-656",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -869,11 +869,16 @@
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "City Council",
-      "meeting_date": "2026-09-16",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_09162026-1823",
-      "items": [],
+      "meeting_date": "2026-10-01",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_10012026-1827",
+      "items": [
+        {
+          "text": "Consideration and action on Final Plat Application 008-2026 by Real Estate Group of",
+          "attachments": []
+        }
+      ],
       "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "status": "success"
     },
     {
       "county": "Dallas",
@@ -1450,11 +1455,11 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-03",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_09032026-1322",
+      "meeting_date": "2026-09-09",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_09092026-1327",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (48 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (40 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Denton",
@@ -1641,11 +1646,11 @@
       "county": "Denton",
       "city": "Cross Roads",
       "board": "City Council",
-      "meeting_date": "2026-08-07",
-      "agenda_url": "https://www.crossroadstx.gov/AgendaCenter/ViewFile/Agenda/_08072026-59",
+      "meeting_date": "2026-10-03",
+      "agenda_url": "https://www.crossroadstx.gov/AgendaCenter/ViewFile/Agenda/_10032026-63",
       "items": [
         {
-          "text": "FY 2026 and FY 2027 Budgets, Strategic Plan Components, Land Use Plan",
+          "text": "FY 2027 Budgets, Strategic Plan Components, Land Use Plan Components, Future Facility",
           "attachments": []
         }
       ],
@@ -1869,15 +1874,27 @@
       "county": "Rockwall",
       "city": "Royse City",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-15",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_09152026-648",
+      "meeting_date": "2026-10-01",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_10012026-653",
       "items": [
         {
-          "text": "TUESDAY, SEPTEMBER 15, 2026 may attend a Comprehensive Planning meeting on Tuesday, September 15, 2026, beginning at",
+          "text": "Consider and act on a Preliminary Plat of Clearview Ranch Phase 3 South, consisting of +/- 32.9 acres, situated in the John W Foote Survey, Abstract No.333 and the Russell Crawford Survey, Abstract No. 229, City of Royse City, Collin",
+          "attachments": []
+        },
+        {
+          "text": "Comprehensive Plan Refinement Event, and any matters related thereto.",
           "attachments": []
         }
       ],
-      "sfr_items": [],
+      "sfr_items": [
+        {
+          "text": "Consider and act on a Preliminary Plat of Clearview Ranch Phase 3 South, consisting of +/- 32.9 acres, situated in the John W Foote Survey, Abstract No.333 and the Russell Crawford Survey, Abstract No. 229, City of Royse City, Collin",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        }
+      ],
       "status": "success"
     },
     {
@@ -2264,17 +2281,17 @@
       "city": "Decatur",
       "board": "Planning & Zoning",
       "meeting_date": "2026-09-21",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_09212026-1577",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_09212026-1576",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (245 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (57 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Wise",
       "city": "Decatur",
       "board": "City Council",
-      "meeting_date": "2026-09-21",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_09212026-1576",
+      "meeting_date": "2026-09-22",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_09222026-1579",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
