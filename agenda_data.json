@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-09-25T16:20:22.723297Z",
+    "last_updated": "2026-09-26T15:29:44.051406Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-06-27",
+    "cutoff_date": "2026-06-28",
     "total_agenda_items": 41,
     "total_sfr_items": 22,
     "total_attachments": 0
@@ -1958,11 +1958,11 @@
       "county": "Kaufman",
       "city": "Forney",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-10",
-      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_09102026-1309",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (55 lines) but no rezone/plat/comp plan items"
+      "status": "PDFs found but could not extract text"
     },
     {
       "county": "Kaufman",
@@ -2150,8 +2150,8 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "City Council",
-      "meeting_date": "2026-09-14",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_09142026-2219",
+      "meeting_date": "2026-09-15",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_09152026-2222",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
