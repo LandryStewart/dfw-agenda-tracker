@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-09-28T19:00:28.538211Z",
+    "last_updated": "2026-09-29T17:25:59.209530Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-06-30",
-    "total_agenda_items": 54,
-    "total_sfr_items": 29,
+    "cutoff_date": "2026-07-01",
+    "total_agenda_items": 51,
+    "total_sfr_items": 26,
     "total_attachments": 0
   },
   "summaries": [
@@ -92,18 +92,18 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-23",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09232026-2326",
+      "meeting_date": "2026-09-24",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09242026-2327",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (24 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (54 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
-      "meeting_date": "2026-09-23",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09232026-2326",
+      "meeting_date": "2026-09-24",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09242026-2327",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -584,7 +584,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Dallas",
@@ -783,7 +783,7 @@
       "city": "Mesquite",
       "board": "City Council",
       "meeting_date": "2026-09-24",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_09242026-2280",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_09242026-2279",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1197,72 +1197,21 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-23",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_09232026-1756",
+      "meeting_date": "2026-10-05",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_10052026-1761",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (25 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (15 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-09-28",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_09282026-1759",
-      "items": [
-        {
-          "text": "380 Retail LP, Home Depot U.S.A. INC., and Kroger Texas LP, to final plat a property being 66.623 acres of land called Princeton",
-          "attachments": []
-        },
-        {
-          "text": "Exhibit A - Proposed Final Plat.pdf",
-          "attachments": []
-        },
-        {
-          "text": "Exhibit B - Approved Preliminary Plat.pdf",
-          "attachments": []
-        },
-        {
-          "text": "Exhibit C - Preliminary to Final Plat Comparison.pdf",
-          "attachments": []
-        },
-        {
-          "text": "CC Presentation - PTC FP- 09.28.2026.pptx",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "380 Retail LP, Home Depot U.S.A. INC., and Kroger Texas LP, to final plat a property being 66.623 acres of land called Princeton",
-          "attachments": [],
-          "keywords": [
-            "home",
-            "acre"
-          ]
-        },
-        {
-          "text": "Exhibit A - Proposed Final Plat.pdf",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "Exhibit B - Approved Preliminary Plat.pdf",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "Exhibit C - Preliminary to Final Plat Comparison.pdf",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-10-01",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_10012026-1757",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Collin",
@@ -1392,7 +1341,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Collin",
@@ -1721,34 +1670,46 @@
       "county": "Denton",
       "city": "Cross Roads",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-07-07",
-      "agenda_url": "https://www.crossroadstx.gov/AgendaCenter/ViewFile/Agenda/_07072026-56",
+      "meeting_date": "2026-10-06",
+      "agenda_url": "https://www.crossroadstx.gov/AgendaCenter/ViewFile/Agenda/_10062026-64",
       "items": [
         {
-          "text": "PUBLIC HEARING, discuss and consider a recommendation to the Town Council on an amendment to the Future Land Use Map application for a 13.61 acre parcel located at",
+          "text": "Discuss and consider a recommendation to the Town Council on a final plat application for a 146.78 acre parcel located west at 2500 Naylor Road, Cross Roads, Denton County,",
           "attachments": []
         },
         {
-          "text": "Doug Powell spoke regarding the Town’s comprehensive plan.",
+          "text": "Texas. The purpose of this final plat is to add a parcel to the previously approved plat for",
           "attachments": []
         },
         {
-          "text": "Discuss and consider a recommendation to the Town Council on a final plat application for a 59.917 acre parcel generally located west of Naylor Road, across from Sedona",
+          "text": "This request is to final plat the DISD high school site by adding a 5.04 acre tract that was previously owned by the Town.",
+          "attachments": []
+        },
+        {
+          "text": "Staff recommends approval of the final plat to create a single lot on the 146.78 acre",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "PUBLIC HEARING, discuss and consider a recommendation to the Town Council on an amendment to the Future Land Use Map application for a 13.61 acre parcel located at",
+          "text": "Discuss and consider a recommendation to the Town Council on a final plat application for a 146.78 acre parcel located west at 2500 Naylor Road, Cross Roads, Denton County,",
           "attachments": [],
           "keywords": [
             "acre"
           ]
         },
         {
-          "text": "Discuss and consider a recommendation to the Town Council on a final plat application for a 59.917 acre parcel generally located west of Naylor Road, across from Sedona",
+          "text": "This request is to final plat the DISD high school site by adding a 5.04 acre tract that was previously owned by the Town.",
           "attachments": [],
           "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Staff recommends approval of the final plat to create a single lot on the 146.78 acre",
+          "attachments": [],
+          "keywords": [
+            "lot",
             "acre"
           ]
         }
@@ -2264,7 +2225,7 @@
       "city": "Cleburne",
       "board": "City Council",
       "meeting_date": "2026-09-15",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_09152026-2222",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_09152026-2224",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2393,11 +2354,16 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-21",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_09212026-1576",
-      "items": [],
+      "meeting_date": "2026-10-06",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_10062026-1583",
+      "items": [
+        {
+          "text": "FP-26-0004 – Take appropriate action to approve a 30-day extension request regarding the Final",
+          "attachments": []
+        }
+      ],
       "sfr_items": [],
-      "status": "PDF parsed (57 lines) but no rezone/plat/comp plan items"
+      "status": "success"
     },
     {
       "county": "Wise",
