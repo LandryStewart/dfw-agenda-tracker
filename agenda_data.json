@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-09-29T17:25:59.209530Z",
+    "last_updated": "2026-09-30T17:15:07.797741Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-07-01",
-    "total_agenda_items": 51,
-    "total_sfr_items": 26,
+    "cutoff_date": "2026-07-02",
+    "total_agenda_items": 46,
+    "total_sfr_items": 23,
     "total_attachments": 0
   },
   "summaries": [
@@ -92,21 +92,89 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-24",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09242026-2327",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (54 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-10-08",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_10082026-2332",
+      "items": [
+        {
+          "text": "Consider: ZA26-0046, Zoning Change and Site Plan for Magnolia Office Park, on property described as Tract 5B06, S. Freeman Survey Abstract No. 525, and located at 501 N. Kimball Avenue.",
+          "attachments": []
+        },
+        {
+          "text": "Consider: CP26-0008, Amendment to the City of Southlake Consolidated Future Land Use Plan, an Element of the Southlake Comprehensive Plan, for Touchmark, on property described as Tracts",
+          "attachments": []
+        },
+        {
+          "text": "Consider: ZA26-0052, Zoning Change and Concept/Site Plan for Touchmark, on property described as Tracts 1C, 1D01, 1D01A, 1D02A, 1D02B, 1D02, 1F, 1F01, 1E01, 1E02, 1G, Richard Eads",
+          "attachments": []
+        },
+        {
+          "text": "Consider: ZA26-0064, Preliminary Plat for The Runway on property described as Lots 2, 25, and",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Consider: ZA26-0064, Preliminary Plat for The Runway on property described as Lots 2, 25, and",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
-      "meeting_date": "2026-09-24",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09242026-2327",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-10-06",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_10062026-2333",
+      "items": [
+        {
+          "text": "FY 2027 Comprehensive Plan Update",
+          "attachments": []
+        },
+        {
+          "text": "D. ZA26-0060, Preliminary Plat for Bridlegate, on property described as Lot 2R,",
+          "attachments": []
+        },
+        {
+          "text": "G. TABLE: Ordinance No. 480-667C, ZA26-0010, 1st Reading, Zoning Change and Site Plan for Chapel Crossing Medical, on property described as Lots 1R1 and 1R2, Block A, Ravenaux Village Addition, City of Southlake, Tarrant",
+          "attachments": []
+        },
+        {
+          "text": "A. Ordinance No. 480-299a, ZA26-0044, 2nd Reading, Zoning Change and Site",
+          "attachments": []
+        },
+        {
+          "text": "B. Ordinance No. 480-849, ZA26-0054, 2nd Reading, Zoning Change and",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "FY 2027 Comprehensive Plan Update",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "D. ZA26-0060, Preliminary Plat for Bridlegate, on property described as Lot 2R,",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        },
+        {
+          "text": "G. TABLE: Ordinance No. 480-667C, ZA26-0010, 1st Reading, Zoning Change and Site Plan for Chapel Crossing Medical, on property described as Lots 1R1 and 1R2, Block A, Ravenaux Village Addition, City of Southlake, Tarrant",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Tarrant",
@@ -415,7 +483,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -640,153 +708,36 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-28",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_09282026-2283",
-      "items": [
-        {
-          "text": "0460 submitted by RLK Engineering on behalf of Mesquite Independent School District (MISD) for a zoning change from Planned Development – Single Family Residential to Planned Development – [APPROVED]",
-          "attachments": []
-        },
-        {
-          "text": "0461 submitted by WRA Architect on behalf of Mesquite Independent School District (MISD) for a zoning change from Agricultural to Agricultural with a Conditional Use Permit to allow a public school located at 2300 Mesquite Valley Road. [APPROVED]",
-          "attachments": []
-        },
-        {
-          "text": "Z0626-0455 submitted by Rita Prieto for a zoning change from R-3 Single Family Residential to R-3 Single Family Residential with a Conditional Use Permit to allow an Accessory Dwelling",
-          "attachments": []
-        },
-        {
-          "text": "Planning and Zoning cases from the August 17, 2026, and September 8, 2026, Council",
-          "attachments": []
-        },
-        {
-          "text": "Zoning Application No. Z0626-0458, for a zoning change from Industrial within the",
-          "attachments": []
-        },
-        {
-          "text": "Comprehensive Plan: There will be a Town Hall Tuesday Meeting held on September 15th, 2026, at 6:30 pm. The location will be 757 N. Galloway, Training Rooms A & B. [APPROVED]",
-          "attachments": []
-        },
-        {
-          "text": "Requested Action: Rezone from Planned Development R-2A Single Family Residential, to",
-          "attachments": []
-        },
-        {
-          "text": "Future Land Use: Low Density Residential",
-          "attachments": []
-        },
-        {
-          "text": "MESQUITE COMPREHENSIVE PLAN [APPROVED]",
-          "attachments": []
-        },
-        {
-          "text": "The Mesquite Comprehensive Plan designates this area as Low Density Residential on the [APPROVED]",
-          "attachments": []
-        },
-        {
-          "text": "Future Land Use Map (see attachment 4). Low Density Residential represents a traditional single family detached neighborhood where each dwelling unit is located on an individual lot.",
-          "attachments": []
-        },
-        {
-          "text": "The proposed CUP to allow a new early childhood learning academy is consistent with the future land use designation of the Mesquite Comprehensive Plan as well as being allowed in the R-2A district with approval of a CUP.",
-          "attachments": []
-        },
-        {
-          "text": "Future Land Use Map. This designation represents traditional single-family neighborhoods and anticipates supporting uses that serve those neighborhoods, including parks, recreation facilities, and elementary schools. A pre-K facility operated by the school district is consistent with these supporting uses. It would serve nearby families without changing the single-family",
-          "attachments": []
-        },
-        {
-          "text": "Mesquite Comprehensive Plan. [APPROVED]",
-          "attachments": []
-        },
-        {
-          "text": "ATTACHMENT 4 – FUTURE LAND USE MAP",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "0460 submitted by RLK Engineering on behalf of Mesquite Independent School District (MISD) for a zoning change from Planned Development – Single Family Residential to Planned Development – [APPROVED]",
-          "attachments": [],
-          "keywords": [
-            "single family",
-            "residential",
-            "planned development"
-          ]
-        },
-        {
-          "text": "Z0626-0455 submitted by Rita Prieto for a zoning change from R-3 Single Family Residential to R-3 Single Family Residential with a Conditional Use Permit to allow an Accessory Dwelling",
-          "attachments": [],
-          "keywords": [
-            "single family",
-            "residential",
-            "dwelling",
-            "R-3"
-          ]
-        },
-        {
-          "text": "Requested Action: Rezone from Planned Development R-2A Single Family Residential, to",
-          "attachments": [],
-          "keywords": [
-            "single family",
-            "residential",
-            "R-2",
-            "planned development"
-          ]
-        },
-        {
-          "text": "Future Land Use: Low Density Residential",
-          "attachments": [],
-          "keywords": [
-            "residential",
-            "density"
-          ]
-        },
-        {
-          "text": "The Mesquite Comprehensive Plan designates this area as Low Density Residential on the [APPROVED]",
-          "attachments": [],
-          "keywords": [
-            "residential",
-            "density"
-          ]
-        },
-        {
-          "text": "Future Land Use Map (see attachment 4). Low Density Residential represents a traditional single family detached neighborhood where each dwelling unit is located on an individual lot.",
-          "attachments": [],
-          "keywords": [
-            "single family",
-            "residential",
-            "dwelling",
-            "detached",
-            "density"
-          ]
-        },
-        {
-          "text": "The proposed CUP to allow a new early childhood learning academy is consistent with the future land use designation of the Mesquite Comprehensive Plan as well as being allowed in the R-2A district with approval of a CUP.",
-          "attachments": [],
-          "keywords": [
-            "R-2"
-          ]
-        },
-        {
-          "text": "Future Land Use Map. This designation represents traditional single-family neighborhoods and anticipates supporting uses that serve those neighborhoods, including parks, recreation facilities, and elementary schools. A pre-K facility operated by the school district is consistent with these supporting uses. It would serve nearby families without changing the single-family",
-          "attachments": [],
-          "keywords": [
-            "single-family"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-10-01",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_10012026-2284",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (35 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-09-24",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_09242026-2279",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-10-05",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_10052026-2288",
+      "items": [
+        {
+          "text": "Application No. Z0626-0455, submitted by Rita Prieto, for a zoning change from R-3 Single Family Residential to R-3 Single Family Residential with a",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Application No. Z0626-0455, submitted by Rita Prieto, for a zoning change from R-3 Single Family Residential to R-3 Single Family Residential with a",
+          "attachments": [],
+          "keywords": [
+            "single family",
+            "residential",
+            "R-3"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Dallas",
@@ -1197,18 +1148,18 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-05",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_10052026-1761",
+      "meeting_date": "2026-10-06",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_10062026-1762",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (15 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (19 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-10-01",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_10012026-1757",
+      "meeting_date": "2026-10-06",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_10062026-1762",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
