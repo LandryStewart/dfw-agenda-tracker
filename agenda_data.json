@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-09-30T17:15:07.797741Z",
+    "last_updated": "2026-10-01T17:52:41.434194Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-07-02",
-    "total_agenda_items": 46,
-    "total_sfr_items": 23,
+    "cutoff_date": "2026-07-03",
+    "total_agenda_items": 63,
+    "total_sfr_items": 30,
     "total_attachments": 0
   },
   "summaries": [
@@ -483,7 +483,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Tarrant",
@@ -708,11 +708,11 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-01",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_10012026-2284",
+      "meeting_date": "2026-10-07",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_10072026-2289",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (35 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (25 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
@@ -1148,11 +1148,79 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-06",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_10062026-1762",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (19 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-10-07",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_10072026-1763",
+      "items": [
+        {
+          "text": "F.1 2026-015 Consider a request from Forestar (USA) Real Estate Group Inc., for a final plat being 31.852 acres of land called Crossmill Phase",
+          "attachments": []
+        },
+        {
+          "text": "PZ Memo- Crossmill Ph 1B - Final Plat - 10.07.2026.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit A - Proposed Final Plat.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit C - Approved Preliminary Plat.pdf",
+          "attachments": []
+        },
+        {
+          "text": "F.3 2026-017 Consider a request from Cope Equities, LLC, for a preliminary plat being 0.912 acres of land called Princeton Integrity 1st, located on the North side of East Monte Carlo Boulevard, and approximately 364 feet East of Longneck Road, Princeton, Texas; and take appropriate action.",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit A - Proposed Preliminary Plat.pdf",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "F.1 2026-015 Consider a request from Forestar (USA) Real Estate Group Inc., for a final plat being 31.852 acres of land called Crossmill Phase",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "PZ Memo- Crossmill Ph 1B - Final Plat - 10.07.2026.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit A - Proposed Final Plat.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit C - Approved Preliminary Plat.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "F.3 2026-017 Consider a request from Cope Equities, LLC, for a preliminary plat being 0.912 acres of land called Princeton Integrity 1st, located on the North side of East Monte Carlo Boulevard, and approximately 364 feet East of Longneck Road, Princeton, Texas; and take appropriate action.",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Exhibit A - Proposed Preliminary Plat.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Collin",
@@ -1478,20 +1546,63 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "City Council",
-      "meeting_date": "2026-09-21",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_09212026-1330",
+      "meeting_date": "2026-09-30",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_09302026-1334",
       "items": [
         {
-          "text": "35W and US Hwy 377 and includes all land indicated as commercial and residential designations on the Town of Argyle Future Land Use Plan dated June 2024 and zoned as commercial or residential on the latest Zoning Map; providing findings of fact; providing exemptions; providing a waiver procedure; providing for a termination date; providing for severability; and providing an effective date.",
+          "text": "Consistence with Comprehensive Plan:",
+          "attachments": []
+        },
+        {
+          "text": "The Town of Argyle Thoroughfare Plan provides a framework for the implementation of roadway projects that will accommodate the needs of the community. The Thoroughfare Plan is designed to align with the Comprehensive Plan to ensure a cohesive approach to development and transportation, ensuring that the roadway system supports the overall goals of Argyle.",
+          "attachments": []
+        },
+        {
+          "text": "COMPREHENSIVE PLAN OF THE TOWN OF ARGYLE, TEXAS, TO",
+          "attachments": []
+        },
+        {
+          "text": "Government Code, to adopt a comprehensive plan for the long-range development of the",
+          "attachments": []
+        },
+        {
+          "text": "WHEREAS, the Town Council adopted the Comprehensive Plan for the Town of [PASSED 5-0]",
+          "attachments": []
+        },
+        {
+          "text": "Comprehensive Plan\"); and",
+          "attachments": []
+        },
+        {
+          "text": "WHEREAS, the Town of Argyle initiated a comprehensive plan amendment to amend the Comprehensive Plan to change the Thoroughfare Plan, more specifically described in Exhibit A; and",
+          "attachments": []
+        },
+        {
+          "text": "WHEREAS, after all persons were given an opportunity to present testimony, and the Commission completed its review, the Commission determined the requested changes to be consistent with the goals of the Comprehensive Plan for orderly development within the Town and voted to recommend approval of the revisions to the",
+          "attachments": []
+        },
+        {
+          "text": "SECTION 2. The Comprehensive Plan is hereby amended to incorporate revisions to the Thoroughfare Plan as detailed below:",
+          "attachments": []
+        },
+        {
+          "text": "The Town of Argyle Future Land Use Plan (FLUP) provides a guide for future development in the Town.",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "35W and US Hwy 377 and includes all land indicated as commercial and residential designations on the Town of Argyle Future Land Use Plan dated June 2024 and zoned as commercial or residential on the latest Zoning Map; providing findings of fact; providing exemptions; providing a waiver procedure; providing for a termination date; providing for severability; and providing an effective date.",
+          "text": "The Town of Argyle Thoroughfare Plan provides a framework for the implementation of roadway projects that will accommodate the needs of the community. The Thoroughfare Plan is designed to align with the Comprehensive Plan to ensure a cohesive approach to development and transportation, ensuring that the roadway system supports the overall goals of Argyle.",
           "attachments": [],
           "keywords": [
-            "residential"
+            "unit"
+          ]
+        },
+        {
+          "text": "WHEREAS, after all persons were given an opportunity to present testimony, and the Commission completed its review, the Commission determined the requested changes to be consistent with the goals of the Comprehensive Plan for orderly development within the Town and voted to recommend approval of the revisions to the",
+          "attachments": [],
+          "keywords": [
+            "unit"
           ]
         }
       ],
@@ -1686,11 +1797,20 @@
       "county": "Denton",
       "city": "Oak Point",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-15",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_09152026-623",
-      "items": [],
+      "meeting_date": "2026-10-06",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_10062026-628",
+      "items": [
+        {
+          "text": "Consideration of a request for a Final Plat of “Elevation at Shahan Prairie”, being",
+          "attachments": []
+        },
+        {
+          "text": "Consideration of a request for a Final Plat of “Greywood Phase 1” being 38.613 in the",
+          "attachments": []
+        }
+      ],
       "sfr_items": [],
-      "status": "PDF parsed (76 lines) but no rezone/plat/comp plan items"
+      "status": "success"
     },
     {
       "county": "Denton",
