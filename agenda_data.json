@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-10-01T17:52:41.434194Z",
+    "last_updated": "2026-10-02T17:05:15.816144Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-07-03",
-    "total_agenda_items": 63,
-    "total_sfr_items": 30,
+    "cutoff_date": "2026-07-04",
+    "total_agenda_items": 69,
+    "total_sfr_items": 27,
     "total_attachments": 0
   },
   "summaries": [
@@ -220,66 +220,127 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-24",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_09242026-1623",
+      "meeting_date": "2026-10-08",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_10082026-1627",
       "items": [
         {
-          "text": "Consider approval of a Final Plat of Gateway Village consisting of 106 Lots & 9 Open Space",
+          "text": "Conduct a public hearing and consider making a recommendation to City Council regarding a rezoning of approximately 7.356 acres of property described as Emeral Oaks Addition 44",
           "attachments": []
         },
         {
-          "text": "Final Plat of Gateway Village",
+          "text": "Court and Second Street. (ZC-26-1)",
           "attachments": []
         },
         {
-          "text": "Agenda Caption: Consider approval of a Final Plat of Gateway Village consisting of 106 Lots & 9",
+          "text": "Consider approval of a Final Plat of Gateway Village consisting of 106 Lots &",
           "attachments": []
         },
         {
-          "text": "Summary of Request: The property is zoned “MD-4”, Medium- Density Single-Family Attached. The final plat subdivides the 11.275-acre property into 106 individual residential lots and 9 open space lots. The residential configuration remains generally consistent with the previously approved preliminary plat (PLAT-24-6), with the final plat reflecting additional open space, final street names, right of way and easements.",
+          "text": "Mrs. Aqqad detailed the final plat, stating it is in compliance with City Ordinances. Mrs.",
           "attachments": []
         },
         {
-          "text": "The final plat includes wall maintenance easements and open space lots associated with the required screening wall between the residential and commercial properties. The screening will be maintained by the respective",
+          "text": "Zoning Change No. ZC-26-1",
           "attachments": []
         },
         {
-          "text": "Staff Findings : The final plat is in substantial compliance with the zoning on the property and the",
+          "text": "Agenda Caption: Conduct a public hearing and consider making a recommendation to City Council regarding a rezoning of approximately 7.356 acres of property described as",
+          "attachments": []
+        },
+        {
+          "text": "Second Street. (ZC-26-1).",
+          "attachments": []
+        },
+        {
+          "text": "Summary of Request: The applicant requests rezoning of approximately 7.356 acres to “MD-3” Medium-",
+          "attachments": []
+        },
+        {
+          "text": "In addition, the Zoning Ordinance requires a site plan to be submitted that illustrates the layout of the proposed development. If the zoning change is approved, the site plan becomes a part of the adopted zoning ordinance, and the",
+          "attachments": []
+        },
+        {
+          "text": "_________________________________________________________________________________ plat for the property would be required to match the site plan approved with the zoning change. The zoning ordinance requires the site plan to ensure the site design meets the goals of the community.",
+          "attachments": []
+        },
+        {
+          "text": "Requirements: The Tree Preservation Ordinance requires a tree mitigation plan to be submitted at the Preliminary Plat stage. The applicant has provided a tree inventory table and mitigation schedule for the proposed Emerald Oaks development identifying",
+          "attachments": []
+        },
+        {
+          "text": "Analysis: The City of Bedford Comprehensive Plan, adopted in September 2024, identifies the subject property as Suburban Neighborhood on the Future Land Use Map.",
+          "attachments": []
+        },
+        {
+          "text": "Staff Findings : All zoning change applications require action by the Planning and Zoning",
+          "attachments": []
+        },
+        {
+          "text": "Commission before City Council can make their final determination on the request. Staff find the following facts to exist with the proposed zoning change:",
+          "attachments": []
+        },
+        {
+          "text": "Comprehensive Plan, which identifies a typical of three to eight dwelling units",
+          "attachments": []
+        },
+        {
+          "text": "The proposed zoning change extends the existing MD-3 zoning on two of the subject properties across the assembled development area, providing a unified zoning classification for the proposed subdivision.",
+          "attachments": []
+        },
+        {
+          "text": "Staff recommend approval of the zoning change application as submitted.",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "Consider approval of a Final Plat of Gateway Village consisting of 106 Lots & 9 Open Space",
+          "text": "Conduct a public hearing and consider making a recommendation to City Council regarding a rezoning of approximately 7.356 acres of property described as Emeral Oaks Addition 44",
           "attachments": [],
           "keywords": [
-            "lot"
-          ]
-        },
-        {
-          "text": "Agenda Caption: Consider approval of a Final Plat of Gateway Village consisting of 106 Lots & 9",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        },
-        {
-          "text": "Summary of Request: The property is zoned “MD-4”, Medium- Density Single-Family Attached. The final plat subdivides the 11.275-acre property into 106 individual residential lots and 9 open space lots. The residential configuration remains generally consistent with the previously approved preliminary plat (PLAT-24-6), with the final plat reflecting additional open space, final street names, right of way and easements.",
-          "attachments": [],
-          "keywords": [
-            "single-family",
-            "residential",
-            "density",
-            "lot",
             "acre"
           ]
         },
         {
-          "text": "The final plat includes wall maintenance easements and open space lots associated with the required screening wall between the residential and commercial properties. The screening will be maintained by the respective",
+          "text": "Consider approval of a Final Plat of Gateway Village consisting of 106 Lots &",
           "attachments": [],
           "keywords": [
-            "residential",
             "lot"
+          ]
+        },
+        {
+          "text": "Agenda Caption: Conduct a public hearing and consider making a recommendation to City Council regarding a rezoning of approximately 7.356 acres of property described as",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Summary of Request: The applicant requests rezoning of approximately 7.356 acres to “MD-3” Medium-",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "_________________________________________________________________________________ plat for the property would be required to match the site plan approved with the zoning change. The zoning ordinance requires the site plan to ensure the site design meets the goals of the community.",
+          "attachments": [],
+          "keywords": [
+            "unit"
+          ]
+        },
+        {
+          "text": "Comprehensive Plan, which identifies a typical of three to eight dwelling units",
+          "attachments": [],
+          "keywords": [
+            "dwelling",
+            "unit"
+          ]
+        },
+        {
+          "text": "The proposed zoning change extends the existing MD-3 zoning on two of the subject properties across the assembled development area, providing a unified zoning classification for the proposed subdivision.",
+          "attachments": [],
+          "keywords": [
+            "subdivision"
           ]
         }
       ],
@@ -289,8 +350,8 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "City Council",
-      "meeting_date": "2026-09-23",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_09232026-1619",
+      "meeting_date": "2026-10-01",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_10012026-1624",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -399,11 +460,11 @@
       "county": "Tarrant",
       "city": "Benbrook",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-17",
-      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_08172026-843",
+      "meeting_date": "2026-09-28",
+      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_09282026-851",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (140 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (127 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Tarrant",
@@ -558,8 +619,8 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-09-22",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_09222026-656",
+      "meeting_date": "2026-09-28",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_09282026-658",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1148,86 +1209,18 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-07",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_10072026-1763",
-      "items": [
-        {
-          "text": "F.1 2026-015 Consider a request from Forestar (USA) Real Estate Group Inc., for a final plat being 31.852 acres of land called Crossmill Phase",
-          "attachments": []
-        },
-        {
-          "text": "PZ Memo- Crossmill Ph 1B - Final Plat - 10.07.2026.pdf",
-          "attachments": []
-        },
-        {
-          "text": "Exhibit A - Proposed Final Plat.pdf",
-          "attachments": []
-        },
-        {
-          "text": "Exhibit C - Approved Preliminary Plat.pdf",
-          "attachments": []
-        },
-        {
-          "text": "F.3 2026-017 Consider a request from Cope Equities, LLC, for a preliminary plat being 0.912 acres of land called Princeton Integrity 1st, located on the North side of East Monte Carlo Boulevard, and approximately 364 feet East of Longneck Road, Princeton, Texas; and take appropriate action.",
-          "attachments": []
-        },
-        {
-          "text": "Exhibit A - Proposed Preliminary Plat.pdf",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "F.1 2026-015 Consider a request from Forestar (USA) Real Estate Group Inc., for a final plat being 31.852 acres of land called Crossmill Phase",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "PZ Memo- Crossmill Ph 1B - Final Plat - 10.07.2026.pdf",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "Exhibit A - Proposed Final Plat.pdf",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "Exhibit C - Approved Preliminary Plat.pdf",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "F.3 2026-017 Consider a request from Cope Equities, LLC, for a preliminary plat being 0.912 acres of land called Princeton Integrity 1st, located on the North side of East Monte Carlo Boulevard, and approximately 364 feet East of Longneck Road, Princeton, Texas; and take appropriate action.",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "Exhibit A - Proposed Preliminary Plat.pdf",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-10-08",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_10082026-1765",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (63 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-10-06",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_10062026-1762",
+      "meeting_date": "2026-10-08",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_10082026-1765",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1536,11 +1529,16 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-09",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_09092026-1327",
-      "items": [],
+      "meeting_date": "2026-10-07",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_10072026-1336",
+      "items": [
+        {
+          "text": "Comprehensive Plan adopted June 17, 2024 as Ordinance 2024-17.",
+          "attachments": []
+        }
+      ],
       "sfr_items": [],
-      "status": "PDF parsed (40 lines) but no rezone/plat/comp plan items"
+      "status": "success"
     },
     {
       "county": "Denton",
