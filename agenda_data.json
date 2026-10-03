@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-10-02T17:05:15.816144Z",
+    "last_updated": "2026-10-03T15:43:57.867003Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-07-04",
-    "total_agenda_items": 69,
-    "total_sfr_items": 27,
+    "cutoff_date": "2026-07-05",
+    "total_agenda_items": 68,
+    "total_sfr_items": 26,
     "total_attachments": 0
   },
   "summaries": [
@@ -770,35 +770,20 @@
       "city": "Mesquite",
       "board": "Planning & Zoning",
       "meeting_date": "2026-10-07",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_10072026-2289",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_10072026-2285",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (25 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (11 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-10-05",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_10052026-2288",
-      "items": [
-        {
-          "text": "Application No. Z0626-0455, submitted by Rita Prieto, for a zoning change from R-3 Single Family Residential to R-3 Single Family Residential with a",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Application No. Z0626-0455, submitted by Rita Prieto, for a zoning change from R-3 Single Family Residential to R-3 Single Family Residential with a",
-          "attachments": [],
-          "keywords": [
-            "single family",
-            "residential",
-            "R-3"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-10-07",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_10072026-2285",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Dallas",
