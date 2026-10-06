@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-10-04T16:43:18.593120Z",
+    "last_updated": "2026-10-06T17:40:30.493144Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-07-06",
-    "total_agenda_items": 68,
-    "total_sfr_items": 26,
+    "cutoff_date": "2026-07-08",
+    "total_agenda_items": 50,
+    "total_sfr_items": 21,
     "total_attachments": 0
   },
   "summaries": [
@@ -92,89 +92,21 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-08",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_10082026-2332",
-      "items": [
-        {
-          "text": "Consider: ZA26-0046, Zoning Change and Site Plan for Magnolia Office Park, on property described as Tract 5B06, S. Freeman Survey Abstract No. 525, and located at 501 N. Kimball Avenue.",
-          "attachments": []
-        },
-        {
-          "text": "Consider: CP26-0008, Amendment to the City of Southlake Consolidated Future Land Use Plan, an Element of the Southlake Comprehensive Plan, for Touchmark, on property described as Tracts",
-          "attachments": []
-        },
-        {
-          "text": "Consider: ZA26-0052, Zoning Change and Concept/Site Plan for Touchmark, on property described as Tracts 1C, 1D01, 1D01A, 1D02A, 1D02B, 1D02, 1F, 1F01, 1E01, 1E02, 1G, Richard Eads",
-          "attachments": []
-        },
-        {
-          "text": "Consider: ZA26-0064, Preliminary Plat for The Runway on property described as Lots 2, 25, and",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Consider: ZA26-0064, Preliminary Plat for The Runway on property described as Lots 2, 25, and",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-10-12",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_10122026-2336",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (21 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
-      "meeting_date": "2026-10-06",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_10062026-2333",
-      "items": [
-        {
-          "text": "FY 2027 Comprehensive Plan Update",
-          "attachments": []
-        },
-        {
-          "text": "D. ZA26-0060, Preliminary Plat for Bridlegate, on property described as Lot 2R,",
-          "attachments": []
-        },
-        {
-          "text": "G. TABLE: Ordinance No. 480-667C, ZA26-0010, 1st Reading, Zoning Change and Site Plan for Chapel Crossing Medical, on property described as Lots 1R1 and 1R2, Block A, Ravenaux Village Addition, City of Southlake, Tarrant",
-          "attachments": []
-        },
-        {
-          "text": "A. Ordinance No. 480-299a, ZA26-0044, 2nd Reading, Zoning Change and Site",
-          "attachments": []
-        },
-        {
-          "text": "B. Ordinance No. 480-849, ZA26-0054, 2nd Reading, Zoning Change and",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "FY 2027 Comprehensive Plan Update",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "D. ZA26-0060, Preliminary Plat for Bridlegate, on property described as Lot 2R,",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        },
-        {
-          "text": "G. TABLE: Ordinance No. 480-667C, ZA26-0010, 1st Reading, Zoning Change and Site Plan for Chapel Crossing Medical, on property described as Lots 1R1 and 1R2, Block A, Ravenaux Village Addition, City of Southlake, Tarrant",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-10-12",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_10122026-2336",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
@@ -600,27 +532,18 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-08",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_09082026-652",
-      "items": [
-        {
-          "text": "Consider action on the application of JP Andrews creating the Preliminary Plat of the",
-          "attachments": []
-        },
-        {
-          "text": "Consider action on the application of JP Andrews creating the Final Plat of the Costco",
-          "attachments": []
-        }
-      ],
+      "meeting_date": "2026-09-22",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_09222026-655",
+      "items": [],
       "sfr_items": [],
-      "status": "success"
+      "status": "PDF parsed (30 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-09-28",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_09282026-658",
+      "meeting_date": "2026-10-06",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_10062026-659",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -969,11 +892,11 @@
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-09",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_09092026-1820",
+      "meeting_date": "2026-08-12",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_08122026-1811",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (34 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (71 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
@@ -1018,7 +941,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Dallas",
@@ -1238,7 +1161,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Collin",
@@ -1529,63 +1452,43 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "City Council",
-      "meeting_date": "2026-09-30",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_09302026-1334",
+      "meeting_date": "2026-10-05",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_10052026-1337",
       "items": [
         {
-          "text": "Consistence with Comprehensive Plan:",
+          "text": "Allowed uses are for water, wastewater, roadway and drainage facilities. Impact fees are meant to recover the incremental cost of the impact of each new unit of development which creates new infrastructure needs. Included in these reports are the growth projections based on assumptions pertaining to the type, location, quantity, and timing of various future land uses within the Town. In addition, these reports also document the methodology used in generating the growth and land use assumptions.",
           "attachments": []
         },
         {
-          "text": "The Town of Argyle Thoroughfare Plan provides a framework for the implementation of roadway projects that will accommodate the needs of the community. The Thoroughfare Plan is designed to align with the Comprehensive Plan to ensure a cohesive approach to development and transportation, ensuring that the roadway system supports the overall goals of Argyle.",
+          "text": "Reasonable future growth estimates are necessary in order to aid the Town of Argyle (Town) in establishing the need for capital improvements required to serve future development. In accordance with Chapter 395, Kimley-Horn and Associates, Inc. (Kimley-Horn) has compiled the information required to complete the update of the Land Use Assumptions using the following sources: the Town Future Land Use Plan, previous land use assumptions used for recent thoroughfare plan modeling, consultation with Town staff, and building permit history.",
           "attachments": []
         },
         {
-          "text": "COMPREHENSIVE PLAN OF THE TOWN OF ARGYLE, TEXAS, TO",
+          "text": "Included in this report are the growth projections based on assumptions pertaining to the type, location, quantity, and timing of various future land uses within the Town. In addition, this report also documents the methodology used in generating the growth and land use assumptions.",
           "attachments": []
         },
         {
-          "text": "Government Code, to adopt a comprehensive plan for the long-range development of the",
+          "text": "This task involved evaluating the existing and future land use plan and projecting future growth for the Town. Kimley-Horn worked with Town staff to determine future projections. The growth projections were then used to project wastewater flow throughout the Town.",
           "attachments": []
         },
         {
-          "text": "WHEREAS, the Town Council adopted the Comprehensive Plan for the Town of [PASSED 5-0]",
-          "attachments": []
-        },
-        {
-          "text": "Comprehensive Plan\"); and",
-          "attachments": []
-        },
-        {
-          "text": "WHEREAS, the Town of Argyle initiated a comprehensive plan amendment to amend the Comprehensive Plan to change the Thoroughfare Plan, more specifically described in Exhibit A; and",
-          "attachments": []
-        },
-        {
-          "text": "WHEREAS, after all persons were given an opportunity to present testimony, and the Commission completed its review, the Commission determined the requested changes to be consistent with the goals of the Comprehensive Plan for orderly development within the Town and voted to recommend approval of the revisions to the",
-          "attachments": []
-        },
-        {
-          "text": "SECTION 2. The Comprehensive Plan is hereby amended to incorporate revisions to the Thoroughfare Plan as detailed below:",
-          "attachments": []
-        },
-        {
-          "text": "The Town of Argyle Future Land Use Plan (FLUP) provides a guide for future development in the Town.",
+          "text": "Criteria section of this report. Information related to the growth of the Town was developed based on the future land use plan and direction from Town staff.",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "The Town of Argyle Thoroughfare Plan provides a framework for the implementation of roadway projects that will accommodate the needs of the community. The Thoroughfare Plan is designed to align with the Comprehensive Plan to ensure a cohesive approach to development and transportation, ensuring that the roadway system supports the overall goals of Argyle.",
+          "text": "Allowed uses are for water, wastewater, roadway and drainage facilities. Impact fees are meant to recover the incremental cost of the impact of each new unit of development which creates new infrastructure needs. Included in these reports are the growth projections based on assumptions pertaining to the type, location, quantity, and timing of various future land uses within the Town. In addition, these reports also document the methodology used in generating the growth and land use assumptions.",
           "attachments": [],
           "keywords": [
             "unit"
           ]
         },
         {
-          "text": "WHEREAS, after all persons were given an opportunity to present testimony, and the Commission completed its review, the Commission determined the requested changes to be consistent with the goals of the Comprehensive Plan for orderly development within the Town and voted to recommend approval of the revisions to the",
+          "text": "Reasonable future growth estimates are necessary in order to aid the Town of Argyle (Town) in establishing the need for capital improvements required to serve future development. In accordance with Chapter 395, Kimley-Horn and Associates, Inc. (Kimley-Horn) has compiled the information required to complete the update of the Land Use Assumptions using the following sources: the Town Future Land Use Plan, previous land use assumptions used for recent thoroughfare plan modeling, consultation with Town staff, and building permit history.",
           "attachments": [],
           "keywords": [
-            "unit"
+            "PD"
           ]
         }
       ],
@@ -1780,15 +1683,11 @@
       "county": "Denton",
       "city": "Oak Point",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-06",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_10062026-628",
+      "meeting_date": "2026-10-12",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_10122026-629",
       "items": [
         {
-          "text": "Consideration of a request for a Final Plat of “Elevation at Shahan Prairie”, being",
-          "attachments": []
-        },
-        {
-          "text": "Consideration of a request for a Final Plat of “Greywood Phase 1” being 38.613 in the",
+          "text": "Presentation and Discussion from Comprehensive Plan Consultant. (Westwood Professional Services)",
           "attachments": []
         }
       ],
@@ -1799,24 +1698,11 @@
       "county": "Denton",
       "city": "Oak Point",
       "board": "City Council",
-      "meeting_date": "2026-09-16",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_09162026-624",
-      "items": [
-        {
-          "text": "Manager to implement each item in accordance with staff recommendations. a. Approve City Council Meeting Minutes. (City Secretary) i. August 19, 2026 Regular City Council Meeting b. Consider and act upon Resolution 2026-09-89R to authorize the City Manager to negotiate and execute a contract for the Comprehensive Plan Update with",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Manager to implement each item in accordance with staff recommendations. a. Approve City Council Meeting Minutes. (City Secretary) i. August 19, 2026 Regular City Council Meeting b. Consider and act upon Resolution 2026-09-89R to authorize the City Manager to negotiate and execute a contract for the Comprehensive Plan Update with",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-10-12",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_10122026-629",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Denton",
