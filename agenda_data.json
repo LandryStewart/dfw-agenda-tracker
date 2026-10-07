@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-10-06T17:40:30.493144Z",
+    "last_updated": "2026-10-07T18:17:24.496563Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-07-08",
-    "total_agenda_items": 50,
-    "total_sfr_items": 21,
+    "cutoff_date": "2026-07-09",
+    "total_agenda_items": 52,
+    "total_sfr_items": 24,
     "total_attachments": 0
   },
   "summaries": [
@@ -392,11 +392,11 @@
       "county": "Tarrant",
       "city": "Benbrook",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-28",
-      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_09282026-851",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (127 lines) but no rezone/plat/comp plan items"
+      "status": "PDFs found but could not extract text"
     },
     {
       "county": "Tarrant",
@@ -692,11 +692,25 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-07",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_10072026-2285",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (11 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-10-12",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_10122026-2292",
+      "items": [
+        {
+          "text": "0464 submitted by Braulio Camarillo, B&B Tellus, LLC, for a zoning change from R-1 Single Family",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "0464 submitted by Braulio Camarillo, B&B Tellus, LLC, for a zoning change from R-1 Single Family",
+          "attachments": [],
+          "keywords": [
+            "single family",
+            "R-1"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Dallas",
@@ -1117,18 +1131,18 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-08",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_10082026-1765",
+      "meeting_date": "2026-10-17",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_10172026-1755",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (63 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (19 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-10-08",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_10082026-1765",
+      "meeting_date": "2026-10-17",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_10172026-1755",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1879,7 +1893,7 @@
       "city": "Fate",
       "board": "City Council",
       "meeting_date": "2026-10-06",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_10062026-1531",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_10062026-1528",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2072,11 +2086,15 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-28",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_09282026-2225",
+      "meeting_date": "2026-10-12",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_10122026-2228",
       "items": [
         {
-          "text": "Chairman Archer seconded the motion. The motion carried by a vote of 6-0. c. *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE VARIOUS PROPERTIES",
+          "text": "Although this request does not meet the Future Land Use Plan, it does conform to the surrounding development patterns, and the City Council has broad discretion in regard to [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "City Council may direct staff to update the Future Land Use Plan at a future date to match the land use categories to prevailing and anticipated zoning patterns for this area. [APPROVED]",
           "attachments": []
         },
         {
@@ -2084,15 +2102,11 @@
           "attachments": []
         },
         {
-          "text": "Item Description: The applicant, KBC Advisors, represented by Hayes Stewart, requests to rezone approximately 62.79 acres located north of County Road 1125 (Industrial Boulevard) from Agricultural",
+          "text": "102 Partners, requests to rezone approximately 74.95 acres addressed as 3245 County Road 1216 from",
           "attachments": []
         },
         {
-          "text": "Following annexation, the property owner originally requested to rezone the property to Planned",
-          "attachments": []
-        },
-        {
-          "text": "Rezoning Proposal: The applicant now requests to rezone the subject property from Agricultural (A)",
+          "text": "Rezoning Proposal: The applicant requests to rezone the subject property from Agricultural (A) District to Industrial (I) District.",
           "attachments": []
         },
         {
@@ -2100,11 +2114,11 @@
           "attachments": []
         },
         {
-          "text": "Future Land Use Plan: The Future Land Use Plan designates the western portion of this site as Medium-",
+          "text": "Future Land Use Plan: The Future Land Use Plan designates this site as Mixed-Use. Mixed-use is intended to provide areas for coordinated residential and nonresidential uses within a single development or planning area. Multi-family and high-density residential may be appropriate in the context of mixed uses.",
           "attachments": []
         },
         {
-          "text": "While the requested Industrial zoning is not consistent with the Future Land Use Plan, the request does conform to the existing zoning and prevailing development patterns in the area, including the recent rezone of the 138-acre parcel immediately to the north to Industrial and the existing Amazon facility to the south. [APPROVED]",
+          "text": "While the requested Industrial zoning does not align with the Future Land Use Plan, the request is consistent with the surrounding zoning and prevailing development patterns on the northern side of US [APPROVED]",
           "attachments": []
         },
         {
@@ -2112,46 +2126,65 @@
           "attachments": []
         },
         {
-          "text": "REZONING APPROXIMATELY ±62.79 ACRES GENERALLY LOCATED ON THE",
+          "text": "REZONING APPROXIMATELY ± 74.95 ACRES ADDRESSED AS 3245 COUNTY",
           "attachments": []
         },
         {
-          "text": "XV: Land Usage, Chapter 155: Zoning, Section 155.5.05: Amendments, Hayes Stewart, under case ZC26-020, has requested the rezoning of ±62.79 acres generally located on the north side of",
+          "text": "Langan Engineering, under case ZC26-019, has requested the rezoning of ±74.95 acres, addressed as 3245 County Road 1216 from Agricultural (A) District to Industrial (I) District; and",
           "attachments": []
         },
         {
-          "text": "Texas, with a recommendation for _____ of the rezoning request by a vote of _____; and",
+          "text": "Texas, with a recommendation for _______ of the rezoning request by a vote of ___; and",
           "attachments": []
         },
         {
-          "text": "WHEREAS, public notice was given and property owners within 200 feet were notified of the rezoning request as required by state law; and",
+          "text": "_______ the request to rezone; [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "SECTION ONE. A certain tract or parcel of land known as ±74.95-acre property addressed as 3245 County Road 1216 and generally located at the northwest corner of the intersection of West Katherine P Raines Drive and Cattleman Dive, and further described in the survey attached as Exhibit “A” is hereby rezoned from Agricultural (A) District to Industrial (I) [APPROVED]",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "Item Description: The applicant, KBC Advisors, represented by Hayes Stewart, requests to rezone approximately 62.79 acres located north of County Road 1125 (Industrial Boulevard) from Agricultural",
+          "text": "City Council may direct staff to update the Future Land Use Plan at a future date to match the land use categories to prevailing and anticipated zoning patterns for this area. [APPROVED]",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "102 Partners, requests to rezone approximately 74.95 acres addressed as 3245 County Road 1216 from",
           "attachments": [],
           "keywords": [
             "acre"
           ]
         },
         {
-          "text": "While the requested Industrial zoning is not consistent with the Future Land Use Plan, the request does conform to the existing zoning and prevailing development patterns in the area, including the recent rezone of the 138-acre parcel immediately to the north to Industrial and the existing Amazon facility to the south. [APPROVED]",
+          "text": "Future Land Use Plan: The Future Land Use Plan designates this site as Mixed-Use. Mixed-use is intended to provide areas for coordinated residential and nonresidential uses within a single development or planning area. Multi-family and high-density residential may be appropriate in the context of mixed uses.",
+          "attachments": [],
+          "keywords": [
+            "residential",
+            "density"
+          ]
+        },
+        {
+          "text": "REZONING APPROXIMATELY ± 74.95 ACRES ADDRESSED AS 3245 COUNTY",
           "attachments": [],
           "keywords": [
             "acre"
           ]
         },
         {
-          "text": "REZONING APPROXIMATELY ±62.79 ACRES GENERALLY LOCATED ON THE",
+          "text": "Langan Engineering, under case ZC26-019, has requested the rezoning of ±74.95 acres, addressed as 3245 County Road 1216 from Agricultural (A) District to Industrial (I) District; and",
           "attachments": [],
           "keywords": [
             "acre"
           ]
         },
         {
-          "text": "XV: Land Usage, Chapter 155: Zoning, Section 155.5.05: Amendments, Hayes Stewart, under case ZC26-020, has requested the rezoning of ±62.79 acres generally located on the north side of",
+          "text": "SECTION ONE. A certain tract or parcel of land known as ±74.95-acre property addressed as 3245 County Road 1216 and generally located at the northwest corner of the intersection of West Katherine P Raines Drive and Cattleman Dive, and further described in the survey attached as Exhibit “A” is hereby rezoned from Agricultural (A) District to Industrial (I) [APPROVED]",
           "attachments": [],
           "keywords": [
             "acre"
@@ -2309,8 +2342,8 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "City Council",
-      "meeting_date": "2026-09-22",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_09222026-1579",
+      "meeting_date": "2026-09-28",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_09282026-1582",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
