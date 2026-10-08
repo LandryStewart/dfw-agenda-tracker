@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-10-07T18:17:24.496563Z",
+    "last_updated": "2026-10-08T18:20:01.486341Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-07-09",
-    "total_agenda_items": 52,
-    "total_sfr_items": 24,
+    "cutoff_date": "2026-07-10",
+    "total_agenda_items": 50,
+    "total_sfr_items": 22,
     "total_attachments": 0
   },
   "summaries": [
@@ -282,11 +282,16 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "City Council",
-      "meeting_date": "2026-10-01",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_10012026-1624",
-      "items": [],
+      "meeting_date": "2026-10-13",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_10132026-1628",
+      "items": [
+        {
+          "text": "Public hearing and consider an ordinance to rezone the property legally described as First State",
+          "attachments": []
+        }
+      ],
       "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "status": "success"
     },
     {
       "county": "Tarrant",
@@ -476,7 +481,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -1452,61 +1457,45 @@
       "city": "Argyle",
       "board": "Planning & Zoning",
       "meeting_date": "2026-10-07",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_10072026-1336",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_10072026-1339",
       "items": [
         {
           "text": "Comprehensive Plan adopted June 17, 2024 as Ordinance 2024-17.",
           "attachments": []
+        },
+        {
+          "text": "1 Z-26-004 Heath Tract Planned Development Scheduled for Special PZ meeting on initiated rezoning application for the Heath Tract for consideration by the P&Z Commission during a special",
+          "attachments": []
+        },
+        {
+          "text": "8 FLUP-26-003 Thoroughfare Plan Amendments Ordinance Amendment Scheduled for PZ 10.7.26 (FLUP-26-003) to the Thoroughfare Plan of the Town of Argyle Comprehensive Plan adopted June 17, 2024 as",
+          "attachments": []
+        },
+        {
+          "text": "Hold a public hearing, consider and make a recommendation to Town Council on an ordinance amendment (FLUP-26-003) to the Thoroughfare Plan of the Town of Argyle Comprehensive Plan adopted",
+          "attachments": []
         }
       ],
-      "sfr_items": [],
+      "sfr_items": [
+        {
+          "text": "1 Z-26-004 Heath Tract Planned Development Scheduled for Special PZ meeting on initiated rezoning application for the Heath Tract for consideration by the P&Z Commission during a special",
+          "attachments": [],
+          "keywords": [
+            "planned development"
+          ]
+        }
+      ],
       "status": "success"
     },
     {
       "county": "Denton",
       "city": "Argyle",
       "board": "City Council",
-      "meeting_date": "2026-10-05",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_10052026-1337",
-      "items": [
-        {
-          "text": "Allowed uses are for water, wastewater, roadway and drainage facilities. Impact fees are meant to recover the incremental cost of the impact of each new unit of development which creates new infrastructure needs. Included in these reports are the growth projections based on assumptions pertaining to the type, location, quantity, and timing of various future land uses within the Town. In addition, these reports also document the methodology used in generating the growth and land use assumptions.",
-          "attachments": []
-        },
-        {
-          "text": "Reasonable future growth estimates are necessary in order to aid the Town of Argyle (Town) in establishing the need for capital improvements required to serve future development. In accordance with Chapter 395, Kimley-Horn and Associates, Inc. (Kimley-Horn) has compiled the information required to complete the update of the Land Use Assumptions using the following sources: the Town Future Land Use Plan, previous land use assumptions used for recent thoroughfare plan modeling, consultation with Town staff, and building permit history.",
-          "attachments": []
-        },
-        {
-          "text": "Included in this report are the growth projections based on assumptions pertaining to the type, location, quantity, and timing of various future land uses within the Town. In addition, this report also documents the methodology used in generating the growth and land use assumptions.",
-          "attachments": []
-        },
-        {
-          "text": "This task involved evaluating the existing and future land use plan and projecting future growth for the Town. Kimley-Horn worked with Town staff to determine future projections. The growth projections were then used to project wastewater flow throughout the Town.",
-          "attachments": []
-        },
-        {
-          "text": "Criteria section of this report. Information related to the growth of the Town was developed based on the future land use plan and direction from Town staff.",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Allowed uses are for water, wastewater, roadway and drainage facilities. Impact fees are meant to recover the incremental cost of the impact of each new unit of development which creates new infrastructure needs. Included in these reports are the growth projections based on assumptions pertaining to the type, location, quantity, and timing of various future land uses within the Town. In addition, these reports also document the methodology used in generating the growth and land use assumptions.",
-          "attachments": [],
-          "keywords": [
-            "unit"
-          ]
-        },
-        {
-          "text": "Reasonable future growth estimates are necessary in order to aid the Town of Argyle (Town) in establishing the need for capital improvements required to serve future development. In accordance with Chapter 395, Kimley-Horn and Associates, Inc. (Kimley-Horn) has compiled the information required to complete the update of the Land Use Assumptions using the following sources: the Town Future Land Use Plan, previous land use assumptions used for recent thoroughfare plan modeling, consultation with Town staff, and building permit history.",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-10-06",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_10062026-1338",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Denton",
@@ -1883,7 +1872,7 @@
       "city": "Fate",
       "board": "Planning & Zoning",
       "meeting_date": "2026-10-06",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_10062026-1531",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_10062026-1525",
       "items": [],
       "sfr_items": [],
       "status": "PDF parsed (28 lines) but no rezone/plat/comp plan items"
@@ -1929,17 +1918,9 @@
       "county": "Rockwall",
       "city": "Royse City",
       "board": "City Council",
-      "meeting_date": "2026-09-22",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_09222026-652",
+      "meeting_date": "2026-10-13",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_10132026-656",
       "items": [
-        {
-          "text": "Approve a final plat for Verandah Phase 3E, consisting of +/- 24.6 acres, situated in the James May Survey, Abstract No.1297, Verandah Municipal Utility District,",
-          "attachments": []
-        },
-        {
-          "text": "Approve a final plat of Bearpen Phase 1, consisting of +/- 106 acres, situated in the",
-          "attachments": []
-        },
         {
           "text": "Approve a final plat of the Marketplace West Addition, Block A, Lots 1 & 2, consisting of +/- 27.6 acres, situated in the Jared Stephenson Survey, Abstract No.",
           "attachments": []
@@ -1947,23 +1928,13 @@
         {
           "text": "Approve a final plat Marketplace West Addition, Lots 1R1 & 1R2 (previously known as Mercantile 30), consisting of +/- 13.7, situated in Block A, Lot 1 of the",
           "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Approve a final plat for Verandah Phase 3E, consisting of +/- 24.6 acres, situated in the James May Survey, Abstract No.1297, Verandah Municipal Utility District,",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
         },
         {
           "text": "Approve a final plat of Bearpen Phase 1, consisting of +/- 106 acres, situated in the",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
         {
           "text": "Approve a final plat of the Marketplace West Addition, Block A, Lots 1 & 2, consisting of +/- 27.6 acres, situated in the Jared Stephenson Survey, Abstract No.",
           "attachments": [],
@@ -1977,6 +1948,13 @@
           "attachments": [],
           "keywords": [
             "lot"
+          ]
+        },
+        {
+          "text": "Approve a final plat of Bearpen Phase 1, consisting of +/- 106 acres, situated in the",
+          "attachments": [],
+          "keywords": [
+            "acre"
           ]
         }
       ],
@@ -2343,7 +2321,7 @@
       "city": "Decatur",
       "board": "City Council",
       "meeting_date": "2026-09-28",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_09282026-1582",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_09282026-1581",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
