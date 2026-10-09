@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-10-08T18:20:01.486341Z",
+    "last_updated": "2026-10-09T17:56:04.775352Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-07-10",
+    "cutoff_date": "2026-07-11",
     "total_agenda_items": 50,
     "total_sfr_items": 22,
     "total_attachments": 0
@@ -407,8 +407,8 @@
       "county": "Tarrant",
       "city": "Benbrook",
       "board": "City Council",
-      "meeting_date": "2026-09-28",
-      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_09282026-851",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -481,7 +481,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Tarrant",
@@ -1872,7 +1872,7 @@
       "city": "Fate",
       "board": "Planning & Zoning",
       "meeting_date": "2026-10-06",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_10062026-1525",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_10062026-1528",
       "items": [],
       "sfr_items": [],
       "status": "PDF parsed (28 lines) but no rezone/plat/comp plan items"
@@ -2320,8 +2320,8 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "City Council",
-      "meeting_date": "2026-09-28",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_09282026-1581",
+      "meeting_date": "2026-10-12",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_10122026-1587",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
