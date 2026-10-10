@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-10-09T17:56:04.775352Z",
+    "last_updated": "2026-10-10T16:37:59.351273Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-07-11",
+    "cutoff_date": "2026-07-12",
     "total_agenda_items": 50,
     "total_sfr_items": 22,
     "total_attachments": 0
@@ -1492,7 +1492,7 @@
       "city": "Argyle",
       "board": "City Council",
       "meeting_date": "2026-10-06",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_10062026-1338",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_10062026-1335",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
