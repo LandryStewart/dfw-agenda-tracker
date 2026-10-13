@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-10-12T20:46:42.876956Z",
+    "last_updated": "2026-10-13T18:34:34.412539Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-07-14",
+    "cutoff_date": "2026-07-15",
     "total_agenda_items": 50,
-    "total_sfr_items": 22,
+    "total_sfr_items": 24,
     "total_attachments": 0
   },
   "summaries": [
@@ -92,18 +92,42 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-12",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_10122026-2336",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (21 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-10-22",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_10222026-2341",
+      "items": [
+        {
+          "text": "Consider: ZA26-0063, Zoning Change and Concept Plan for Liberty Place on property described as Lot 1, T.J. Thompson No. 1502 Addition and Tract 1B01B, T.J. Thompson",
+          "attachments": []
+        },
+        {
+          "text": "Consider: ZA26-0070, Preliminary Plat for Bear Hollow on property described as Lots 1A,",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Consider: ZA26-0063, Zoning Change and Concept Plan for Liberty Place on property described as Lot 1, T.J. Thompson No. 1502 Addition and Tract 1B01B, T.J. Thompson",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        },
+        {
+          "text": "Consider: ZA26-0070, Preliminary Plat for Bear Hollow on property described as Lots 1A,",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
       "meeting_date": "2026-10-12",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_10122026-2336",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_10122026-2330",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -481,7 +505,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -921,16 +945,11 @@
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "City Council",
-      "meeting_date": "2026-10-01",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_10012026-1827",
-      "items": [
-        {
-          "text": "Consideration and action on Final Plat Application 008-2026 by Real Estate Group of",
-          "attachments": []
-        }
-      ],
+      "meeting_date": "2026-10-14",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_10142026-1828",
+      "items": [],
       "sfr_items": [],
-      "status": "success"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Dallas",
@@ -1671,15 +1690,27 @@
       "county": "Denton",
       "city": "Cross Roads",
       "board": "City Council",
-      "meeting_date": "2026-10-03",
-      "agenda_url": "https://www.crossroadstx.gov/AgendaCenter/ViewFile/Agenda/_10032026-63",
+      "meeting_date": "2026-10-19",
+      "agenda_url": "https://www.crossroadstx.gov/AgendaCenter/ViewFile/Agenda/_10192026-65",
       "items": [
         {
-          "text": "FY 2027 Budgets, Strategic Plan Components, Land Use Plan Components, Future Facility",
+          "text": "Discuss, consider, and act on a recommendation to the Town Council on a final plat application for a 146.78 acre parcel located at 2500 Naylor Road, Cross Roads,",
+          "attachments": []
+        },
+        {
+          "text": "Denton County, Texas. The purpose of this final plat is to add a parcel to the previously approved plat for DISD HS 5 that was approved in 2024. (Permit # 2912) (page 87)",
           "attachments": []
         }
       ],
-      "sfr_items": [],
+      "sfr_items": [
+        {
+          "text": "Discuss, consider, and act on a recommendation to the Town Council on a final plat application for a 146.78 acre parcel located at 2500 Naylor Road, Cross Roads,",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        }
+      ],
       "status": "success"
     },
     {
@@ -1891,28 +1922,11 @@
       "county": "Rockwall",
       "city": "Royse City",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-01",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_10012026-653",
-      "items": [
-        {
-          "text": "Consider and act on a Preliminary Plat of Clearview Ranch Phase 3 South, consisting of +/- 32.9 acres, situated in the John W Foote Survey, Abstract No.333 and the Russell Crawford Survey, Abstract No. 229, City of Royse City, Collin",
-          "attachments": []
-        },
-        {
-          "text": "Comprehensive Plan Refinement Event, and any matters related thereto.",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Consider and act on a Preliminary Plat of Clearview Ranch Phase 3 South, consisting of +/- 32.9 acres, situated in the John W Foote Survey, Abstract No.333 and the Russell Crawford Survey, Abstract No. 229, City of Royse City, Collin",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-10-07",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_10072026-655",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (27 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Rockwall",
@@ -2321,7 +2335,7 @@
       "city": "Decatur",
       "board": "City Council",
       "meeting_date": "2026-10-12",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_10122026-1587",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_10122026-1585",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
