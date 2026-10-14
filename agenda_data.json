@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "last_updated": "2026-10-13T18:34:34.412539Z",
+    "last_updated": "2026-10-14T16:20:53.764305Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-07-15",
-    "total_agenda_items": 50,
+    "cutoff_date": "2026-07-16",
+    "total_agenda_items": 49,
     "total_sfr_items": 24,
     "total_attachments": 0
   },
@@ -421,18 +421,18 @@
       "county": "Tarrant",
       "city": "Benbrook",
       "board": "Planning & Zoning",
-      "meeting_date": "",
-      "agenda_url": "",
+      "meeting_date": "2026-10-19",
+      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_10192026-856",
       "items": [],
       "sfr_items": [],
-      "status": "PDFs found but could not extract text"
+      "status": "PDF parsed (404 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Tarrant",
       "city": "Benbrook",
       "board": "City Council",
-      "meeting_date": "",
-      "agenda_url": "",
+      "meeting_date": "2026-10-19",
+      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_10192026-856",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -571,8 +571,8 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-10-06",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_10062026-659",
+      "meeting_date": "2026-10-13",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_10132026-663",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -745,8 +745,8 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-10-07",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_10072026-2285",
+      "meeting_date": "2026-10-19",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_10192026-2295",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1510,8 +1510,8 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "City Council",
-      "meeting_date": "2026-10-06",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_10062026-1335",
+      "meeting_date": "2026-10-14",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_10142026-1340",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1923,10 +1923,10 @@
       "city": "Royse City",
       "board": "Planning & Zoning",
       "meeting_date": "2026-10-07",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_10072026-655",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_10072026-654",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (27 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (28 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Rockwall",
@@ -2319,23 +2319,18 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-06",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_10062026-1583",
-      "items": [
-        {
-          "text": "FP-26-0004 – Take appropriate action to approve a 30-day extension request regarding the Final",
-          "attachments": []
-        }
-      ],
+      "meeting_date": "2026-10-19",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_10192026-1590",
+      "items": [],
       "sfr_items": [],
-      "status": "success"
+      "status": "PDF parsed (446 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Wise",
       "city": "Decatur",
       "board": "City Council",
-      "meeting_date": "2026-10-12",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_10122026-1585",
+      "meeting_date": "2026-10-19",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_10192026-1590",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
