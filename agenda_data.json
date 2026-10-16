@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-10-15T16:08:39.580095Z",
+    "last_updated": "2026-10-16T15:48:30.430860Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-07-17",
-    "total_agenda_items": 39,
-    "total_sfr_items": 19,
+    "cutoff_date": "2026-07-18",
+    "total_agenda_items": 24,
+    "total_sfr_items": 14,
     "total_attachments": 0
   },
   "summaries": [
@@ -197,127 +197,25 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-08",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_10082026-1627",
+      "meeting_date": "2026-10-21",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_10212026-1631",
       "items": [
         {
-          "text": "Conduct a public hearing and consider making a recommendation to City Council regarding a rezoning of approximately 7.356 acres of property described as Emeral Oaks Addition 44",
+          "text": "Thank you for the opportunity to address the potential zoning change to allow an exception to the short-term housing ordinance for 1208 Briar Drive. We would like to be at the public hearing regarding this matter; however, we will be out of town on the date of the hearing. We would like for the attached letter to serve as our formal objection to the zoning change and request that it be read at the hearing and entered into the record. If you have any questions or need further comment, please contact me via phone or email.",
           "attachments": []
         },
         {
-          "text": "Court and Second Street. (ZC-26-1)",
-          "attachments": []
-        },
-        {
-          "text": "Consider approval of a Final Plat of Gateway Village consisting of 106 Lots &",
-          "attachments": []
-        },
-        {
-          "text": "Mrs. Aqqad detailed the final plat, stating it is in compliance with City Ordinances. Mrs.",
-          "attachments": []
-        },
-        {
-          "text": "Zoning Change No. ZC-26-1",
-          "attachments": []
-        },
-        {
-          "text": "Agenda Caption: Conduct a public hearing and consider making a recommendation to City Council regarding a rezoning of approximately 7.356 acres of property described as",
-          "attachments": []
-        },
-        {
-          "text": "Second Street. (ZC-26-1).",
-          "attachments": []
-        },
-        {
-          "text": "Summary of Request: The applicant requests rezoning of approximately 7.356 acres to “MD-3” Medium-",
-          "attachments": []
-        },
-        {
-          "text": "In addition, the Zoning Ordinance requires a site plan to be submitted that illustrates the layout of the proposed development. If the zoning change is approved, the site plan becomes a part of the adopted zoning ordinance, and the",
-          "attachments": []
-        },
-        {
-          "text": "_________________________________________________________________________________ plat for the property would be required to match the site plan approved with the zoning change. The zoning ordinance requires the site plan to ensure the site design meets the goals of the community.",
-          "attachments": []
-        },
-        {
-          "text": "Requirements: The Tree Preservation Ordinance requires a tree mitigation plan to be submitted at the Preliminary Plat stage. The applicant has provided a tree inventory table and mitigation schedule for the proposed Emerald Oaks development identifying",
-          "attachments": []
-        },
-        {
-          "text": "Analysis: The City of Bedford Comprehensive Plan, adopted in September 2024, identifies the subject property as Suburban Neighborhood on the Future Land Use Map.",
-          "attachments": []
-        },
-        {
-          "text": "Staff Findings : All zoning change applications require action by the Planning and Zoning",
-          "attachments": []
-        },
-        {
-          "text": "Commission before City Council can make their final determination on the request. Staff find the following facts to exist with the proposed zoning change:",
-          "attachments": []
-        },
-        {
-          "text": "Comprehensive Plan, which identifies a typical of three to eight dwelling units",
-          "attachments": []
-        },
-        {
-          "text": "The proposed zoning change extends the existing MD-3 zoning on two of the subject properties across the assembled development area, providing a unified zoning classification for the proposed subdivision.",
-          "attachments": []
-        },
-        {
-          "text": "Staff recommend approval of the zoning change application as submitted.",
+          "text": "First, I would like to know what prompted this zoning change request. The property has already been operating as a short-term rental property. If they have been operatingi without the required permit, I do not believe they should be rewarded with an exception to the ordinance.",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "Conduct a public hearing and consider making a recommendation to City Council regarding a rezoning of approximately 7.356 acres of property described as Emeral Oaks Addition 44",
+          "text": "Thank you for the opportunity to address the potential zoning change to allow an exception to the short-term housing ordinance for 1208 Briar Drive. We would like to be at the public hearing regarding this matter; however, we will be out of town on the date of the hearing. We would like for the attached letter to serve as our formal objection to the zoning change and request that it be read at the hearing and entered into the record. If you have any questions or need further comment, please contact me via phone or email.",
           "attachments": [],
           "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "Consider approval of a Final Plat of Gateway Village consisting of 106 Lots &",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        },
-        {
-          "text": "Agenda Caption: Conduct a public hearing and consider making a recommendation to City Council regarding a rezoning of approximately 7.356 acres of property described as",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "Summary of Request: The applicant requests rezoning of approximately 7.356 acres to “MD-3” Medium-",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "_________________________________________________________________________________ plat for the property would be required to match the site plan approved with the zoning change. The zoning ordinance requires the site plan to ensure the site design meets the goals of the community.",
-          "attachments": [],
-          "keywords": [
+            "housing",
             "unit"
-          ]
-        },
-        {
-          "text": "Comprehensive Plan, which identifies a typical of three to eight dwelling units",
-          "attachments": [],
-          "keywords": [
-            "dwelling",
-            "unit"
-          ]
-        },
-        {
-          "text": "The proposed zoning change extends the existing MD-3 zoning on two of the subject properties across the assembled development area, providing a unified zoning classification for the proposed subdivision.",
-          "attachments": [],
-          "keywords": [
-            "subdivision"
           ]
         }
       ],
@@ -1532,10 +1430,23 @@
       "city": "Argyle",
       "board": "City Council",
       "meeting_date": "2026-10-19",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_10192026-1342",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_10192026-1344",
+      "items": [
+        {
+          "text": "Future Land Use Plan dated June 2024 and zoned as commercial or residential on the latest Zoning Map; providing findings of fact; providing exemptions; providing a waiver procedure; providing for a termination date; providing for severability, and providing an effective date.",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Future Land Use Plan dated June 2024 and zoned as commercial or residential on the latest Zoning Map; providing findings of fact; providing exemptions; providing a waiver procedure; providing for a termination date; providing for severability, and providing an effective date.",
+          "attachments": [],
+          "keywords": [
+            "residential"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Denton",
@@ -1923,18 +1834,18 @@
       "county": "Rockwall",
       "city": "Fate",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-06",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_10062026-1528",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (28 lines) but no rezone/plat/comp plan items"
+      "status": "PDFs found but could not extract text"
     },
     {
       "county": "Rockwall",
       "city": "Fate",
       "board": "City Council",
-      "meeting_date": "2026-10-06",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_10062026-1528",
+      "meeting_date": "2026-10-12",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_10122026-1535",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2099,23 +2010,18 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-20",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_10202026-2229",
-      "items": [
-        {
-          "text": "Cleburne, TX 76033 Future Land Use Map",
-          "attachments": []
-        }
-      ],
+      "meeting_date": "2026-10-21",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_10212026-2231",
+      "items": [],
       "sfr_items": [],
-      "status": "success"
+      "status": "PDF parsed (30 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Johnson",
       "city": "Cleburne",
       "board": "City Council",
-      "meeting_date": "2026-10-05",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_10052026-2226",
+      "meeting_date": "2026-10-21",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_10212026-2231",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2245,17 +2151,17 @@
       "city": "Decatur",
       "board": "Planning & Zoning",
       "meeting_date": "2026-10-19",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_10192026-1588",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_10192026-1589",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (37 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (18 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Wise",
       "city": "Decatur",
       "board": "City Council",
       "meeting_date": "2026-10-19",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_10192026-1588",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_10192026-1589",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
