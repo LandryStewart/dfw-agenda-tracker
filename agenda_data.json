@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-10-17T14:40:17.010106Z",
+    "last_updated": "2026-10-18T14:57:03.889851Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-07-19",
-    "total_agenda_items": 19,
-    "total_sfr_items": 11,
+    "cutoff_date": "2026-07-20",
+    "total_agenda_items": 24,
+    "total_sfr_items": 14,
     "total_attachments": 0
   },
   "summaries": [
@@ -92,21 +92,66 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "Planning & Zoning",
-      "meeting_date": "",
-      "agenda_url": "",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDFs found but could not extract text"
+      "meeting_date": "2026-10-22",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_10222026-2341",
+      "items": [
+        {
+          "text": "Consider: ZA26-0063, Zoning Change and Concept Plan for Liberty Place on property described as Lot 1, T.J. Thompson No. 1502 Addition and Tract 1B01B, T.J. Thompson",
+          "attachments": []
+        },
+        {
+          "text": "Consider: ZA26-0070, Preliminary Plat for Bear Hollow on property described as Lots 1A,",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Consider: ZA26-0063, Zoning Change and Concept Plan for Liberty Place on property described as Lot 1, T.J. Thompson No. 1502 Addition and Tract 1B01B, T.J. Thompson",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        },
+        {
+          "text": "Consider: ZA26-0070, Preliminary Plat for Bear Hollow on property described as Lots 1A,",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
-      "meeting_date": "",
-      "agenda_url": "",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-10-20",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_10202026-2342",
+      "items": [
+        {
+          "text": "H. Approve ZA26-0064, Preliminary Plat for The Runway on property described as Lots 2, 25, and 26, O.W. Knight No. 899 Addition, and Tract 1A05, J.W. Hale [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "A. Ordinance No. 480-667c, ZA26-0010, 1st Reading, Zoning Change and Site",
+          "attachments": []
+        },
+        {
+          "text": "B. Ordinance No. 480-788b, ZA26-0053, 1st Reading, Zoning Change and Site",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "H. Approve ZA26-0064, Preliminary Plat for The Runway on property described as Lots 2, 25, and 26, O.W. Knight No. 899 Addition, and Tract 1A05, J.W. Hale [APPROVED]",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Tarrant",
@@ -419,7 +464,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Tarrant",
@@ -579,7 +624,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Dallas",
@@ -1029,18 +1074,18 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "Planning & Zoning",
-      "meeting_date": "",
-      "agenda_url": "",
+      "meeting_date": "2026-10-20",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_10202026-1766",
       "items": [],
       "sfr_items": [],
-      "status": "PDFs found but could not extract text"
+      "status": "PDF parsed (15 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "",
-      "agenda_url": "",
+      "meeting_date": "2026-10-20",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_10202026-1766",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1799,8 +1844,8 @@
       "county": "Rockwall",
       "city": "Fate",
       "board": "City Council",
-      "meeting_date": "",
-      "agenda_url": "",
+      "meeting_date": "2026-10-12",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_10122026-1535",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1965,18 +2010,18 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "Planning & Zoning",
-      "meeting_date": "",
-      "agenda_url": "",
+      "meeting_date": "2026-10-21",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_10212026-2231",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "PDF parsed (30 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Johnson",
       "city": "Cleburne",
       "board": "City Council",
-      "meeting_date": "",
-      "agenda_url": "",
+      "meeting_date": "2026-10-21",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_10212026-2231",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2129,7 +2174,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Wise",
