@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-10-18T14:57:03.889851Z",
+    "last_updated": "2026-10-19T17:55:36.922246Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-07-20",
+    "cutoff_date": "2026-07-21",
     "total_agenda_items": 24,
     "total_sfr_items": 14,
     "total_attachments": 0
@@ -480,11 +480,11 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-09-22",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_09222026-655",
+      "meeting_date": "2026-10-13",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_10132026-664",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (30 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (38 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Tarrant",
@@ -864,8 +864,8 @@
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "City Council",
-      "meeting_date": "2026-10-14",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_10142026-1828",
+      "meeting_date": "2026-10-15",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_10152026-1829",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1074,18 +1074,18 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-20",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_10202026-1766",
+      "meeting_date": "2026-10-22",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_10222026-1772",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (15 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (14 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-10-20",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_10202026-1766",
+      "meeting_date": "2026-10-22",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_10222026-1772",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
