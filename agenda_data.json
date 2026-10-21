@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-10-20T16:12:43.545151Z",
+    "last_updated": "2026-10-21T16:27:06.429115Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-07-22",
-    "total_agenda_items": 21,
-    "total_sfr_items": 11,
+    "cutoff_date": "2026-07-23",
+    "total_agenda_items": 31,
+    "total_sfr_items": 20,
     "total_attachments": 0
   },
   "summaries": [
@@ -92,66 +92,21 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-22",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_10222026-2341",
-      "items": [
-        {
-          "text": "Consider: ZA26-0063, Zoning Change and Concept Plan for Liberty Place on property described as Lot 1, T.J. Thompson No. 1502 Addition and Tract 1B01B, T.J. Thompson",
-          "attachments": []
-        },
-        {
-          "text": "Consider: ZA26-0070, Preliminary Plat for Bear Hollow on property described as Lots 1A,",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Consider: ZA26-0063, Zoning Change and Concept Plan for Liberty Place on property described as Lot 1, T.J. Thompson No. 1502 Addition and Tract 1B01B, T.J. Thompson",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        },
-        {
-          "text": "Consider: ZA26-0070, Preliminary Plat for Bear Hollow on property described as Lots 1A,",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-10-27",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_10272026-2346",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (18 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
-      "meeting_date": "2026-10-20",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_10202026-2342",
-      "items": [
-        {
-          "text": "H. Approve ZA26-0064, Preliminary Plat for The Runway on property described as Lots 2, 25, and 26, O.W. Knight No. 899 Addition, and Tract 1A05, J.W. Hale [APPROVED]",
-          "attachments": []
-        },
-        {
-          "text": "A. Ordinance No. 480-667c, ZA26-0010, 1st Reading, Zoning Change and Site",
-          "attachments": []
-        },
-        {
-          "text": "B. Ordinance No. 480-788b, ZA26-0053, 1st Reading, Zoning Change and Site",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "H. Approve ZA26-0064, Preliminary Plat for The Runway on property described as Lots 2, 25, and 26, O.W. Knight No. 899 Addition, and Tract 1A05, J.W. Hale [APPROVED]",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-10-27",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_10272026-2346",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
@@ -490,8 +445,8 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-10-19",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_10192026-666",
+      "meeting_date": "2026-10-20",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_10202026-665",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -640,6 +595,21 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
+      "meeting_date": "2026-10-26",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_10262026-2300",
+      "items": [
+        {
+          "text": "0463 submitted by Ernest Medrano, for a zoning change from Agricultural to Agricultural with a",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [],
+      "status": "success"
+    },
+    {
+      "county": "Dallas",
+      "city": "Mesquite",
+      "board": "City Council",
       "meeting_date": "2026-10-22",
       "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_10222026-2299",
       "items": [
@@ -660,16 +630,6 @@
         }
       ],
       "status": "success"
-    },
-    {
-      "county": "Dallas",
-      "city": "Mesquite",
-      "board": "City Council",
-      "meeting_date": "2026-10-22",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_10222026-2299",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Dallas",
@@ -1085,11 +1045,57 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-10-22",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_10222026-1772",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-10-26",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_10262026-1774",
+      "items": [
+        {
+          "text": "L6. 2026-235 Consider a request from Forestar (USA) Real Estate Group Inc., to approve a final plat for 31.852 acres of land called Crossmill",
+          "attachments": []
+        },
+        {
+          "text": "CC Memo- Crossmill Ph 1B - Final Plat - 10.26.2026.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit A - Proposed Final Plat.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit C - Approved Preliminary Plat.pdf",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "L6. 2026-235 Consider a request from Forestar (USA) Real Estate Group Inc., to approve a final plat for 31.852 acres of land called Crossmill",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "CC Memo- Crossmill Ph 1B - Final Plat - 10.26.2026.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit A - Proposed Final Plat.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit C - Approved Preliminary Plat.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Collin",
@@ -1159,7 +1165,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Collin",
@@ -1395,32 +1401,107 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-07",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_10072026-1339",
+      "meeting_date": "2026-10-26",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_10262026-1346",
       "items": [
         {
-          "text": "Comprehensive Plan adopted June 17, 2024 as Ordinance 2024-17.",
+          "text": "Subject: Zoning change request for Heath Tract Planned Development District",
           "attachments": []
         },
         {
-          "text": "1 Z-26-004 Heath Tract Planned Development Scheduled for Special PZ meeting on initiated rezoning application for the Heath Tract for consideration by the P&Z Commission during a special",
+          "text": "Hold a public hearing, consider and make a recommendation to Town Council for a Zoning Change Request",
           "attachments": []
         },
         {
-          "text": "8 FLUP-26-003 Thoroughfare Plan Amendments Ordinance Amendment Scheduled for PZ 10.7.26 (FLUP-26-003) to the Thoroughfare Plan of the Town of Argyle Comprehensive Plan adopted June 17, 2024 as",
+          "text": "The Town has initiated a zoning change for the creation of a Planned Development zoning district, known as the Heath Tract Planned Development, on approximately 142 acres of the northeast corner of I35W",
           "attachments": []
         },
         {
-          "text": "Hold a public hearing, consider and make a recommendation to Town Council on an ordinance amendment (FLUP-26-003) to the Thoroughfare Plan of the Town of Argyle Comprehensive Plan adopted",
+          "text": "Consistency with the Future Land Use Plan and Comprehensive Plan:",
+          "attachments": []
+        },
+        {
+          "text": "Town staff believe the PD demonstrates compliance with the Future Land Use Plan (FLUP). This area is identified as a commercial district on the FLUP, which is characterized by high intensity commercial with large retail anchors, smaller in-fill commercial, and ample parking to accommodate regionally generated traffic. No residential uses are permitted within this district. These uses require high visibility locations and should only be located on major roadways and corridors.",
+          "attachments": []
+        },
+        {
+          "text": "Staff recommend approval to Town Council for Zoning Change Request (Z-26-004) from Community Retail",
+          "attachments": []
+        },
+        {
+          "text": "BY APPROVING A ZONING CHANGE FROM COMMUNITY RETAIL",
+          "attachments": []
+        },
+        {
+          "text": "WHEREAS, TOWN OF ARGYLE has submitted a zoning change application to change the zoning district from Community Retail (CR) to a Planned Development with a base zoning of Community Retail (CR) for the Heath Tract Planned Development District on a 141.67-acre tract of land, known as James P Heath Addition, Block A, Lot 1, located on the northeast corner of I-35W and FM 407 W in the Patrick Rock Survey, Abstract",
+          "attachments": []
+        },
+        {
+          "text": "Development Standards, and the Town Comprehensive Zoning Ordinance, having given the requisite notices by publication and otherwise, and after holding due hearings and affording a full and fair hearing to all the property owners generally, and to the persons interested and situated in the affected area and in the vicinity thereof; the governing body of the Town of Argyle, Texas, deems it to be in the best interest and welfare of the Town that said zoning change should be approved as submitted.",
+          "attachments": []
+        },
+        {
+          "text": "SECTION 3. That the Official Zoning Map of the Town of Argyle, Texas, is hereby amended to reflect the zoning change.",
+          "attachments": []
+        },
+        {
+          "text": "Vehicular access easements from one lot to contiguous lots and for private driveways within a lot may be provided on the final plat or by separate recorded instrument.",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "1 Z-26-004 Heath Tract Planned Development Scheduled for Special PZ meeting on initiated rezoning application for the Heath Tract for consideration by the P&Z Commission during a special",
+          "text": "Subject: Zoning change request for Heath Tract Planned Development District",
           "attachments": [],
           "keywords": [
             "planned development"
+          ]
+        },
+        {
+          "text": "The Town has initiated a zoning change for the creation of a Planned Development zoning district, known as the Heath Tract Planned Development, on approximately 142 acres of the northeast corner of I35W",
+          "attachments": [],
+          "keywords": [
+            "acre",
+            "planned development"
+          ]
+        },
+        {
+          "text": "Town staff believe the PD demonstrates compliance with the Future Land Use Plan (FLUP). This area is identified as a commercial district on the FLUP, which is characterized by high intensity commercial with large retail anchors, smaller in-fill commercial, and ample parking to accommodate regionally generated traffic. No residential uses are permitted within this district. These uses require high visibility locations and should only be located on major roadways and corridors.",
+          "attachments": [],
+          "keywords": [
+            "residential",
+            "PD"
+          ]
+        },
+        {
+          "text": "Staff recommend approval to Town Council for Zoning Change Request (Z-26-004) from Community Retail",
+          "attachments": [],
+          "keywords": [
+            "unit"
+          ]
+        },
+        {
+          "text": "BY APPROVING A ZONING CHANGE FROM COMMUNITY RETAIL",
+          "attachments": [],
+          "keywords": [
+            "unit"
+          ]
+        },
+        {
+          "text": "WHEREAS, TOWN OF ARGYLE has submitted a zoning change application to change the zoning district from Community Retail (CR) to a Planned Development with a base zoning of Community Retail (CR) for the Heath Tract Planned Development District on a 141.67-acre tract of land, known as James P Heath Addition, Block A, Lot 1, located on the northeast corner of I-35W and FM 407 W in the Patrick Rock Survey, Abstract",
+          "attachments": [],
+          "keywords": [
+            "lot",
+            "acre",
+            "unit",
+            "planned development"
+          ]
+        },
+        {
+          "text": "Vehicular access easements from one lot to contiguous lots and for private driveways within a lot may be provided on the final plat or by separate recorded instrument.",
+          "attachments": [],
+          "keywords": [
+            "lot"
           ]
         }
       ],
@@ -1679,7 +1760,7 @@
       "agenda_url": "https://www.pondertx.com/bc-pz",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda items found"
+      "status": "could not reach site"
     },
     {
       "county": "Denton",
@@ -1835,18 +1916,18 @@
       "county": "Rockwall",
       "city": "Fate",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-11-06",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_11062026-1539",
+      "meeting_date": "2026-10-24",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_10242026-1541",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (24 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (25 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Rockwall",
       "city": "Fate",
       "board": "City Council",
-      "meeting_date": "2026-11-06",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_11062026-1539",
+      "meeting_date": "2026-10-24",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_10242026-1541",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1855,11 +1936,11 @@
       "county": "Rockwall",
       "city": "Royse City",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-19",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_10192026-659",
+      "meeting_date": "2026-10-20",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_10202026-658",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (37 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (25 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Rockwall",
@@ -1975,11 +2056,42 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-21",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_10212026-2231",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (30 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-10-26",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_10262026-2233",
+      "items": [
+        {
+          "text": "STREET, AND WEST OF GRAND AVENUE, CASE ZC26-013. b. *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE FROM PLANNED",
+          "attachments": []
+        },
+        {
+          "text": "Future Land Use Plan: The Future Land Use Plan designates the Trail Creek property as Medium-Density",
+          "attachments": []
+        },
+        {
+          "text": "The proposed amendment would retain the residential uses authorized under the existing PD, as amended, and would not increase the previously approved maximum number of dwelling units. Accordingly, the proposed amendment is consistent with the intent of the Future Land Use Plan",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Future Land Use Plan: The Future Land Use Plan designates the Trail Creek property as Medium-Density",
+          "attachments": [],
+          "keywords": [
+            "density"
+          ]
+        },
+        {
+          "text": "The proposed amendment would retain the residential uses authorized under the existing PD, as amended, and would not increase the previously approved maximum number of dwelling units. Accordingly, the proposed amendment is consistent with the intent of the Future Land Use Plan",
+          "attachments": [],
+          "keywords": [
+            "residential",
+            "dwelling",
+            "unit",
+            "PD"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Johnson",
@@ -2115,18 +2227,18 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-19",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_10192026-1589",
+      "meeting_date": "2026-10-21",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_10212026-1592",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (18 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (38 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Wise",
       "city": "Decatur",
       "board": "City Council",
-      "meeting_date": "2026-10-19",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_10192026-1589",
+      "meeting_date": "2026-10-26",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_10262026-1594",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
