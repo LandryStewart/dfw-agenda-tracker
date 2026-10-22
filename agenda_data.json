@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-10-21T16:27:06.429115Z",
+    "last_updated": "2026-10-22T16:18:38.502334Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-07-23",
-    "total_agenda_items": 31,
-    "total_sfr_items": 20,
+    "cutoff_date": "2026-07-24",
+    "total_agenda_items": 32,
+    "total_sfr_items": 21,
     "total_attachments": 0
   },
   "summaries": [
@@ -180,16 +180,11 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "City Council",
-      "meeting_date": "2026-10-13",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_10132026-1628",
-      "items": [
-        {
-          "text": "Public hearing and consider an ordinance to rezone the property legally described as First State",
-          "attachments": []
-        }
-      ],
+      "meeting_date": "2026-10-19",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_10192026-1629",
+      "items": [],
       "sfr_items": [],
-      "status": "success"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
@@ -445,8 +440,8 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-10-20",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_10202026-665",
+      "meeting_date": "2026-10-26",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_10262026-669",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -611,25 +606,10 @@
       "city": "Mesquite",
       "board": "City Council",
       "meeting_date": "2026-10-22",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_10222026-2299",
-      "items": [
-        {
-          "text": "1978: Rezoned to Planned Development – Single Family R-2A",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "1978: Rezoned to Planned Development – Single Family R-2A",
-          "attachments": [],
-          "keywords": [
-            "single family",
-            "R-2",
-            "planned development"
-          ]
-        }
-      ],
-      "status": "success"
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_10222026-2296",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Dallas",
@@ -1165,7 +1145,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Collin",
@@ -1511,20 +1491,35 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "City Council",
-      "meeting_date": "2026-10-19",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_10192026-1344",
+      "meeting_date": "2026-10-27",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_10272026-1349",
       "items": [
         {
-          "text": "Future Land Use Plan dated June 2024 and zoned as commercial or residential on the latest Zoning Map; providing findings of fact; providing exemptions; providing a waiver procedure; providing for a termination date; providing for severability, and providing an effective date.",
+          "text": "Hold a public hearing and consider action on Ordinance 2026-51 for a Zoning Change",
+          "attachments": []
+        },
+        {
+          "text": "Town staff believe the PD demonstrates compliance with the Future Land Use Plan",
+          "attachments": []
+        },
+        {
+          "text": "Move to adopt Ordinance 2026-51 for a Zoning Change (Z-26-004) from Community",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "Future Land Use Plan dated June 2024 and zoned as commercial or residential on the latest Zoning Map; providing findings of fact; providing exemptions; providing a waiver procedure; providing for a termination date; providing for severability, and providing an effective date.",
+          "text": "Town staff believe the PD demonstrates compliance with the Future Land Use Plan",
           "attachments": [],
           "keywords": [
-            "residential"
+            "PD"
+          ]
+        },
+        {
+          "text": "Move to adopt Ordinance 2026-51 for a Zoning Change (Z-26-004) from Community",
+          "attachments": [],
+          "keywords": [
+            "unit"
           ]
         }
       ],
@@ -1760,7 +1755,7 @@
       "agenda_url": "https://www.pondertx.com/bc-pz",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda items found"
     },
     {
       "county": "Denton",
@@ -1946,11 +1941,24 @@
       "county": "Rockwall",
       "city": "Royse City",
       "board": "City Council",
-      "meeting_date": "2026-10-14",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_10142026-657",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-10-27",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_10272026-662",
+      "items": [
+        {
+          "text": "Consider and act on a Preliminary Plat of Clearview Ranch Phase 3 South, consisting of +/- 32.9 acres, situated in the John W Foote Survey, Abstract No.333 and the Russell Crawford Survey, Abstract No. 229, City of Royse City, Collin",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Consider and act on a Preliminary Plat of Clearview Ranch Phase 3 South, consisting of +/- 32.9 acres, situated in the John W Foote Survey, Abstract No.333 and the Russell Crawford Survey, Abstract No. 229, City of Royse City, Collin",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Kaufman",
