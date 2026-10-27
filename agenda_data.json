@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-10-26T17:53:04.206639Z",
+    "last_updated": "2026-10-27T17:13:50.089050Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-07-28",
-    "total_agenda_items": 34,
-    "total_sfr_items": 22,
+    "cutoff_date": "2026-07-29",
+    "total_agenda_items": 35,
+    "total_sfr_items": 23,
     "total_attachments": 0
   },
   "summaries": [
@@ -2251,11 +2251,25 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-26",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_10262026-1595",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (189 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-11-04",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_11042026-1596",
+      "items": [
+        {
+          "text": "FP-26-0004 – Take appropriate action to approve a 30-day extension request regarding the Final Plat application for an approximately 2.76-acre tract of land, Quick Al’s Addition, Lot 1, Block 1, in the City of Decatur, Wise County, Texas, addressed as 1105 N US Hwy 81-287. (Quick Al’s Real Estate,",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "FP-26-0004 – Take appropriate action to approve a 30-day extension request regarding the Final Plat application for an approximately 2.76-acre tract of land, Quick Al’s Addition, Lot 1, Block 1, in the City of Decatur, Wise County, Texas, addressed as 1105 N US Hwy 81-287. (Quick Al’s Real Estate,",
+          "attachments": [],
+          "keywords": [
+            "lot",
+            "acre"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Wise",
