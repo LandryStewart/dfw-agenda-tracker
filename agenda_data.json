@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-10-27T17:13:50.089050Z",
+    "last_updated": "2026-10-28T18:05:42.780357Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-07-29",
-    "total_agenda_items": 35,
-    "total_sfr_items": 23,
+    "cutoff_date": "2026-07-30",
+    "total_agenda_items": 59,
+    "total_sfr_items": 38,
     "total_attachments": 0
   },
   "summaries": [
@@ -92,21 +92,70 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-27",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_10272026-2346",
-      "items": [],
+      "meeting_date": "2026-11-05",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_11052026-2350",
+      "items": [
+        {
+          "text": "Consider: ZA26-0075, Zoning Change for 4060 N. White Chapel Boulevard, on property described as Tract 16, R. D. Price Survey Abstract No. 992A, inclusive of the adjacent rights of way to the centerlines of W. Bob Jones Road and N. White Chapel Boulevard. Current",
+          "attachments": []
+        }
+      ],
       "sfr_items": [],
-      "status": "PDF parsed (18 lines) but no rezone/plat/comp plan items"
+      "status": "success"
     },
     {
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
-      "meeting_date": "2026-10-27",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_10272026-2346",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-11-03",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_11032026-2352",
+      "items": [
+        {
+          "text": "E. ZA26-0070, Preliminary Plat for Bear Hollow on property described as Lots 1A,",
+          "attachments": []
+        },
+        {
+          "text": "H. TABLE: Ordinance No. 480-667c, ZA26-0010, 2nd Reading, Zoning Change and Site Plan for Chapel Crossing Medical, on property described as Lots 1R1 and 1R2, Block A, Ravenaux Village Addition and located at 245 and 275 W.",
+          "attachments": []
+        },
+        {
+          "text": "B. Ordinance No. 480-788b, ZA26-0053, 2nd Reading, Zoning Change and Site",
+          "attachments": []
+        },
+        {
+          "text": "A. Ordinance No. 480-850, ZA26-0046, 1st Reading, Zoning Change and Site",
+          "attachments": []
+        },
+        {
+          "text": "Southlake Consolidated Future Land Use Plan, an Element of the Southlake",
+          "attachments": []
+        },
+        {
+          "text": "Comprehensive Plan, for Touchmark, on property described as Tracts 1C,",
+          "attachments": []
+        },
+        {
+          "text": "C. Ordinance No. 480-851, ZA26-0052, 1st Reading, Zoning Change and",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "E. ZA26-0070, Preliminary Plat for Bear Hollow on property described as Lots 1A,",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        },
+        {
+          "text": "H. TABLE: Ordinance No. 480-667c, ZA26-0010, 2nd Reading, Zoning Change and Site Plan for Chapel Crossing Medical, on property described as Lots 1R1 and 1R2, Block A, Ravenaux Village Addition and located at 245 and 275 W.",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Tarrant",
@@ -612,17 +661,17 @@
       "city": "Mesquite",
       "board": "Planning & Zoning",
       "meeting_date": "2026-10-27",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_10272026-2302",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_10272026-2304",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (37 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (381 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-10-27",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_10272026-2302",
+      "meeting_date": "2026-10-28",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_10282026-2303",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1031,11 +1080,182 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-22",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_10222026-1772",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (14 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-11-02",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_11022026-1775",
+      "items": [
+        {
+          "text": "Princeton 9, LLC (Jessica Hernandez) to rezone 1.49 acre property located at the NE corner of S Beauchamp Blvd and Myrick Lane in Princeton Business Park from",
+          "attachments": []
+        },
+        {
+          "text": "Investments LLC (Kelly McAfee) to rezone a 1.14 acre property located at the SE intersection of Monte Carlo Blvd. and Longneck Road (1523 Longneck Road) from",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit A- Rezoning Application.pdf",
+          "attachments": []
+        },
+        {
+          "text": "This request is in conjunction with a request to rezone this property to C-2 General",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit B Applicants Rezoning and SUP Narrative.pdf",
+          "attachments": []
+        },
+        {
+          "text": "F.3 2026-020 Consider a request by Cope Retail LLC (Mark Cope) to Final Plat approximately 4.099 acres located on the east side of FM 75, south of Monticello Drive and north of East Monte Carlo",
+          "attachments": []
+        },
+        {
+          "text": "PZ Memo- Shoppes At Monticello - Final Plat - 11.02.2026.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit A - Proposed Final Plat.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit C - Annotated Final Plat Review.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Consider a request for a Final Plat by KB Home Lone Star, Inc. for Princeton Estates, Phase 2, a residential subdivision consisting of approximately 29.760 acres located at the southeast corner of County Road 456 and South Boorman Lane.",
+          "attachments": []
+        },
+        {
+          "text": "PZ Memo- Princeton Estates Phase 2 - Final Plat - 11.02.2026.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Consider a request for a Preliminary Plat by property owner D. L.",
+          "attachments": []
+        },
+        {
+          "text": "PZ Memo- Princeton Restaurant - Preliminary Plat - 11.02.2026.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit A - Proposed Preliminary Plat.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit C - Annotated Preliminary Plat Review.pdf",
+          "attachments": []
+        },
+        {
+          "text": "PZ Memo- Chrisitan Heights ASC - Preliminary Plat -",
+          "attachments": []
+        },
+        {
+          "text": "02.2026.pdf Exhibit A - Proposed Preliminary Plat 10-05-2026",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Princeton 9, LLC (Jessica Hernandez) to rezone 1.49 acre property located at the NE corner of S Beauchamp Blvd and Myrick Lane in Princeton Business Park from",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Investments LLC (Kelly McAfee) to rezone a 1.14 acre property located at the SE intersection of Monte Carlo Blvd. and Longneck Road (1523 Longneck Road) from",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Exhibit A- Rezoning Application.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit B Applicants Rezoning and SUP Narrative.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "F.3 2026-020 Consider a request by Cope Retail LLC (Mark Cope) to Final Plat approximately 4.099 acres located on the east side of FM 75, south of Monticello Drive and north of East Monte Carlo",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "PZ Memo- Shoppes At Monticello - Final Plat - 11.02.2026.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit A - Proposed Final Plat.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit C - Annotated Final Plat Review.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Consider a request for a Final Plat by KB Home Lone Star, Inc. for Princeton Estates, Phase 2, a residential subdivision consisting of approximately 29.760 acres located at the southeast corner of County Road 456 and South Boorman Lane.",
+          "attachments": [],
+          "keywords": [
+            "residential",
+            "subdivision",
+            "home",
+            "acre"
+          ]
+        },
+        {
+          "text": "PZ Memo- Princeton Estates Phase 2 - Final Plat - 11.02.2026.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "PZ Memo- Princeton Restaurant - Preliminary Plat - 11.02.2026.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit A - Proposed Preliminary Plat.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit C - Annotated Preliminary Plat Review.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "02.2026.pdf Exhibit A - Proposed Preliminary Plat 10-05-2026",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Collin",
@@ -1053,10 +1273,6 @@
           "attachments": []
         },
         {
-          "text": "Exhibit A - Proposed Final Plat.pdf",
-          "attachments": []
-        },
-        {
           "text": "Exhibit C - Approved Preliminary Plat.pdf",
           "attachments": []
         }
@@ -1071,13 +1287,6 @@
         },
         {
           "text": "CC Memo- Crossmill Ph 1B - Final Plat - 10.26.2026.pdf",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "Exhibit A - Proposed Final Plat.pdf",
           "attachments": [],
           "keywords": [
             "PD"
