@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-10-28T18:05:42.780357Z",
+    "last_updated": "2026-10-29T18:10:05.201261Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-07-30",
-    "total_agenda_items": 59,
-    "total_sfr_items": 38,
+    "cutoff_date": "2026-07-31",
+    "total_agenda_items": 56,
+    "total_sfr_items": 36,
     "total_attachments": 0
   },
   "summaries": [
@@ -660,18 +660,18 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-27",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_10272026-2304",
+      "meeting_date": "2026-10-28",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_10282026-2303",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (381 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (26 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-10-28",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_10282026-2303",
+      "meeting_date": "2026-11-02",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_11022026-2307",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1717,38 +1717,10 @@
       "city": "Argyle",
       "board": "City Council",
       "meeting_date": "2026-10-27",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_10272026-1349",
-      "items": [
-        {
-          "text": "Hold a public hearing and consider action on Ordinance 2026-51 for a Zoning Change",
-          "attachments": []
-        },
-        {
-          "text": "Town staff believe the PD demonstrates compliance with the Future Land Use Plan",
-          "attachments": []
-        },
-        {
-          "text": "Move to adopt Ordinance 2026-51 for a Zoning Change (Z-26-004) from Community",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Town staff believe the PD demonstrates compliance with the Future Land Use Plan",
-          "attachments": [],
-          "keywords": [
-            "PD"
-          ]
-        },
-        {
-          "text": "Move to adopt Ordinance 2026-51 for a Zoning Change (Z-26-004) from Community",
-          "attachments": [],
-          "keywords": [
-            "unit"
-          ]
-        }
-      ],
-      "status": "success"
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_10272026-1347",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Denton",
@@ -2156,11 +2128,11 @@
       "county": "Rockwall",
       "city": "Royse City",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-20",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_10202026-658",
+      "meeting_date": "2026-10-26",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_10262026-660",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (25 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (19 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Rockwall",
