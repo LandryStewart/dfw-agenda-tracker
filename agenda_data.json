@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-10-29T18:10:05.201261Z",
+    "last_updated": "2026-10-30T17:46:10.576727Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-07-31",
+    "cutoff_date": "2026-08-01",
     "total_agenda_items": 56,
-    "total_sfr_items": 36,
+    "total_sfr_items": 38,
     "total_attachments": 0
   },
   "summaries": [
@@ -510,8 +510,8 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-10-26",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_10262026-669",
+      "meeting_date": "2026-10-27",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_10272026-670",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -860,21 +860,58 @@
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-12",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_08122026-1811",
+      "meeting_date": "2026-08-19",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_08192026-1814",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (71 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (48 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "City Council",
-      "meeting_date": "2026-10-15",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_10152026-1829",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-11-05",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_11052026-1834",
+      "items": [
+        {
+          "text": "Conduct a briefing on Rezoning Application 006-2026 by Belmont Management LTD on subject parcel located at 3926 S Peachtree totaling (+/-) 2.0 acres from a",
+          "attachments": []
+        },
+        {
+          "text": "Commercial (C) Zone District to Single-Family (SF-6) Zone District to allow for continuation of an existing single-family home. a. Conduct a Public Hearing on the Rezoning Application 006-2026. b. Consideration and action on the Rezoning Application 006-2026.",
+          "attachments": []
+        },
+        {
+          "text": "Conduct a briefing on Rezoning Application 007-2026 by Belmont Management LTD on subject parcel located at 11413 Molly Mac totaling (+/-) 0.206 acres from a",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Conduct a briefing on Rezoning Application 006-2026 by Belmont Management LTD on subject parcel located at 3926 S Peachtree totaling (+/-) 2.0 acres from a",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Commercial (C) Zone District to Single-Family (SF-6) Zone District to allow for continuation of an existing single-family home. a. Conduct a Public Hearing on the Rezoning Application 006-2026. b. Consideration and action on the Rezoning Application 006-2026.",
+          "attachments": [],
+          "keywords": [
+            "single-family",
+            "SF-",
+            "home"
+          ]
+        },
+        {
+          "text": "Conduct a briefing on Rezoning Application 007-2026 by Belmont Management LTD on subject parcel located at 11413 Molly Mac totaling (+/-) 0.206 acres from a",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Dallas",
@@ -1606,107 +1643,33 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-26",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_10262026-1346",
+      "meeting_date": "2026-11-04",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_11042026-1352",
       "items": [
         {
-          "text": "Subject: Zoning change request for Heath Tract Planned Development District",
+          "text": "Hold a public hearing, consider and make a recommendation to Town Council on a zoning change amendment to Ordinance 2018-26 for the Evans Tract Planned Development (Z-26-",
           "attachments": []
         },
         {
-          "text": "Hold a public hearing, consider and make a recommendation to Town Council for a Zoning Change Request",
-          "attachments": []
-        },
-        {
-          "text": "The Town has initiated a zoning change for the creation of a Planned Development zoning district, known as the Heath Tract Planned Development, on approximately 142 acres of the northeast corner of I35W",
-          "attachments": []
-        },
-        {
-          "text": "Consistency with the Future Land Use Plan and Comprehensive Plan:",
-          "attachments": []
-        },
-        {
-          "text": "Town staff believe the PD demonstrates compliance with the Future Land Use Plan (FLUP). This area is identified as a commercial district on the FLUP, which is characterized by high intensity commercial with large retail anchors, smaller in-fill commercial, and ample parking to accommodate regionally generated traffic. No residential uses are permitted within this district. These uses require high visibility locations and should only be located on major roadways and corridors.",
-          "attachments": []
-        },
-        {
-          "text": "Staff recommend approval to Town Council for Zoning Change Request (Z-26-004) from Community Retail",
-          "attachments": []
-        },
-        {
-          "text": "BY APPROVING A ZONING CHANGE FROM COMMUNITY RETAIL",
-          "attachments": []
-        },
-        {
-          "text": "WHEREAS, TOWN OF ARGYLE has submitted a zoning change application to change the zoning district from Community Retail (CR) to a Planned Development with a base zoning of Community Retail (CR) for the Heath Tract Planned Development District on a 141.67-acre tract of land, known as James P Heath Addition, Block A, Lot 1, located on the northeast corner of I-35W and FM 407 W in the Patrick Rock Survey, Abstract",
-          "attachments": []
-        },
-        {
-          "text": "Development Standards, and the Town Comprehensive Zoning Ordinance, having given the requisite notices by publication and otherwise, and after holding due hearings and affording a full and fair hearing to all the property owners generally, and to the persons interested and situated in the affected area and in the vicinity thereof; the governing body of the Town of Argyle, Texas, deems it to be in the best interest and welfare of the Town that said zoning change should be approved as submitted.",
-          "attachments": []
-        },
-        {
-          "text": "SECTION 3. That the Official Zoning Map of the Town of Argyle, Texas, is hereby amended to reflect the zoning change.",
-          "attachments": []
-        },
-        {
-          "text": "Vehicular access easements from one lot to contiguous lots and for private driveways within a lot may be provided on the final plat or by separate recorded instrument.",
+          "text": "Consider and make a recommendation to Town Council on a Preliminary Plat (PP-26-001) for Harvest, Phase 13, being 47.74 acres in the Patrick Rock Survey, Abstract No. 1063, containing 126 residential lots and 4 common lots on the north side of Old Justin Road, [PASSED 5-0]",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "Subject: Zoning change request for Heath Tract Planned Development District",
+          "text": "Hold a public hearing, consider and make a recommendation to Town Council on a zoning change amendment to Ordinance 2018-26 for the Evans Tract Planned Development (Z-26-",
           "attachments": [],
           "keywords": [
             "planned development"
           ]
         },
         {
-          "text": "The Town has initiated a zoning change for the creation of a Planned Development zoning district, known as the Heath Tract Planned Development, on approximately 142 acres of the northeast corner of I35W",
-          "attachments": [],
-          "keywords": [
-            "acre",
-            "planned development"
-          ]
-        },
-        {
-          "text": "Town staff believe the PD demonstrates compliance with the Future Land Use Plan (FLUP). This area is identified as a commercial district on the FLUP, which is characterized by high intensity commercial with large retail anchors, smaller in-fill commercial, and ample parking to accommodate regionally generated traffic. No residential uses are permitted within this district. These uses require high visibility locations and should only be located on major roadways and corridors.",
+          "text": "Consider and make a recommendation to Town Council on a Preliminary Plat (PP-26-001) for Harvest, Phase 13, being 47.74 acres in the Patrick Rock Survey, Abstract No. 1063, containing 126 residential lots and 4 common lots on the north side of Old Justin Road, [PASSED 5-0]",
           "attachments": [],
           "keywords": [
             "residential",
-            "PD"
-          ]
-        },
-        {
-          "text": "Staff recommend approval to Town Council for Zoning Change Request (Z-26-004) from Community Retail",
-          "attachments": [],
-          "keywords": [
-            "unit"
-          ]
-        },
-        {
-          "text": "BY APPROVING A ZONING CHANGE FROM COMMUNITY RETAIL",
-          "attachments": [],
-          "keywords": [
-            "unit"
-          ]
-        },
-        {
-          "text": "WHEREAS, TOWN OF ARGYLE has submitted a zoning change application to change the zoning district from Community Retail (CR) to a Planned Development with a base zoning of Community Retail (CR) for the Heath Tract Planned Development District on a 141.67-acre tract of land, known as James P Heath Addition, Block A, Lot 1, located on the northeast corner of I-35W and FM 407 W in the Patrick Rock Survey, Abstract",
-          "attachments": [],
-          "keywords": [
             "lot",
-            "acre",
-            "unit",
-            "planned development"
-          ]
-        },
-        {
-          "text": "Vehicular access easements from one lot to contiguous lots and for private driveways within a lot may be provided on the final plat or by separate recorded instrument.",
-          "attachments": [],
-          "keywords": [
-            "lot"
+            "acre"
           ]
         }
       ],
@@ -2128,11 +2091,68 @@
       "county": "Rockwall",
       "city": "Royse City",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-26",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_10262026-660",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (19 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-11-05",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_11052026-665",
+      "items": [
+        {
+          "text": "Consider and act on the Extension of the Preliminary Plat of Madera Phase 2A, consisting of +/- 24.4 acres, situated in the John Davis Survey, Abstract No. 244 -",
+          "attachments": []
+        },
+        {
+          "text": "Consider and act on an Extension Request for the Preliminary Plat of Madera Phase",
+          "attachments": []
+        },
+        {
+          "text": "Consider and act on a Final Plat for Lots 1 and 2 of the Camacho/Segura Addition, consisting of +/- 4.9 acres situated in the Shelby County Survey, Abstract No. 946,",
+          "attachments": []
+        },
+        {
+          "text": "Consider and act on a Final Plat of the Erby Campbell Retail Center Lot 1R, consisting of +/- 15.9 acres situated in the J. Stephenson Survey, Abstract No. 188,",
+          "attachments": []
+        },
+        {
+          "text": "Consider and act on the Preliminary Plat for Verandah Phase 12 consisting of +/- 2.3",
+          "attachments": []
+        },
+        {
+          "text": "Consider and act on a Preliminary Plat for The Anderson Block A, Lot 1-4, being a portion of Block A Lot 1 of Anderson Crossing, consisting of +/- 27.2 acres situated in the John David Survey, Abstract No. 1317, Royse City, Hunt County, Texas, and any matters related thereto.",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Consider and act on the Extension of the Preliminary Plat of Madera Phase 2A, consisting of +/- 24.4 acres, situated in the John Davis Survey, Abstract No. 244 -",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Consider and act on a Final Plat for Lots 1 and 2 of the Camacho/Segura Addition, consisting of +/- 4.9 acres situated in the Shelby County Survey, Abstract No. 946,",
+          "attachments": [],
+          "keywords": [
+            "lot",
+            "acre"
+          ]
+        },
+        {
+          "text": "Consider and act on a Final Plat of the Erby Campbell Retail Center Lot 1R, consisting of +/- 15.9 acres situated in the J. Stephenson Survey, Abstract No. 188,",
+          "attachments": [],
+          "keywords": [
+            "lot",
+            "acre"
+          ]
+        },
+        {
+          "text": "Consider and act on a Preliminary Plat for The Anderson Block A, Lot 1-4, being a portion of Block A Lot 1 of Anderson Crossing, consisting of +/- 27.2 acres situated in the John David Survey, Abstract No. 1317, Royse City, Hunt County, Texas, and any matters related thereto.",
+          "attachments": [],
+          "keywords": [
+            "lot",
+            "acre"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Rockwall",
