@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-10-30T17:46:10.576727Z",
+    "last_updated": "2026-10-31T16:47:48.357181Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-08-01",
+    "cutoff_date": "2026-08-02",
     "total_agenda_items": 56,
     "total_sfr_items": 38,
     "total_attachments": 0
@@ -370,8 +370,8 @@
       "county": "Tarrant",
       "city": "Benbrook",
       "board": "City Council",
-      "meeting_date": "2026-10-19",
-      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_10192026-856",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
