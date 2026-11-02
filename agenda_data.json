@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-11-01T17:49:37.081240Z",
+    "last_updated": "2026-11-02T21:29:59.421329Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-08-03",
-    "total_agenda_items": 56,
-    "total_sfr_items": 38,
+    "cutoff_date": "2026-08-04",
+    "total_agenda_items": 53,
+    "total_sfr_items": 37,
     "total_attachments": 0
   },
   "summaries": [
@@ -229,32 +229,11 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "City Council",
-      "meeting_date": "2026-10-27",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_10272026-1632",
-      "items": [
-        {
-          "text": "Public hearing and consider an ordinance to rezone the property legally described as",
-          "attachments": []
-        },
-        {
-          "text": "Ms. Aqqad explained that the property lies within the Place Focused Commercial development pattern of the City’s Comprehensive Land Use Plan, and staff felt that the use may not directly advance the goals of the development pattern. No responses were received to the legally required notifications. The Planning and Zoning Commission considered the request on May 28, 2026, and, after discussing compatibility with surrounding professional uses, recommended denial, which would then require a supermajority vote of Council to overturn.",
-          "attachments": []
-        },
-        {
-          "text": "Motioned by Councilmember Sabol, seconded by Councilmember Gagliardi, to deny an ordinance to rezone the property legally described as First State Addition Lot C from Heavy",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Motioned by Councilmember Sabol, seconded by Councilmember Gagliardi, to deny an ordinance to rezone the property legally described as First State Addition Lot C from Heavy",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-11-02",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_11022026-1633",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Tarrant",
@@ -1901,8 +1880,8 @@
       "county": "Denton",
       "city": "Oak Point",
       "board": "City Council",
-      "meeting_date": "2026-10-12",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_10122026-629",
+      "meeting_date": "2026-10-21",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_10212026-632",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
