@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-11-03T18:53:53.034696Z",
+    "last_updated": "2026-11-04T18:55:01.228570Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-08-05",
-    "total_agenda_items": 25,
-    "total_sfr_items": 18,
+    "cutoff_date": "2026-08-06",
+    "total_agenda_items": 63,
+    "total_sfr_items": 48,
     "total_attachments": 0
   },
   "summaries": [
@@ -290,11 +290,11 @@
       "county": "Tarrant",
       "city": "Benbrook",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-19",
-      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_10192026-856",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (208 lines) but no rezone/plat/comp plan items"
+      "status": "PDFs found but could not extract text"
     },
     {
       "county": "Tarrant",
@@ -374,7 +374,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -440,8 +440,8 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-10-27",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_10272026-670",
+      "meeting_date": "2026-11-03",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_11032026-671",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -590,18 +590,31 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-28",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_10282026-2303",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (26 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-11-09",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_11092026-2309",
+      "items": [
+        {
+          "text": "0457 submitted by Maxwell Fisher, ZoneDevTX, for a zoning change from Planned Development—",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "0457 submitted by Maxwell Fisher, ZoneDevTX, for a zoning change from Planned Development—",
+          "attachments": [],
+          "keywords": [
+            "planned development"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-11-02",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_11022026-2307",
+      "meeting_date": "2026-11-04",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_11042026-2306",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1057,11 +1070,249 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-11-05",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_11052026-1773",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-11-09",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_11092026-1779",
+      "items": [
+        {
+          "text": "Princeton 9, LLC (Jessica Hernandez) to rezone 1.49 acre property located at the NE corner of S Beauchamp Blvd and",
+          "attachments": []
+        },
+        {
+          "text": "Ordinance No. 2026-11-09-02 Rezoning Property from M-1 to PD47.pdf",
+          "attachments": []
+        },
+        {
+          "text": "CC Presentation - Rezoning Property From M-1 to PD 47 - 11.09.2026.pptx",
+          "attachments": []
+        },
+        {
+          "text": "Investments LLC (Kelly McAfee) to rezone a 1.14 acre property located at the SE intersection of Monte Carlo Blvd. and Longneck",
+          "attachments": []
+        },
+        {
+          "text": "Ordinance No. 2026-11-09-04 Rezoning Property from SF-E to C-2.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit A- Rezoning Application.pdf",
+          "attachments": []
+        },
+        {
+          "text": "CC Presentation - Rezoning Property from SFE to C-2 - 11.09.2026.pptx",
+          "attachments": []
+        },
+        {
+          "text": "(1523 Longneck Road) to allow for Christian Brothers Automotive use. This request is in conjunction with a request to rezone this property to C-2 General Commercial District on this same meeting agenda; and take appropriate action. Presented by",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit B Applicants Rezoning and SUP Narrative.pdf",
+          "attachments": []
+        },
+        {
+          "text": "M8. 2026-261 Consider a request by Cope Retail LLC (Mark Cope) to Final Plat approximately 4.099 acres located on the east side of FM 75, south of Monticello Drive and north of East Monte Carlo",
+          "attachments": []
+        },
+        {
+          "text": "CC Memo- Shoppes At Monticello - Final Plat - 11.09.2026.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit A - Proposed Final Plat.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit C - Annotated Final Plat Review.pdf",
+          "attachments": []
+        },
+        {
+          "text": "M9. 2026-262 Consider a request for a Final Plat by KB Home Lone Star, Inc. for Princeton Estates, Phase 2, a residential subdivision consisting of approximately 29.760 acres located at the southeast corner of County Road 456 and South Boorman Lane; and take appropriate action. Presented by Parker McDowell, Planning",
+          "attachments": []
+        },
+        {
+          "text": "CC Memo- Princeton Estates Phase 2 - Final Plat - 11.09.2026.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit A - Proposed Corrected Final Plat.pdf",
+          "attachments": []
+        },
+        {
+          "text": "M10. 2026-263 Consider a request for a Preliminary Plat by property owner D. L.",
+          "attachments": []
+        },
+        {
+          "text": "CC Memo- Princeton Restaurant Preliminary Plat - 11.09.2026.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit A - Proposed Preliminary Plat.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit C - Annotated Preliminary Plat Review.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Preliminary Plat for approximately 4.768 acres located at the northwest corner of U.S. Highway 380 and Princeton Meadows",
+          "attachments": []
+        },
+        {
+          "text": "CC Memo- Christian Heights ASC - Preliminary Plat - 11.09.2026.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit A - Proposed Preliminary Plat 10-05-2026 Resubmittal.pdf",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Princeton 9, LLC (Jessica Hernandez) to rezone 1.49 acre property located at the NE corner of S Beauchamp Blvd and",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Ordinance No. 2026-11-09-02 Rezoning Property from M-1 to PD47.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "CC Presentation - Rezoning Property From M-1 to PD 47 - 11.09.2026.pptx",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Investments LLC (Kelly McAfee) to rezone a 1.14 acre property located at the SE intersection of Monte Carlo Blvd. and Longneck",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Ordinance No. 2026-11-09-04 Rezoning Property from SF-E to C-2.pdf",
+          "attachments": [],
+          "keywords": [
+            "SF-",
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit A- Rezoning Application.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit B Applicants Rezoning and SUP Narrative.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "M8. 2026-261 Consider a request by Cope Retail LLC (Mark Cope) to Final Plat approximately 4.099 acres located on the east side of FM 75, south of Monticello Drive and north of East Monte Carlo",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "CC Memo- Shoppes At Monticello - Final Plat - 11.09.2026.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit A - Proposed Final Plat.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit C - Annotated Final Plat Review.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "M9. 2026-262 Consider a request for a Final Plat by KB Home Lone Star, Inc. for Princeton Estates, Phase 2, a residential subdivision consisting of approximately 29.760 acres located at the southeast corner of County Road 456 and South Boorman Lane; and take appropriate action. Presented by Parker McDowell, Planning",
+          "attachments": [],
+          "keywords": [
+            "residential",
+            "subdivision",
+            "home",
+            "acre"
+          ]
+        },
+        {
+          "text": "CC Memo- Princeton Estates Phase 2 - Final Plat - 11.09.2026.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit A - Proposed Corrected Final Plat.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "CC Memo- Princeton Restaurant Preliminary Plat - 11.09.2026.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit A - Proposed Preliminary Plat.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit C - Annotated Preliminary Plat Review.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Preliminary Plat for approximately 4.768 acres located at the northwest corner of U.S. Highway 380 and Princeton Meadows",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "CC Memo- Christian Heights ASC - Preliminary Plat - 11.09.2026.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit A - Proposed Preliminary Plat 10-05-2026 Resubmittal.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Collin",
@@ -1806,7 +2057,7 @@
       "city": "Fate",
       "board": "City Council",
       "meeting_date": "2026-10-24",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_10242026-1541",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_10242026-1540",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2005,38 +2256,167 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-26",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_10262026-2233",
+      "meeting_date": "2026-11-09",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_11092026-2236",
       "items": [
         {
-          "text": "STREET, AND WEST OF GRAND AVENUE, CASE ZC26-013. b. *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE FROM PLANNED",
+          "text": "ACRES LOCATED AT 603 N. ANGLIN STREET, CASE PC26-029. a. *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE FROM SINGLE-",
           "attachments": []
         },
         {
-          "text": "Future Land Use Plan: The Future Land Use Plan designates the Trail Creek property as Medium-Density",
+          "text": "Commissioners Svendsen and Albertson voting in opposition. b. *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE FROM PLANNED",
           "attachments": []
         },
         {
-          "text": "The proposed amendment would retain the residential uses authorized under the existing PD, as amended, and would not increase the previously approved maximum number of dwelling units. Accordingly, the proposed amendment is consistent with the intent of the Future Land Use Plan",
+          "text": "The applicant proposes to rezone the entire 5.2-acre site and subdivide the property for future redevelopment.",
+          "attachments": []
+        },
+        {
+          "text": "Cleburne, TX 76033 Future Land Use Map",
+          "attachments": []
+        },
+        {
+          "text": "Item Title: *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE FROM SINGLE-",
+          "attachments": []
+        },
+        {
+          "text": "Item Description: The applicant, Fort Worth Area Habitat for Humanity, Inc., requests to rezone approximately one acre addressed as 1539 Oak Hill Road from Single-Family Dwelling (SF-7) District to",
+          "attachments": []
+        },
+        {
+          "text": "In October 2023, the City Council approved the rezoning of approximately 26 acres from [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "Rezoning Proposal: The applicant requests to rezone the one-acre subject property from SF-7 District to",
+          "attachments": []
+        },
+        {
+          "text": "Site Development: According to the Letter of Intent submitted by the applicant, the purpose of the rezoning request is to align the zoning of the subject property with the remainder of the proposed Miranda",
+          "attachments": []
+        },
+        {
+          "text": "Meadows subdivision in order to better incorporate this tract into the overall development. A preliminary plat and final plat will be required for this development in accordance with the City’s Code of Ordinances. [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "Future Land Use Plan: The Future Land Use Plan designates the subject property as Medium-Density",
+          "attachments": []
+        },
+        {
+          "text": "Residential, which is intended to accommodate detached single-family residential development on traditionally sized lots. The proposed zoning designation is consistent with this land use classification and aligns with the intended development pattern established by the Future Land Use Plan. [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "REZONING APPROXIMATELY ± 1 ACRE ADDRESSED AS 1539 OAK HILL ROAD,",
+          "attachments": []
+        },
+        {
+          "text": "Habitat for Humanity, INC, under case ZC26-024, has requested the rezoning of ±1 acre, addressed as 1539 Oak Hill Road, from Single-Family Dwelling (SF-7) District to Single-Family",
+          "attachments": []
+        },
+        {
+          "text": "Texas, with a recommendation for _______ of the rezoning request by a vote of ___; and",
+          "attachments": []
+        },
+        {
+          "text": "_______ the request to rezone; [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "SECTION ONE. A certain tract or parcel of land known as ±1-acre property addressed as 1539 Oak Hill Road, and further described in the survey attached as Exhibit “A” is hereby rezoned from Single-Family Dwelling (SF-7) District to Single-Family Dwelling (SF-6) District. [APPROVED]",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "Future Land Use Plan: The Future Land Use Plan designates the Trail Creek property as Medium-Density",
+          "text": "ACRES LOCATED AT 603 N. ANGLIN STREET, CASE PC26-029. a. *PUBLIC HEARING* CONSIDER A REQUEST TO REZONE FROM SINGLE-",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "The applicant proposes to rezone the entire 5.2-acre site and subdivide the property for future redevelopment.",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Item Description: The applicant, Fort Worth Area Habitat for Humanity, Inc., requests to rezone approximately one acre addressed as 1539 Oak Hill Road from Single-Family Dwelling (SF-7) District to",
+          "attachments": [],
+          "keywords": [
+            "single-family",
+            "dwelling",
+            "SF-",
+            "acre"
+          ]
+        },
+        {
+          "text": "In October 2023, the City Council approved the rezoning of approximately 26 acres from [APPROVED]",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Rezoning Proposal: The applicant requests to rezone the one-acre subject property from SF-7 District to",
+          "attachments": [],
+          "keywords": [
+            "SF-",
+            "acre"
+          ]
+        },
+        {
+          "text": "Meadows subdivision in order to better incorporate this tract into the overall development. A preliminary plat and final plat will be required for this development in accordance with the City’s Code of Ordinances. [APPROVED]",
+          "attachments": [],
+          "keywords": [
+            "subdivision"
+          ]
+        },
+        {
+          "text": "Future Land Use Plan: The Future Land Use Plan designates the subject property as Medium-Density",
           "attachments": [],
           "keywords": [
             "density"
           ]
         },
         {
-          "text": "The proposed amendment would retain the residential uses authorized under the existing PD, as amended, and would not increase the previously approved maximum number of dwelling units. Accordingly, the proposed amendment is consistent with the intent of the Future Land Use Plan",
+          "text": "Residential, which is intended to accommodate detached single-family residential development on traditionally sized lots. The proposed zoning designation is consistent with this land use classification and aligns with the intended development pattern established by the Future Land Use Plan. [APPROVED]",
           "attachments": [],
           "keywords": [
+            "single-family",
             "residential",
+            "detached",
+            "lot"
+          ]
+        },
+        {
+          "text": "REZONING APPROXIMATELY ± 1 ACRE ADDRESSED AS 1539 OAK HILL ROAD,",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Habitat for Humanity, INC, under case ZC26-024, has requested the rezoning of ±1 acre, addressed as 1539 Oak Hill Road, from Single-Family Dwelling (SF-7) District to Single-Family",
+          "attachments": [],
+          "keywords": [
+            "single-family",
             "dwelling",
-            "unit",
-            "PD"
+            "SF-",
+            "acre"
+          ]
+        },
+        {
+          "text": "SECTION ONE. A certain tract or parcel of land known as ±1-acre property addressed as 1539 Oak Hill Road, and further described in the survey attached as Exhibit “A” is hereby rezoned from Single-Family Dwelling (SF-7) District to Single-Family Dwelling (SF-6) District. [APPROVED]",
+          "attachments": [],
+          "keywords": [
+            "single-family",
+            "dwelling",
+            "SF-",
+            "acre"
           ]
         }
       ],
@@ -2046,8 +2426,8 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "City Council",
-      "meeting_date": "2026-10-21",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_10212026-2232",
+      "meeting_date": "2026-10-23",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_10232026-2230",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2201,7 +2581,7 @@
       "city": "Decatur",
       "board": "City Council",
       "meeting_date": "2026-10-26",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_10262026-1595",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_10262026-1594",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
