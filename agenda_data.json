@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-11-04T18:55:01.228570Z",
+    "last_updated": "2026-11-05T19:07:36.400549Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-08-06",
-    "total_agenda_items": 63,
-    "total_sfr_items": 48,
+    "cutoff_date": "2026-08-07",
+    "total_agenda_items": 67,
+    "total_sfr_items": 51,
     "total_attachments": 0
   },
   "summaries": [
@@ -374,7 +374,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Tarrant",
@@ -613,8 +613,8 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-11-04",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_11042026-2306",
+      "meeting_date": "2026-11-05",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_11052026-2308",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1060,11 +1060,11 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-11-03",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_11032026-1776",
+      "meeting_date": "2026-11-09",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_11092026-1780",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (70 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (28 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Collin",
@@ -2047,7 +2047,7 @@
       "city": "Fate",
       "board": "Planning & Zoning",
       "meeting_date": "2026-10-24",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_10242026-1541",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_10242026-1540",
       "items": [],
       "sfr_items": [],
       "status": "PDF parsed (25 lines) but no rezone/plat/comp plan items"
@@ -2056,8 +2056,8 @@
       "county": "Rockwall",
       "city": "Fate",
       "board": "City Council",
-      "meeting_date": "2026-10-24",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_10242026-1540",
+      "meeting_date": "2026-11-06",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_11062026-1539",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2133,17 +2133,61 @@
       "county": "Rockwall",
       "city": "Royse City",
       "board": "City Council",
-      "meeting_date": "2026-10-27",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_10272026-662",
+      "meeting_date": "2026-11-10",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_11102026-667",
       "items": [
         {
-          "text": "Consider and act on a Preliminary Plat of Clearview Ranch Phase 3 South, consisting of +/- 32.9 acres, situated in the John W Foote Survey, Abstract No.333 and the Russell Crawford Survey, Abstract No. 229, City of Royse City, Collin",
+          "text": "Approve a 30-day extension for a preliminary plat for The Anderson Block A, Lot 1- [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "Approve a 30-day extension for a final plat for Lots 1 and 2 of the Camacho/Segura [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "Approve a 30-day extension for a final plat of the Erby Campbell Retail Center Lot [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "Approve a preliminary plat for Verandah Phase 12 consisting of +/- 2.3 acres situated in the Joseph Prewitt Survey Abstract No. 851 Verandah Municipal Utility [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "Approve a preliminary plat of Clearview Ranch Phase 3 South, consisting of +/- 32.9 acres, situated in the John W Foote Survey, Abstract No.333 and the Russell [APPROVED]",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "Consider and act on a Preliminary Plat of Clearview Ranch Phase 3 South, consisting of +/- 32.9 acres, situated in the John W Foote Survey, Abstract No.333 and the Russell Crawford Survey, Abstract No. 229, City of Royse City, Collin",
+          "text": "Approve a 30-day extension for a preliminary plat for The Anderson Block A, Lot 1- [APPROVED]",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        },
+        {
+          "text": "Approve a 30-day extension for a final plat for Lots 1 and 2 of the Camacho/Segura [APPROVED]",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        },
+        {
+          "text": "Approve a 30-day extension for a final plat of the Erby Campbell Retail Center Lot [APPROVED]",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        },
+        {
+          "text": "Approve a preliminary plat for Verandah Phase 12 consisting of +/- 2.3 acres situated in the Joseph Prewitt Survey Abstract No. 851 Verandah Municipal Utility [APPROVED]",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Approve a preliminary plat of Clearview Ranch Phase 3 South, consisting of +/- 32.9 acres, situated in the John W Foote Survey, Abstract No.333 and the Russell [APPROVED]",
           "attachments": [],
           "keywords": [
             "acre"
@@ -2156,18 +2200,18 @@
       "county": "Kaufman",
       "city": "Forney",
       "board": "Planning & Zoning",
-      "meeting_date": "",
-      "agenda_url": "",
+      "meeting_date": "2026-11-12",
+      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_11122026-1319",
       "items": [],
       "sfr_items": [],
-      "status": "PDFs found but could not extract text"
+      "status": "PDF parsed (60 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Kaufman",
       "city": "Forney",
       "board": "City Council",
-      "meeting_date": "",
-      "agenda_url": "",
+      "meeting_date": "2026-11-12",
+      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_11122026-1319",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2556,32 +2600,23 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-11-04",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_11042026-1596",
+      "meeting_date": "2026-11-09",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_11092026-1599",
       "items": [
         {
-          "text": "FP-26-0004 – Take appropriate action to approve a 30-day extension request regarding the Final Plat application for an approximately 2.76-acre tract of land, Quick Al’s Addition, Lot 1, Block 1, in the City of Decatur, Wise County, Texas, addressed as 1105 N US Hwy 81-287. (Quick Al’s Real Estate,",
+          "text": "WHEREAS, the City Council finds that the requested zoning amendment is consistent with the Comprehensive Master Plan of the City; serves the health, safety, welfare, and aesthetic concerns of the public; is in the public interest; and that the zoning change does not unreasonably invade the rights of adjacent property owners.",
           "attachments": []
         }
       ],
-      "sfr_items": [
-        {
-          "text": "FP-26-0004 – Take appropriate action to approve a 30-day extension request regarding the Final Plat application for an approximately 2.76-acre tract of land, Quick Al’s Addition, Lot 1, Block 1, in the City of Decatur, Wise County, Texas, addressed as 1105 N US Hwy 81-287. (Quick Al’s Real Estate,",
-          "attachments": [],
-          "keywords": [
-            "lot",
-            "acre"
-          ]
-        }
-      ],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Wise",
       "city": "Decatur",
       "board": "City Council",
-      "meeting_date": "2026-10-26",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_10262026-1594",
+      "meeting_date": "2026-11-09",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_11092026-1599",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
