@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-11-05T19:07:36.400549Z",
+    "last_updated": "2026-11-06T18:27:13.439504Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-08-07",
+    "cutoff_date": "2026-08-08",
     "total_agenda_items": 67,
     "total_sfr_items": 51,
     "total_attachments": 0
@@ -290,11 +290,24 @@
       "county": "Tarrant",
       "city": "Benbrook",
       "board": "Planning & Zoning",
-      "meeting_date": "",
-      "agenda_url": "",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDFs found but could not extract text"
+      "meeting_date": "2026-11-12",
+      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_11122026-859",
+      "items": [
+        {
+          "text": "III. Discuss the status of the Comprehensive Plan Update and next steps",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "III. Discuss the status of the Comprehensive Plan Update and next steps",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Tarrant",
@@ -590,31 +603,18 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-11-09",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_11092026-2309",
-      "items": [
-        {
-          "text": "0457 submitted by Maxwell Fisher, ZoneDevTX, for a zoning change from Planned Development—",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "0457 submitted by Maxwell Fisher, ZoneDevTX, for a zoning change from Planned Development—",
-          "attachments": [],
-          "keywords": [
-            "planned development"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-11-10",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_11102026-2313",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (27 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-11-05",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_11052026-2308",
+      "meeting_date": "2026-11-10",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_11102026-2313",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
