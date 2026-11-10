@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-11-09T21:55:56.775900Z",
+    "last_updated": "2026-11-10T19:02:01.623752Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-08-11",
-    "total_agenda_items": 26,
-    "total_sfr_items": 20,
+    "cutoff_date": "2026-08-12",
+    "total_agenda_items": 27,
+    "total_sfr_items": 17,
     "total_attachments": 0
   },
   "summaries": [
@@ -814,47 +814,10 @@
       "city": "Balch Springs",
       "board": "City Council",
       "meeting_date": "2026-11-05",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_11052026-1834",
-      "items": [
-        {
-          "text": "Conduct a briefing on Rezoning Application 006-2026 by Belmont Management LTD on subject parcel located at 3926 S Peachtree totaling (+/-) 2.0 acres from a",
-          "attachments": []
-        },
-        {
-          "text": "Commercial (C) Zone District to Single-Family (SF-6) Zone District to allow for continuation of an existing single-family home. a. Conduct a Public Hearing on the Rezoning Application 006-2026. b. Consideration and action on the Rezoning Application 006-2026.",
-          "attachments": []
-        },
-        {
-          "text": "Conduct a briefing on Rezoning Application 007-2026 by Belmont Management LTD on subject parcel located at 11413 Molly Mac totaling (+/-) 0.206 acres from a",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "Conduct a briefing on Rezoning Application 006-2026 by Belmont Management LTD on subject parcel located at 3926 S Peachtree totaling (+/-) 2.0 acres from a",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "Commercial (C) Zone District to Single-Family (SF-6) Zone District to allow for continuation of an existing single-family home. a. Conduct a Public Hearing on the Rezoning Application 006-2026. b. Consideration and action on the Rezoning Application 006-2026.",
-          "attachments": [],
-          "keywords": [
-            "single-family",
-            "SF-",
-            "home"
-          ]
-        },
-        {
-          "text": "Conduct a briefing on Rezoning Application 007-2026 by Belmont Management LTD on subject parcel located at 11413 Molly Mac totaling (+/-) 0.206 acres from a",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        }
-      ],
-      "status": "success"
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_11052026-1833",
+      "items": [],
+      "sfr_items": [],
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Dallas",
@@ -1416,11 +1379,16 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "City Council",
-      "meeting_date": "2026-10-27",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_10272026-1347",
-      "items": [],
+      "meeting_date": "2026-11-16",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_11162026-1355",
+      "items": [
+        {
+          "text": "Hold a public hearing and consider Ordinance 2026-54 for a zoning change amendment to",
+          "attachments": []
+        }
+      ],
       "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "status": "success"
     },
     {
       "county": "Denton",
@@ -1638,11 +1606,24 @@
       "county": "Denton",
       "city": "Oak Point",
       "board": "City Council",
-      "meeting_date": "2026-10-21",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_10212026-632",
-      "items": [],
+      "meeting_date": "2026-11-18",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_11182026-637",
+      "items": [
+        {
+          "text": "Presentation and Discussion from Comprehensive Plan Consultant",
+          "attachments": []
+        },
+        {
+          "text": "Comprehensive Plan”. Key topics were “what will the plan cover, Parks and Recreation & Economic",
+          "attachments": []
+        },
+        {
+          "text": "Development in the Comprehensive Plan, How Parks connects to the rest of the plan, how EDC connects to the rest of the plan, project timeline, and the Commission and Corporation rules. After the presentation Martinec answered questions and engaged in discussion with the Parks and",
+          "attachments": []
+        }
+      ],
       "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "status": "success"
     },
     {
       "county": "Denton",
@@ -2062,18 +2043,18 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-11-13",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_11132026-2234",
+      "meeting_date": "2026-11-16",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_11162026-2237",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (27 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (28 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Johnson",
       "city": "Cleburne",
       "board": "City Council",
-      "meeting_date": "2026-11-13",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_11132026-2234",
+      "meeting_date": "2026-11-16",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_11162026-2237",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
