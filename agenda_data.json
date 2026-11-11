@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-11-10T19:02:01.623752Z",
+    "last_updated": "2026-11-11T18:48:42.073391Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-08-12",
-    "total_agenda_items": 27,
-    "total_sfr_items": 17,
+    "cutoff_date": "2026-08-13",
+    "total_agenda_items": 28,
+    "total_sfr_items": 18,
     "total_attachments": 0
   },
   "summaries": [
@@ -92,18 +92,31 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-11-09",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_11092026-2355",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (26 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-11-19",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_11192026-2360",
+      "items": [
+        {
+          "text": "Consider: ZA26-0073, Zoning Change and Site Plan for Kimball Heights, on property described as Lots 1-6, Block 1, Kimball Heights Addition and located at 515-565 S. Kimball",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Consider: ZA26-0073, Zoning Change and Site Plan for Kimball Heights, on property described as Lots 1-6, Block 1, Kimball Heights Addition and located at 515-565 S. Kimball",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
-      "meeting_date": "2026-11-09",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_11092026-2355",
+      "meeting_date": "2026-11-12",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_11122026-2357",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -180,8 +193,8 @@
       "county": "Tarrant",
       "city": "Bedford",
       "board": "City Council",
-      "meeting_date": "2026-11-05",
-      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_11052026-1634",
+      "meeting_date": "2026-11-07",
+      "agenda_url": "https://www.bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_11072026-1635",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -313,8 +326,8 @@
       "county": "Tarrant",
       "city": "Benbrook",
       "board": "City Council",
-      "meeting_date": "",
-      "agenda_url": "",
+      "meeting_date": "2026-11-16",
+      "agenda_url": "https://www.benbrook-tx.gov/AgendaCenter/ViewFile/Agenda/_11162026-864",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -453,8 +466,8 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-11-03",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_11032026-671",
+      "meeting_date": "2026-11-17",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_11172026-675",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -603,18 +616,18 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-11-10",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_11102026-2311",
+      "meeting_date": "2026-11-18",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_11182026-2318",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (13 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (44 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-11-10",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_11102026-2311",
+      "meeting_date": "2026-11-16",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_11162026-2316",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1033,8 +1046,8 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-11-09",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_11092026-1778",
+      "meeting_date": "2026-11-17",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_11172026-1782",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1789,18 +1802,18 @@
       "county": "Rockwall",
       "city": "Fate",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-24",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_10242026-1540",
+      "meeting_date": "2026-11-06",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_11062026-1539",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (25 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (24 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Rockwall",
       "city": "Fate",
       "board": "City Council",
-      "meeting_date": "2026-11-06",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_11062026-1539",
+      "meeting_date": "2026-11-19",
+      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_11192026-1543",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -2043,18 +2056,18 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-11-16",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_11162026-2237",
+      "meeting_date": "2026-11-17",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_11172026-2239",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (28 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (29 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Johnson",
       "city": "Cleburne",
       "board": "City Council",
-      "meeting_date": "2026-11-16",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_11162026-2237",
+      "meeting_date": "2026-11-17",
+      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_11172026-2239",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
