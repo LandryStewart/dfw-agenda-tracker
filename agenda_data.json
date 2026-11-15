@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-11-14T17:25:39.785077Z",
+    "last_updated": "2026-11-15T18:09:20.763935Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-08-16",
+    "cutoff_date": "2026-08-17",
     "total_agenda_items": 33,
     "total_sfr_items": 17,
     "total_attachments": 0
@@ -431,7 +431,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -451,7 +451,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -1251,7 +1251,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Denton",
@@ -1462,7 +1462,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Denton",
@@ -1813,18 +1813,18 @@
       "county": "Rockwall",
       "city": "Fate",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-11-19",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_11192026-1543",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (25 lines) but no rezone/plat/comp plan items"
+      "status": "could not reach site"
     },
     {
       "county": "Rockwall",
       "city": "Fate",
       "board": "City Council",
-      "meeting_date": "2026-11-19",
-      "agenda_url": "https://www.fatetx.gov/AgendaCenter/ViewFile/Agenda/_11192026-1543",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1991,7 +1991,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Kaufman",
@@ -2067,18 +2067,18 @@
       "county": "Johnson",
       "city": "Cleburne",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-11-17",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_11172026-2239",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (29 lines) but no rezone/plat/comp plan items"
+      "status": "could not reach site"
     },
     {
       "county": "Johnson",
       "city": "Cleburne",
       "board": "City Council",
-      "meeting_date": "2026-11-17",
-      "agenda_url": "https://www.cleburne.net/AgendaCenter/ViewFile/Agenda/_11172026-2239",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
