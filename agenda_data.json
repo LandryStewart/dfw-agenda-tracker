@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-11-17T20:11:50.357393Z",
+    "last_updated": "2026-11-18T19:51:34.605222Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-08-19",
-    "total_agenda_items": 27,
-    "total_sfr_items": 11,
+    "cutoff_date": "2026-08-20",
+    "total_agenda_items": 47,
+    "total_sfr_items": 30,
     "total_attachments": 0
   },
   "summaries": [
@@ -465,7 +465,7 @@
       "city": "Haltom City",
       "board": "City Council",
       "meeting_date": "2026-11-17",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_11172026-675",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_11172026-677",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -614,11 +614,24 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-11-18",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_11182026-2319",
-      "items": [],
-      "sfr_items": [],
-      "status": "PDF parsed (46 lines) but no rezone/plat/comp plan items"
+      "meeting_date": "2026-11-23",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_11232026-2322",
+      "items": [
+        {
+          "text": "0469 submitted by Courtney Whitesell, Sargenti, LLC., on behalf of Five Below for a zoning change from Planned Development – Commercial within the TERRA Overlay District to Planned",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "0469 submitted by Courtney Whitesell, Sargenti, LLC., on behalf of Five Below for a zoning change from Planned Development – Commercial within the TERRA Overlay District to Planned",
+          "attachments": [],
+          "keywords": [
+            "planned development"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Dallas",
@@ -814,11 +827,11 @@
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-19",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_08192026-1814",
+      "meeting_date": "2026-08-27",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_08272026-1816",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (48 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (44 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
@@ -1044,11 +1057,163 @@
       "county": "Collin",
       "city": "Princeton",
       "board": "City Council",
-      "meeting_date": "2026-11-17",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_11172026-1789",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-11-23",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_11232026-1794",
+      "items": [
+        {
+          "text": "K7. 2026-286 Consider a request by Cope Retail LLC (Mark Cope) to Final Plat approximately 4.099 acres located on the east side of FM 75, south of Monticello Drive and north of East Monte Carlo",
+          "attachments": []
+        },
+        {
+          "text": "CC Memo- Shoppes At Monticello - Final Plat - 11.23.2026.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit A - Proposed Final Plat.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit C - Annotated Final Plat Review.pdf",
+          "attachments": []
+        },
+        {
+          "text": "K8. 2026-285 Consider a request for a Final Plat by KB Home Lone Star, Inc. for Princeton Estates, Phase 2, a residential subdivision consisting of approximately 29.760 acres located at the southeast corner of County Road 456 and South Boorman Lane; and take appropriate action. Presented by Parker McDowell, Planning",
+          "attachments": []
+        },
+        {
+          "text": "CC Memo- Princeton Estates Phase 2 - Final Plat - 11.23.2026.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit A - Proposed Corrected Final Plat.pdf",
+          "attachments": []
+        },
+        {
+          "text": "K9. 2026-282 Consider a request for a Preliminary Plat by property owner D. L.",
+          "attachments": []
+        },
+        {
+          "text": "CC Memo- Princeton Restaurant Preliminary Plat - 11.23.2026.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit A - Proposed Preliminary Plat.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit C - Annotated Preliminary Plat Review.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Preliminary Plat for approximately 4.768 acres located at the northwest corner of U.S. Highway 380 and Princeton Meadows",
+          "attachments": []
+        },
+        {
+          "text": "CC Memo- Christian Heights ASC - Preliminary Plat - 11.23.2026.pdf",
+          "attachments": []
+        },
+        {
+          "text": "Exhibit A - Proposed Preliminary Plat 10-05-2026 Resubmittal.pdf",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "K7. 2026-286 Consider a request by Cope Retail LLC (Mark Cope) to Final Plat approximately 4.099 acres located on the east side of FM 75, south of Monticello Drive and north of East Monte Carlo",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "CC Memo- Shoppes At Monticello - Final Plat - 11.23.2026.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit A - Proposed Final Plat.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit C - Annotated Final Plat Review.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "K8. 2026-285 Consider a request for a Final Plat by KB Home Lone Star, Inc. for Princeton Estates, Phase 2, a residential subdivision consisting of approximately 29.760 acres located at the southeast corner of County Road 456 and South Boorman Lane; and take appropriate action. Presented by Parker McDowell, Planning",
+          "attachments": [],
+          "keywords": [
+            "residential",
+            "subdivision",
+            "home",
+            "acre"
+          ]
+        },
+        {
+          "text": "CC Memo- Princeton Estates Phase 2 - Final Plat - 11.23.2026.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit A - Proposed Corrected Final Plat.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "CC Memo- Princeton Restaurant Preliminary Plat - 11.23.2026.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit A - Proposed Preliminary Plat.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit C - Annotated Preliminary Plat Review.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Preliminary Plat for approximately 4.768 acres located at the northwest corner of U.S. Highway 380 and Princeton Meadows",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "CC Memo- Christian Heights ASC - Preliminary Plat - 11.23.2026.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        },
+        {
+          "text": "Exhibit A - Proposed Preliminary Plat 10-05-2026 Resubmittal.pdf",
+          "attachments": [],
+          "keywords": [
+            "PD"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Collin",
@@ -1887,11 +2052,68 @@
       "county": "Rockwall",
       "city": "Royse City",
       "board": "City Council",
-      "meeting_date": "",
-      "agenda_url": "",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-11-10",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_11102026-667",
+      "items": [
+        {
+          "text": "Approve a 30-day extension for a preliminary plat for The Anderson Block A, Lot 1- [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "Approve a 30-day extension for a final plat for Lots 1 and 2 of the Camacho/Segura [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "Approve a 30-day extension for a final plat of the Erby Campbell Retail Center Lot [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "Approve a preliminary plat for Verandah Phase 12 consisting of +/- 2.3 acres situated in the Joseph Prewitt Survey Abstract No. 851 Verandah Municipal Utility [APPROVED]",
+          "attachments": []
+        },
+        {
+          "text": "Approve a preliminary plat of Clearview Ranch Phase 3 South, consisting of +/- 32.9 acres, situated in the John W Foote Survey, Abstract No.333 and the Russell [APPROVED]",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Approve a 30-day extension for a preliminary plat for The Anderson Block A, Lot 1- [APPROVED]",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        },
+        {
+          "text": "Approve a 30-day extension for a final plat for Lots 1 and 2 of the Camacho/Segura [APPROVED]",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        },
+        {
+          "text": "Approve a 30-day extension for a final plat of the Erby Campbell Retail Center Lot [APPROVED]",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        },
+        {
+          "text": "Approve a preliminary plat for Verandah Phase 12 consisting of +/- 2.3 acres situated in the Joseph Prewitt Survey Abstract No. 851 Verandah Municipal Utility [APPROVED]",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Approve a preliminary plat of Clearview Ranch Phase 3 South, consisting of +/- 32.9 acres, situated in the John W Foote Survey, Abstract No.333 and the Russell [APPROVED]",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Kaufman",
@@ -2148,7 +2370,7 @@
       "city": "Decatur",
       "board": "City Council",
       "meeting_date": "2026-11-16",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_11162026-1602",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_11162026-1601",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
