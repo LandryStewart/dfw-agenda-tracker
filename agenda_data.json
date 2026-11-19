@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-11-18T19:51:34.605222Z",
+    "last_updated": "2026-11-19T19:50:01.521187Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-08-20",
+    "cutoff_date": "2026-08-21",
     "total_agenda_items": 47,
     "total_sfr_items": 30,
     "total_attachments": 0
@@ -2119,11 +2119,11 @@
       "county": "Kaufman",
       "city": "Forney",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-11-12",
-      "agenda_url": "https://www.forneytx.gov/AgendaCenter/ViewFile/Agenda/_11122026-1319",
+      "meeting_date": "",
+      "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (60 lines) but no rezone/plat/comp plan items"
+      "status": "PDFs found but could not extract text"
     },
     {
       "county": "Kaufman",
@@ -2360,17 +2360,17 @@
       "city": "Decatur",
       "board": "Planning & Zoning",
       "meeting_date": "2026-11-16",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_11162026-1602",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_11162026-1601",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (447 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (106 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Wise",
       "city": "Decatur",
       "board": "City Council",
-      "meeting_date": "2026-11-16",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_11162026-1601",
+      "meeting_date": "2026-11-18",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_11182026-1606",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
