@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "last_updated": "2026-11-19T19:50:01.521187Z",
+    "last_updated": "2026-11-20T19:32:44.260315Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-08-21",
-    "total_agenda_items": 47,
+    "cutoff_date": "2026-08-22",
+    "total_agenda_items": 48,
     "total_sfr_items": 30,
     "total_attachments": 0
   },
@@ -2359,18 +2359,23 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-11-16",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_11162026-1601",
-      "items": [],
+      "meeting_date": "2026-11-23",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_11232026-1607",
+      "items": [
+        {
+          "text": "Development Services Director, or their designee, determines that specific improvements are unsafe, constitute a public nuisance, contain hazardous materials requiring removal, or cannot reasonably be reused or redeveloped in a manner consistent with the City of Decatur Comprehensive Plan, applicable zoning regulations, or the character of surrounding land uses, the",
+          "attachments": []
+        }
+      ],
       "sfr_items": [],
-      "status": "PDF parsed (106 lines) but no rezone/plat/comp plan items"
+      "status": "success"
     },
     {
       "county": "Wise",
       "city": "Decatur",
       "board": "City Council",
-      "meeting_date": "2026-11-18",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_11182026-1606",
+      "meeting_date": "2026-11-23",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_11232026-1607",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
