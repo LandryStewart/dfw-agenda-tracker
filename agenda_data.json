@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-11-20T19:32:44.260315Z",
+    "last_updated": "2026-11-21T18:28:43.797985Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-08-22",
+    "cutoff_date": "2026-08-23",
     "total_agenda_items": 48,
     "total_sfr_items": 30,
     "total_attachments": 0
@@ -614,20 +614,20 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-11-23",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_11232026-2322",
+      "meeting_date": "2026-12-01",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_12012026-2325",
       "items": [
         {
-          "text": "0469 submitted by Courtney Whitesell, Sargenti, LLC., on behalf of Five Below for a zoning change from Planned Development – Commercial within the TERRA Overlay District to Planned",
+          "text": "For the sample of roadway impact fee assessments selected for testing, we performed the procedures described below for Attributes a through h. The results are summarized below: a. Applicable Fee Schedule – The fee assessed agreed to the City Council-approved roadway impact fee schedule in effect on the assessment date (final plat approval date). b. Development Basis – Supporting permit documentation agreed to the units or square footage used in calculating the roadway impact fee assessment. c. Correct Land Use Classification – The development was classified under the appropriate land use category in accordance with the approved fee schedule. d. Service Area – Documentation supported the assignment of the development to the appropriate roadway impact e. Calculation Accuracy – Recalculation of the assessed fee based on the applicable rate and units/square footage agreed to the amount assessed.",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "0469 submitted by Courtney Whitesell, Sargenti, LLC., on behalf of Five Below for a zoning change from Planned Development – Commercial within the TERRA Overlay District to Planned",
+          "text": "For the sample of roadway impact fee assessments selected for testing, we performed the procedures described below for Attributes a through h. The results are summarized below: a. Applicable Fee Schedule – The fee assessed agreed to the City Council-approved roadway impact fee schedule in effect on the assessment date (final plat approval date). b. Development Basis – Supporting permit documentation agreed to the units or square footage used in calculating the roadway impact fee assessment. c. Correct Land Use Classification – The development was classified under the appropriate land use category in accordance with the approved fee schedule. d. Service Area – Documentation supported the assignment of the development to the appropriate roadway impact e. Calculation Accuracy – Recalculation of the assessed fee based on the applicable rate and units/square footage agreed to the amount assessed.",
           "attachments": [],
           "keywords": [
-            "planned development"
+            "unit"
           ]
         }
       ],
@@ -637,8 +637,8 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-11-18",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_11182026-2319",
+      "meeting_date": "2026-12-01",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_12012026-2325",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
