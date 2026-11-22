@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-11-21T18:28:43.797985Z",
+    "last_updated": "2026-11-22T18:45:16.719797Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-08-23",
+    "cutoff_date": "2026-08-24",
     "total_agenda_items": 48,
     "total_sfr_items": 30,
     "total_attachments": 0
@@ -1829,7 +1829,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Denton",
