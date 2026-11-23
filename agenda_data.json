@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-11-22T18:45:16.719797Z",
+    "last_updated": "2026-11-23T22:57:36.709303Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-08-24",
-    "total_agenda_items": 48,
-    "total_sfr_items": 30,
+    "cutoff_date": "2026-08-25",
+    "total_agenda_items": 52,
+    "total_sfr_items": 33,
     "total_attachments": 0
   },
   "summaries": [
@@ -92,58 +92,34 @@
       "county": "Tarrant",
       "city": "Southlake",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-11-19",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_11192026-2360",
+      "meeting_date": "2026-12-03",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_12032026-2365",
       "items": [
         {
-          "text": "Consider: ZA26-0073, Zoning Change and Site Plan for Kimball Heights, on property described as Lots 1-6, Block 1, Kimball Heights Addition and located at 515-565 S. Kimball",
+          "text": "Consider: ZA26-0080, Zoning Change and Site Plan for Shivers’ Farm for Whole Foods",
           "attachments": []
         }
       ],
-      "sfr_items": [
-        {
-          "text": "Consider: ZA26-0073, Zoning Change and Site Plan for Kimball Heights, on property described as Lots 1-6, Block 1, Kimball Heights Addition and located at 515-565 S. Kimball",
-          "attachments": [],
-          "keywords": [
-            "lot"
-          ]
-        }
-      ],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Tarrant",
       "city": "Southlake",
       "board": "City Council",
-      "meeting_date": "2026-11-17",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_11172026-2361",
+      "meeting_date": "2026-12-01",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_12012026-2367",
       "items": [
         {
-          "text": "E. Ordinance No. 480-853, ZA26-0075, 1st Reading, Zoning Change for 4060",
+          "text": "F. TABLE: Ordinance No. 480-850, ZA26-0046, 2nd Reading, Zoning Change and Site Plan for Magnolia Office Park, on property described as Tract 5B06,",
           "attachments": []
         },
         {
-          "text": "H. TABLE: Ordinance No. 480-850, ZA26-0046, 2nd Reading, Zoning Change and Site Plan for Magnolia Office Park, on property described as Tract 5B06,",
+          "text": "B. Ordinance No. 480-852, ZA26-0063, 2nd Reading, Zoning Change and",
           "attachments": []
         },
         {
-          "text": "City of Southlake Consolidated Future Land Use Plan, an Element of the",
-          "attachments": []
-        },
-        {
-          "text": "Southlake Comprehensive Plan, for Touchmark, on property described as",
-          "attachments": []
-        },
-        {
-          "text": "J. TABLE: Ordinance No. 480-851, ZA26-0052, 1st Reading, Zoning Change and",
-          "attachments": []
-        },
-        {
-          "text": "A. Ordinance No. 480-667c, ZA26-0010, 2nd Reading, Zoning Change and Site",
-          "attachments": []
-        },
-        {
-          "text": "A. Ordinance No. 480-852, ZA26-0063, 1st Reading, Zoning Change and",
+          "text": "C. Ordinance No. 480-853, ZA26-0075, 2nd Reading, Zoning Change for 4060",
           "attachments": []
         }
       ],
@@ -1048,10 +1024,10 @@
       "city": "Princeton",
       "board": "Planning & Zoning",
       "meeting_date": "2026-11-17",
-      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_11172026-1784",
+      "agenda_url": "https://www.princetontx.gov/AgendaCenter/ViewFile/Agenda/_11172026-1782",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (19 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (20 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Collin",
@@ -1519,52 +1495,26 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-11-04",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_11042026-1352",
+      "meeting_date": "2026-11-30",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_11302026-1359",
       "items": [
         {
-          "text": "Hold a public hearing, consider and make a recommendation to Town Council on a zoning change amendment to Ordinance 2018-26 for the Evans Tract Planned Development (Z-26-",
-          "attachments": []
-        },
-        {
-          "text": "Consider and make a recommendation to Town Council on a Preliminary Plat (PP-26-001) for Harvest, Phase 13, being 47.74 acres in the Patrick Rock Survey, Abstract No. 1063, containing 126 residential lots and 4 common lots on the north side of Old Justin Road, [PASSED 5-0]",
+          "text": "Center District Amendments to the Comprehensive Plan and Future Land Use Plan Map.",
           "attachments": []
         }
       ],
-      "sfr_items": [
-        {
-          "text": "Hold a public hearing, consider and make a recommendation to Town Council on a zoning change amendment to Ordinance 2018-26 for the Evans Tract Planned Development (Z-26-",
-          "attachments": [],
-          "keywords": [
-            "planned development"
-          ]
-        },
-        {
-          "text": "Consider and make a recommendation to Town Council on a Preliminary Plat (PP-26-001) for Harvest, Phase 13, being 47.74 acres in the Patrick Rock Survey, Abstract No. 1063, containing 126 residential lots and 4 common lots on the north side of Old Justin Road, [PASSED 5-0]",
-          "attachments": [],
-          "keywords": [
-            "residential",
-            "lot",
-            "acre"
-          ]
-        }
-      ],
+      "sfr_items": [],
       "status": "success"
     },
     {
       "county": "Denton",
       "city": "Argyle",
       "board": "City Council",
-      "meeting_date": "2026-11-16",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_11162026-1355",
-      "items": [
-        {
-          "text": "Hold a public hearing and consider Ordinance 2026-54 for a zoning change amendment to",
-          "attachments": []
-        }
-      ],
+      "meeting_date": "2026-11-30",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_11302026-1359",
+      "items": [],
       "sfr_items": [],
-      "status": "success"
+      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Denton",
@@ -1690,11 +1640,23 @@
       "county": "Denton",
       "city": "Cross Roads",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-10-06",
-      "agenda_url": "https://www.crossroadstx.gov/AgendaCenter/ViewFile/Agenda/_10062026-64",
+      "meeting_date": "2026-12-01",
+      "agenda_url": "https://www.crossroadstx.gov/AgendaCenter/ViewFile/Agenda/_12012026-69",
       "items": [
         {
-          "text": "Discuss and consider a recommendation to the Town Council on a final plat application for a 146.78 acre parcel located west at 2500 Naylor Road, Cross Roads, Denton County,",
+          "text": "Discuss and consider a recommendation to the Town Council on a final plat application for a 59.18 acre parcel located at the northwest corner of New Hope and Fishtrap Roads, Cross Roads, Denton",
+          "attachments": []
+        },
+        {
+          "text": "County, Texas. The purpose of this final plat is to add two lots to the previously approved plat for the New Hope subdivision that was approved in 2025. (Permit # 2914)",
+          "attachments": []
+        },
+        {
+          "text": "Discuss and consider a recommendation to the Town Council on a preliminary plat application for a",
+          "attachments": []
+        },
+        {
+          "text": "Denton County, Texas. The purpose of this preliminary plat is to subdivide the property for commercial development. (Permit # 2915)",
           "attachments": []
         },
         {
@@ -1702,35 +1664,88 @@
           "attachments": []
         },
         {
-          "text": "This request is to final plat the DISD high school site by adding a 5.04 acre tract that was previously owned by the Town.",
+          "text": "Cross Roads, Denton County, Texas. The purpose of this final plat is to add two lots to the previously approved plat for the New Hope subdivision that was approved in 2025.",
           "attachments": []
         },
         {
-          "text": "Staff recommends approval of the final plat to create a single lot on the 146.78 acre",
+          "text": "This request is to amend the final plat for the New Hope subdivision by adding two lots to the plan that was approved. The original plan showed a lot for Mustang Utility District to construct a water tank that they no longer plan to use. Also, the roadway alignment has been altered to allow for a more effective grading of the site.",
+          "attachments": []
+        },
+        {
+          "text": "Staff recommends approval of the final plat to create a 46 lot single family subdivision on the 59.48 acre parcel.",
+          "attachments": []
+        },
+        {
+          "text": "Roads, Cross Roads, Denton County, Texas. The purpose of this preliminary plat is to subdivide the property for commercial development. (Permit # 2915)",
+          "attachments": []
+        },
+        {
+          "text": "This request is for a preliminary plat the property along US 380 and Naylor Road for commercial lots. The property was subject to re-zoning by the Town in April of this year.",
+          "attachments": []
+        },
+        {
+          "text": "Staff recommends approval of the preliminary plat to create seven lots on the 16.78",
+          "attachments": []
+        },
+        {
+          "text": "(cid:172)(cid:172)(cid:172)(cid:172)(cid:172)(cid:172)(cid:172)(cid:172)(cid:172)(cid:172)(cid:172)(cid:172)(cid:172)(cid:172)(cid:172)PRELIMINARY PLAT(cid:172)(cid:172)(cid:172)(cid:172)(cid:172)(cid:172)(cid:172)(cid:172)(cid:172)(cid:172)(cid:172)(cid:172)(cid:172)(cid:172)(cid:172)",
           "attachments": []
         }
       ],
       "sfr_items": [
         {
-          "text": "Discuss and consider a recommendation to the Town Council on a final plat application for a 146.78 acre parcel located west at 2500 Naylor Road, Cross Roads, Denton County,",
+          "text": "Discuss and consider a recommendation to the Town Council on a final plat application for a 59.18 acre parcel located at the northwest corner of New Hope and Fishtrap Roads, Cross Roads, Denton",
           "attachments": [],
           "keywords": [
             "acre"
           ]
         },
         {
-          "text": "This request is to final plat the DISD high school site by adding a 5.04 acre tract that was previously owned by the Town.",
+          "text": "County, Texas. The purpose of this final plat is to add two lots to the previously approved plat for the New Hope subdivision that was approved in 2025. (Permit # 2914)",
           "attachments": [],
           "keywords": [
-            "acre"
+            "subdivision",
+            "lot"
           ]
         },
         {
-          "text": "Staff recommends approval of the final plat to create a single lot on the 146.78 acre",
+          "text": "Cross Roads, Denton County, Texas. The purpose of this final plat is to add two lots to the previously approved plat for the New Hope subdivision that was approved in 2025.",
           "attachments": [],
           "keywords": [
+            "subdivision",
+            "lot"
+          ]
+        },
+        {
+          "text": "This request is to amend the final plat for the New Hope subdivision by adding two lots to the plan that was approved. The original plan showed a lot for Mustang Utility District to construct a water tank that they no longer plan to use. Also, the roadway alignment has been altered to allow for a more effective grading of the site.",
+          "attachments": [],
+          "keywords": [
+            "subdivision",
+            "lot"
+          ]
+        },
+        {
+          "text": "Staff recommends approval of the final plat to create a 46 lot single family subdivision on the 59.48 acre parcel.",
+          "attachments": [],
+          "keywords": [
+            "single family",
+            "subdivision",
             "lot",
             "acre"
+          ]
+        },
+        {
+          "text": "This request is for a preliminary plat the property along US 380 and Naylor Road for commercial lots. The property was subject to re-zoning by the Town in April of this year.",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        },
+        {
+          "text": "Staff recommends approval of the preliminary plat to create seven lots on the 16.78",
+          "attachments": [],
+          "keywords": [
+            "lot"
           ]
         }
       ],
@@ -1809,7 +1824,7 @@
       "agenda_url": "https://www.pondertx.com/bc-pz",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda items found"
+      "status": "could not reach site"
     },
     {
       "county": "Denton",
@@ -1829,7 +1844,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Denton",
@@ -2359,6 +2374,43 @@
       "county": "Wise",
       "city": "Decatur",
       "board": "Planning & Zoning",
+      "meeting_date": "2026-12-01",
+      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_12012026-1608",
+      "items": [
+        {
+          "text": "ZC-26-0004 – Public Hearing, Discussion, and make a recommendation to the City Council regarding an ordinance rezoning approximately 0.183-acre tract of land being described as Lot 5R-1, Block 37,",
+          "attachments": []
+        },
+        {
+          "text": "A. FP-26-0004 – Recommend that the City Council approve the Final Plat application for an approximately 2.76-acre tract of land, Quick Al’s Addition, Lot 1, Block 1, in the City of",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "ZC-26-0004 – Public Hearing, Discussion, and make a recommendation to the City Council regarding an ordinance rezoning approximately 0.183-acre tract of land being described as Lot 5R-1, Block 37,",
+          "attachments": [],
+          "keywords": [
+            "lot",
+            "acre",
+            "R-1"
+          ]
+        },
+        {
+          "text": "A. FP-26-0004 – Recommend that the City Council approve the Final Plat application for an approximately 2.76-acre tract of land, Quick Al’s Addition, Lot 1, Block 1, in the City of",
+          "attachments": [],
+          "keywords": [
+            "lot",
+            "acre"
+          ]
+        }
+      ],
+      "status": "success"
+    },
+    {
+      "county": "Wise",
+      "city": "Decatur",
+      "board": "City Council",
       "meeting_date": "2026-11-23",
       "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_11232026-1607",
       "items": [
@@ -2369,16 +2421,6 @@
       ],
       "sfr_items": [],
       "status": "success"
-    },
-    {
-      "county": "Wise",
-      "city": "Decatur",
-      "board": "City Council",
-      "meeting_date": "2026-11-23",
-      "agenda_url": "https://www.decaturtx.org/AgendaCenter/ViewFile/Agenda/_11232026-1607",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
     },
     {
       "county": "Wise",
