@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-11-23T22:57:36.709303Z",
+    "last_updated": "2026-11-24T21:28:18.188313Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-08-25",
-    "total_agenda_items": 52,
-    "total_sfr_items": 33,
+    "cutoff_date": "2026-08-26",
+    "total_agenda_items": 61,
+    "total_sfr_items": 41,
     "total_attachments": 0
   },
   "summaries": [
@@ -440,8 +440,8 @@
       "county": "Tarrant",
       "city": "Haltom City",
       "board": "City Council",
-      "meeting_date": "2026-11-17",
-      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_11172026-677",
+      "meeting_date": "2026-12-01",
+      "agenda_url": "https://www.haltomcitytx.com/AgendaCenter/ViewFile/Agenda/_12012026-683",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -813,11 +813,84 @@
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "City Council",
-      "meeting_date": "2026-11-05",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_11052026-1833",
-      "items": [],
-      "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "meeting_date": "2026-12-03",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_12032026-1837",
+      "items": [
+        {
+          "text": "Conduct a briefing on Rezoning Application 006-2026 by Belmar Management LTD on subject parcel located at 3926 S Peachtree totaling (+/-) 2.0 acres from a Commercial",
+          "attachments": []
+        },
+        {
+          "text": "(C) Zone District to Single-Family (SF-6) Zone District to allow for continuation of an existing single-family home. a. Conduct a Public Hearing on the Rezoning Application 006-2026. b. Consideration and action on the Rezoning Application 006-2026.",
+          "attachments": []
+        },
+        {
+          "text": "Conduct a briefing on Rezoning Application 007-2026 by Belmar Management LTD on subject parcel located at 11413 Molly Mac totaling (+/-) 0.206 acres from a",
+          "attachments": []
+        },
+        {
+          "text": "Commercial (C) Zone District to Single-Family (SF-6) Zone District to allow for continuation of an existing single-family home. a. Conduct a Public Hearing on the Rezoning Application 007-2026. b. Consideration and action on the Rezoning Application 007-2026.",
+          "attachments": []
+        },
+        {
+          "text": "Conduct a briefing on Preliminary Plat Application 015-2026 by Adrian Solorzano to plat one lot totaling (+/-) 1.022 acres of land located at 3901 S Beltline Road to allow a retail store in a Local Retail Zone District. a. Conduct a Public Hearing on the Preliminary Plat Application 015-2026. b. Consideration and action on the Preliminary Plat Application 015-2026.",
+          "attachments": []
+        },
+        {
+          "text": "Consideration and action on Final Plat Application 006-2026 by Afify Habashy to plat subject parcel totaling (+/-) 0.96 acres located at 2401 McKenzie Road in Local Retail (LR)",
+          "attachments": []
+        }
+      ],
+      "sfr_items": [
+        {
+          "text": "Conduct a briefing on Rezoning Application 006-2026 by Belmar Management LTD on subject parcel located at 3926 S Peachtree totaling (+/-) 2.0 acres from a Commercial",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "(C) Zone District to Single-Family (SF-6) Zone District to allow for continuation of an existing single-family home. a. Conduct a Public Hearing on the Rezoning Application 006-2026. b. Consideration and action on the Rezoning Application 006-2026.",
+          "attachments": [],
+          "keywords": [
+            "single-family",
+            "SF-",
+            "home"
+          ]
+        },
+        {
+          "text": "Conduct a briefing on Rezoning Application 007-2026 by Belmar Management LTD on subject parcel located at 11413 Molly Mac totaling (+/-) 0.206 acres from a",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        },
+        {
+          "text": "Commercial (C) Zone District to Single-Family (SF-6) Zone District to allow for continuation of an existing single-family home. a. Conduct a Public Hearing on the Rezoning Application 007-2026. b. Consideration and action on the Rezoning Application 007-2026.",
+          "attachments": [],
+          "keywords": [
+            "single-family",
+            "SF-",
+            "home"
+          ]
+        },
+        {
+          "text": "Conduct a briefing on Preliminary Plat Application 015-2026 by Adrian Solorzano to plat one lot totaling (+/-) 1.022 acres of land located at 3901 S Beltline Road to allow a retail store in a Local Retail Zone District. a. Conduct a Public Hearing on the Preliminary Plat Application 015-2026. b. Consideration and action on the Preliminary Plat Application 015-2026.",
+          "attachments": [],
+          "keywords": [
+            "lot",
+            "acre"
+          ]
+        },
+        {
+          "text": "Consideration and action on Final Plat Application 006-2026 by Afify Habashy to plat subject parcel totaling (+/-) 0.96 acres located at 2401 McKenzie Road in Local Retail (LR)",
+          "attachments": [],
+          "keywords": [
+            "acre"
+          ]
+        }
+      ],
+      "status": "success"
     },
     {
       "county": "Dallas",
@@ -1782,15 +1855,46 @@
       "county": "Denton",
       "city": "Oak Point",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-11-03",
-      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_11032026-634",
+      "meeting_date": "2026-12-01",
+      "agenda_url": "https://www.oakpointtexas.com/AgendaCenter/ViewFile/Agenda/_12012026-639",
       "items": [
         {
-          "text": "Jurisdiction, in order to establish 6 new parcels and necessary easements. c. Consideration of a request for a Final Plat of “Greywood Phase 1” being 38.613 in the",
+          "text": "Section 551.042 of the Government Code, a representative of City staff or the Planning and Zoning Commission may respond with either a statement of specific factual information relating to the inquiry or a recitation of existing policy in response to the inquiry. a. Approve the November 3, 2026 Planning and Zoning Commission Meeting Minutes. (City b. McCormick Road Update. (Director of Community Development) c. Consideration of a request to Vacate Final Plat known as “48 OAKS TOWNHOMES ADDITION” and approve a new Final Plat of “MRG Office Park” being 4.57 acres in the M. Jones Survey,",
+          "attachments": []
+        },
+        {
+          "text": "SUBJECT: Requested Plat Vacation and Final Plat for 201 Lloyds Road",
+          "attachments": []
+        },
+        {
+          "text": "Final Plat was arranged for 48 lots for Townhomes. In October, the property was purchased by a different ownership group with the intention of changing the property use to commercial.",
+          "attachments": []
+        },
+        {
+          "text": "Staff recommend the Commission approve the Plat Vacation and subsequent Final Plat.",
           "attachments": []
         }
       ],
-      "sfr_items": [],
+      "sfr_items": [
+        {
+          "text": "Section 551.042 of the Government Code, a representative of City staff or the Planning and Zoning Commission may respond with either a statement of specific factual information relating to the inquiry or a recitation of existing policy in response to the inquiry. a. Approve the November 3, 2026 Planning and Zoning Commission Meeting Minutes. (City b. McCormick Road Update. (Director of Community Development) c. Consideration of a request to Vacate Final Plat known as “48 OAKS TOWNHOMES ADDITION” and approve a new Final Plat of “MRG Office Park” being 4.57 acres in the M. Jones Survey,",
+          "attachments": [],
+          "keywords": [
+            "home",
+            "acre",
+            "unit",
+            "PD"
+          ]
+        },
+        {
+          "text": "Final Plat was arranged for 48 lots for Townhomes. In October, the property was purchased by a different ownership group with the intention of changing the property use to commercial.",
+          "attachments": [],
+          "keywords": [
+            "lot",
+            "home"
+          ]
+        }
+      ],
       "status": "success"
     },
     {
