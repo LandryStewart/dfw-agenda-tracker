@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-11-24T21:28:18.188313Z",
+    "last_updated": "2026-11-25T20:48:22.471567Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-08-26",
-    "total_agenda_items": 61,
-    "total_sfr_items": 41,
+    "cutoff_date": "2026-08-27",
+    "total_agenda_items": 59,
+    "total_sfr_items": 39,
     "total_attachments": 0
   },
   "summaries": [
@@ -374,7 +374,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "no recent agenda PDFs found"
+      "status": "could not reach site"
     },
     {
       "county": "Tarrant",
@@ -590,31 +590,18 @@
       "county": "Dallas",
       "city": "Mesquite",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-12-01",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_12012026-2325",
-      "items": [
-        {
-          "text": "For the sample of roadway impact fee assessments selected for testing, we performed the procedures described below for Attributes a through h. The results are summarized below: a. Applicable Fee Schedule – The fee assessed agreed to the City Council-approved roadway impact fee schedule in effect on the assessment date (final plat approval date). b. Development Basis – Supporting permit documentation agreed to the units or square footage used in calculating the roadway impact fee assessment. c. Correct Land Use Classification – The development was classified under the appropriate land use category in accordance with the approved fee schedule. d. Service Area – Documentation supported the assignment of the development to the appropriate roadway impact e. Calculation Accuracy – Recalculation of the assessed fee based on the applicable rate and units/square footage agreed to the amount assessed.",
-          "attachments": []
-        }
-      ],
-      "sfr_items": [
-        {
-          "text": "For the sample of roadway impact fee assessments selected for testing, we performed the procedures described below for Attributes a through h. The results are summarized below: a. Applicable Fee Schedule – The fee assessed agreed to the City Council-approved roadway impact fee schedule in effect on the assessment date (final plat approval date). b. Development Basis – Supporting permit documentation agreed to the units or square footage used in calculating the roadway impact fee assessment. c. Correct Land Use Classification – The development was classified under the appropriate land use category in accordance with the approved fee schedule. d. Service Area – Documentation supported the assignment of the development to the appropriate roadway impact e. Calculation Accuracy – Recalculation of the assessed fee based on the applicable rate and units/square footage agreed to the amount assessed.",
-          "attachments": [],
-          "keywords": [
-            "unit"
-          ]
-        }
-      ],
-      "status": "success"
+      "meeting_date": "2026-12-02",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_12022026-2324",
+      "items": [],
+      "sfr_items": [],
+      "status": "PDF parsed (11 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
       "city": "Mesquite",
       "board": "City Council",
-      "meeting_date": "2026-12-01",
-      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_12012026-2325",
+      "meeting_date": "2026-12-02",
+      "agenda_url": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_12022026-2324",
       "items": [],
       "sfr_items": [],
       "status": "same agenda center - items shown under P&Z"
@@ -1568,11 +1555,15 @@
       "county": "Denton",
       "city": "Argyle",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-11-30",
-      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_11302026-1359",
+      "meeting_date": "2026-12-02",
+      "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_12022026-1363",
       "items": [
         {
-          "text": "Center District Amendments to the Comprehensive Plan and Future Land Use Plan Map.",
+          "text": "Hold a public hearing, consider and make a recommendation to Town Council for ordinance amendment (FLUP-26-004) to the Future Land Use Plan map and the Town of",
+          "attachments": []
+        },
+        {
+          "text": "Argyle Comprehensive Plan adopted June 17, 2024, as Ordinance 2024-17, and amended in",
           "attachments": []
         }
       ],
@@ -1585,9 +1576,14 @@
       "board": "City Council",
       "meeting_date": "2026-11-30",
       "agenda_url": "https://www.argyletx.com/AgendaCenter/ViewFile/Agenda/_11302026-1359",
-      "items": [],
+      "items": [
+        {
+          "text": "Center District Amendments to the Comprehensive Plan and Future Land Use Plan Map.",
+          "attachments": []
+        }
+      ],
       "sfr_items": [],
-      "status": "same agenda center - items shown under P&Z"
+      "status": "success"
     },
     {
       "county": "Denton",
@@ -2104,27 +2100,15 @@
       "county": "Rockwall",
       "city": "Royse City",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-11-05",
-      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_11052026-665",
+      "meeting_date": "2026-12-03",
+      "agenda_url": "https://www.roysecity.com/AgendaCenter/ViewFile/Agenda/_12032026-668",
       "items": [
-        {
-          "text": "Consider and act on the Extension of the Preliminary Plat of Madera Phase 2A, consisting of +/- 24.4 acres, situated in the John Davis Survey, Abstract No. 244 -",
-          "attachments": []
-        },
-        {
-          "text": "Consider and act on an Extension Request for the Preliminary Plat of Madera Phase",
-          "attachments": []
-        },
-        {
-          "text": "Consider and act on a Final Plat for Lots 1 and 2 of the Camacho/Segura Addition, consisting of +/- 4.9 acres situated in the Shelby County Survey, Abstract No. 946,",
-          "attachments": []
-        },
         {
           "text": "Consider and act on a Final Plat of the Erby Campbell Retail Center Lot 1R, consisting of +/- 15.9 acres situated in the J. Stephenson Survey, Abstract No. 188,",
           "attachments": []
         },
         {
-          "text": "Consider and act on the Preliminary Plat for Verandah Phase 12 consisting of +/- 2.3",
+          "text": "Consider and act on a Final Plat for Lots 1 and 2 of the Camacho/Segura Addition, consisting of +/- 4.9 acres situated in the Shelby County Survey, Abstract No. 946,",
           "attachments": []
         },
         {
@@ -2134,14 +2118,7 @@
       ],
       "sfr_items": [
         {
-          "text": "Consider and act on the Extension of the Preliminary Plat of Madera Phase 2A, consisting of +/- 24.4 acres, situated in the John Davis Survey, Abstract No. 244 -",
-          "attachments": [],
-          "keywords": [
-            "acre"
-          ]
-        },
-        {
-          "text": "Consider and act on a Final Plat for Lots 1 and 2 of the Camacho/Segura Addition, consisting of +/- 4.9 acres situated in the Shelby County Survey, Abstract No. 946,",
+          "text": "Consider and act on a Final Plat of the Erby Campbell Retail Center Lot 1R, consisting of +/- 15.9 acres situated in the J. Stephenson Survey, Abstract No. 188,",
           "attachments": [],
           "keywords": [
             "lot",
@@ -2149,7 +2126,7 @@
           ]
         },
         {
-          "text": "Consider and act on a Final Plat of the Erby Campbell Retail Center Lot 1R, consisting of +/- 15.9 acres situated in the J. Stephenson Survey, Abstract No. 188,",
+          "text": "Consider and act on a Final Plat for Lots 1 and 2 of the Camacho/Segura Addition, consisting of +/- 4.9 acres situated in the Shelby County Survey, Abstract No. 946,",
           "attachments": [],
           "keywords": [
             "lot",
