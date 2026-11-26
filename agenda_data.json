@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-11-25T20:48:22.471567Z",
+    "last_updated": "2026-11-26T20:28:04.597286Z",
     "cities_scanned": 98,
-    "cutoff_date": "2026-08-27",
-    "total_agenda_items": 59,
-    "total_sfr_items": 39,
+    "cutoff_date": "2026-08-28",
+    "total_agenda_items": 74,
+    "total_sfr_items": 45,
     "total_attachments": 0
   },
   "summaries": [
@@ -108,7 +108,7 @@
       "city": "Southlake",
       "board": "City Council",
       "meeting_date": "2026-12-01",
-      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_12012026-2367",
+      "agenda_url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_12012026-2371",
       "items": [
         {
           "text": "F. TABLE: Ordinance No. 480-850, ZA26-0046, 2nd Reading, Zoning Change and Site Plan for Magnolia Office Park, on property described as Tract 5B06,",
@@ -121,9 +121,119 @@
         {
           "text": "C. Ordinance No. 480-853, ZA26-0075, 2nd Reading, Zoning Change for 4060",
           "attachments": []
+        },
+        {
+          "text": "4E. ORDINANCE NO. 480-853, ZA26-0075, 1ST READING, ZONING CHANGE FOR",
+          "attachments": []
+        },
+        {
+          "text": "THE CITY OF SOUTHLAKE CONSOLIDATED FUTURE LAND USE PLAN, AN",
+          "attachments": []
+        },
+        {
+          "text": "ELEMENT OF THE SOUTHLAKE COMPREHENSIVE PLAN, FOR TOUCHMARK,",
+          "attachments": []
+        },
+        {
+          "text": "4J. TABLE: ORDINANCE NO. 480-851, ZA26-0052, 1ST READING, ZONING CHANGE",
+          "attachments": []
+        },
+        {
+          "text": "6A. ORDINANCE NO. 480-667C, ZA26-0010, 2ND READING, ZONING CHANGE AND",
+          "attachments": []
+        },
+        {
+          "text": "Ordinance No. 480-667c, ZA26-0010, 2nd Reading, Zoning Change and Site Plan for Chapel",
+          "attachments": []
+        },
+        {
+          "text": "7A. ORDINANCE NO. 480-852, ZA26-0063, 1ST READING, ZONING CHANGE AND",
+          "attachments": []
+        },
+        {
+          "text": "Zoning Change and Concept Plan for Liberty Place on property described as Lot 1, T.J.",
+          "attachments": []
+        },
+        {
+          "text": "Approving the zoning change and concept plan to develop six single-family lots on approx. 3.52 acres in accordance with “SF-20A” zoning regulations.",
+          "attachments": []
+        },
+        {
+          "text": "Concept Plan (ZA25-0014) and Preliminary Plat (ZA25-0049) for seven residential lots, ranging in size from approximately 43,600 to 52,900 square feet. No changes to the plat are proposed as part of this extension request.",
+          "attachments": []
+        },
+        {
+          "text": "May 6, 2025, A zoning change and concept plan was approved for 7 residential lots (ZA25-0014)",
+          "attachments": []
+        },
+        {
+          "text": "August 19, 2025, A preliminary plat was approved for 7 residential lots",
+          "attachments": []
+        },
+        {
+          "text": "COMPREHENSIVE PLAN: Consolidated Future Land Use Plan",
+          "attachments": []
+        },
+        {
+          "text": "The future land use designation for the site is “Low Density Residential”.",
+          "attachments": []
+        },
+        {
+          "text": "E. Bob Jones Rd. and all internal street frontages, the concept plan with the zoning case was approved with no sidewalks since there are no sidewalks in the vicinity.",
+          "attachments": []
         }
       ],
-      "sfr_items": [],
+      "sfr_items": [
+        {
+          "text": "Zoning Change and Concept Plan for Liberty Place on property described as Lot 1, T.J.",
+          "attachments": [],
+          "keywords": [
+            "lot"
+          ]
+        },
+        {
+          "text": "Approving the zoning change and concept plan to develop six single-family lots on approx. 3.52 acres in accordance with “SF-20A” zoning regulations.",
+          "attachments": [],
+          "keywords": [
+            "single-family",
+            "lot",
+            "SF-",
+            "acre"
+          ]
+        },
+        {
+          "text": "Concept Plan (ZA25-0014) and Preliminary Plat (ZA25-0049) for seven residential lots, ranging in size from approximately 43,600 to 52,900 square feet. No changes to the plat are proposed as part of this extension request.",
+          "attachments": [],
+          "keywords": [
+            "residential",
+            "lot"
+          ]
+        },
+        {
+          "text": "May 6, 2025, A zoning change and concept plan was approved for 7 residential lots (ZA25-0014)",
+          "attachments": [],
+          "keywords": [
+            "residential",
+            "lot"
+          ]
+        },
+        {
+          "text": "August 19, 2025, A preliminary plat was approved for 7 residential lots",
+          "attachments": [],
+          "keywords": [
+            "residential",
+            "lot"
+          ]
+        },
+        {
+          "text": "The future land use designation for the site is “Low Density Residential”.",
+          "attachments": [],
+          "keywords": [
+            "residential",
+            "density"
+          ]
+        }
+      ],
       "status": "success"
     },
     {
@@ -374,7 +484,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Tarrant",
@@ -534,7 +644,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Dallas",
@@ -790,11 +900,11 @@
       "county": "Dallas",
       "city": "Balch Springs",
       "board": "Planning & Zoning",
-      "meeting_date": "2026-08-27",
-      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_08272026-1816",
+      "meeting_date": "2026-11-04",
+      "agenda_url": "https://www.cityofbalchsprings.com/AgendaCenter/ViewFile/Agenda/_11042026-1832",
       "items": [],
       "sfr_items": [],
-      "status": "PDF parsed (44 lines) but no rezone/plat/comp plan items"
+      "status": "PDF parsed (64 lines) but no rezone/plat/comp plan items"
     },
     {
       "county": "Dallas",
@@ -1379,7 +1489,7 @@
       "agenda_url": "",
       "items": [],
       "sfr_items": [],
-      "status": "could not reach site"
+      "status": "no recent agenda PDFs found"
     },
     {
       "county": "Collin",
